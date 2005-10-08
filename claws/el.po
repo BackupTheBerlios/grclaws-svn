@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-08 20:55+0300\n"
-"PO-Revision-Date: 2005-10-09 00:46+0200\n"
+"PO-Revision-Date: 2005-10-09 01:22+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -9504,9 +9504,8 @@ msgstr ""
 
 #. quoted message with no signature
 #: src/quote_fmt.c:57
-#, fuzzy
 msgid "Cursor position"
-msgstr "Θέση  δρομέα"
+msgstr "Θέση δρομέα"
 
 #: src/quote_fmt.c:59
 msgid ""
@@ -9574,7 +9573,6 @@ msgid "Doing POP before SMTP..."
 msgstr ""
 
 #: src/send_message.c:289
-#, fuzzy
 msgid "POP before SMTP"
 msgstr "ΡΟΡ πριν από SMTP"
 
@@ -9584,9 +9582,8 @@ msgid "Connecting to SMTP server: %s ..."
 msgstr "Σύνδεση στην εξυπηρέτη SMTP: %s ..."
 
 #: src/send_message.c:348
-#, fuzzy
 msgid "Mail sent successfully."
-msgstr "Δεν είναι δυνατό να εκτελεστεί το %s: το μήνυμα δε στάλθηκε."
+msgstr "Το μήνυμα στάλθηκε επιτυχώς."
 
 #: src/send_message.c:412
 #, fuzzy
@@ -9596,20 +9593,17 @@ msgstr "Γίνεται Αποστολή Μηνύματος"
 #: src/send_message.c:413
 #: src/send_message.c:418
 #: src/send_message.c:423
-#, fuzzy
 msgid "Authenticating"
 msgstr "Πιστοποίηση"
 
 #: src/send_message.c:414
 #: src/send_message.c:419
-#, fuzzy
 msgid "Sending message..."
-msgstr "Γίνεται Αποστολή Μηνύματος"
+msgstr "Αποστολή Μηνύματος..."
 
 #: src/send_message.c:417
-#, fuzzy
 msgid "Sending EHLO..."
-msgstr "Γίνεται Αποστολή Μηνύματος"
+msgstr "Αποστολή EHLO..."
 
 #: src/send_message.c:426
 msgid "Sending MAIL FROM..."
@@ -9715,9 +9709,8 @@ msgid "Body:"
 msgstr "Περιεχόμενο"
 
 #: src/summary_search.c:255
-#, fuzzy
 msgid "Find all"
-msgstr "Δοκιμή Όλων"
+msgstr "Εύρεση Όλων"
 
 #: src/summary_search.c:385
 msgid "Beginning of list reached; continue from end?"
@@ -10056,14 +10049,12 @@ msgid "%s%d copied"
 msgstr "%s%d αντιγράφηκαν"
 
 #: src/summaryview.c:1942
-#, fuzzy
 msgid " item selected"
-msgstr "Επιλεγμένο αντικείμενο"
+msgstr " επιλεγμένο αντικείμενο"
 
 #: src/summaryview.c:1944
-#, fuzzy
 msgid " items selected"
-msgstr "%d επιλεγμένα αντικείμενα (%s)"
+msgstr " επιλεγμένα αντικείμενα"
 
 #: src/summaryview.c:1960
 #, c-format
@@ -10083,23 +10074,20 @@ msgid "(No Date)"
 msgstr "(Χωρίς ημερομηνία)"
 
 #: src/summaryview.c:2408
-#, fuzzy
 msgid "(No Recipient)"
-msgstr "Χωρίς σφάλμα"
+msgstr "(Χωρίς Αποδέκτες)"
 
 #: src/summaryview.c:3128
 msgid "You're not the author of the article\n"
 msgstr ""
 
 #: src/summaryview.c:3214
-#, fuzzy
 msgid "Delete message(s)"
-msgstr "Διαγραφή Μηνύματος της Ημέρας"
+msgstr "Διαγραφή Μηνύματος(ων)"
 
 #: src/summaryview.c:3215
-#, fuzzy
 msgid "Do you really want to delete selected message(s)?"
-msgstr "Θέλετε σίγουρα να διαγράψετε την συντόμευση για την εντολή '%s' ;"
+msgstr "Θέλετε σίγουρα να διαγράψετε τα επιλεγμένα μηνύματα;"
 
 #: src/summaryview.c:3360
 msgid "Destination is same as current folder."
@@ -10196,7 +10184,7 @@ msgstr "Αποθήκευση Εικόνας"
 #: src/textview.c:695
 #, fuzzy
 msgid "This message can't be displayed.\n"
-msgstr "Η οθόνη όπου και θα προβάλλεται αυτό το παράθυρο"
+msgstr "Αυτό το μήνυμα δεν είναι δυνατό να απεικονισθεί.\n"
 
 #: src/textview.c:714
 msgid "The following can be performed on this part by "
@@ -10209,42 +10197,42 @@ msgstr ""
 #: src/textview.c:717
 #, fuzzy
 msgid "    To save select 'Save as...' (Shortcut key: 'y')\n"
-msgstr "Επιλέξτε ένα αρχείο για την αποθήκευση σελίδων ως"
+msgstr "    Για να το αποθηκεύσετε επιλέξτε 'Αποθήκευση ως...' (Πλήκτρο συντόμευσης: ' ')\n"
 
 #: src/textview.c:718
 #, fuzzy
 msgid "    To display as text select 'Display as text' "
-msgstr "Επιλέξτε ένα αρχείο για την αποθήκευση σελίδων ως"
+msgstr "    Για να το δείτε σαν απλό κείμενο επιλέξτε 'Προβολή σαν κείμενο' "
 
 #: src/textview.c:719
 #, fuzzy
 msgid "(Shortcut key: 't')\n"
-msgstr "Πλή_κτρο συντόμευσης"
+msgstr "(Πλήκτρο συντόμευσης: ' ')\n"
 
 #: src/textview.c:720
 #, fuzzy
 msgid "    To open with an external program select 'Open' "
-msgstr "Επιλογή προγράμματος για το άνοιγμα του επιλεγμένου αντικειμένου"
+msgstr "    Για να το ανοίξετε με ένα εξωτερικό πρόγραμμα επιλέξτε 'Άνοιγμα' "
 
 #: src/textview.c:721
 #, fuzzy
 msgid "(Shortcut key: 'l'),\n"
-msgstr "Πλή_κτρο συντόμευσης"
+msgstr "(Πλήκτρο συντόμευσης: ' '),\n"
 
 #: src/textview.c:722
 #, fuzzy
 msgid "    (alternately double-click, or click the middle "
-msgstr "ή κάντε διπλό κλικ, ή πατήστε το μεσαίο κουμπί, "
+msgstr "    (ή κάντε διπλό κλικ, ή πατήστε το μεσαίο κουμπί"
 
 #: src/textview.c:723
 #, fuzzy
 msgid "mouse button),\n"
-msgstr "Κουμπί Ποντικιού 4"
+msgstr "του ποντικιού),\n"
 
 #: src/textview.c:724
 #, fuzzy
 msgid "    or 'Open with...' (Shortcut key: 'o')\n"
-msgstr "Συντόμευση πλήκτρου Αναπαραγωγής (ή Αναπαραγωγής/Παύσης)."
+msgstr "    ή 'Άνοιγμα με...' (Πλήκτρο συντόμευσης: ' ')\n"
 
 #: src/textview.c:1931
 #, c-format
@@ -10256,21 +10244,18 @@ msgid ""
 msgstr ""
 
 #: src/textview.c:1936
-#, fuzzy
 msgid "Fake URL warning"
-msgstr "Προειδοποίηση λήξης κωδικού..."
+msgstr "Προειδοποίηση για μη έγκυρα URL"
 
 #: src/toolbar.c:159
 #: src/toolbar.c:1409
-#, fuzzy
 msgid "Receive Mail on all Accounts"
-msgstr "Λήψη νέου mail από όλους τους λογαριασμούς"
+msgstr "Λήψη αλληλογραφίας για όλους τους λογαριασμούς"
 
 #: src/toolbar.c:160
 #: src/toolbar.c:1415
-#, fuzzy
 msgid "Receive Mail on current Account"
-msgstr "`Λήψη όλων' ελέγχει για νέα μηνύματα σε αυτό το λογαριασμό"
+msgstr "Λήψη αλληλογραφίας για αυτό το λογαριασμό"
 
 #: src/toolbar.c:161
 #: src/toolbar.c:1421
@@ -10293,49 +10278,42 @@ msgstr "Ειδήσεις USENET"
 #: src/toolbar.c:164
 #: src/toolbar.c:1444
 #: src/toolbar.c:1454
-#, fuzzy
 msgid "Reply to Message"
 msgstr "Απάντηση σε αυτό το μύνημα"
 
 #: src/toolbar.c:165
 #: src/toolbar.c:1461
 #: src/toolbar.c:1471
-#, fuzzy
 msgid "Reply to Sender"
-msgstr "_Απάντηση στον Αποστολέα"
+msgstr "Απάντηση στον Αποστολέα"
 
 #: src/toolbar.c:166
 #: src/toolbar.c:1478
 #: src/toolbar.c:1488
-#, fuzzy
 msgid "Reply to All"
 msgstr "Απάντηση σε Όλους"
 
 #: src/toolbar.c:167
 #: src/toolbar.c:1495
 #: src/toolbar.c:1505
-#, fuzzy
 msgid "Reply to Mailing-list"
-msgstr "Αποστολή μηνύματος στη λίστα αλληλογραφίας;"
+msgstr "Απάντηση στη λίστα ηλεκτρονικού ταχυδρομείου"
 
 #: src/toolbar.c:168
 #: src/toolbar.c:1512
 #: src/toolbar.c:1522
-#, fuzzy
 msgid "Forward Message"
-msgstr "Αριστερό μήνυμα"
+msgstr "Προώθηση μηνύματος"
 
 #: src/toolbar.c:169
 #: src/toolbar.c:1529
-#, fuzzy
 msgid "Trash Message"
-msgstr "Αριστερό μήνυμα"
+msgstr "Μετακίνηση Μηνύματος στα Απορίμματα"
 
 #: src/toolbar.c:170
 #: src/toolbar.c:1535
-#, fuzzy
 msgid "Delete Message"
-msgstr "Διαγραφή Μηνύματος της Ημέρας"
+msgstr "Διαγραφή Μηνύματος"
 
 #: src/toolbar.c:172
 #: src/toolbar.c:1547
@@ -10391,9 +10369,8 @@ msgstr ""
 
 #: src/toolbar.c:185
 #: src/toolbar.c:1611
-#, fuzzy
 msgid "Wrap all long lines"
-msgstr "Προσθήκη όλων των κενών γραμμών"
+msgstr "Αναδίπλωση όλων των μακρυών γραμμών"
 
 #: src/toolbar.c:188
 #: src/toolbar.c:1624
@@ -10446,9 +10423,8 @@ msgid "/_Reply to sender without quote"
 msgstr "Συγγραφή απάντησης στον αποστολέα του επιλεγμένου μηνύματος"
 
 #: src/toolbar.c:231
-#, fuzzy
 msgid "/For_ward as attachment"
-msgstr "Λήξη χρόνου για σημείωση μηνυμάτων ως ανοιγμένα"
+msgstr ""
 
 #: src/toolbar.c:232
 #, fuzzy
