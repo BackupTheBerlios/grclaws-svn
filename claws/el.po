@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-08 20:55+0300\n"
-"PO-Revision-Date: 2005-10-09 01:22+0200\n"
+"PO-Revision-Date: 2005-10-09 11:49+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -9941,7 +9941,7 @@ msgstr "Δεν υπάρχουν πλέον άλλες κινήσεις."
 #: src/summaryview.c:1295
 #, fuzzy
 msgid "No unread message found. Search from the end?"
-msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να πάω στον επόμενο κατάλογο;"
+msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να ψάξω από το τέλος;"
 
 #: src/summaryview.c:1307
 #: src/summaryview.c:1359
@@ -9953,7 +9953,7 @@ msgstr ""
 #: src/summaryview.c:1315
 #, fuzzy
 msgid "No unread messages."
-msgstr "Όχι εξωτερικά μηνύματα"
+msgstr "Δεν υπάρχουν μη αναγνωσμένα μηνύματα."
 
 #: src/summaryview.c:1347
 msgid "No unread message found. Go to next folder?"
@@ -9963,17 +9963,17 @@ msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να πάω στον επόμενο κατάλογο;"
 #: src/summaryview.c:1445
 #, fuzzy
 msgid "No more new messages"
-msgstr "Έλεγχος για νέα μηνύματα"
+msgstr "Δεν υπάρχουν άλλα νέα μηνύματα"
 
 #: src/summaryview.c:1394
 #, fuzzy
 msgid "No new message found. Search from the end?"
-msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να πάω στον επόμενο κατάλογο;"
+msgstr "Δεν βρέθηκαν νέα μηνύματα. Να ψάξω από το τέλος;"
 
 #: src/summaryview.c:1414
 #, fuzzy
 msgid "No new messages."
-msgstr "%s: Σάρωση για νέα μηνύματα"
+msgstr "Δεν υπάρχουν νέα μηνύματα."
 
 #: src/summaryview.c:1446
 #, fuzzy
@@ -10135,16 +10135,17 @@ msgid "Processing configuration"
 msgstr "Ρύθμιση Aλληλογραφίας"
 
 #: src/summaryview.c:5522
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Regular expression (regexp) error:\n"
 "%s"
-msgstr "Σφάλμα σύνταξης κανονικής έκφρασης \"%s\"."
+msgstr ""
+"Σφάλμα σύνταξης κανονικής έκφρασης (regexp):\n"
+"%s"
 
 #: src/summaryview.c:5638
-#, fuzzy
 msgid "Export to mbox file"
-msgstr "Εξαγωγή σελιδοδεικτών σε αρχείο"
+msgstr "Εξαγωγή σε αρχείο mbox"
 
 #: src/textview.c:217
 #, fuzzy
@@ -10265,9 +10266,8 @@ msgstr "Αποτυχία αποστολής %d από %d μηνυμάτων"
 
 #: src/toolbar.c:162
 #: src/toolbar.c:1434
-#, fuzzy
 msgid "Compose Email"
-msgstr "πληροφορίες email"
+msgstr "Σύνθεση Email"
 
 #: src/toolbar.c:163
 #: src/toolbar.c:1438
