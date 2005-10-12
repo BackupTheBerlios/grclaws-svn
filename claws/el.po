@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-08 20:55+0300\n"
-"PO-Revision-Date: 2005-10-09 11:49+0200\n"
+"PO-Revision-Date: 2005-10-12 22:36+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -23,9 +23,8 @@ msgstr ""
 "Παρακαλώ κλείστε όλα τα παράθυρα σύνθεσης μηνύματος πριν επεξεργαστείτε τους λογαριασμούς."
 
 #: src/account.c:416
-#, fuzzy
 msgid "Can't create folder."
-msgstr "Δεν είναι δυνατή η δημιουργία φακέλου `%s': %s"
+msgstr "Δεν είναι δυνατή η δημιουργία φακέλου."
 
 #: src/account.c:629
 msgid "Edit accounts"
@@ -36,6 +35,8 @@ msgid ""
 "New messages will be checked in this order. Check the boxes\n"
 "on the 'G' column to enable message retrieval by 'Get all'."
 msgstr ""
+"Ο έλεγχος για νέα μηνύματα θα γίνει με αυτή τη σειρά. Επιλέξτε τα κουτάκια\n"
+"στη στήλη 'G' για να ενεργοποιήσετε τη λήψη μηνυμάτων με την εντολή 'Λήψη όλων'."
 
 #: src/account.c:722
 #, fuzzy
@@ -44,21 +45,20 @@ msgstr "Αλφαριθμητικό UID του προεπιλεγμένου λογαριασμού."
 
 #: src/account.c:799
 msgid "Accounts with remote folders cannot be copied."
-msgstr ""
+msgstr "Οι λογαριασμοί με απομακρυσμένους φακέλους δεν μπορούν να αντιγραφούν."
 
 #. copy fields
 #: src/account.c:805
-#, fuzzy, c-format
+#, c-format
 msgid "Copy of %s"
-msgstr "Αντιγραφή"
+msgstr "Αντίγραφο του %s"
 
 #: src/account.c:944
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to delete the account '%s'?"
-msgstr "Θέλετε σίγουρα να διαγράψετε το θέμα '%s' ;"
+msgstr "Θέλετε σίγουρα να διαγράψετε το λογαριασμό '%s' ;"
 
 #: src/account.c:946
-#, fuzzy
 msgid "(Untitled)"
 msgstr "(Χωρίς Τίτλο)"
 
@@ -102,16 +102,12 @@ msgid "Could not get message file %d"
 msgstr "Αδυναμία λήψης πληροφοριών για το αρχείο '%s': %s"
 
 #: src/action.c:379
-#, fuzzy
 msgid "Could not get message part."
-msgstr ""
-"Δεν ήταν δυνατή η λήψη του εισιτηρίου Kerberos:\n"
-"%s"
+msgstr "Δεν ήταν δυνατή η λήψη μέρους του μηνύματος."
 
 #: src/action.c:396
-#, fuzzy
 msgid "Can't get part of multipart message"
-msgstr "Δεν μπορώ να λάβω το τμήμα του πολυτμηματικού μηνύματος"
+msgstr "Δέν ήταν δυνατή η λήψη μέρους του πολυτμηματικού μηνύματος"
 
 #: src/action.c:509
 #, c-format
@@ -138,14 +134,13 @@ msgstr "Δεν μπόρεσα να καλέσω το εξωτερικό πρόγραμμα επεξεργασίας\n"
 
 #: src/action.c:1090
 #: src/action.c:1240
-#, fuzzy
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
 #: src/action.c:1126
-#, fuzzy, c-format
+#, c-format
 msgid "--- Running: %s\n"
-msgstr "Εκτελείται"
+msgstr "--- Εκτελείται: %s\n"
 
 #: src/action.c:1130
 #, c-format
@@ -179,7 +174,7 @@ msgid ""
 "  %s"
 msgstr ""
 "Εισάγετε την γραμμή εντολής εκτύπωσης:\n"
-"(Το `%s' θα αντικατασταθεί με το όνομα αρχείου)"
+"(Το `%%u' θα αντικατασταθεί με το όνομα αρχείου)"
 
 #: src/action.c:1444
 #, fuzzy
@@ -187,9 +182,8 @@ msgid "Action's user argument"
 msgstr "το \"%s\"  αναμένει 1 παράμετρο"
 
 #: src/addressadd.c:165
-#, fuzzy
 msgid "Add to address book"
-msgstr "Προσθήκη στο Βιβλίο Διευθύνσεων"
+msgstr "Προσθήκη στο βιβλίο διευθύνσεων"
 
 #: src/addressadd.c:197
 #: src/plugins/pgpcore/select-keys.c:333
@@ -211,9 +205,8 @@ msgid "Select Address Book Folder"
 msgstr "Επιλογή Επαφών από το Βιβλίο Διευθύνσεων"
 
 #: src/addressbook.c:402
-#, fuzzy
 msgid "/_Book"
-msgstr "Βιβλίο"
+msgstr "/_Βιβλίο"
 
 #: src/addressbook.c:403
 #, fuzzy
@@ -472,14 +465,12 @@ msgstr "Εισαγωγή Διεύθυνσης"
 #: src/prefs_themes.c:665
 #: src/prefs_themes.c:697
 #: src/prefs_themes.c:698
-#, fuzzy
 msgid "Unknown"
 msgstr "Άγνωστο"
 
 #: src/addressbook.c:488
 #: src/addressbook.c:507
 #: src/importldif.c:126
-#, fuzzy
 msgid "Success"
 msgstr "Επιτυχία"
 
@@ -491,9 +482,8 @@ msgstr "Μη έγκυροι παράμετροι"
 
 #: src/addressbook.c:490
 #: src/importldif.c:128
-#, fuzzy
 msgid "File not specified"
-msgstr "Το ζητούμενο αρχείο δεν υπάρχει."
+msgstr "Δεν ορίστηκε αρχείο"
 
 #: src/addressbook.c:491
 #: src/importldif.c:129
@@ -521,9 +511,8 @@ msgstr "Εμφάνιση καταχωρητών μνήμης"
 
 #: src/addressbook.c:495
 #: src/importldif.c:133
-#, fuzzy
 msgid "Bad file format"
-msgstr "Λανθασμένη μορφή αρχείου."
+msgstr "Λανθασμένη μορφή αρχείου"
 
 #: src/addressbook.c:496
 #: src/importldif.c:134
@@ -570,15 +559,15 @@ msgstr "Σφάλμα κατά την εκτέλεση της λειτουργίας."
 
 #: src/addressbook.c:513
 msgid "Error in LDAP search criteria"
-msgstr ""
+msgstr "Σφάλμα στα κριτήρια αναζήτησης του LDAP"
 
 #: src/addressbook.c:514
 msgid "No LDAP entries found for search criteria"
-msgstr ""
+msgstr "Δεν βρέθηκαν καταχωρήσεις LDAP για τα κριτήρια αναζήτησης"
 
 #: src/addressbook.c:515
 msgid "LDAP search terminated on request"
-msgstr ""
+msgstr "Η αναζήτηση LDAP τερματίστηκε από το χρήστη"
 
 #: src/addressbook.c:516
 #, fuzzy
@@ -586,7 +575,6 @@ msgid "Error starting TLS connection"
 msgstr "Υπήρξε σφάλμα εκκίνησης %s: %s"
 
 #: src/addressbook.c:721
-#, fuzzy
 msgid "Sources"
 msgstr "Πηγές"
 
@@ -648,11 +636,11 @@ msgstr "Σίγουρα να διαγράψω την (τις) διεύθυνση (διευθύνσεις);"
 #: src/addressbook.c:1728
 #: src/addressbook.c:1802
 msgid "Cannot paste. Target address book is readonly."
-msgstr ""
+msgstr "Δεν είναι δυνατή η επικόλληση. Το βιβλίο διευθύνσεων είναι μόνο για ανάγνωση."
 
 #: src/addressbook.c:1739
 msgid "Cannot paste into an address group."
-msgstr ""
+msgstr "Δεν είναι δυνατή η επικόλληση σε μια ομάδα διευθύνσεων."
 
 #: src/addressbook.c:2448
 #, c-format
@@ -703,7 +691,7 @@ msgstr ""
 
 #: src/addressbook.c:3286
 msgid "Old address book converted successfully."
-msgstr ""
+msgstr "Το παλιό βιβλίο διευθύνσεων μετατράπηκε με επιτυχία."
 
 #: src/addressbook.c:3291
 msgid ""
@@ -758,9 +746,9 @@ msgstr "βιβλίο απασχολημένο"
 #. * Label (a format string) that is used to name each folder.
 #.
 #: src/addressbook.c:3797
-#, fuzzy, c-format
+#, c-format
 msgid "Search '%s'"
-msgstr "_Αναζήτηση:"
+msgstr "Αναζήτηση '%s'"
 
 #: src/addressbook.c:4022
 msgid "Interface"
@@ -771,22 +759,18 @@ msgstr "Διεπαφή"
 #: src/expldifdlg.c:394
 #: src/exporthtml.c:1011
 #: src/importldif.c:651
-#, fuzzy
 msgid "Address Book"
 msgstr "Βιβλίο Διευθύνσεων"
 
 #: src/addressbook.c:4054
-#, fuzzy
 msgid "Person"
-msgstr "Ο διακομιστής του ατόμου"
+msgstr "Άτομο"
 
 #: src/addressbook.c:4070
-#, fuzzy
 msgid "EMail Address"
 msgstr "Διεύθυνση Email"
 
 #: src/addressbook.c:4086
-#, fuzzy
 msgid "Group"
 msgstr "Ομάδα"
 
@@ -809,14 +793,12 @@ msgid "JPilot"
 msgstr ""
 
 #: src/addressbook.c:4166
-#, fuzzy
 msgid "LDAP Server"
-msgstr "Επανασύνδεση με τον διακομιστή LDAP..."
+msgstr "Διακομιστής LDAP"
 
 #: src/addressbook.c:4182
-#, fuzzy
 msgid "LDAP Query"
-msgstr "Αναβάθμιση ερωτήματος"
+msgstr "Ερώτημα LDAP"
 
 #: src/addrgather.c:158
 #, fuzzy
@@ -851,22 +833,19 @@ msgid ""
 msgstr ""
 
 #: src/addrgather.c:354
-#, fuzzy
 msgid "Folder :"
-msgstr "Φάκελος"
+msgstr "Φάκελος :"
 
 #: src/addrgather.c:365
 #: src/exphtmldlg.c:596
 #: src/expldifdlg.c:626
 #: src/importldif.c:909
-#, fuzzy
 msgid "Address Book :"
-msgstr "Βιβλίο Διευθύνσεων"
+msgstr "Βιβλίο Διευθύνσεων :"
 
 #: src/addrgather.c:375
-#, fuzzy
 msgid "Folder Size :"
-msgstr "Μέγεθος φακέλου"
+msgstr "Μέγεθος φακέλου :"
 
 #: src/addrgather.c:390
 #, fuzzy
@@ -881,7 +860,7 @@ msgstr "Αγαπημένοι δημόσιοι φάκελοι"
 #: src/addrgather.c:431
 #, fuzzy
 msgid "Header Name"
-msgstr "Όνομα κεφαλίδας HTML"
+msgstr "Όνομα Κεφαλίδας"
 
 #: src/addrgather.c:432
 #, fuzzy
@@ -946,9 +925,8 @@ msgid "Error"
 msgstr "Σφάλμα"
 
 #: src/alertpanel.c:189
-#, fuzzy
 msgid "View log"
-msgstr "Εμφάνιση του αρχείου καταγραφών..."
+msgstr "Εμφάνιση του αρχείου καταγραφών"
 
 #: src/alertpanel.c:335
 msgid "Show this message next time"
@@ -960,9 +938,8 @@ msgid "Browse Directory Entry"
 msgstr "Καταχώρηση Κειμένου Dasher"
 
 #: src/browseldap.c:259
-#, fuzzy
 msgid "Server Name :"
-msgstr "Όνομα Διακομιστή"
+msgstr "Όνομα Διακομιστή :"
 
 #: src/browseldap.c:269
 #, fuzzy
@@ -970,14 +947,12 @@ msgid "Distinguished Name (dn) :"
 msgstr "Χρήση Διακεκριμένου ονόματος (DN)"
 
 #: src/browseldap.c:292
-#, fuzzy
 msgid "LDAP Name"
-msgstr "Πλήρες Όνομα"
+msgstr "Όνομα LDAP"
 
 #: src/browseldap.c:294
-#, fuzzy
 msgid "Attribute Value"
-msgstr "Attribute Value Delimiters"
+msgstr ""
 
 #: src/common/nntp.c:68
 #, c-format
@@ -1005,9 +980,8 @@ msgid "Error occurred while sending command\n"
 msgstr "Παρουσιάστηκε σφάλμα κατά την εκτέλεση της επιλεγμένης εντολής."
 
 #: src/common/plugin.c:202
-#, fuzzy
 msgid "Plugin already loaded"
-msgstr "Το URI έχει ήδη φορτωθεί"
+msgstr "Το άρθρωμα έχει ήδη φορτωθεί"
 
 #: src/common/plugin.c:210
 msgid "Failed to allocate memory for Plugin"
@@ -1015,7 +989,7 @@ msgstr ""
 
 #: src/common/plugin.c:232
 msgid "This module is for Sylpheed-Claws GTK1."
-msgstr ""
+msgstr "Αυτό το άρθρωμα είναι για το Sylpheed-Claws GTK1."
 
 #: src/common/smtp.c:168
 #, fuzzy
@@ -1044,7 +1018,7 @@ msgstr "Σφάλμα στην ανάγνωση... ματαίωση"
 #: src/common/smtp.c:588
 #, c-format
 msgid "Message is too big (Maximum size is %s)\n"
-msgstr ""
+msgstr "Το μήνυμα είναι πολύ μεγάλο (Το μέγιστο μέγεθος είναι %s)\n"
 
 #: src/common/smtp.c:620
 #: src/pop.c:834
@@ -1624,9 +1598,8 @@ msgid "/_Tools/Actio_ns"
 msgstr "Εργαλεία Δικτύου - Συσκευές"
 
 #: src/compose.c:1693
-#, fuzzy
 msgid "Reply-To:"
-msgstr "_Απάντηση Σε:"
+msgstr "Απάντηση-Σε:"
 
 #: src/compose.c:1696
 #: src/compose.c:4739
@@ -1703,7 +1676,7 @@ msgstr "Αποστολή"
 
 #: src/compose.c:3478
 msgid "Subject is empty. Send it anyway?"
-msgstr ""
+msgstr "Το θέμα είναι κενό. Αποστολή μηνύματος;"
 
 #: src/compose.c:3504
 #, fuzzy
@@ -1760,7 +1733,7 @@ msgstr ""
 
 #: src/compose.c:4092
 msgid "No account for sending mails available!"
-msgstr ""
+msgstr "Δεν υπάρχει λογαριασμός για αποστολή μηνυμάτων!"
 
 #: src/compose.c:4102
 msgid "No account for posting news available!"
@@ -1814,7 +1787,6 @@ msgstr "Επικεφαλίδα"
 
 #. attachment list
 #: src/compose.c:5160
-#, fuzzy
 msgid "Attachments"
 msgstr "Συνημμένα"
 
@@ -1867,7 +1839,6 @@ msgid "File doesn't exist or is empty."
 msgstr "Το αρχείο δεν υπάρχει, ή είναι άδειο."
 
 #: src/compose.c:6122
-#, fuzzy
 msgid "Properties"
 msgstr "Ιδιότητες"
 
@@ -2000,7 +1971,6 @@ msgid "Save..."
 msgstr "Αποθήκευση"
 
 #: src/crash.c:252
-#, fuzzy
 msgid "Create bug report"
 msgstr "Αποστολή αναφοράς σφάλματος"
 
@@ -2046,19 +2016,16 @@ msgstr "Το όνομα γνωρίσματος για εμφάνιση"
 #: src/editaddress.c:652
 #: src/editaddress.c:656
 #: src/ldif.c:835
-#, fuzzy
 msgid "Last Name"
 msgstr "Επώνυμο"
 
 #: src/editaddress.c:653
 #: src/editaddress.c:655
 #: src/ldif.c:831
-#, fuzzy
 msgid "First Name"
 msgstr "Όνομα"
 
 #: src/editaddress.c:658
-#, fuzzy
 msgid "Nickname"
 msgstr "Ψευδώνυμο"
 
@@ -2069,7 +2036,6 @@ msgstr "Ψευδώνυμο"
 #: src/exporthtml.c:629
 #: src/exporthtml.c:793
 #: src/ldif.c:843
-#, fuzzy
 msgid "E-Mail Address"
 msgstr "Διεύθυνση E-Mail "
 
@@ -2137,14 +2103,12 @@ msgstr "Αποστολή Αρχείου"
 #: src/importmutt.c:236
 #: src/importpine.c:236
 #: src/prefs_account.c:1819
-#, fuzzy
 msgid "File"
 msgstr "Αρχείο"
 
 #: src/editbook.c:285
-#, fuzzy
 msgid "Add New Addressbook"
-msgstr "Προσ_θήκη στο Βιβλίο Διευθύνσεων"
+msgstr "Νέο Βιβλίο Διευθύνσεων"
 
 #: src/editgroup.c:103
 #, fuzzy
@@ -2158,9 +2122,8 @@ msgstr "Διαχειριστής Προσωπικών Δεδομένων"
 
 #: src/editgroup.c:314
 #: src/exporthtml.c:626
-#, fuzzy
 msgid "Group Name"
-msgstr "Όνομα ο_μάδας:"
+msgstr "Όνομα Ομάδας"
 
 #: src/editgroup.c:333
 #, fuzzy
@@ -2190,7 +2153,6 @@ msgid "Edit Group Details"
 msgstr "Εμφάνιση  Λεπτομερειών _Αποσφαλμάτωσης"
 
 #: src/editgroup.c:476
-#, fuzzy
 msgid "Add New Group"
 msgstr "Δημιουργία Νέας Ομάδας"
 
@@ -2268,9 +2230,8 @@ msgstr "Όνομα Διακομιστή"
 #: src/editldap_basedn.c:173
 #: src/editldap.c:432
 #: src/ssl_manager.c:106
-#, fuzzy
 msgid "Port"
-msgstr "Port"
+msgstr "Θύρα"
 
 #: src/editldap_basedn.c:183
 #: src/editldap.c:461
@@ -2319,7 +2280,7 @@ msgstr "Επανασύνδεση με τον διακομιστή LDAP..."
 
 #: src/editldap.c:408
 msgid "A name that you wish to call the server."
-msgstr ""
+msgstr "Πως θέλετε να ονομάσετε τον διακομιστή."
 
 #: src/editldap.c:423
 msgid "This is the hostname of the server. For example, \"ldap.mydomain.com\" may be appropriate for the \"mydomain.com\" organization. An IP address may also be used. You may specify \"localhost\" if running an LDAP server on the same computer as Sylpheed."
@@ -2336,7 +2297,7 @@ msgstr "Πληροφορίες Διακομιστή"
 
 #: src/editldap.c:456
 msgid "Press this button to test the connection to the server."
-msgstr ""
+msgstr "Πιέστε αυτό το κουμπί για να δοκιμάσετε τη σύνδεση με τον διακομιστή."
 
 #: src/editldap.c:471
 msgid ""
@@ -2440,7 +2401,6 @@ msgstr "Αναζήτηση"
 
 #: src/editldap.c:756
 #: src/gtk/quicksearch.c:310
-#, fuzzy
 msgid "Extended"
 msgstr "Εκτεταμένο"
 
@@ -2494,9 +2454,8 @@ msgstr ""
 
 #: src/exphtmldlg.c:186
 #: src/expldifdlg.c:193
-#, fuzzy
 msgid "Create Directory"
-msgstr "Δεν ήταν δυνατή η δημιουργία του καταλόγου `%s': %s."
+msgstr "Δημιουργία Καταλόγου"
 
 #: src/exphtmldlg.c:195
 #, c-format
@@ -2541,29 +2500,24 @@ msgstr "Προεπιλογή"
 
 #: src/exphtmldlg.c:474
 #: src/plugins/pgpcore/sgpgme.c:120
-#, fuzzy
 msgid "Full"
 msgstr "Πλήρες"
 
 #: src/exphtmldlg.c:480
-#, fuzzy
 msgid "Custom"
 msgstr "Προσαρμοσμένο"
 
 #: src/exphtmldlg.c:486
-#, fuzzy
 msgid "Custom-2"
-msgstr "Προσαρμοσμένο"
+msgstr "Προσαρμοσμένο-2"
 
 #: src/exphtmldlg.c:492
-#, fuzzy
 msgid "Custom-3"
-msgstr "Προσαρμοσμένο"
+msgstr "Προσαρμοσμένο-3"
 
 #: src/exphtmldlg.c:498
-#, fuzzy
 msgid "Custom-4"
-msgstr "Προσαρμοσμένο"
+msgstr "Προσαρμοσμένο-4"
 
 #: src/exphtmldlg.c:512
 #, fuzzy
@@ -2598,9 +2552,8 @@ msgstr "γνωρίσματα στο caret"
 #: src/exphtmldlg.c:606
 #: src/expldifdlg.c:636
 #: src/importldif.c:919
-#, fuzzy
 msgid "File Name :"
-msgstr "Όνομα αρχείου:"
+msgstr "Όνομα Αρχείου :"
 
 #: src/exphtmldlg.c:616
 #, fuzzy
@@ -2615,12 +2568,10 @@ msgstr "Εξάγω τον κατάλογο διευθύνσεων σε αρχείο..."
 #: src/exphtmldlg.c:714
 #: src/expldifdlg.c:735
 #: src/importldif.c:1026
-#, fuzzy
 msgid "File Info"
 msgstr "Πληροφορίες Αρχείου"
 
 #: src/exphtmldlg.c:715
-#, fuzzy
 msgid "Format"
 msgstr "Μορφοποίηση"
 
@@ -2647,9 +2598,8 @@ msgid ""
 msgstr ""
 
 #: src/expldifdlg.c:247
-#, fuzzy
 msgid "Suffix was not supplied"
-msgstr "Το κείμενο \"%s\" δε βρέθηκε."
+msgstr "Δεν δόθηκε κατάληξη"
 
 #: src/expldifdlg.c:249
 msgid "A suffix is required if data is to be used for an LDAP server. Are you sure you wish to proceed without a suffix?"
@@ -2675,9 +2625,8 @@ msgstr ""
 " %s"
 
 #: src/expldifdlg.c:467
-#, fuzzy
 msgid "Suffix"
-msgstr "_Κατάληξη:"
+msgstr "Κατάληξη"
 
 #: src/expldifdlg.c:479
 msgid ""
@@ -2693,7 +2642,6 @@ msgid "Relative DN"
 msgstr "Προς Κάτω"
 
 #: src/expldifdlg.c:495
-#, fuzzy
 msgid "Unique ID"
 msgstr "Μοναδικό αναγνωριστικό"
 
@@ -2780,20 +2728,17 @@ msgid "Select exporting file"
 msgstr "Επιλογή αρχείου εξαγωγής"
 
 #: src/exporthtml.c:796
-#, fuzzy
 msgid "Full Name"
 msgstr "Πλήρες Όνομα"
 
 #: src/exporthtml.c:800
 #: src/importldif.c:1027
-#, fuzzy
 msgid "Attributes"
 msgstr "Γνωρίσματα"
 
 #: src/exporthtml.c:1001
-#, fuzzy
 msgid "Sylpheed Address Book"
-msgstr "Διαγραφή βιβλίου διευθύνσεων '{0}'?"
+msgstr "Βιβλίου διευθύνσεων Sylpheed"
 
 #: src/exporthtml.c:1115
 #: src/exportldif.c:592
@@ -2808,9 +2753,8 @@ msgstr "Αποτυχία δημιουργίας προσωρινού καταλόγου"
 
 #: src/exporthtml.c:1121
 #: src/exportldif.c:598
-#, fuzzy
 msgid "Name is too long."
-msgstr "Το όνομα αρχείου είναι πολύ μακρύ."
+msgstr "Το όνομα είναι πολύ μακρύ."
 
 #: src/exporthtml.c:1124
 #: src/exportldif.c:601
@@ -2825,9 +2769,8 @@ msgstr "Εισερχόμενα"
 
 #: src/folder.c:1208
 #: src/foldersel.c:354
-#, fuzzy
 msgid "Sent"
-msgstr "Στάλθ"
+msgstr "Σταλμένα"
 
 #: src/folder.c:1212
 #: src/foldersel.c:358
@@ -2844,15 +2787,14 @@ msgstr "Διαγραμμένα"
 
 #: src/folder.c:1220
 #: src/foldersel.c:366
-#, fuzzy
 msgid "Drafts"
 msgstr "Πρόχειρα"
 
 #. Processing
 #: src/folder.c:1478
-#, fuzzy, c-format
+#, c-format
 msgid "Processing (%s)...\n"
-msgstr "Επεξεργασία"
+msgstr "Επεξεργασία (%s)...\n"
 
 #: src/folder.c:1824
 #: src/inc.c:624
@@ -2899,16 +2841,16 @@ msgstr "το `%c' δεν μπορεί να συμπεριλαμβάνεται σε όνομα καταλόγου."
 #: src/imap_gtk.c:209
 #: src/mh_gtk.c:145
 #: src/mh_gtk.c:245
-#, fuzzy, c-format
+#, c-format
 msgid "The folder '%s' already exists."
-msgstr "Ο φάκελος υπάρχει ήδη"
+msgstr "Ο φάκελος '%s' υπάρχει ήδη."
 
 #: src/foldersel.c:559
 #: src/imap_gtk.c:166
 #: src/mh_gtk.c:151
-#, fuzzy, c-format
+#, c-format
 msgid "Can't create the folder '%s'."
-msgstr "Δεν είναι δυνατή η δημιουργία φακέλου `%s': %s"
+msgstr "Δεν είναι δυνατή η δημιουργία φακέλου '%s'."
 
 #: src/folderview.c:280
 #, fuzzy
@@ -2955,9 +2897,8 @@ msgid "Setting folder info..."
 msgstr "Θέτω τις πληροφορίες καταλόγων..."
 
 #: src/folderview.c:712
-#, fuzzy
 msgid "Mark all as read"
-msgstr "Σήμανση Όλων ως Αναγνωσμ_ένα"
+msgstr "Σήμανση όλων ως αναγνωσμένα"
 
 #: src/folderview.c:713
 #, fuzzy
@@ -3052,9 +2993,8 @@ msgid "Folder moving cannot be done between different mailboxes."
 msgstr ""
 
 #: src/folderview.c:2199
-#, fuzzy
 msgid "Move failed!"
-msgstr "Η εισαγωγή απέτυχε"
+msgstr "Η μετακίνηση απέτυχε!"
 
 #: src/folderview.c:2235
 #, fuzzy, c-format
@@ -3077,9 +3017,8 @@ msgid "Find groups:"
 msgstr "Δευτερεύουσες ομάδες"
 
 #: src/grouplistdialog.c:202
-#, fuzzy
 msgid " Search "
-msgstr "_Αναζήτηση:"
+msgstr " Αναζήτηση"
 
 #: src/grouplistdialog.c:214
 #, fuzzy
@@ -3087,12 +3026,10 @@ msgid "Newsgroup name"
 msgstr "Πλήρες Όνομα"
 
 #: src/grouplistdialog.c:215
-#, fuzzy
 msgid "Messages"
-msgstr "_Μηνύματα"
+msgstr "Μηνύματα"
 
 #: src/grouplistdialog.c:216
-#, fuzzy
 msgid "Type"
 msgstr "Τύπος"
 
@@ -3103,10 +3040,9 @@ msgstr "Ελεγχόμενο(Moderated)"
 
 #: src/grouplistdialog.c:347
 msgid "readonly"
-msgstr ""
+msgstr "μόνο για ανάγνωση"
 
 #: src/grouplistdialog.c:349
-#, fuzzy
 msgid "unknown"
 msgstr "άγνωστο"
 
@@ -3117,9 +3053,8 @@ msgstr "Αδυναμία αποθήκευσης μιας άδειας λίστας!"
 
 #: src/grouplistdialog.c:446
 #: src/summaryview.c:1048
-#, fuzzy
 msgid "Done."
-msgstr "Έγινε"
+msgstr "Έγινε."
 
 #: src/grouplistdialog.c:476
 #, fuzzy, c-format
@@ -3173,9 +3108,8 @@ msgstr ""
 "\n"
 
 #: src/gtk/about.c:253
-#, fuzzy
 msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr "Θα πρέπει να έχετε λάβει ένα αντίτυπο της άδειας αυτής μαζί με αυτό το πρόγραμμα. Εάν όχι, γράψτε στο Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation) στη διεύθυνση Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr "Θα πρέπει να έχετε λάβει ένα αντίτυπο της άδειας αυτής μαζί με αυτό το πρόγραμμα. Εάν όχι, γράψτε στο Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation) στη διεύθυνση Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: src/gtk/about.c:259
 msgid ""
@@ -3185,39 +3119,32 @@ msgid ""
 msgstr ""
 
 #: src/gtk/colorlabel.c:46
-#, fuzzy
 msgid "Orange"
-msgstr "Orange"
+msgstr "Πορτοκαλί"
 
 #: src/gtk/colorlabel.c:47
-#, fuzzy
 msgid "Red"
 msgstr "Κόκκινο"
 
 #: src/gtk/colorlabel.c:48
-#, fuzzy
 msgid "Pink"
-msgstr "ροζ"
+msgstr "Ροζ"
 
 #: src/gtk/colorlabel.c:49
-#, fuzzy
 msgid "Sky blue"
-msgstr "μπλε ουρανού #2"
+msgstr "Μπλε ουρανού"
 
 #: src/gtk/colorlabel.c:50
-#, fuzzy
 msgid "Blue"
 msgstr "Μπλε"
 
 #: src/gtk/colorlabel.c:51
-#, fuzzy
 msgid "Green"
 msgstr "Πράσινο"
 
 #: src/gtk/colorlabel.c:52
-#, fuzzy
 msgid "Brown"
-msgstr "Καφέ:"
+msgstr "Καφέ"
 
 #: src/gtk/foldersort.c:141
 #, fuzzy
@@ -3231,7 +3158,6 @@ msgid ""
 msgstr ""
 
 #: src/gtk/foldersort.c:213
-#, fuzzy
 msgid "Folders"
 msgstr "Φάκελοι"
 
@@ -3320,14 +3246,13 @@ msgstr "_Συμβουλές ορθογραφίας..."
 
 #: src/gtk/gtkaspell.c:2026
 #: src/gtk/gtkaspell.c:2189
-#, fuzzy
 msgid "More..."
-msgstr "_Περισσότερα..."
+msgstr "Περισσότερα..."
 
 #: src/gtk/gtkaspell.c:2091
-#, fuzzy, c-format
+#, c-format
 msgid "Dictionary: %s"
-msgstr "Λεξικό"
+msgstr "Λεξικό: %s"
 
 #: src/gtk/gtkaspell.c:2104
 #, fuzzy, c-format
@@ -3387,7 +3312,6 @@ msgstr "Πρόσθετες Λειτουργίες"
 
 #: src/gtk/pluginwindow.c:256
 #: src/prefs_summaries.c:211
-#, fuzzy
 msgid "Description"
 msgstr "Περιγραφή"
 
@@ -3431,11 +3355,11 @@ msgstr "Επιλογή όλων των μηνυμάτων που εμφανίζονται"
 
 #: src/gtk/quicksearch.c:209
 msgid "messages whose age is greater than #"
-msgstr ""
+msgstr "μηνύματα παλαιότερα από #"
 
 #: src/gtk/quicksearch.c:210
 msgid "messages whose age is less than #"
-msgstr ""
+msgstr "μηνύματα νεότερα από #"
 
 #: src/gtk/quicksearch.c:211
 msgid "messages which contain S in the message body"
@@ -3456,9 +3380,8 @@ msgid "message is either to: or cc: to S"
 msgstr "Το μήνυμα %d έχει οριστεί για μετακίνηση στο %s\n"
 
 #: src/gtk/quicksearch.c:215
-#, fuzzy
 msgid "deleted messages"
-msgstr "Εξάλειψη των διαγραμμένων μηνυμάτων"
+msgstr "διαγραμμένα μηνύματα"
 
 #. * how I can filter deleted messages *
 #: src/gtk/quicksearch.c:216
@@ -3476,9 +3399,8 @@ msgid "messages originating from user S"
 msgstr "Κατάργηση συ_νδρομής από φάκελο άλλου χρήστη"
 
 #: src/gtk/quicksearch.c:219
-#, fuzzy
 msgid "forwarded messages"
-msgstr "Προωθημένα μηνύματα"
+msgstr "προωθημένα μηνύματα"
 
 #: src/gtk/quicksearch.c:220
 msgid "messages which contain header S"
@@ -3503,9 +3425,8 @@ msgid "messages which are in newsgroup S"
 msgstr "Το colorspace στο οποίο τα δείγματα ερμηνεύονται"
 
 #: src/gtk/quicksearch.c:225
-#, fuzzy
 msgid "new messages"
-msgstr "%s: Σάρωση για νέα μηνύματα"
+msgstr "νέα μηνύματα"
 
 #: src/gtk/quicksearch.c:226
 #, fuzzy
@@ -3674,39 +3595,33 @@ msgid "correct"
 msgstr "(διόρθωση ορθογραφίας)"
 
 #: src/gtk/sslcertwindow.c:118
-#, fuzzy
 msgid "Owner"
 msgstr "Ιδιοκτήτης"
 
 #: src/gtk/sslcertwindow.c:119
-#, fuzzy
 msgid "Signer"
-msgstr "Υπογράφων: %s <%s>: %s\n"
+msgstr "Υπογράφων"
 
 #: src/gtk/sslcertwindow.c:126
 #: src/gtk/sslcertwindow.c:147
 #: src/prefs_filtering.c:266
 #: src/prefs_themes.c:892
-#, fuzzy
 msgid "Name: "
-msgstr "Όνομα"
+msgstr "Όνομα:"
 
 #: src/gtk/sslcertwindow.c:133
 #: src/gtk/sslcertwindow.c:154
-#, fuzzy
 msgid "Organization: "
 msgstr "Οργανισμός:"
 
 #: src/gtk/sslcertwindow.c:140
 #: src/gtk/sslcertwindow.c:161
-#, fuzzy
 msgid "Location: "
-msgstr "_Τοποθεσία..."
+msgstr "Τοποθεσία:"
 
 #: src/gtk/sslcertwindow.c:168
-#, fuzzy
 msgid "Fingerprint: "
-msgstr "Αποτύπωμα MD5:"
+msgstr "Αποτύπωμα:"
 
 #: src/gtk/sslcertwindow.c:174
 #, fuzzy
@@ -3791,24 +3706,20 @@ msgid "(No Subject)"
 msgstr "(Χωρίς Θέμα)"
 
 #: src/image_viewer.c:288
-#, fuzzy
 msgid "Filename:"
 msgstr "Όνομα Αρχείου:"
 
 #: src/image_viewer.c:295
-#, fuzzy
 msgid "Filesize:"
-msgstr "Μέγεθος αρχείου"
+msgstr "Μέγεθος αρχείου:"
 
 #: src/image_viewer.c:316
-#, fuzzy
 msgid "Load Image"
 msgstr "Φόρτωση Εικόνας"
 
 #: src/image_viewer.c:322
-#, fuzzy
 msgid "Content-Type:"
-msgstr "Τύπος περιεχομένου"
+msgstr "Τύπος περιεχομένου:"
 
 #: src/imap.c:608
 msgid ""
@@ -3895,9 +3806,8 @@ msgid "Adding messages..."
 msgstr "Προκαθορισμένα μηνύματα"
 
 #: src/imap.c:1134
-#, fuzzy
 msgid "Copying messages..."
-msgstr "Αντιγραφή μηνυμάτων"
+msgstr "Αντιγραφή μηνυμάτων..."
 
 #: src/imap.c:1270
 #, fuzzy
@@ -3995,7 +3905,7 @@ msgstr "/Διαγραφή καταλόγου"
 #: src/imap_gtk.c:62
 #: src/news_gtk.c:56
 msgid "/Synchronise"
-msgstr ""
+msgstr "/Συγχρονισμός"
 
 #: src/imap_gtk.c:63
 #: src/news_gtk.c:57
@@ -4060,6 +3970,8 @@ msgid ""
 "The folder could not be renamed.\n"
 "The new folder name is not allowed."
 msgstr ""
+"Δεν ήταν δυνατή η μετονομασία του φακέλου.\n"
+"Το νέο όνομα για τον φάκελο δεν είναι έγκυρο."
 
 #: src/imap_gtk.c:280
 #, fuzzy, c-format
@@ -4201,7 +4113,6 @@ msgid "LDIF Field"
 msgstr "Τι_μή Πεδίου"
 
 #: src/importldif.c:795
-#, fuzzy
 msgid "Attribute"
 msgstr "Γνώρισμα"
 
@@ -4210,7 +4121,6 @@ msgid "The LDIF field can be renamed to the User Attribute name."
 msgstr ""
 
 #: src/importldif.c:811
-#, fuzzy
 msgid "???"
 msgstr ";;;"
 
@@ -4228,9 +4138,8 @@ msgid "Select the LDIF field for import into the address book."
 msgstr ""
 
 #: src/importldif.c:850
-#, fuzzy
 msgid " Modify "
-msgstr "_Τροποποίηση"
+msgstr " Τροποποίηση"
 
 #: src/importldif.c:856
 msgid "This button will update the list above with the data supplied."
@@ -4289,7 +4198,6 @@ msgstr "Περιμένω"
 
 #: src/inc.c:540
 #: src/inc.c:590
-#, fuzzy
 msgid "Cancelled"
 msgstr "Ακυρώθηκε"
 
@@ -5619,11 +5527,11 @@ msgstr "/Βοήθεια/---"
 
 #: src/mainwindow.c:941
 msgid "You are online. Click the icon to go offline"
-msgstr ""
+msgstr "Είστε συνδεδεμένος. Κάντε κλικ στο εικονίδιο για να αποσυνδεθείτε"
 
 #: src/mainwindow.c:945
 msgid "You are offline. Click the icon to go online"
-msgstr ""
+msgstr "Είστε αποσυνδεδεμένος. Κάντε κλικ στο εικονίδιο για να συνδεθείτε"
 
 #: src/mainwindow.c:962
 #, fuzzy
@@ -5708,7 +5616,7 @@ msgstr "Φακέλος Προορισμού:"
 
 #: src/mainwindow.c:2638
 msgid "Do you want to synchronise your folders now?"
-msgstr ""
+msgstr "Θέλετε να συγχρονίσετε τους φακέλους τώρα;"
 
 #: src/mainwindow.c:2900
 msgid "Deleting duplicated messages..."
@@ -8335,7 +8243,7 @@ msgstr "Εμφάνιση βραχείας κεφαλίδας στην απεικόνιση μηνύματος"
 
 #: src/prefs_message.c:128
 msgid "Render HTML messages as text"
-msgstr ""
+msgstr "Εμφάνιση HTML μηνυμάτων σαν κείμενο"
 
 #: src/prefs_message.c:140
 msgid "Line space"
@@ -9384,7 +9292,6 @@ msgid "Compose Window"
 msgstr "Παράθυρο Διακομιστή..."
 
 #: src/prefs_toolbar.c:1039
-#, fuzzy
 msgid "Icon"
 msgstr "Εικονίδιο"
 
@@ -9774,7 +9681,7 @@ msgstr "Μετακίνηση στα Απορρίμα_τα"
 #: src/summaryview.c:411
 #, fuzzy
 msgid "/_Delete..."
-msgstr "Διαγραφή"
+msgstr "/_Διαγραφή..."
 
 #: src/summaryview.c:412
 #, fuzzy
