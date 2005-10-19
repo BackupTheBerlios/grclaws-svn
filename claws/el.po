@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-16 16:15+0300\n"
-"PO-Revision-Date: 2005-10-17 17:16+0200\n"
+"PO-Revision-Date: 2005-10-19 23:05+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -465,7 +465,6 @@ msgstr "Επιτυχία"
 
 #: src/addressbook.c:489
 #: src/importldif.c:127
-#, fuzzy
 msgid "Bad arguments"
 msgstr "Μη έγκυροι παράμετροι"
 
@@ -476,15 +475,13 @@ msgstr "Δεν ορίστηκε αρχείο"
 
 #: src/addressbook.c:491
 #: src/importldif.c:129
-#, fuzzy
 msgid "Error opening file"
-msgstr "Σφάλμα κατά το άνοιγμα του αρχείου ρυθμίσεων των πλήκτρων\n"
+msgstr "Σφάλμα κατά το άνοιγμα του αρχείου"
 
 #: src/addressbook.c:492
 #: src/importldif.c:130
-#, fuzzy
 msgid "Error reading file"
-msgstr "Σφάλμα ανάγνωσης του αρχείου: "
+msgstr "Σφάλμα κατά την ανάγνωση του αρχείου"
 
 #: src/addressbook.c:493
 #: src/importldif.c:131
@@ -505,21 +502,18 @@ msgstr "Λανθασμένη μορφή αρχείου"
 
 #: src/addressbook.c:496
 #: src/importldif.c:134
-#, fuzzy
 msgid "Error writing to file"
-msgstr "Σφάλμα κατά την εγγραφή εικόνας σε αρχείο: (%s)"
+msgstr "Σφάλμα κατά την εγγραφή του αρχείου"
 
 #: src/addressbook.c:497
 #: src/importldif.c:135
-#, fuzzy
 msgid "Error opening directory"
-msgstr "Σφάλμα ανοίγματος καταλόγου '%s': %s"
+msgstr "Σφάλμα κατά το άνοιγμα του καταλόγου"
 
 #: src/addressbook.c:498
 #: src/importldif.c:136
-#, fuzzy
 msgid "No path specified"
-msgstr "Δεν καθορίστηκε URI"
+msgstr "Δεν καθορίστηκε διαδρομή"
 
 #: src/addressbook.c:508
 #, fuzzy
@@ -8635,19 +8629,17 @@ msgid "Faster switching with last used dictionary"
 msgstr ""
 
 #: src/prefs_spelling.c:190
-#, fuzzy
 msgid "Dictionaries path:"
-msgstr "Διαδρομή του sendmail:"
+msgstr "Διαδρομή λεξικών:"
 
 #: src/prefs_spelling.c:204
-#, fuzzy
 msgid "Default dictionary:"
-msgstr "Λεξικό χρήστη:"
+msgstr "Προκαθορισμένο λεξικό:"
 
 #: src/prefs_spelling.c:221
 #, fuzzy
 msgid "Default suggestion mode:"
-msgstr "Προεπιλεγμένη λειτουργία μορφοποίησης"
+msgstr "Προκαθορισμένη λειτουργία μορφοποίησης"
 
 #: src/prefs_spelling.c:238
 #, fuzzy
@@ -8668,19 +8660,16 @@ msgid "the full abbreviated weekday name"
 msgstr ""
 
 #: src/prefs_summaries.c:143
-#, fuzzy
 msgid "the full weekday name"
-msgstr "Όνομα αυτού που αναφέρει το σφάλμα"
+msgstr "το πλήρες όνομα της ημέρας"
 
 #: src/prefs_summaries.c:144
-#, fuzzy
 msgid "the abbreviated month name"
-msgstr "Όνομα αυτού που αναφέρει το σφάλμα"
+msgstr "το συντομευμένο όνομα του μήνα"
 
 #: src/prefs_summaries.c:145
-#, fuzzy
 msgid "the full month name"
-msgstr "Όνομα αυτού που αναφέρει το σφάλμα"
+msgstr "το πλήρες όνομα του μήνα"
 
 #: src/prefs_summaries.c:146
 msgid "the preferred date and time for the current locale"
@@ -8691,9 +8680,8 @@ msgid "the century number (year/100)"
 msgstr ""
 
 #: src/prefs_summaries.c:148
-#, fuzzy
 msgid "the day of the month as a decimal number"
-msgstr "Ο επιλεγμένος μήνας (ως αριθμός μεταξύ 0 και 12)"
+msgstr "η μέρα του μήνα ως δεκαδικός αριθμός"
 
 #: src/prefs_summaries.c:149
 msgid "the hour as a decimal number using a 24-hour clock"
@@ -8708,24 +8696,20 @@ msgid "the day of the year as a decimal number"
 msgstr ""
 
 #: src/prefs_summaries.c:152
-#, fuzzy
 msgid "the month as a decimal number"
-msgstr "Ο αριθμός των δεκαδικών που προβάλλεται"
+msgstr "ο μήνας ως δεκαδικός αριθμός"
 
 #: src/prefs_summaries.c:153
-#, fuzzy
 msgid "the minute as a decimal number"
-msgstr "Ο αριθμός των δεκαδικών που προβάλλεται"
+msgstr "το λεπτό ως δεκαδικός αριθμός"
 
 #: src/prefs_summaries.c:154
-#, fuzzy
 msgid "either AM or PM"
-msgstr "_12 Ώρες (ΠΜ/ΜΜ)"
+msgstr "είτε ΠΜ ή ΜΜ"
 
 #: src/prefs_summaries.c:155
-#, fuzzy
 msgid "the second as a decimal number"
-msgstr "Ο αριθμός των δεκαδικών που προβάλλεται"
+msgstr "το δευτερόλεπτο ως δεκαδικός αριθμός"
 
 #: src/prefs_summaries.c:156
 msgid "the day of the week as a decimal number"
@@ -8740,9 +8724,8 @@ msgid "the last two digits of a year"
 msgstr ""
 
 #: src/prefs_summaries.c:159
-#, fuzzy
 msgid "the year as a decimal number"
-msgstr "Ο αριθμός των δεκαδικών που προβάλλεται"
+msgstr "το έτος ως δεκαδικός αριθμός"
 
 #: src/prefs_summaries.c:160
 msgid "the time zone or name or abbreviation"
@@ -8775,9 +8758,8 @@ msgstr "Επιλογή Γραμματοσειράς"
 
 #: src/prefs_summaries.c:356
 #: src/prefs_summaries.c:672
-#, fuzzy
 msgid "Old Sylpheed"
-msgstr "Παλιό ψευδώνυμο"
+msgstr "Παλιό Sylpheed"
 
 #: src/prefs_summaries.c:364
 msgid ""
@@ -8786,9 +8768,8 @@ msgid ""
 msgstr ""
 
 #: src/prefs_summaries.c:735
-#, fuzzy
 msgid "Translate header name (such as 'From:', 'Subject:')"
-msgstr "Μετέφρασε τα ονόματα των πεδίων της επικεφαλίδας (όπως το `From:' σε `Από')"
+msgstr "Μετέφρασε τα ονόματα των επικεφαλίδων (όπως τα 'From:', 'Subject:')"
 
 #: src/prefs_summaries.c:738
 msgid "Display unread number next to folder name"
@@ -8799,9 +8780,8 @@ msgid "Abbreviate newsgroup names longer than"
 msgstr ""
 
 #: src/prefs_summaries.c:761
-#, fuzzy
 msgid "letters"
-msgstr "γράμματα."
+msgstr "γράμματα"
 
 #: src/prefs_summaries.c:774
 #, fuzzy
@@ -8818,14 +8798,12 @@ msgid "Set displayed columns"
 msgstr "Αριθμός στηλών κελιού"
 
 #: src/prefs_summaries.c:810
-#, fuzzy
 msgid " Folder list... "
-msgstr "Ανανέωση λίστας"
+msgstr " Λίστα φακέλων..."
 
 #: src/prefs_summaries.c:818
-#, fuzzy
 msgid " Message list... "
-msgstr "Λίστα Μηνύματων"
+msgstr " Λίστα μηνυμάτων..."
 
 #: src/prefs_summaries.c:837
 #, fuzzy
@@ -8896,9 +8874,8 @@ msgid " Set key bindings... "
 msgstr "Το ψευδώνυμο του ατόμου που έθεσε το κλειδί"
 
 #: src/prefs_summaries.c:1029
-#, fuzzy
 msgid "Summaries"
-msgstr "Απεικόνιση Περίληψης"
+msgstr "Περιλήψεις"
 
 #. S_COL_STATUS
 #: src/prefs_summary_column.c:81
@@ -8922,9 +8899,8 @@ msgid ""
 msgstr ""
 
 #: src/prefs_summary_column.c:265
-#, fuzzy
 msgid "Hidden columns"
-msgstr "Αριθμός στηλών:"
+msgstr "Κρυμμένες στήλες"
 
 #: src/prefs_summary_column.c:294
 #, fuzzy
@@ -9192,9 +9168,8 @@ msgid "Event executed on click"
 msgstr "Κλικ σε κουμπί εντολής"
 
 #: src/prefs_toolbar.c:804
-#, fuzzy
 msgid " Default "
-msgstr "Προεπιλογή"
+msgstr ""
 
 #. currently active toolbar items
 #: src/prefs_toolbar.c:811
@@ -9210,9 +9185,8 @@ msgid "Customize Toolbars"
 msgstr "Προσαρμογή εργαλειοθηκών"
 
 #: src/prefs_toolbar.c:877
-#, fuzzy
 msgid "Main Window"
-msgstr "κυρίως παράθυρο"
+msgstr "Κύριο Παράθυρο"
 
 #: src/prefs_toolbar.c:891
 #, fuzzy
@@ -9229,9 +9203,8 @@ msgid "Icon"
 msgstr "Εικονίδιο"
 
 #: src/prefs_toolbar.c:1072
-#, fuzzy
 msgid "Icon text"
-msgstr "_Κείμενο και Εικονίδια"
+msgstr "Κείμενο εικονιδίων"
 
 #: src/prefs_toolbar.c:1081
 #, fuzzy
@@ -9252,18 +9225,16 @@ msgid "Wrap quotation"
 msgstr "Τύλιξη παράθεσης"
 
 #: src/prefs_wrapping.c:94
-#, fuzzy
 msgid "Wrap pasted text"
-msgstr "Λειτουργία αναδίπλωσης για κείμενο πολλαπλών γραμμών"
+msgstr "Αναδίπλωση επικολλημένου κειμένου"
 
 #: src/prefs_wrapping.c:106
 msgid "Wrap messages at"
 msgstr "Τύλιξη μηνυμάτων στους"
 
 #: src/prefs_wrapping.c:169
-#, fuzzy
 msgid "Wrapping"
-msgstr "<b>Αναδίπλωση Κειμένου</b>"
+msgstr "Αναδίπλωση Κειμένου"
 
 #: src/privacy.c:174
 #: src/privacy.c:178
@@ -9321,9 +9292,8 @@ msgstr "ένας άγνωστος αποστολέας"
 
 #. message-id
 #: src/quote_fmt.c:53
-#, fuzzy
 msgid "Message body"
-msgstr "Σώμα Μηνύματος"
+msgstr "Σώμα μηνύματος"
 
 #. message
 #: src/quote_fmt.c:54
