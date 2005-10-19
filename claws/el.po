@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-16 16:15+0300\n"
-"PO-Revision-Date: 2005-10-16 21:36+0200\n"
+"PO-Revision-Date: 2005-10-17 17:16+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr ""
 #: src/account.c:722
 #, fuzzy
 msgid " _Set as default account "
-msgstr "Αλφαριθμητικό UID του προεπιλεγμένου λογαριασμού."
+msgstr "Ορισμός ως προκαθορισμένο λογαριασμό"
 
 #: src/account.c:799
 msgid "Accounts with remote folders cannot be copied."
@@ -405,15 +405,13 @@ msgid "/---"
 msgstr "/---"
 
 #: src/addressbook.c:446
-#, fuzzy
 msgid "/New _Folder"
-msgstr "_Νέος Φάκελος..."
+msgstr "/Νέος _Φάκελος"
 
 #: src/addressbook.c:448
 #: src/addressbook.c:461
-#, fuzzy
 msgid "/C_ut"
-msgstr "_Αποκοπή"
+msgstr "/_Αποκοπή"
 
 #: src/addressbook.c:449
 #: src/addressbook.c:462
@@ -608,9 +606,8 @@ msgstr "Κοινοποίηση:"
 #: src/compose.c:1720
 #: src/compose.c:3535
 #: src/prefs_template.c:207
-#, fuzzy
 msgid "Bcc:"
-msgstr "Κρ_υφή κοινοποίηση:"
+msgstr "Κρυφή κοινοποίηση:"
 
 #. Confirm deletion
 #: src/addressbook.c:1136
@@ -6258,11 +6255,11 @@ msgstr ""
 
 #: src/plugins/dillo_viewer/dillo_prefs.c:130
 msgid "Full window mode (hide controls)"
-msgstr ""
+msgstr "Λειτουργία πλήρους παραθύρου (απόκρυψη στοιχείων ελέγχου)"
 
 #: src/plugins/dillo_viewer/dillo_prefs.c:136
 msgid "Equivalent to Dillo's '--fullwindow' option"
-msgstr ""
+msgstr "Ισοδυναμεί με την επιλογή '--fullwindow' του Dillo"
 
 #: src/plugins/dillo_viewer/dillo_viewer.c:193
 #, fuzzy
