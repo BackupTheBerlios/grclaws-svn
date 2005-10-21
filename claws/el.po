@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-16 16:15+0300\n"
-"PO-Revision-Date: 2005-10-19 23:05+0200\n"
+"PO-Revision-Date: 2005-10-21 22:45+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -842,7 +842,6 @@ msgid "Include sub-folders"
 msgstr "Αγαπημένοι δημόσιοι φάκελοι"
 
 #: src/addrgather.c:431
-#, fuzzy
 msgid "Header Name"
 msgstr "Όνομα Κεφαλίδας"
 
@@ -870,9 +869,8 @@ msgstr "Πε_δία Πιστοποιητικού"
 #: src/exphtmldlg.c:716
 #: src/expldifdlg.c:737
 #: src/importldif.c:1028
-#, fuzzy
 msgid "Finish"
-msgstr "_Τέλος"
+msgstr "Τέλος"
 
 #: src/addrgather.c:600
 msgid "Harvest E-Mail Addresses - from Selected Messages"
@@ -926,9 +924,8 @@ msgid "Server Name :"
 msgstr "Όνομα Διακομιστή :"
 
 #: src/browseldap.c:269
-#, fuzzy
 msgid "Distinguished Name (dn) :"
-msgstr "Χρήση Διακεκριμένου ονόματος (DN)"
+msgstr "Διακεκριμένο Όνομα (dn):"
 
 #: src/browseldap.c:292
 msgid "LDAP Name"
@@ -1119,9 +1116,8 @@ msgstr "/Διαγραφή"
 
 #: src/compose.c:505
 #: src/folderview.c:283
-#, fuzzy
 msgid "/_Properties..."
-msgstr "Ιδιότητες %s"
+msgstr "/_Ιδιότητες..."
 
 #: src/compose.c:510
 #: src/mainwindow.c:675
