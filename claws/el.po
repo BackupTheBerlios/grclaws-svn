@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-16 16:15+0300\n"
-"PO-Revision-Date: 2005-10-21 22:45+0200\n"
+"PO-Revision-Date: 2005-10-25 19:57+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -209,55 +209,45 @@ msgid "/_Book"
 msgstr "/_Βιβλίο"
 
 #: src/addressbook.c:403
-#, fuzzy
 msgid "/_Book/New _Book"
-msgstr "Νέο Βιβλίο Διευθύνσεων"
+msgstr "/_Βιβλίο/Νέο _Βιβλίο"
 
 #: src/addressbook.c:404
-#, fuzzy
 msgid "/_Book/New _Folder"
-msgstr "Δημιουργία Νέου Φακέλου.."
+msgstr "/_Βιβλίο/Νέος _Φάκελος"
 
 #: src/addressbook.c:405
-#, fuzzy
 msgid "/_Book/New _vCard"
-msgstr "Νέο Βιβλίο Διευθύνσεων"
+msgstr "/_Βιβλίο/Νέα _vCard"
 
 #: src/addressbook.c:407
-#, fuzzy
 msgid "/_Book/New _JPilot"
-msgstr "Νέο Βιβλίο Διευθύνσεων"
+msgstr "/_Βιβλίο/Νέο _JPilot"
 
 #: src/addressbook.c:410
-#, fuzzy
 msgid "/_Book/New _Server"
-msgstr "Νέο Βιβλίο Διευθύνσεων"
+msgstr "/_Βιβλίο/Νέος Διακομι_στής"
 
 #: src/addressbook.c:412
 #: src/addressbook.c:415
-#, fuzzy
 msgid "/_Book/---"
-msgstr "Βιβλίο"
+msgstr "/_Βιβλίο/---"
 
 #: src/addressbook.c:413
-#, fuzzy
 msgid "/_Book/_Edit book"
-msgstr "Επεξεργασία ενός βιβλίου διευθύνσεων"
+msgstr "/_Βιβλίο/_Επεξεργασία βιβλίου"
 
 #: src/addressbook.c:414
-#, fuzzy
 msgid "/_Book/_Delete book"
-msgstr "Διαγραφή βιβλίου διευθύνσεων '{0}'?"
+msgstr "/_Βιβλίο/_Διαγραφή βιβλίου"
 
 #: src/addressbook.c:416
-#, fuzzy
 msgid "/_Book/_Save"
-msgstr "Αποθήκευση λίστας"
+msgstr "/_Βιβλίο/_Αποθήκευση"
 
 #: src/addressbook.c:417
-#, fuzzy
 msgid "/_Book/_Close"
-msgstr "Κλείσιμο Σελίδας"
+msgstr "/_Βιβλίο/_Κλείσιμο"
 
 #: src/addressbook.c:418
 msgid "/_Address"
@@ -298,32 +288,27 @@ msgid "/_Address/New _Group"
 msgstr "/_Διεύθυνση/Νέα Ο_μάδα"
 
 #: src/addressbook.c:429
-#, fuzzy
 msgid "/_Address/_Mail To"
-msgstr "/_Διεύθυνση/ "
+msgstr "/_Διεύθυνση/Αποστολή _Μηνύματος"
 
 #: src/addressbook.c:430
 #: src/compose.c:735
 #: src/mainwindow.c:717
 #: src/messageview.c:291
-#, fuzzy
 msgid "/_Tools"
-msgstr "Εργα_λεία"
+msgstr "/_Εργαλεία"
 
 #: src/addressbook.c:431
-#, fuzzy
 msgid "/_Tools/Import _LDIF file..."
-msgstr "Εισαγωγή σελιδοδεικτών από αρχείο"
+msgstr "/_Εργαλεία/Εισαγωγή αρχείου _LDIF..."
 
 #: src/addressbook.c:432
-#, fuzzy
 msgid "/_Tools/Import M_utt file..."
-msgstr "Εισαγωγή σελιδοδεικτών από αρχείο"
+msgstr "/_Εργαλεία/Εισαγωγή αρχείου M_utt..."
 
 #: src/addressbook.c:433
-#, fuzzy
 msgid "/_Tools/Import _Pine file..."
-msgstr "Εισαγωγή σελιδοδεικτών από αρχείο"
+msgstr "/_Εργαλεία/Εισαγωγή αρχείου _Pine..."
 
 #: src/addressbook.c:434
 #: src/mainwindow.c:726
@@ -334,19 +319,16 @@ msgstr "Εισαγωγή σελιδοδεικτών από αρχείο"
 #: src/mainwindow.c:767
 #: src/messageview.c:295
 #: src/messageview.c:316
-#, fuzzy
 msgid "/_Tools/---"
-msgstr "Εργα_λεία"
+msgstr "/_Εργαλεία/---"
 
 #: src/addressbook.c:435
-#, fuzzy
 msgid "/_Tools/Export _HTML..."
-msgstr "Επιθυμεί αλληλογραφία σε HTML"
+msgstr "/_Εργαλεία/Εξαγωγή αρχείου _HTML..."
 
 #: src/addressbook.c:436
-#, fuzzy
 msgid "/_Tools/Export LDI_F..."
-msgstr "εξαγωγή κλειδιών: δεν έχει εφαρμοστεί"
+msgstr "/_Εργαλεία/Εξαγωγή αρχείου LDI_F..."
 
 #: src/addressbook.c:437
 #: src/compose.c:740
@@ -415,25 +397,21 @@ msgstr "/_Αποκοπή"
 
 #: src/addressbook.c:449
 #: src/addressbook.c:462
-#, fuzzy
 msgid "/_Copy"
-msgstr "Αντιγραφή"
+msgstr "/_Αντιγραφή"
 
 #: src/addressbook.c:450
 #: src/addressbook.c:463
-#, fuzzy
 msgid "/_Paste"
-msgstr "Επικόλληση"
+msgstr "/Ε_πικόλληση"
 
 #: src/addressbook.c:458
-#, fuzzy
 msgid "/New _Address"
-msgstr "Νέο Βιβλίο Διευθύνσεων"
+msgstr "/Νέα _Διεύθυνση"
 
 #: src/addressbook.c:459
-#, fuzzy
 msgid "/New _Group"
-msgstr "Δημιουργία Νέας Ομάδας"
+msgstr "/Νέα _Ομάδα"
 
 #. {N_("/Pa_ste Address"),	NULL, addressbook_clip_paste_address_cb, 0, NULL},
 #: src/addressbook.c:466
@@ -5224,7 +5202,7 @@ msgstr "Μήνυμα νέων USENET"
 #: src/mainwindow.c:688
 #: src/messageview.c:276
 msgid "/_Message/_Reply"
-msgstr "/Μήνυμα/Απάντηση"
+msgstr "/_Μήνυμα/Απάντηση"
 
 #: src/mainwindow.c:689
 #, fuzzy
@@ -5257,7 +5235,7 @@ msgstr "/Μήνυμα/Συνέχεια σε"
 #: src/mainwindow.c:696
 #: src/messageview.c:284
 msgid "/_Message/_Forward"
-msgstr "/Μήνυμα/Προώθηση"
+msgstr "/_Μήνυμα/Προώθηση"
 
 #: src/mainwindow.c:697
 #: src/messageview.c:285
@@ -5272,11 +5250,11 @@ msgstr "Αριστερό μήνυμα"
 
 #: src/mainwindow.c:700
 msgid "/_Message/M_ove..."
-msgstr "/Μήνυμα/Μετακίνηση..."
+msgstr "/_Μήνυμα/Μετακίνηση..."
 
 #: src/mainwindow.c:701
 msgid "/_Message/_Copy..."
-msgstr "/Μήνυμα/Αντιγραφή..."
+msgstr "/_Μήνυμα/Αντιγραφή..."
 
 #: src/mainwindow.c:702
 #, fuzzy
@@ -5297,27 +5275,27 @@ msgstr "Μήνυμα νέων USENET"
 
 #: src/mainwindow.c:706
 msgid "/_Message/_Mark"
-msgstr "/Μήνυμα/Σήμανση"
+msgstr "/_Μήνυμα/Σήμανση"
 
 #: src/mainwindow.c:707
 msgid "/_Message/_Mark/_Mark"
-msgstr "/Mήνυμα/Σήμανση/Σήμανση"
+msgstr "/_Μήνυμα/Σήμανση/Σήμανση"
 
 #: src/mainwindow.c:708
 msgid "/_Message/_Mark/_Unmark"
-msgstr "/Mήνυμα/Σήμανση/Αναίρεση σήμανσης"
+msgstr "/_Μήνυμα/Σήμανση/Αναίρεση σήμανσης"
 
 #: src/mainwindow.c:709
 msgid "/_Message/_Mark/---"
-msgstr "/Mήνυμα/Σήμανση/---"
+msgstr "/_Μήνυμα/Σήμανση/---"
 
 #: src/mainwindow.c:710
 msgid "/_Message/_Mark/Mark as unr_ead"
-msgstr "/Mήνυμα/Σήμανση/Σήμανση ως αδιάβαστο"
+msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως αδιάβαστο"
 
 #: src/mainwindow.c:711
 msgid "/_Message/_Mark/Mark as rea_d"
-msgstr "/Mήνυμα/Σήμανση/Σήμανση ως διαβασμένο"
+msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως διαβασμένο"
 
 #: src/mainwindow.c:713
 #, fuzzy
@@ -5327,7 +5305,7 @@ msgstr "Σήμανση Όλων ως Αναγνωσμ_ένα"
 #: src/mainwindow.c:715
 #: src/messageview.c:289
 msgid "/_Message/Re-_edit"
-msgstr "/Μήνυμα/Επαν-επεξεργασία"
+msgstr "/_Μήνυμα/Επαν-επεξεργασία"
 
 #: src/mainwindow.c:718
 #, fuzzy
