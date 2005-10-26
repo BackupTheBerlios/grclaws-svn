@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-16 16:15+0300\n"
-"PO-Revision-Date: 2005-10-25 19:57+0200\n"
+"PO-Revision-Date: 2005-10-26 21:46+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -631,7 +631,7 @@ msgstr "Διαγραφή καταλόγου"
 #: src/addressbook.c:2465
 #, fuzzy
 msgid "_Folder only"
-msgstr "Μόνο Invite"
+msgstr "Μόνο _Φάκελος"
 
 #: src/addressbook.c:2465
 #, fuzzy
@@ -683,7 +683,7 @@ msgstr ""
 #: src/addressbook.c:3329
 #, fuzzy
 msgid "Addressbook conversion error"
-msgstr "Σφάλμα κατά τη μετατροπή: %s"
+msgstr "Σφάλμα κατά τη μετατροπή του βιβλίου διευθύνσεων"
 
 #: src/addressbook.c:3367
 #, fuzzy
@@ -745,9 +745,8 @@ msgid "Folder"
 msgstr "Κατάλογος"
 
 #: src/addressbook.c:4119
-#, fuzzy
 msgid "vCard"
-msgstr "VCard για %s"
+msgstr ""
 
 #: src/addressbook.c:4135
 #: src/addressbook.c:4151
@@ -951,15 +950,13 @@ msgid "This module is for Sylpheed-Claws GTK1."
 msgstr "Αυτό το άρθρωμα είναι για το Sylpheed-Claws GTK1."
 
 #: src/common/smtp.c:168
-#, fuzzy
 msgid "SMTP AUTH not available\n"
-msgstr "Ο επεξεργαστής κατηγορίας δεν είναι διαθέσιμος."
+msgstr "Το SMTP AUTH δεν είναι διαθέσιμο\n"
 
 #: src/common/smtp.c:503
 #: src/common/smtp.c:553
-#, fuzzy
 msgid "bad SMTP response\n"
-msgstr "Εσφαλμένη απάντηση πιστοποίησης από τον διακομιστή."
+msgstr "Εσφαλμένη απάντηση SMTP\n"
 
 #: src/common/smtp.c:524
 #: src/common/smtp.c:542
@@ -981,9 +978,8 @@ msgstr "Το μήνυμα είναι πολύ μεγάλο (Το μέγιστο μέγεθος είναι %s)\n"
 
 #: src/common/smtp.c:620
 #: src/pop.c:834
-#, fuzzy
 msgid "can't start TLS session\n"
-msgstr "Το Evolution δε μπόρεσε να ξεκινήσει."
+msgstr "δεν ήταν δυνατό να ξεκινήσει συνεδρία TLS\n"
 
 #: src/common/ssl.c:136
 #, fuzzy
@@ -1740,9 +1736,8 @@ msgstr "Αποθήκευση της αναφοράς στο..."
 
 #: src/compose.c:5053
 #: src/prefs_filtering_action.c:450
-#, fuzzy
 msgid "Select ..."
-msgstr "Επιλο_γή"
+msgstr "Επιλογή ..."
 
 #: src/compose.c:5186
 #: src/compose.c:6240
@@ -1764,9 +1759,8 @@ msgstr "Συνημμένα"
 
 #. Others Tab
 #: src/compose.c:5254
-#, fuzzy
 msgid "Others"
-msgstr "Άλλοι"
+msgstr "Άλλα"
 
 #: src/compose.c:5269
 #: src/headerview.c:55
@@ -1786,7 +1780,6 @@ msgstr "Θέμα:"
 #: src/gtk/gtkaspell.c:2363
 #: src/prefs_account.c:628
 #: src/summaryview.c:4393
-#, fuzzy
 msgid "None"
 msgstr "Κανένα"
 
@@ -2155,15 +2148,13 @@ msgid "File does not appear to be JPilot format."
 msgstr "Το αρχείο '%s' δε φαίνεται να είναι μια έγκυρη εικόνα."
 
 #: src/editjpilot.c:212
-#, fuzzy
 msgid "Select JPilot File"
-msgstr "Επιλογή ενός Αρχείου Εικόνας"
+msgstr "Επιλογή Αρχείου JPilot"
 
 #: src/editjpilot.c:248
 #: src/editjpilot.c:378
-#, fuzzy
 msgid "Edit JPilot Entry"
-msgstr "Επεξεργασία καταχώρησης λίστας"
+msgstr "Επεξεργασία Καταχώρησης JPilot"
 
 #: src/editjpilot.c:289
 #: src/editldap.c:479
@@ -2223,9 +2214,8 @@ msgstr ""
 
 #: src/editldap_basedn.c:298
 #: src/editldap.c:267
-#, fuzzy
 msgid "Could not connect to server"
-msgstr "Δεν είναι δυνατή η σύνδεση στον διακομιστή %s: %s"
+msgstr "Δεν είναι δυνατή η σύνδεση στον διακομιστή"
 
 #: src/editldap.c:148
 #, fuzzy
@@ -2264,9 +2254,8 @@ msgid "The port number that the server listens on. Port 389 is the default."
 msgstr ""
 
 #: src/editldap.c:451
-#, fuzzy
 msgid " Check Server "
-msgstr "Πληροφορίες Διακομιστή"
+msgstr " Έλεγχος Διακομιστή"
 
 #: src/editldap.c:456
 msgid "Press this button to test the connection to the server."
@@ -2296,7 +2285,7 @@ msgstr ""
 #: src/editldap.c:549
 #, fuzzy
 msgid " Defaults "
-msgstr "Προεπιλογές"
+msgstr " Προκαθορισμένα"
 
 #: src/editldap.c:554
 msgid "This resets the attribute names to a default value that should find most names and addresses during a name or address search process."
@@ -2378,9 +2367,8 @@ msgid "Extended"
 msgstr "Εκτεταμένο"
 
 #: src/editldap.c:972
-#, fuzzy
 msgid "Add New LDAP Server"
-msgstr "Επανασύνδεση με τον διακομιστή LDAP..."
+msgstr "Προσθήκη Νέου Διακομιστή LDAP"
 
 #: src/editvcard.c:104
 #, fuzzy
@@ -2388,20 +2376,17 @@ msgid "File does not appear to be vCard format."
 msgstr "Το αρχείο '%s' δε φαίνεται να είναι μια έγκυρη εικόνα."
 
 #: src/editvcard.c:116
-#, fuzzy
 msgid "Select vCard File"
-msgstr "Επιλογή ενός Αρχείου Εικόνας"
+msgstr "Επιλογή Αρχείου vCard"
 
 #: src/editvcard.c:161
 #: src/editvcard.c:266
-#, fuzzy
 msgid "Edit vCard Entry"
-msgstr "Επεξεργασία καταχώρησης λίστας"
+msgstr "Επεξεργασία καταχώρησης vCard"
 
 #: src/editvcard.c:271
-#, fuzzy
 msgid "Add New vCard Entry"
-msgstr "Προσθήκη νέας καταχώρησης λίστας"
+msgstr "Προσθήκη Νέας Καταχώρησης vCard"
 
 #: src/exphtmldlg.c:112
 msgid "Please specify output directory and file to create."
@@ -2502,19 +2487,16 @@ msgid "Custom-4"
 msgstr "Προσαρμοσμένο-4"
 
 #: src/exphtmldlg.c:512
-#, fuzzy
 msgid "Full Name Format"
-msgstr "Μορφή ώρας καταγραφής:"
+msgstr "Πλήρης Μορφή Ονόματος"
 
 #: src/exphtmldlg.c:519
-#, fuzzy
 msgid "First Name, Last Name"
-msgstr "Εισάγετε το επώνυμο σας"
+msgstr "Όνομα, Επώνυμο"
 
 #: src/exphtmldlg.c:525
-#, fuzzy
 msgid "Last Name, First Name"
-msgstr "Εισάγετε το όνομα σας"
+msgstr "Επώνυμο, Όνομα"
 
 #: src/exphtmldlg.c:539
 #, fuzzy
@@ -2527,9 +2509,8 @@ msgid "Format E-Mail Links"
 msgstr "Κατάλογοι σε φορμά ΜΗ"
 
 #: src/exphtmldlg.c:551
-#, fuzzy
 msgid "Format User Attributes"
-msgstr "γνωρίσματα στο caret"
+msgstr ""
 
 #: src/exphtmldlg.c:606
 #: src/expldifdlg.c:636
@@ -2782,9 +2763,8 @@ msgid "Moving %s to %s...\n"
 msgstr "Μετακίνηση μηνυμάτων στο %s"
 
 #: src/folder.c:3481
-#, fuzzy
 msgid "Processing messages..."
-msgstr "Προκαθορισμένα μηνύματα"
+msgstr "Επεξεργασία μηνυμάτων..."
 
 #: src/foldersel.c:218
 msgid "Select folder"
@@ -2836,9 +2816,8 @@ msgid "/Process_ing..."
 msgstr "Αριθμός Διεργασίας:"
 
 #: src/folderview.c:288
-#, fuzzy
 msgid "/------"
-msgstr "/---"
+msgstr ""
 
 #: src/folderview.c:289
 #, fuzzy
@@ -2938,9 +2917,8 @@ msgid "Do you really want to make folder '%s' a sub-folder of '%s' ?"
 msgstr "Θέλετε πράγματι να διαγραφεί αυτή η κεφαλίδα;"
 
 #: src/folderview.c:2201
-#, fuzzy
 msgid "Move folder"
-msgstr "Μετακίνηση σε Φάκελο"
+msgstr "Μετακίνηση φακέλου"
 
 #: src/folderview.c:2213
 #, fuzzy, c-format
@@ -3317,9 +3295,8 @@ msgid "Extended symbols"
 msgstr "Μέτρηση συμβόλων"
 
 #: src/gtk/quicksearch.c:222
-#, fuzzy
 msgid "all messages"
-msgstr "Επιλογή όλων των μηνυμάτων που εμφανίζονται"
+msgstr "όλα τα μηνύματα"
 
 #: src/gtk/quicksearch.c:223
 msgid "messages whose age is greater than #"
@@ -8695,7 +8672,7 @@ msgstr ""
 
 #: src/prefs_summaries.c:158
 msgid "the last two digits of a year"
-msgstr ""
+msgstr "τα δύο τελευταία ψηφία του έτους"
 
 #: src/prefs_summaries.c:159
 msgid "the year as a decimal number"
@@ -10146,7 +10123,7 @@ msgstr "Επεξεργασία με εξωτερικό πρόγραμμα"
 #: src/toolbar.c:184
 #: src/toolbar.c:1605
 msgid "Wrap long lines of current paragraph"
-msgstr ""
+msgstr "Αναδίπλωση μακρών γραμμών της τρέχουσας παραγράφου"
 
 #: src/toolbar.c:185
 #: src/toolbar.c:1611
@@ -10352,6 +10329,13 @@ msgid ""
 "mail parameters; so that you can begin to use\n"
 "Sylpheed-Claws in less than five minutes."
 msgstr ""
+"Καλωσήλθατε στο Sylpheed-Claws.\n"
+"\n"
+"Φαίνεται πως είναι η πρώτη φορά που χρησιμοποιείτε \n"
+"το Sylpheed-Claws. Θα ρυθμίσουμε μερικές βασικές πληροφορίες\n"
+"για εσάς και των ρυθμίσεων αλληλογραφίας σας. Θα μπορέσετε\n"
+"έτσι να αρχίσετε να χρησιμοποιείτε το Sylpheed-Claws\n"
+"σε λιγότερο από πέντε λεπτά."
 
 #. user page: 1
 #: src/wizard.c:663
@@ -10388,6 +10372,9 @@ msgid ""
 "\n"
 "Click Save to start."
 msgstr ""
+"Τώρα μπορείτε να εκτελέσετε το Sylpheed-Claws.\n"
+"\n"
+"Επιλέξτε Αποθήκευση για να ξεκινήσετε."
 
 #, fuzzy
 #~ msgid "Check"
