@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-10-29 19:50+0200\n"
+"PO-Revision-Date: 2005-10-29 23:26+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -1097,15 +1097,15 @@ msgstr "/_Ιδιότητες..."
 #: src/mainwindow.c:675
 #: src/messageview.c:272
 msgid "/_Message"
-msgstr "/Μήνυμα"
+msgstr "/_Μήνυμα"
 
 #: src/compose.c:511
 msgid "/_Message/_Send"
-msgstr "/Μήνυμα/Αποστολή"
+msgstr "/_Μήνυμα/_Αποστολή"
 
 #: src/compose.c:513
 msgid "/_Message/Send _later"
-msgstr "/Μήνυμα/Αποστολή αργότερα"
+msgstr "/_Μήνυμα/Αποστο_λή αργότερα"
 
 #: src/compose.c:515
 #: src/compose.c:519
@@ -1119,40 +1119,35 @@ msgstr "/Μήνυμα/Αποστολή αργότερα"
 #: src/messageview.c:283
 #: src/messageview.c:288
 msgid "/_Message/---"
-msgstr "/Μήνυμα/---"
+msgstr "/_Μήνυμα/---"
 
 #: src/compose.c:516
-#, fuzzy
 msgid "/_Message/_Attach file"
-msgstr "Δεν είναι δυνατή η επισύναψη του αρχείου %s: %s"
+msgstr "/_Μήνυμα/Επισύναψη αρχείου"
 
 #: src/compose.c:517
-#, fuzzy
 msgid "/_Message/_Insert file"
-msgstr "Εισαγωγή: Αρχείο HTML"
+msgstr "/_Μήνυμα/Εισαγωγή αρχείου"
 
 #: src/compose.c:518
-#, fuzzy
 msgid "/_Message/Insert si_gnature"
-msgstr "/Αρχείο/Εισαγωγή υπογραφής"
+msgstr "/_Μήνυμα/Εισαγωγή υπογραφής"
 
 #: src/compose.c:520
-#, fuzzy
 msgid "/_Message/_Save"
-msgstr "_Αποθήκευση Μηνύματος"
+msgstr "/_Μήνυμα/_Αποθήκευση"
 
 #: src/compose.c:523
-#, fuzzy
 msgid "/_Message/_Close"
-msgstr "Κλείσιμο Σελίδας"
+msgstr "/_Μήνυμα/_Κλείσιμο"
 
 #: src/compose.c:526
 msgid "/_Edit/_Undo"
-msgstr "/Επεξεργασία/Αναίρεση"
+msgstr "/_Επεξεργασία/Αναίρεση"
 
 #: src/compose.c:527
 msgid "/_Edit/_Redo"
-msgstr "/Επεξεργασία/Επανάληψη"
+msgstr "/_Επεξεργασία/Επανάληψη"
 
 #: src/compose.c:528
 #: src/compose.c:616
@@ -1160,36 +1155,33 @@ msgstr "/Επεξεργασία/Επανάληψη"
 #: src/mainwindow.c:476
 #: src/messageview.c:165
 msgid "/_Edit/---"
-msgstr "/Επεξεργασία/---"
+msgstr "/_Επεξεργασία/---"
 
 #: src/compose.c:529
 msgid "/_Edit/Cu_t"
-msgstr "/Επεξεργασία/Αποκοπή"
+msgstr "/_Επεξεργασία/Αποκοπή"
 
 #: src/compose.c:530
 #: src/mainwindow.c:473
 #: src/messageview.c:163
 msgid "/_Edit/_Copy"
-msgstr "/Επεξεργασία/Αντιγραφή"
+msgstr "/_Επεξεργασία/Αντιγραφή"
 
 #: src/compose.c:531
 msgid "/_Edit/_Paste"
-msgstr "/Επεξεργασία/Επικόλληση"
+msgstr "/_Επεξεργασία/Επικόλληση"
 
 #: src/compose.c:532
-#, fuzzy
 msgid "/_Edit/Special paste"
-msgstr "Επικόλληση από το πρόχειρο"
+msgstr "/_Επεξεργασία/Ειδική επικόλληση"
 
 #: src/compose.c:533
-#, fuzzy
 msgid "/_Edit/Special paste/as _quotation"
-msgstr "/Επεξεργασία/Επικόλληση"
+msgstr "/_Επεξεργασία/Ειδική επικόλληση/ως παράθεση"
 
 #: src/compose.c:535
-#, fuzzy
 msgid "/_Edit/Special paste/_wrapped"
-msgstr "/Επεξεργασία/Επιλογή όλων"
+msgstr "/_Επεξεργασία/Ειδική επικόλληση/_αναδιπλωμένο"
 
 #: src/compose.c:537
 msgid "/_Edit/Special paste/_unwrapped"
@@ -1199,12 +1191,11 @@ msgstr ""
 #: src/mainwindow.c:474
 #: src/messageview.c:164
 msgid "/_Edit/Select _all"
-msgstr "/Επεξεργασία/Επιλογή όλων"
+msgstr "/_Επεξεργασία/Επιλογή όλων"
 
 #: src/compose.c:540
-#, fuzzy
 msgid "/_Edit/A_dvanced"
-msgstr "ΔΙΟΡΘΩΣΕ ΜΕ"
+msgstr "/_Επεξεργασία/Ειδική"
 
 #: src/compose.c:541
 msgid "/_Edit/A_dvanced/Move a character backward"
@@ -1267,28 +1258,24 @@ msgid "/_Edit/A_dvanced/Delete to end of line"
 msgstr ""
 
 #: src/compose.c:617
-#, fuzzy
 msgid "/_Edit/_Wrap current paragraph"
-msgstr "Μετατροπή της τρέχουσας παραγράφου σε διεύθυνση"
+msgstr "/_Επεξεργασία/Αναδίπλωση τρέχουσας παραγράφου"
 
 #: src/compose.c:619
-#, fuzzy
 msgid "/_Edit/Wrap all long _lines"
-msgstr "/Επεξεργασία/Αναδίπλωση μακριών γραμμών"
+msgstr "/Επεξεργασία/Αναδίπλωση μακρών γραμμών"
 
 #: src/compose.c:621
-#, fuzzy
 msgid "/_Edit/Aut_o wrapping"
-msgstr "Κατάσταση Αναδίπλωσης Γραμμών"
+msgstr "/Επεξεργασία/Αυτόματη αναδίπλωση"
 
 #: src/compose.c:623
 msgid "/_Edit/Edit with e_xternal editor"
-msgstr "/Επεξεργασία/Επεξεργασία με εξωτερικό πρόγραμμα"
+msgstr "/_Επεξεργασία/Επεξεργασία με εξωτερικό πρόγραμμα"
 
 #: src/compose.c:626
-#, fuzzy
 msgid "/_Spelling"
-msgstr "_Συμβουλές ορθογραφίας..."
+msgstr "/_Ορθογραφία"
 
 #: src/compose.c:627
 msgid "/_Spelling/_Check all or check selection"
@@ -1307,14 +1294,12 @@ msgid "/_Spelling/_Forward to next misspelled word"
 msgstr ""
 
 #: src/compose.c:635
-#, fuzzy
 msgid "/_Spelling/---"
-msgstr "_Συμβουλές ορθογραφίας..."
+msgstr "/_Ορθογραφία/---"
 
 #: src/compose.c:636
-#, fuzzy
 msgid "/_Spelling/_Spelling Configuration"
-msgstr "Ρύθμιση Aλληλογραφίας"
+msgstr "/_Ορθογραφία/Ρυθμίσεις"
 
 #: src/compose.c:639
 msgid "/_Options"
@@ -1368,24 +1353,20 @@ msgid "/_Options/Priority/_Lowest"
 msgstr "/Ε_πιλογές/_Προτεραιότητα/Χαμηλότερη"
 
 #: src/compose.c:652
-#, fuzzy
 msgid "/_Options/_Request Return Receipt"
-msgstr "/Μήνυμα/Διαγραφή"
+msgstr "/Ε_πιλογές/Βεβαίωση Ανάγνωσης"
 
 #: src/compose.c:654
-#, fuzzy
 msgid "/_Options/Remo_ve references"
-msgstr "/Ρυθμίσεις/Κοινές επιλογές..."
+msgstr "/Ε_πιλογές/Αφαίρεση παραπομπ_ών"
 
 #: src/compose.c:661
-#, fuzzy
 msgid "/_Options/Character _encoding"
-msgstr "Ορισμός κωδικοποίησης  _χαρακτήρων"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων"
 
 #: src/compose.c:662
-#, fuzzy
 msgid "/_Options/Character _encoding/_Automatic"
-msgstr "Κωδικοποίηση χαρακτήρων του συνδεδεμένου πόρου"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/_Αυτόματη"
 
 #: src/compose.c:664
 #: src/compose.c:670
@@ -1399,49 +1380,40 @@ msgstr "Κωδικοποίηση χαρακτήρων του συνδεδεμέ�
 #: src/compose.c:714
 #: src/compose.c:724
 #: src/compose.c:728
-#, fuzzy
 msgid "/_Options/Character _encoding/---"
-msgstr "Ορισμός κωδικοποίησης  _χαρακτήρων"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/---"
 
 #: src/compose.c:666
-#, fuzzy
 msgid "/_Options/Character _encoding/7bit ascii (US-ASC_II)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/7bit ascii (US-ASC_II)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/7bit ascii (US-ASC_II)"
 
 #: src/compose.c:668
-#, fuzzy
 msgid "/_Options/Character _encoding/Unicode (_UTF-8)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Unicode (_UTF-8)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Unicode (_UTF-8)"
 
 #: src/compose.c:672
-#, fuzzy
 msgid "/_Options/Character _encoding/Western European (ISO-8859-_1)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Δυτικής Ευρώπης (ISO-8859-_1)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_1)"
 
 #: src/compose.c:674
-#, fuzzy
 msgid "/_Options/Character _encoding/Western European (ISO-8859-15)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Δυτικής Ευρώπης (ISO-8859-_1)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_15)"
 
 #: src/compose.c:678
-#, fuzzy
 msgid "/_Options/Character _encoding/Central European (ISO-8859-_2)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κεντρικής Ευρώπης (ISO-8859-_2)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κεντρικής Ευρώπης (ISO-8859-_2)"
 
 #: src/compose.c:682
-#, fuzzy
 msgid "/_Options/Character _encoding/_Baltic (ISO-8859-13)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Βαλτικής (ISO-8859-13)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/_Βαλτικής (ISO-8859-13)"
 
 #: src/compose.c:684
-#, fuzzy
 msgid "/_Options/Character _encoding/Baltic (ISO-8859-_4)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Βαλτικής (ISO-8859-_4)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Βαλτικής (ISO-8859-_4)"
 
 #: src/compose.c:688
-#, fuzzy
 msgid "/_Options/Character _encoding/Greek (ISO-8859-_7)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Ελληνικό (ISO-8859-_7)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ελληνική (ISO-8859-_7)"
 
 #: src/compose.c:692
 msgid "/_Options/Character _encoding/Hebrew (ISO-8859-_8)"
@@ -1452,69 +1424,56 @@ msgid "/_Options/Character _encoding/Hebrew (Windows-1255)"
 msgstr ""
 
 #: src/compose.c:698
-#, fuzzy
 msgid "/_Options/Character _encoding/Turkish (ISO-8859-_9)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Τουρκικό (ISO-8859-_9)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Τούρκικη (ISO-8859-_9)"
 
 #: src/compose.c:702
-#, fuzzy
 msgid "/_Options/Character _encoding/Cyrillic (ISO-8859-_5)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κυριλλικό (ISO-8859-_5)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (ISO-8859-_5)"
 
 #: src/compose.c:704
-#, fuzzy
 msgid "/_Options/Character _encoding/Cyrillic (KOI8-_R)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κυριλλικό (KOI8-_R)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (KOI8-_R)"
 
 #: src/compose.c:706
-#, fuzzy
 msgid "/_Options/Character _encoding/Cyrillic (KOI8-U)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κυριλλικό (KOI8-_R)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (KOI8-_R)"
 
 #: src/compose.c:708
-#, fuzzy
 msgid "/_Options/Character _encoding/Cyrillic (Windows-1251)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κυριλλικό (Windows-1251)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (Windows-1251)"
 
 #: src/compose.c:712
-#, fuzzy
 msgid "/_Options/Character _encoding/Japanese (ISO-2022-_JP)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Ιαπωνέζικο (ISO-2022-_JP)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
 
 #: src/compose.c:716
-#, fuzzy
 msgid "/_Options/Character _encoding/Simplified Chinese (_GB2312)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Απλοποιημένο Κινεζικό (_GB2312)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
 
 #: src/compose.c:718
-#, fuzzy
 msgid "/_Options/Character _encoding/Simplified Chinese (GBK)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Απλοποιημένο Κινεζικό (_GB2312)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
 
 #: src/compose.c:720
-#, fuzzy
 msgid "/_Options/Character _encoding/Traditional Chinese (_Big5)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Παραδοσιακό Κινεζικό (_Big5)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Απλοποιημένη Κινέζικη (_Big5)"
 
 #: src/compose.c:722
-#, fuzzy
 msgid "/_Options/Character _encoding/Traditional Chinese (EUC-_TW)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Παραδοσιακό Κινεζικό (EUC-_TW)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Παραδοσιακή Κινέζικη (EUC-_TW)"
 
 #: src/compose.c:726
-#, fuzzy
 msgid "/_Options/Character _encoding/Korean (EUC-_KR)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κορεάτικο (EUC-_KR)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κορεάτικη (EUC-_KR)"
 
 #: src/compose.c:730
-#, fuzzy
 msgid "/_Options/Character _encoding/Thai (TIS-620)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κινεζικό (ISO-2022-_CN)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ταϊλανδέζικα (TIS-620)"
 
 #: src/compose.c:732
-#, fuzzy
 msgid "/_Options/Character _encoding/Thai (Windows-874)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κυριλλικό (Windows-1251)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ταϊλανδέζικα (Windows-874)"
 
 #: src/compose.c:736
 #, fuzzy
@@ -2039,16 +1998,14 @@ msgstr "Δεν ήταν δυνατή η ανάγνωση του αρχείου �
 
 #: src/editbook.c:153
 #: src/editbook.c:266
-#, fuzzy
 msgid "Edit Addressbook"
-msgstr "βιβλίο διευθύνσεων του evolution"
+msgstr "Επεξεργασία Βιβλίου Διευθύνσεων"
 
 #: src/editbook.c:182
 #: src/editjpilot.c:277
 #: src/editvcard.c:190
-#, fuzzy
 msgid " Check File "
-msgstr "Αποστολή Αρχείου"
+msgstr " Έλεγχος Αρχείου"
 
 #: src/editbook.c:187
 #: src/editjpilot.c:282
@@ -2155,7 +2112,6 @@ msgstr "Επεξεργασία Καταχώρησης JPilot"
 #: src/plugins/spamassassin/spamassassin_gtk.c:336
 #: src/prefs_account.c:1864
 #: src/prefs_spelling.c:246
-#, fuzzy
 msgid "_Browse"
 msgstr "_Περιήγηση"
 
@@ -2175,7 +2131,6 @@ msgstr ""
 
 #: src/editldap_basedn.c:163
 #: src/editldap.c:413
-#, fuzzy
 msgid "Hostname"
 msgstr "Όνομα Διακομιστή"
 
@@ -2187,14 +2142,12 @@ msgstr "Θύρα"
 
 #: src/editldap_basedn.c:183
 #: src/editldap.c:461
-#, fuzzy
 msgid "Search Base"
-msgstr "_Βάση αναζήτησης:"
+msgstr "Βάση Αναζήτησης"
 
 #: src/editldap_basedn.c:204
-#, fuzzy
 msgid "Available Search Base(s)"
-msgstr "Base 10 log [G]"
+msgstr "Διαθέσιμες Βάσεις Αναζήτησης"
 
 #: src/editldap_basedn.c:294
 msgid "Could not read Search Base(s) from server - please set manually"
@@ -2206,9 +2159,8 @@ msgid "Could not connect to server"
 msgstr "Δεν είναι δυνατή η σύνδεση στον διακομιστή"
 
 #: src/editldap.c:148
-#, fuzzy
 msgid "A Name must be supplied."
-msgstr "Το όνομα θέματος πρέπει να υπάρχει"
+msgstr "Θα πρέπει να οριστεί ένα όνομα"
 
 #: src/editldap.c:160
 msgid "A Hostname must be supplied for the server."
@@ -3088,11 +3040,12 @@ msgid ""
 msgstr ""
 
 #: src/gtk/about.c:412
-#, fuzzy
 msgid ""
 "\n"
 "Icons\n"
-msgstr "Εικονίδιο"
+msgstr ""
+"\n"
+"Εικονίδια\n"
 
 #: src/gtk/about.c:432
 msgid ""
@@ -3122,11 +3075,12 @@ msgstr ""
 "\n"
 
 #: src/gtk/about.c:487
-#, fuzzy
 msgid ""
 "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
 "\n"
-msgstr "Θα πρέπει να έχετε λάβει ένα αντίτυπο της άδειας αυτής μαζί με αυτό το πρόγραμμα. Εάν όχι, γράψτε στο Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation) στη διεύθυνση Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"Θα πρέπει να έχετε λάβει ένα αντίτυπο της άδειας αυτής μαζί με αυτό το πρόγραμμα. Εάν όχι, γράψτε στο Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation) στη διεύθυνση Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
+"\n"
 
 #: src/gtk/about.c:497
 msgid "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit ("
@@ -3190,16 +3144,14 @@ msgid "Folders"
 msgstr "Φάκελοι"
 
 #: src/gtk/gtkaspell.c:607
-#, fuzzy
 msgid "No dictionary selected."
-msgstr "<i>Δεν επιλέχθηκαν εφαρμογές</i>"
+msgstr "Δεν επιλέχθηκε λεξικό."
 
 #: src/gtk/gtkaspell.c:831
 #: src/gtk/gtkaspell.c:1796
 #: src/gtk/gtkaspell.c:2126
-#, fuzzy
 msgid "Normal Mode"
-msgstr "/Αναλυτής/Κανονικός"
+msgstr "Κανονική Λειτουργία"
 
 #: src/gtk/gtkaspell.c:833
 #: src/gtk/gtkaspell.c:1802
@@ -4393,30 +4345,32 @@ msgid "Connection to %s:%d closed by the remote host."
 msgstr ""
 
 #: src/inc.c:1151
-#, fuzzy
 msgid "Mailbox is locked."
-msgstr "Ο πόρος είναι κλειδωμένος"
+msgstr "Το γραμματοκιβώτιο είναι κλειδωμένο."
 
 #: src/inc.c:1155
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Mailbox is locked:\n"
 "%s"
-msgstr "Ο πόρος είναι κλειδωμένος"
+msgstr ""
+"Το γραμματοκιβώτιο είναι κλειδωμένο:\n"
+"%s"
 
 #: src/inc.c:1161
 #: src/send_message.c:550
-#, fuzzy
 msgid "Authentication failed."
 msgstr "Η πιστοποίηση απέτυχε."
 
 #: src/inc.c:1166
 #: src/send_message.c:553
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Authentication failed:\n"
 "%s"
-msgstr "Η πιστοποίηση απέτυχε"
+msgstr ""
+"Η πιστοποίηση απέτυχε:\n"
+"%s"
 
 #: src/inc.c:1171
 #: src/send_message.c:569
@@ -4451,9 +4405,8 @@ msgid "On_ly once"
 msgstr "Εμφάνιση του μηνύματος απουσίας μια φορά"
 
 #: src/ldif.c:839
-#, fuzzy
 msgid "Nick Name"
-msgstr "Ψευδώνυμο(_N):"
+msgstr "Ψευδώνυμο"
 
 #: src/main.c:171
 #, fuzzy, c-format
@@ -4568,9 +4521,9 @@ msgstr "  --version              εμφάνιση της έκδοσης και �
 
 #: src/main.c:766
 #: src/summaryview.c:5422
-#, fuzzy, c-format
+#, c-format
 msgid "Processing (%s)..."
-msgstr "Επεξεργασία"
+msgstr "Επεξεργασία (%s)..."
 
 #: src/main.c:769
 #, fuzzy
@@ -5786,9 +5739,8 @@ msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
 
 #: src/messageview.c:438
 #: src/messageview.c:778
-#, fuzzy
 msgid "Sylpheed - Message View"
-msgstr "Προεπισκόπηση Ε_κτύπωσης"
+msgstr "Sylpheed - Προβολή Μηνύματος"
 
 #: src/messageview.c:543
 #, fuzzy
@@ -6239,9 +6191,8 @@ msgid ""
 msgstr ""
 
 #: src/plugins/demo/demo.c:74
-#, fuzzy
 msgid "Demo"
-msgstr "/Διαγραφή"
+msgstr ""
 
 #: src/plugins/demo/demo.c:79
 msgid ""
@@ -9125,9 +9076,8 @@ msgid "Actions"
 msgstr "Ενέργειες"
 
 #: src/prefs_themes.c:1024
-#, fuzzy
 msgid "Use this"
-msgstr "Χρήση ακύρωσης"
+msgstr "Χρήση"
 
 #: src/prefs_themes.c:1029
 msgid "Remove"
