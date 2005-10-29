@@ -8,12 +8,13 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-10-27 23:31+0200\n"
+"PO-Revision-Date: 2005-10-29 19:50+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/account.c:371
 msgid ""
@@ -1163,7 +1164,7 @@ msgstr "/Επεξεργασία/---"
 
 #: src/compose.c:529
 msgid "/_Edit/Cu_t"
-msgstr "/Επεξεργασία/Κοπή"
+msgstr "/Επεξεργασία/Αποκοπή"
 
 #: src/compose.c:530
 #: src/mainwindow.c:473
@@ -1316,67 +1317,55 @@ msgid "/_Spelling/_Spelling Configuration"
 msgstr "Ρύθμιση Aλληλογραφίας"
 
 #: src/compose.c:639
-#, fuzzy
 msgid "/_Options"
 msgstr "/Ε_πιλογές"
 
 #: src/compose.c:640
-#, fuzzy
 msgid "/_Options/Privacy System"
-msgstr "Άγνωστο σφάλμα συστήματος."
+msgstr "/Ε_πιλογές/Προστασία Ιδιωτικού Απορρήτου"
 
 #: src/compose.c:641
-#, fuzzy
 msgid "/_Options/Privacy System/None"
-msgstr "Κα_νένα (χρήση θέματος συστήματος)"
+msgstr "/Ε_πιλογές/Προστασία Ιδιωτικού Απορρήτου/Κανένα"
 
 #: src/compose.c:642
-#, fuzzy
 msgid "/_Options/Si_gn"
-msgstr "Αρχικό _Μέγεθος"
+msgstr "/Ε_πιλογές/_Υπογραφή"
 
 #: src/compose.c:643
-#, fuzzy
 msgid "/_Options/_Encrypt"
-msgstr "Κρυπτογράφηση PGP"
+msgstr "/Ε_πιλογές/_Κρυπτογράφηση"
 
 #: src/compose.c:644
 #: src/compose.c:651
 #: src/compose.c:653
 #: src/compose.c:655
-#, fuzzy
 msgid "/_Options/---"
-msgstr "Επιλογές"
+msgstr "/Ε_πιλογές/---"
 
 #: src/compose.c:645
-#, fuzzy
 msgid "/_Options/_Priority"
-msgstr "Προκαθορισμένη Προτεραιότητα:"
+msgstr "/Ε_πιλογές/_Προτεραιότητα"
 
 #: src/compose.c:646
-#, fuzzy
 msgid "/_Options/Priority/_Highest"
-msgstr "Μείωση προτεραιότητας πρόσθετης λειτουργίας"
+msgstr "/Ε_πιλογές/_Προτεραιότητα/Υψηλότερη"
 
 #: src/compose.c:647
-#, fuzzy
 msgid "/_Options/Priority/Hi_gh"
-msgstr "/Μήνυμα/Υπογραφή"
+msgstr "/Ε_πιλογές/_Προτεραιότητα/Υψηλή"
 
 #: src/compose.c:648
-#, fuzzy
 msgid "/_Options/Priority/_Normal"
-msgstr "Χρ_ώμα κανονικού κειμένου:"
+msgstr "/Ε_πιλογές/_Προτεραιότητα/Κανονική"
 
 #: src/compose.c:649
-#, fuzzy
 msgid "/_Options/Priority/Lo_w"
-msgstr "Ενεργοποίηση &καταγραφής"
+msgstr "/Ε_πιλογές/_Προτεραιότητα/Χαμηλή"
 
 #: src/compose.c:650
-#, fuzzy
 msgid "/_Options/Priority/_Lowest"
-msgstr "Μείωση προτεραιότητας πρόσθετης λειτουργίας"
+msgstr "/Ε_πιλογές/_Προτεραιότητα/Χαμηλότερη"
 
 #: src/compose.c:652
 #, fuzzy
@@ -5372,11 +5361,11 @@ msgstr "/_Μήνυμα/Σήμανση/---"
 
 #: src/mainwindow.c:710
 msgid "/_Message/_Mark/Mark as unr_ead"
-msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως αδιάβαστο"
+msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως μη αναγνωσμένο"
 
 #: src/mainwindow.c:711
 msgid "/_Message/_Mark/Mark as rea_d"
-msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως διαβασμένο"
+msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως αναγνωσμένο"
 
 #: src/mainwindow.c:713
 #, fuzzy
@@ -5598,9 +5587,8 @@ msgid "You are offline. Click the icon to go online"
 msgstr "Είστε αποσυνδεδεμένος. Κάντε κλικ στο εικονίδιο για να συνδεθείτε"
 
 #: src/mainwindow.c:965
-#, fuzzy
 msgid "Select account"
-msgstr "Όνομα Λογαριασμού"
+msgstr "Επιλογή λογαριασμού"
 
 #: src/mainwindow.c:1327
 #: src/mainwindow.c:1368
@@ -5614,9 +5602,8 @@ msgid "none"
 msgstr "κανένα"
 
 #: src/mainwindow.c:1660
-#, fuzzy
 msgid "Delete all messages in trash folders?"
-msgstr "Έλεγχος για νέα μηνύματα σε όλους τους φακέλους"
+msgstr "Διαγραφή όλων των μηνυμάτων σε όλους τους φακέλους απορριμμάτων;"
 
 #: src/mainwindow.c:1679
 msgid "Add mailbox"
@@ -5633,9 +5620,9 @@ msgstr ""
 "σαρωθεί αυτόματα."
 
 #: src/mainwindow.c:1686
-#, fuzzy, c-format
+#, c-format
 msgid "The mailbox '%s' already exists."
-msgstr "Το πιστοποιητικό υπάρχει ήδη."
+msgstr "Το γραμματοκιβώτιο '%s' υπάρχει ήδη."
 
 #: src/mainwindow.c:1691
 #: src/setup.c:51
@@ -5652,14 +5639,12 @@ msgstr ""
 "Ίσως κάποια αρχεία να υπάρχουν ήδη, ή δεν έχετε δικαίωμα να γράψετε εκεί. "
 
 #: src/mainwindow.c:2051
-#, fuzzy
 msgid "Sylpheed-Claws - Folder View"
-msgstr "Προβολή του τρέχοντος φακέλου"
+msgstr "Sylpheed-Claws - Προβολή Φακέλων"
 
 #: src/mainwindow.c:2087
-#, fuzzy
 msgid "Sylpheed-Claws - Message View"
-msgstr "Προεπισκόπηση Ε_κτύπωσης"
+msgstr "Sylpheed-Claws - Προβολή Μηνύματος"
 
 #: src/mainwindow.c:2478
 #: src/plugins/trayicon/trayicon.c:366
@@ -5667,14 +5652,12 @@ msgid "Exit"
 msgstr "Έξοδος"
 
 #: src/mainwindow.c:2478
-#, fuzzy
 msgid "Exit Sylpheed-Claws?"
-msgstr "Καλώς ήλθατε στο Sylpheed-Claws."
+msgstr "Έξοδος από το Sylpheed-Claws;"
 
 #: src/mainwindow.c:2630
-#, fuzzy
 msgid "Folder synchronisation"
-msgstr "Φακέλος Προορισμού:"
+msgstr "Συγχρονισμός φακέλων"
 
 #: src/mainwindow.c:2631
 msgid "Do you want to synchronise your folders now?"
