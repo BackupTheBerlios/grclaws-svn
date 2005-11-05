@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-10-30 21:48+0200\n"
+"PO-Revision-Date: 2005-11-05 12:34+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -589,7 +589,7 @@ msgstr "Διαγραφή διεύθυνσης (διευθύνσεων)"
 
 #: src/addressbook.c:1164
 msgid "This address data is readonly and cannot be deleted."
-msgstr ""
+msgstr "Αυτά τα δεδομένα διεύθυνσης είναι μόνο για ανάγνωση και δεν είναι δυνατό να διαγραφούν."
 
 #: src/addressbook.c:1187
 msgid "Really delete the address(es)?"
@@ -645,11 +645,11 @@ msgstr "Αλήθεια να γίνει διαγραφή του φακέλου \"
 
 #: src/addressbook.c:3308
 msgid "New user, could not save index file."
-msgstr ""
+msgstr "Νέος χρήστης, δεν ήταν δυνατή η αποθήκευση του ευρετηρίου."
 
 #: src/addressbook.c:3312
 msgid "New user, could not save address book files."
-msgstr ""
+msgstr "Νέος χρήστης, δεν ήταν δυνατή η αποθήκευση του βιβλίου διευθύνσεων."
 
 #: src/addressbook.c:3322
 msgid "Old address book converted successfully."
@@ -660,24 +660,32 @@ msgid ""
 "Old address book converted,\n"
 "could not save new address index file"
 msgstr ""
+"Το παλιό βιβλίο διευθύνσεων μετατράπηκε επιτυχώς,\n"
+"δεν ήταν δυνατή η αποθήκευση του νέου ευρετηρίου διευθύνσεων"
 
 #: src/addressbook.c:3340
 msgid ""
 "Could not convert address book,\n"
 "but created empty new address book files."
 msgstr ""
+"Δεν ήταν δυνατή η μετατροπή του βιβλίου διευθύνσεων.\n"
+"Δημιουργήθηκε νέο, κενό αρχείο."
 
 #: src/addressbook.c:3346
 msgid ""
 "Could not convert address book,\n"
 "could not create new address book files."
 msgstr ""
+"Δεν ήταν δυνατή η μετατροπή του βιβλίου διευθύνσεων,\n"
+"ούτε η δημιουργία νέου."
 
 #: src/addressbook.c:3351
 msgid ""
 "Could not convert address book\n"
 "and could not create new address book files."
 msgstr ""
+"Δεν ήταν δυνατή η μετατροπή του βιβλίου διευθύνσεων,\n"
+"ούτε η δημιουργία νέου."
 
 #: src/addressbook.c:3358
 #: src/addressbook.c:3364
