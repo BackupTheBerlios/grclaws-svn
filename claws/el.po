@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-11-05 12:34+0200\n"
+"PO-Revision-Date: 2005-11-05 14:45+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -2004,7 +2004,7 @@ msgstr "Ο φάκελος φαίνεται να έχει ανεπανόρθωτ�
 
 #: src/editbook.c:116
 msgid "File does not appear to be a valid address book format."
-msgstr ""
+msgstr "Το αρχείο δεν φαίνεται να είναι έγκυρο ευρετήριο διευθύνσεων."
 
 #: src/editbook.c:119
 #: src/editjpilot.c:203
@@ -2208,7 +2208,7 @@ msgstr ""
 
 #: src/editldap.c:447
 msgid "The port number that the server listens on. Port 389 is the default."
-msgstr ""
+msgstr "Η θύρα που αναμένει συνδέσεις ο διακομιστής. Η προκαθορισμένη είναι η 389."
 
 #: src/editldap.c:451
 msgid " Check Server "
@@ -2773,6 +2773,7 @@ msgstr "Φακέλος Προορισμού:"
 msgid "/Process_ing..."
 msgstr "Αριθμός Διεργασίας:"
 
+# Untranslatable
 #: src/folderview.c:288
 msgid "/------"
 msgstr ""
@@ -2892,11 +2893,11 @@ msgstr "Ο προορισμός και η πηγή είναι το ίδιο αρ
 
 #: src/folderview.c:2174
 msgid "Can't move a folder to one of its children."
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετακίνηση ενός φακέλου μέσα σε έναν υπο-φάκελο του."
 
 #: src/folderview.c:2177
 msgid "Folder moving cannot be done between different mailboxes."
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετακίνηση φακέλων μεταξύ γραμματοκιβωτίων."
 
 #: src/folderview.c:2180
 msgid "Move failed!"
@@ -2977,6 +2978,8 @@ msgid ""
 "GTK+ %d.%d.%d / GLib %d.%d.%d\n"
 "Operating System: %s %s (%s)"
 msgstr ""
+"GTK+ %d.%d.%d / GLib %d.%d.%d\n"
+"Λειτουργικό Σύστημα: %s %s (%s)"
 
 #: src/gtk/about.c:164
 #, c-format
@@ -2984,6 +2987,8 @@ msgid ""
 "GTK+ %d.%d.%d / GLib %d.%d.%d\n"
 "Operating System: %s"
 msgstr ""
+"GTK+ %d.%d.%d / GLib %d.%d.%d\n"
+"Λειτουργικό Σύστημα: %s"
 
 #: src/gtk/about.c:171
 #, c-format
@@ -2991,6 +2996,8 @@ msgid ""
 "GTK+ %d.%d.%d / GLib %d.%d.%d\n"
 "Operating System: unknown"
 msgstr ""
+"GTK+ %d.%d.%d / GLib %d.%d.%d\n"
+"Λειτουργικό Σύστημα: άγνωστο"
 
 #: src/gtk/about.c:184
 #, fuzzy, c-format
@@ -3005,6 +3012,9 @@ msgid ""
 "\n"
 "For further information visit the Sylpheed-Claws website, "
 msgstr ""
+"Το Sylpheed-Claws είναι ένα ελαφρύς, γρήγορος και παραμετροποιήσιμος πελάτης ηλεκτρονικού ταχυδρομείου.\n"
+"\n"
+"Για περισσότερες πληροφορίες επισκεφτείτε την τοποθεσία ιστού του Sylpheed-Claws, "
 
 #: src/gtk/about.c:271
 msgid ""
@@ -3012,6 +3022,9 @@ msgid ""
 "\n"
 "Sylpheed-Claws is free software released under the GPL license. If you wish to donate to the Sylpheed-Claws project you can do so at "
 msgstr ""
+".\n"
+"\n"
+"Το Sylpheed-Claws είναι ελεύθερο λογισμικό που διανέμεται υπό την άδεια χρήσης GPL. Εάν θέλετε να κάνετε μια δωρεά στο έργο αυτό μπορείτε να το κάνετε στο"
 
 #: src/gtk/about.c:280
 msgid ""
@@ -3056,6 +3069,8 @@ msgid ""
 "\n"
 "Logo\n"
 msgstr ""
+"\n"
+"Σήμα\n"
 
 #: src/gtk/about.c:412
 msgid ""
@@ -3070,10 +3085,12 @@ msgid ""
 "\n"
 "Contributors\n"
 msgstr ""
+"\n"
+"Συντελεστές\n"
 
 #: src/gtk/about.c:455
 msgid "Authors"
-msgstr ""
+msgstr "Συγγραφείς"
 
 #: src/gtk/about.c:475
 msgid ""
@@ -3101,7 +3118,7 @@ msgstr ""
 
 #: src/gtk/about.c:497
 msgid "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit ("
-msgstr ""
+msgstr "Αυτό το προϊόν περιλαμβάνει λογισμικό που αναπτύχθηκε από το OpenSSL Project για χρήση στο OpenSSL Toolkit ("
 
 #: src/gtk/about.c:500
 msgid "http://www.openssl.org/"
@@ -3155,6 +3172,8 @@ msgid ""
 "Move folders up or down to change\n"
 "the sort order in the folderview"
 msgstr ""
+"Μετακινήστε τους φακέλους πάνω ή κάτω για να αλλάξετε\n"
+"τη σειρά ταξινόμησης στην προβολή φακέλων"
 
 #: src/gtk/foldersort.c:213
 msgid "Folders"
@@ -3268,6 +3287,8 @@ msgid ""
 "The spell checker could not change dictionary.\n"
 "%s"
 msgstr ""
+"Ο διορθωτής ορθογραφίας δεν μπόρεσε να αλλάξει λεξικό.\n"
+"%s"
 
 #: src/gtk/inputdialog.c:155
 #, c-format
@@ -3354,11 +3375,11 @@ msgstr "μηνύματα νεότερα από #"
 
 #: src/gtk/quicksearch.c:225
 msgid "messages which contain S in the message body"
-msgstr ""
+msgstr "μηνύματα που περιέχουν S στο κυρίως κείμενο του μηνύματος"
 
 #: src/gtk/quicksearch.c:226
 msgid "messages which contain S in the whole message"
-msgstr ""
+msgstr "μηνύματα που περιέχουν S σε ολόκληρο το μήνυμα"
 
 #: src/gtk/quicksearch.c:227
 #, fuzzy
@@ -3377,7 +3398,7 @@ msgstr "διαγραμμένα μηνύματα"
 #. * how I can filter deleted messages *
 #: src/gtk/quicksearch.c:230
 msgid "messages which contain S in the Sender field"
-msgstr ""
+msgstr "μηνύματα που περιέχουν S στην κεφαλίδα Αποστολέας"
 
 #: src/gtk/quicksearch.c:231
 #, fuzzy
@@ -3395,15 +3416,15 @@ msgstr "προωθημένα μηνύματα"
 
 #: src/gtk/quicksearch.c:234
 msgid "messages which contain header S"
-msgstr ""
+msgstr "μηνύματα που περιέχουν την κεφαλίδα S"
 
 #: src/gtk/quicksearch.c:235
 msgid "messages which contain S in Message-ID header"
-msgstr ""
+msgstr "μηνύματα που περιέχουν S στην κεφαλίδα Message-ID"
 
 #: src/gtk/quicksearch.c:236
 msgid "messages which contain S in inreplyto header"
-msgstr ""
+msgstr "μηνύματα που περιέχουν S στην κεφαλίδα απάντηση-σε"
 
 #: src/gtk/quicksearch.c:237
 #, fuzzy
@@ -3426,7 +3447,7 @@ msgstr "Προκαθορισμένα μηνύματα"
 
 #: src/gtk/quicksearch.c:241
 msgid "incomplete messages (not entirely downloaded)"
-msgstr ""
+msgstr "ημιτελή μηνύματα (που δεν έχουν ληφθεί ολόκληρα)"
 
 #: src/gtk/quicksearch.c:242
 #, fuzzy
@@ -3445,7 +3466,7 @@ msgstr "Προεπιλεγμένη κωδικοποίηση χαρακτήρων
 
 #: src/gtk/quicksearch.c:245
 msgid "messages whose score is equal to #"
-msgstr ""
+msgstr "μηνύματα με σκορ ίσο με #"
 
 #: src/gtk/quicksearch.c:246
 #, fuzzy
@@ -3459,7 +3480,7 @@ msgstr "μηνύματα παλαιότερα από #"
 
 #: src/gtk/quicksearch.c:248
 msgid "messages whose size is equal to #"
-msgstr ""
+msgstr "μηνύματα με μέγεθος ίσο με #"
 
 #: src/gtk/quicksearch.c:249
 #, fuzzy
@@ -3488,7 +3509,7 @@ msgstr "Προκαθορισμένα μηνύματα"
 
 #: src/gtk/quicksearch.c:254
 msgid "messages which contain S in References header"
-msgstr ""
+msgstr "μηνύματα που περιέχουν S στην κεφαλίδα Αναφορές"
 
 #: src/gtk/quicksearch.c:255
 msgid "messages returning 0 when passed to command"
@@ -4007,7 +4028,7 @@ msgstr "Επέλεξε αρχείο εισαγωγής"
 
 #: src/importldif.c:190
 msgid "Please specify address book name and file to import."
-msgstr ""
+msgstr "Παρακαλώ εισάγετε όνομα ευρετηρίου διευθύνσεων και αρχείο για εισαγωγή."
 
 #: src/importldif.c:193
 msgid "Select and rename LDIF field names to import."
@@ -4029,7 +4050,7 @@ msgstr "Επιλογή ενός Αρχείου Εικόνας"
 #: src/importmutt.c:130
 #: src/importpine.c:130
 msgid "Address book name must be supplied."
-msgstr ""
+msgstr "Πρέπει να δώσετε όνομα ευρετηρίου διευθύνσεων."
 
 #: src/importldif.c:472
 #, fuzzy
@@ -4436,6 +4457,8 @@ msgid ""
 "Configuration for Sylpheed-Claws %s found.\n"
 "Do you want to migrate this configuration?"
 msgstr ""
+"Βρέθηκαν ρυθμίσεις για το Sylpheed-Claws %s.\n"
+"Θέλετε να εισάγετε αυτές τις ρυθμίσεις;"
 
 #: src/main.c:256
 msgid "1.0.5 or previous"
