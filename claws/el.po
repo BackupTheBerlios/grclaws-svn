@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-11-05 14:45+0200\n"
+"PO-Revision-Date: 2005-11-07 22:18+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -1215,63 +1215,63 @@ msgstr "/_Επεξεργασία/Ειδική"
 
 #: src/compose.c:541
 msgid "/_Edit/A_dvanced/Move a character backward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση έναν χαρακτήρα πίσω"
 
 #: src/compose.c:546
 msgid "/_Edit/A_dvanced/Move a character forward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση έναν χαρακτήρα μπροστά"
 
 #: src/compose.c:551
 msgid "/_Edit/A_dvanced/Move a word backward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση μια λέξη πίσω"
 
 #: src/compose.c:556
 msgid "/_Edit/A_dvanced/Move a word forward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση μια λέξη εμπρός"
 
 #: src/compose.c:561
 msgid "/_Edit/A_dvanced/Move to beginning of line"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση στην αρχή της γραμμής"
 
 #: src/compose.c:566
 msgid "/_Edit/A_dvanced/Move to end of line"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση στο τέλος της γραμμής"
 
 #: src/compose.c:571
 msgid "/_Edit/A_dvanced/Move to previous line"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση στην προηγούμενη γραμμή"
 
 #: src/compose.c:576
 msgid "/_Edit/A_dvanced/Move to next line"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Μετακίνηση στην επόμενη γραμμή"
 
 #: src/compose.c:581
 msgid "/_Edit/A_dvanced/Delete a character backward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Διαγραφή ενός χαρακτήρα πίσω"
 
 #: src/compose.c:586
 msgid "/_Edit/A_dvanced/Delete a character forward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Διαγραφή ενός χαρακτήρα μπροστά"
 
 #: src/compose.c:591
 msgid "/_Edit/A_dvanced/Delete a word backward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Διαγραφή μιας λέξης πίσω"
 
 #: src/compose.c:596
 msgid "/_Edit/A_dvanced/Delete a word forward"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Διαγραφή μιας λέξης μπροστά"
 
 #: src/compose.c:601
 msgid "/_Edit/A_dvanced/Delete line"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Διαγραφή γραμμής"
 
 #: src/compose.c:606
 msgid "/_Edit/A_dvanced/Delete entire line"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Διαγραφή ολόκληρης γραμμής"
 
 #: src/compose.c:611
 msgid "/_Edit/A_dvanced/Delete to end of line"
-msgstr ""
+msgstr "/_Επεξεργασία/Ειδική/Διαγραφή ως το τέλος της γραμμής"
 
 #: src/compose.c:617
 msgid "/_Edit/_Wrap current paragraph"
@@ -1295,19 +1295,19 @@ msgstr "/_Ορθογραφία"
 
 #: src/compose.c:627
 msgid "/_Spelling/_Check all or check selection"
-msgstr ""
+msgstr "/Ορθογραφία/_Έλεγχος όλων ή έλεγχος επιλογής"
 
 #: src/compose.c:629
 msgid "/_Spelling/_Highlight all misspelled words"
-msgstr ""
+msgstr "/Ορθογραφία/Επισήμανση όλων των λανθασμένων λέξεων"
 
 #: src/compose.c:631
 msgid "/_Spelling/Check _backwards misspelled word"
-msgstr ""
+msgstr "/Ορθογραφία/Έλεγχος λανθασμένης λέξης προς τα πίσω"
 
 #: src/compose.c:633
 msgid "/_Spelling/_Forward to next misspelled word"
-msgstr ""
+msgstr "/Ορθογραφία/Μετακίνηση στην επόμενη λανθασμένη λέξη"
 
 #: src/compose.c:635
 msgid "/_Spelling/---"
@@ -1647,6 +1647,8 @@ msgid ""
 "The message was queued but could not be sent.\n"
 "Use \"Send queued messages\" from the main window to retry."
 msgstr ""
+"Το μήνυμα μπήκε στην ουρά αλλά δεν ήταν δυνατή η αποστολή του.\n"
+"Επιλέξτε \"Αποστολή μηνυμάτων στην ουρά\" από το κύριο παράθυρο για να προσπαθήσετε ξανά."
 
 #: src/compose.c:3985
 #, fuzzy, c-format
@@ -1664,6 +1666,10 @@ msgid ""
 "\n"
 "Send it anyway?"
 msgstr ""
+"Η γραμμή %d ξεπερνά το όριο μήκους γραμμής (998 bytes).\n"
+"Το περιεχόμενο του μηνύματος μπορεί να αλλοιωθεί κατά την παράδοση.\n"
+"\n"
+"Να γίνει αποστολή;"
 
 #: src/compose.c:4214
 msgid "No account for sending mails available!"
@@ -1756,6 +1762,8 @@ msgid ""
 "Spell checker could not be started.\n"
 "%s"
 msgstr ""
+"Δεν ήταν δυνατό να ξεκινήσει ο έλεγχος ορθογραφίας.\n"
+"%s"
 
 #: src/compose.c:5734
 #, c-format
@@ -1831,6 +1839,8 @@ msgid ""
 "File '%s' contained invalid characters\n"
 "for the current encoding, insertion may be incorrect."
 msgstr ""
+"Το αρχείο '%s' περιέχει μη έγκυρους για την τρέχουσα\n"
+"κωδικοποίηση χαρακτήρες, η εισαγωγή μπορεί να έγινε λανθασμένα."
 
 #: src/compose.c:7070
 msgid "Discard message"
@@ -1885,6 +1895,8 @@ msgid ""
 "%s.\n"
 "Please file a bug report and include the information below."
 msgstr ""
+"%s.\n"
+"Παρακαλώ κάντε μια αναφορά σφάλματος περιλαμβάνοντας και τις παρακάτω πληροφορίες."
 
 #: src/crash.c:209
 #, fuzzy
