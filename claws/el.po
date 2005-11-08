@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-11-08 19:12+0200\n"
+"PO-Revision-Date: 2005-11-08 21:45+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -9663,27 +9663,23 @@ msgstr ""
 #: src/summaryview.c:455
 #, fuzzy
 msgid "/_View/_Source"
-msgstr "Προβολή του πηγαίου κώδικα της σελίδας"
+msgstr "/Προβολή/"
 
 #: src/summaryview.c:456
-#, fuzzy
 msgid "/_View/All _header"
-msgstr "Προβολή _Όλων των Αρχείων"
+msgstr "/Προβολή/Όλων των κεφαλίδων"
 
 #: src/summaryview.c:459
-#, fuzzy
 msgid "/_Print..."
-msgstr "Εκτύπωση"
+msgstr "/Εκτύπωση..."
 
 #: src/summaryview.c:530
-#, fuzzy
 msgid "Toggle quick-search bar"
-msgstr "μπάρα αναζήτησης του ημερολογίου του Evolution"
+msgstr "εναλλαγή μπάρας γρήγορης αναζήτησης"
 
 #: src/summaryview.c:849
-#, fuzzy
 msgid "Process mark"
-msgstr "Σημείο, Περικλείον"
+msgstr "Σημείωση προόδου"
 
 #: src/summaryview.c:850
 msgid "Some marks are left. Process it?"
@@ -9735,34 +9731,34 @@ msgstr "Δεν βρέθηκαν νέα μηνύματα. Να ψάξω από τ
 #: src/summaryview.c:1413
 #, fuzzy
 msgid "No new messages."
-msgstr "%s: Σάρωση για νέα μηνύματα"
+msgstr "Δεν υπάρχουν νέα μηνύματα."
 
 #: src/summaryview.c:1445
 #, fuzzy
 msgid "No new message found. Go to next folder?"
-msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να πάω στον επόμενο κατάλογο;"
+msgstr "Δεν βρέθηκαν νέα μηνύματα. Μετάβαση στον επόμενο φάκελο;"
 
 #: src/summaryview.c:1482
 #: src/summaryview.c:1507
 #, fuzzy
 msgid "No more marked messages"
-msgstr "Δεν υπάρχουν πλέον άλλες κινήσεις."
+msgstr "Δεν υπάρχουν άλλα σημειωμένα μηνύματα"
 
 #: src/summaryview.c:1483
 #, fuzzy
 msgid "No marked message found. Search from the end?"
-msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να πάω στον επόμενο κατάλογο;"
+msgstr "Δεν βρέθηκαν σημειωμένα μηνύματα. Να γίνει αναζήτηση από το τέλος;"
 
 #: src/summaryview.c:1492
 #: src/summaryview.c:1517
 #, fuzzy
 msgid "No marked messages."
-msgstr "Όχι εξωτερικά μηνύματα"
+msgstr "Δεν υπάρχουν σημειωμένα μηνύματα."
 
 #: src/summaryview.c:1508
 #, fuzzy
 msgid "No marked message found. Search from the beginning?"
-msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να πάω στον επόμενο κατάλογο;"
+msgstr "Δεν βρέθηκαν σημειωμένα μηνύματα. Να γίνει αναζήτηση από την αρχή;"
 
 #: src/summaryview.c:1532
 #: src/summaryview.c:1557
@@ -9860,22 +9856,18 @@ msgid "Destination to copy is same as current folder."
 msgstr "Ο προορισμός αντιγραφής είναι ίδιος με τον τρέχοντα κατάλογο."
 
 #: src/summaryview.c:3578
-#, fuzzy
 msgid "Append or Overwrite"
-msgstr "Θέλετε να αντικαταστήσετε το υπάρχον αρχείο;"
+msgstr "Προσθήκη ή Αντικατάσταση"
 
 #: src/summaryview.c:3579
-#, fuzzy
 msgid "Append or overwrite existing file?"
-msgstr "Εγγραφή πάνω από το υπάρχον αρχείο;"
+msgstr "Να γίνει προσθήκη ή να αντικατασταθεί το υπάρχον αρχείο;"
 
 #: src/summaryview.c:3580
-#, fuzzy
 msgid "_Append"
 msgstr "Προ_σθήκη"
 
 #: src/summaryview.c:3580
-#, fuzzy
 msgid "_Overwrite"
 msgstr "_Αντικατάσταση"
 
@@ -10019,9 +10011,8 @@ msgstr "Λήψη αλληλογραφίας για αυτό το λογαρια�
 
 #: src/toolbar.c:161
 #: src/toolbar.c:1419
-#, fuzzy
 msgid "Send Queued Messages"
-msgstr "Αποτυχία αποστολής %d από %d μηνυμάτων"
+msgstr "Αποστολή Μηνυμάτων στην Ουρά"
 
 #: src/toolbar.c:162
 #: src/toolbar.c:1432
@@ -10076,15 +10067,13 @@ msgstr "Διαγραφή Μηνύματος"
 
 #: src/toolbar.c:172
 #: src/toolbar.c:1545
-#, fuzzy
 msgid "Go to Previous Unread Message"
-msgstr "Μετάβαση στην προηγούμενη αναγνωσμένη σελίδα"
+msgstr "Μετάβαση στο προηγούμενο μη αναγνωσμένο μήνυμα"
 
 #: src/toolbar.c:173
 #: src/toolbar.c:1552
-#, fuzzy
 msgid "Go to Next Unread Message"
-msgstr "Πήγαινε στην επόμενη αναγνωσμένη σελίδα"
+msgstr "Μετάβαση στο επόμενο μη αναγνωσμένο μήνυμα"
 
 #: src/toolbar.c:177
 #: src/toolbar.c:1561
@@ -10142,49 +10131,40 @@ msgid "Sylpheed-Claws Actions Feature"
 msgstr "Καλώς ήλθατε στο Sylpheed-Claws."
 
 #: src/toolbar.c:210
-#, fuzzy
 msgid "/Reply with _quote"
-msgstr "Παράθεση αρχικού μηνύματος"
+msgstr "/Απάντηση με παράθεση"
 
 #: src/toolbar.c:211
-#, fuzzy
 msgid "/_Reply without quote"
-msgstr "Παράθεση αρχικού μηνύματος"
+msgstr "/Απάντηση χωρίς παράθεση"
 
 #: src/toolbar.c:215
-#, fuzzy
 msgid "/Reply to all with _quote"
-msgstr "Συγγραφή απάντησης σε όλους τους παραλήπτες από αυτό το μήνυμα"
+msgstr "/Απάντηση σε όλους με παράθεση"
 
 #: src/toolbar.c:216
-#, fuzzy
 msgid "/_Reply to all without quote"
-msgstr "Συγγραφή απάντησης σε όλους τους παραλήπτες από αυτό το μήνυμα"
+msgstr "/Απάντηση σε όλους χωρίς παράθεση"
 
 #: src/toolbar.c:220
-#, fuzzy
 msgid "/Reply to list with _quote"
-msgstr "Συγγραφή απάντησης στη λίστα ταχυδρομείου από αυτό το μήνυμα"
+msgstr "/Απάντηση στη λίστα με παράθεση"
 
 #: src/toolbar.c:221
-#, fuzzy
 msgid "/_Reply to list without quote"
-msgstr "Συγγραφή απάντησης στη λίστα ταχυδρομείου από αυτό το μήνυμα"
+msgstr "/Απάντηση στη λίστα χωρίς παράθεση"
 
 #: src/toolbar.c:225
-#, fuzzy
 msgid "/Reply to sender with _quote"
-msgstr "Συγγραφή απάντησης στον αποστολέα του επιλεγμένου μηνύματος"
+msgstr "/Απάντηση στον αποστολέα με παράθεση"
 
 #: src/toolbar.c:226
-#, fuzzy
 msgid "/_Reply to sender without quote"
-msgstr "Συγγραφή απάντησης στον αποστολέα του επιλεγμένου μηνύματος"
+msgstr "/Απάντηση στον αποστολέα χωρίς παράθεση"
 
 #: src/toolbar.c:232
-#, fuzzy
 msgid "/Redirec_t"
-msgstr "/Επαν-επεξεργασία"
+msgstr "/Εκτροπή"
 
 #: src/toolbar.c:385
 msgid "Get Mail"
