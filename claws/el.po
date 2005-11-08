@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-11-07 23:07+0200\n"
+"PO-Revision-Date: 2005-11-08 19:12+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -4612,14 +4612,12 @@ msgid "/_File"
 msgstr "/Αρχείο"
 
 #: src/mainwindow.c:451
-#, fuzzy
 msgid "/_File/_Add mailbox"
-msgstr "Προσθήκη νέου Γραμματοκιβωτίου"
+msgstr "/_Αρχείο/Προσθήκη Γραμματοκιβωτίου"
 
 #: src/mainwindow.c:452
-#, fuzzy
 msgid "/_File/_Add mailbox/MH..."
-msgstr "`%s' δεν είναι αρχείο αλληλογραφίας."
+msgstr "/_Αρχείο/Προσθήκη Γραμματοκιβωτίου/MH..."
 
 #: src/mainwindow.c:453
 #: src/mainwindow.c:455
@@ -4632,9 +4630,8 @@ msgid "/_File/---"
 msgstr "/Αρχείο/---"
 
 #: src/mainwindow.c:454
-#, fuzzy
 msgid "/_File/Change folder order"
-msgstr "Αλλαγή της σειράς προτεραιότητας μιας διεργασίας"
+msgstr "/_Αρχείο/Αλλαγή της διάταξης των φακέλων"
 
 #: src/mainwindow.c:456
 msgid "/_File/_Import mbox file..."
@@ -4645,14 +4642,12 @@ msgid "/_File/_Export to mbox file..."
 msgstr "/Αρχείο/Εξαγωγή σε αρχείο mbox..."
 
 #: src/mainwindow.c:458
-#, fuzzy
 msgid "/_File/Exp_ort selected to mbox file..."
-msgstr "/Αρχείο/Εξαγωγή σε αρχείο mbox..."
+msgstr "/_Αρχείο/Εξαγωγή επιλεγμένου σε αρχείο mbox..."
 
 #: src/mainwindow.c:461
-#, fuzzy
 msgid "/_File/Empty all _Trash folders"
-msgstr "Άδειασμα όλων των φακέλων Απορριμμάτων κατά την έξοδο από το Evolution."
+msgstr "/_Αρχείο/Άδειασμα όλων των φακέλων Απορριμμάτων"
 
 #: src/mainwindow.c:463
 #: src/messageview.c:157
@@ -4665,14 +4660,12 @@ msgid "/_File/_Print..."
 msgstr "/Αρχείο/Εκτύπωση..."
 
 #: src/mainwindow.c:466
-#, fuzzy
 msgid "/_File/_Work offline"
-msgstr "Το αρχείο φύλαξης είναι εκτός δικτύου"
+msgstr "/_Αρχείο/Εργασία χωρίς σύνδεση"
 
 #: src/mainwindow.c:467
-#, fuzzy
 msgid "/_File/Synchronise folders"
-msgstr "Αγαπημένοι δημόσιοι φάκελοι"
+msgstr "/_Αρχείο/Συγχρονισμός φακέλων"
 
 #. {N_("/_File/_Close"),		"<alt>W", app_exit_cb, 0, NULL},
 #: src/mainwindow.c:470
@@ -4680,25 +4673,21 @@ msgid "/_File/E_xit"
 msgstr "/Αρχείο/Έξοδος"
 
 #: src/mainwindow.c:475
-#, fuzzy
 msgid "/_Edit/Select _thread"
-msgstr "/Επεξεργασία/Επιλογή _όλων"
+msgstr "/Επεξεργασία/Επιλογή νήματος"
 
 #: src/mainwindow.c:477
 #: src/messageview.c:166
-#, fuzzy
 msgid "/_Edit/_Find in current message..."
-msgstr "Αδυναμία εύρεσης διεύθυνσης \"Από\" στο μήνυμα"
+msgstr "/_Επεξεργασία/Αναζήτηση στο τρέχον μήνυμα..."
 
 #: src/mainwindow.c:479
-#, fuzzy
 msgid "/_Edit/_Search folder..."
-msgstr "Δεν υπάρχει τέτοιος φάκελος %s"
+msgstr "/_Επεξεργασία/Αναζήτηση στο φάκελο..."
 
 #: src/mainwindow.c:480
-#, fuzzy
 msgid "/_Edit/_Quick search"
-msgstr "Απενεργοποίηση  γρήγορης αναζήτησης"
+msgstr "/_Επεξεργασία/_Γρήγορη αναζήτηση"
 
 #: src/mainwindow.c:481
 #: src/messageview.c:169
