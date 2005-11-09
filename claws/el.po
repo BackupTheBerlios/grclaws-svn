@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-11-08 21:45+0200\n"
+"PO-Revision-Date: 2005-11-09 22:35+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -1193,9 +1193,8 @@ msgid "/_Edit/Special paste/_wrapped"
 msgstr "/_Επεξεργασία/Ειδική επικόλληση/_αναδιπλωμένο"
 
 #: src/compose.c:537
-#, fuzzy
 msgid "/_Edit/Special paste/_unwrapped"
-msgstr "/_Επεξεργασία/Ειδική επικόλληση/_αναδιπλωμένο"
+msgstr "/_Επεξεργασία/Ειδική επικόλληση/όχι αναδιπλωμένο"
 
 #: src/compose.c:539
 #: src/mainwindow.c:474
@@ -1426,14 +1425,12 @@ msgid "/_Options/Character _encoding/Greek (ISO-8859-_7)"
 msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ελληνική (ISO-8859-_7)"
 
 #: src/compose.c:692
-#, fuzzy
 msgid "/_Options/Character _encoding/Hebrew (ISO-8859-_8)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Βαλτικής (ISO-8859-_4)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Εβραϊκά (ISO-8859-_8)"
 
 #: src/compose.c:694
-#, fuzzy
 msgid "/_Options/Character _encoding/Hebrew (Windows-1255)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (Windows-1251)"
+msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Εβραϊκά (Windows-1255)"
 
 #: src/compose.c:698
 msgid "/_Options/Character _encoding/Turkish (ISO-8859-_9)"
@@ -1488,20 +1485,17 @@ msgid "/_Options/Character _encoding/Thai (Windows-874)"
 msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ταϊλανδέζικα (Windows-874)"
 
 #: src/compose.c:736
-#, fuzzy
 msgid "/_Tools/Show _ruler"
-msgstr "Κατώτερο όριο του χάρακα"
+msgstr "/Εργαλεία/Προβολή χάρακα"
 
 #: src/compose.c:737
 #: src/messageview.c:292
-#, fuzzy
 msgid "/_Tools/_Address book"
-msgstr "Διαγραφή ευρετήριου διευθύνσεων '{0}'?"
+msgstr "/Εργαλεία/Ευρετήριο διευθύνσεων"
 
 #: src/compose.c:738
-#, fuzzy
 msgid "/_Tools/_Template"
-msgstr "Πρότυπες ετικέτες"
+msgstr "/Εργαλεία/Πρότυπο"
 
 #: src/compose.c:739
 #: src/mainwindow.c:750
@@ -1511,9 +1505,8 @@ msgid "/_Tools/Actio_ns"
 msgstr "Εργαλεία Δικτύου - Συσκευές"
 
 #: src/compose.c:1408
-#, fuzzy
 msgid "Fw: multiple emails"
-msgstr "Πολλαπλά μή ανοιγμένα μηνύματα"
+msgstr "Πρ: Πολλαπλά μηνύματα"
 
 #: src/compose.c:1729
 msgid "Reply-To:"
@@ -1542,9 +1535,9 @@ msgid "Message reply/forward format error."
 msgstr "Προώθηση του επιλεγμένου μηνύματος με αναφορά σαν απάντηση"
 
 #: src/compose.c:2616
-#, fuzzy, c-format
+#, c-format
 msgid "File %s is empty."
-msgstr "Το αρχείο είναι κενό"
+msgstr "Το αρχείο %s είναι κενό."
 
 #: src/compose.c:2620
 #, c-format
@@ -1687,9 +1680,8 @@ msgid "From:"
 msgstr "Από:"
 
 #: src/compose.c:4995
-#, fuzzy
 msgid "Mime type"
-msgstr "MIME Type"
+msgstr "Τύπος MIME"
 
 #. S_COL_DATE
 #: src/compose.c:5001
@@ -2305,9 +2297,8 @@ msgid "The timeout period in seconds."
 msgstr "Ο χρήστης %s θα συνδεθεί σε %d δευτερόλεπτα"
 
 #: src/editldap.c:723
-#, fuzzy
 msgid "Maximum Entries"
-msgstr "Μέγιστοι Χρήστες"
+msgstr "Μέγιστες Εγγραφές"
 
 #: src/editldap.c:738
 msgid "The maximum number of entries that should be returned in the search result."
@@ -2332,9 +2323,8 @@ msgid "Add New LDAP Server"
 msgstr "Προσθήκη Νέου Διακομιστή LDAP"
 
 #: src/editvcard.c:104
-#, fuzzy
 msgid "File does not appear to be vCard format."
-msgstr "Το αρχείο '%s' δε φαίνεται να είναι μια έγκυρη εικόνα."
+msgstr "Το αρχείο δε φαίνεται να είναι έγκυρη μορφή vCard."
 
 #: src/editvcard.c:116
 msgid "Select vCard File"
@@ -2390,21 +2380,16 @@ msgid "Failed to Create Directory"
 msgstr "Αποτυχία δημιουργίας καταλόγου %s."
 
 #: src/exphtmldlg.c:244
-#, fuzzy
 msgid "Error creating HTML file"
-msgstr "Σφάλμα κατά την ανάγνωση του αρχείου μηνύματος:%s"
+msgstr "Σφάλμα κατά την δημιουργία του αρχείου HTML"
 
 #: src/exphtmldlg.c:330
-#, fuzzy
 msgid "Select HTML output file"
-msgstr ""
-"Δεν είναι δυνατή η δημιουργία αρχείου αποτελέσματος: %s:\n"
-" %s"
+msgstr "Επιλογή εξαγόμενου αρχείου HTML"
 
 #: src/exphtmldlg.c:394
-#, fuzzy
 msgid "HTML Output File"
-msgstr "Εισαγωγή: Αρχείο HTML"
+msgstr "Εξαγωγή Αρχείου HTML"
 
 #: src/exphtmldlg.c:403
 #: src/expldifdlg.c:415
@@ -2481,9 +2466,8 @@ msgid "File Name :"
 msgstr "Όνομα Αρχείου :"
 
 #: src/exphtmldlg.c:616
-#, fuzzy
 msgid "Open with Web Browser"
-msgstr "Προβολή βοήθειας φυλλομετρητή"
+msgstr "Άνοιγμα στον περιηγητή"
 
 #: src/exphtmldlg.c:648
 #, fuzzy
@@ -2834,7 +2818,7 @@ msgstr "Σάρωση καταλόγου %s ..."
 #: src/folderview.c:959
 #, fuzzy
 msgid "Rebuild folder tree"
-msgstr "Δέντρο φακέλου spool %s"
+msgstr "Επαναδημιουργία διάταξης φακέλων"
 
 #: src/folderview.c:960
 msgid "Rebuilding the folder tree will remove local caches. Do you want to continue?"
@@ -2942,9 +2926,8 @@ msgid "Type"
 msgstr "Τύπος"
 
 #: src/grouplistdialog.c:346
-#, fuzzy
 msgid "moderated"
-msgstr "Ελεγχόμενο(Moderated)"
+msgstr "ελεγχόμενο(moderated)"
 
 #: src/grouplistdialog.c:348
 msgid "readonly"
@@ -3203,21 +3186,17 @@ msgid "Unknown suggestion mode."
 msgstr "Άγνωστη λειτουργία εικονοστοιχείου %d.\n"
 
 #: src/gtk/gtkaspell.c:1144
-#, fuzzy
 msgid "No misspelled word found."
-msgstr "Δε βρέθηκε ανορθόγραφη λέξη"
+msgstr "Δε βρέθηκε ανορθόγραφη λέξη."
 
 #: src/gtk/gtkaspell.c:1484
-#, fuzzy
 msgid "Replace unknown word"
-msgstr "Λέξη για αντικατάσταση"
+msgstr "Αντικατάσταση άγνωστης λέξης"
 
 #: src/gtk/gtkaspell.c:1499
-#, fuzzy, c-format
+#, c-format
 msgid "<span weight=\"bold\" size=\"larger\">Replace \"%s\" with: </span>"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">Αδυναμία εκτέλεσης '%s'</span>\n"
-"%s"
+msgstr "<span weight=\"bold\" size=\"larger\">Αντικατάσταση του \"%s\" με: </span>"
 
 #: src/gtk/gtkaspell.c:1544
 msgid ""
@@ -3227,9 +3206,8 @@ msgstr ""
 
 #: src/gtk/gtkaspell.c:1790
 #: src/gtk/gtkaspell.c:2115
-#, fuzzy
 msgid "Fast Mode"
-msgstr "Χαρακτήρας Κατάστασης"
+msgstr "Γρήγορη Λειτουργία"
 
 #: src/gtk/gtkaspell.c:1946
 #, fuzzy, c-format
@@ -3237,9 +3215,8 @@ msgid "\"%s\" unknown in %s"
 msgstr "Αποθήκευση σε:"
 
 #: src/gtk/gtkaspell.c:1960
-#, fuzzy
 msgid "Accept in this session"
-msgstr "Μόνο για αυτή την συ_νεδρία"
+msgstr "Μόνο για αυτή την συνεδρία"
 
 #: src/gtk/gtkaspell.c:1970
 msgid "Add to personal dictionary"
@@ -3250,9 +3227,9 @@ msgid "Replace with..."
 msgstr "Αντικατάσταση με... "
 
 #: src/gtk/gtkaspell.c:1993
-#, fuzzy, c-format
+#, c-format
 msgid "Check with %s"
-msgstr "Άνοιγμα Με"
+msgstr "Έλεγχος με %s"
 
 #: src/gtk/gtkaspell.c:2015
 msgid "(no suggestions)"
@@ -3877,9 +3854,8 @@ msgid "IMAP4 authentication failed.\n"
 msgstr "Απέτυχε η διάβαση από το proxy\n"
 
 #: src/imap.c:2652
-#, fuzzy
 msgid "Fetching message..."
-msgstr "Αριστερό μήνυμα"
+msgstr "Λήψη μηνύματος..."
 
 #: src/imap.c:2815
 #, fuzzy, c-format
@@ -4159,9 +4135,8 @@ msgid "Error importing MUTT file."
 msgstr "Σφάλμα κατά την ανάγνωση του αρχείου μηνύματος:%s"
 
 #: src/importmutt.c:159
-#, fuzzy
 msgid "Select MUTT File"
-msgstr "Επιλογή ενός Αρχείου Εικόνας"
+msgstr "Επιλογή Αρχείου MUTT"
 
 #: src/importmutt.c:207
 msgid "Import MUTT file into Address Book"
@@ -4169,19 +4144,16 @@ msgstr ""
 
 #: src/importmutt.c:295
 #: src/importpine.c:296
-#, fuzzy
 msgid "Please select a file to import."
-msgstr "Επιλογή ενός φακέλου για εισαγωγή σε"
+msgstr "Παρακαλώ επιλέξτε ένα αρχείο για εισαγωγή"
 
 #: src/importpine.c:144
-#, fuzzy
 msgid "Error importing Pine file."
-msgstr "/_Εργαλεία/Εισαγωγή αρχείου _Pine..."
+msgstr "Σφάλμα κατά την εισαγωγή του αρχείου Pine."
 
 #: src/importpine.c:159
-#, fuzzy
 msgid "Select Pine File"
-msgstr "Επιλογή ενός Αρχείου Εικόνας"
+msgstr "Επιλογή Αρχείου Pine"
 
 #: src/importpine.c:207
 msgid "Import Pine file into Address Book"
@@ -4205,21 +4177,19 @@ msgid "Retrieving"
 msgstr "Λαμβάνω"
 
 #: src/inc.c:560
-#, fuzzy, c-format
+#, c-format
 msgid "Done (%d message (%s) received)"
 msgid_plural "Done (%d messages (%s) received)"
-msgstr[0] "Λήφθηκε μη έγκυρο μήνυμα από %s: %s"
-msgstr[1] "\t%d νέο(α) μήνυμα(μηνύματα)\n"
+msgstr[0] "Ολοκληρώθηκε (%d μήνυμα (%s) παρελήφθη)"
+msgstr[1] "Ολοκληρώθηκε (%d μηνύματα (%s) παρελήφθησαν)"
 
 #: src/inc.c:566
-#, fuzzy
 msgid "Done (no new messages)"
-msgstr "Έλεγχος για νέα μηνύματα"
+msgstr "Ολοκληρώθηκε (δεν υπάρχουν νέα μηνύματα)"
 
 #: src/inc.c:571
-#, fuzzy
 msgid "Connection failed"
-msgstr "Αποτυχία σύνδεσης"
+msgstr "Η σύνδεση απέτυχε"
 
 #: src/inc.c:574
 #, fuzzy
@@ -4229,9 +4199,8 @@ msgstr "Η εντολή AUTH απέτυχε: %s"
 #. S_COL_SCORE
 #: src/inc.c:577
 #: src/prefs_summary_column.c:89
-#, fuzzy
 msgid "Locked"
-msgstr "Ο πόρος είναι κλειδωμένος"
+msgstr "Κλειδωμένο"
 
 #: src/inc.c:587
 #: src/plugins/spamassassin/spamassassin_gtk.c:246
