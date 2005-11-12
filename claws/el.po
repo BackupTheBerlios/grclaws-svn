@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sylpheed 0.4.52\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
-"PO-Revision-Date: 2005-11-10 19:22+0200\n"
+"PO-Revision-Date: 2005-11-12 23:56+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -2357,6 +2357,8 @@ msgid ""
 "Could not create output directory for HTML file:\n"
 "%s"
 msgstr ""
+"Δεν ήταν δυνατή η δημιουργία του καταλόγου προορισμού για το αρχείο HTML:\n"
+"%s"
 
 #: src/exphtmldlg.c:197
 #: src/expldifdlg.c:204
@@ -4654,7 +4656,7 @@ msgstr "/Απεικόνιση"
 
 #: src/mainwindow.c:482
 msgid "/_View/Show or hi_de"
-msgstr ""
+msgstr "/Απεικόνιση/Εμφάνιση ή απόκρυψη"
 
 #: src/mainwindow.c:483
 #, fuzzy
@@ -4819,7 +4821,7 @@ msgstr "Μικρογραφίες όλων των εικονικών επιφαν
 
 #: src/mainwindow.c:527
 msgid "/_View/Co_llapse all threads"
-msgstr ""
+msgstr "/Απεικόνιση/Σύμπτυξη όλων των νημάτων"
 
 #: src/mainwindow.c:528
 #, fuzzy
@@ -4897,11 +4899,11 @@ msgstr "Επόμενο αδιάβαστο μήνυμα"
 
 #: src/mainwindow.c:551
 msgid "/_View/_Go to/Prev _labeled message"
-msgstr ""
+msgstr "/Απεικόνιση/Μετάβαση/Προηγούμενο σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:553
 msgid "/_View/_Go to/Next la_beled message"
-msgstr ""
+msgstr "/Απεικόνιση/Μετάβαση/Επόμενο σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:556
 #, fuzzy
@@ -5128,8 +5130,9 @@ msgstr "Προεπισκόπηση Ε_κτύπωσης"
 
 #: src/mainwindow.c:661
 #: src/messageview.c:261
+#, fuzzy
 msgid "/_View/Decode/_Quoted printable"
-msgstr ""
+msgstr "/Προβολή/Αποκωδικοποίηση/_Quoted printable"
 
 #: src/mainwindow.c:662
 #: src/messageview.c:262
@@ -5331,11 +5334,11 @@ msgstr "Εμφάνιση Λίστας Διευθύνσεων"
 
 #: src/mainwindow.c:722
 msgid "/_Tools/_Harvest addresses/from _Folder..."
-msgstr ""
+msgstr "/Εργαλεία/Συλλογή διευθύνσεων/από _Φάκελο..."
 
 #: src/mainwindow.c:724
 msgid "/_Tools/_Harvest addresses/from _Messages..."
-msgstr ""
+msgstr "/Εργαλεία/Συλλογή διευθύνσεων/από _Μηνύματα..."
 
 #: src/mainwindow.c:727
 #, fuzzy
@@ -5384,7 +5387,7 @@ msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
 
 #: src/mainwindow.c:741
 msgid "/_Tools/C_reate processing rule/_Automatically"
-msgstr ""
+msgstr "/Εργαλεία/Δημιουργία κανόνα επεξεργασίας/Αυτόματα"
 
 #: src/mainwindow.c:743
 #, fuzzy
@@ -5508,7 +5511,7 @@ msgstr "_Συχνές ερωτήσεις για το Evolution"
 
 #: src/mainwindow.c:795
 msgid "/_Help/_Online User-contributed FAQ"
-msgstr ""
+msgstr "/Βοήθεια/"
 
 #: src/mainwindow.c:797
 msgid "/_Help/---"
@@ -5757,6 +5760,10 @@ msgid ""
 "officially addressed to you.\n"
 "It is advised to not to send the return receipt."
 msgstr ""
+"Αυτό το μήνυμα ζητάει ειδοποίηση ανάγνωσης αλλά σύμφωνα με\n"
+"τις κεφαλίδες 'Προς:' και 'Αντίγραφο:' δεν έχει σταλεί σε\n"
+"εσάς επισήμως.\n"
+"Προτείνεται να μην στείλετε την ειδοποίηση ανάγνωσης."
 
 #: src/messageview.c:1038
 #: src/mimeview.c:1221
@@ -5786,7 +5793,7 @@ msgstr "Αδυναμία αποθήκευσης αρχείου: %s\n"
 
 #: src/messageview.c:1124
 msgid "This message asks for a return receipt."
-msgstr ""
+msgstr "Αυτό το μήνυμα ζητάει ειδοποίηση ανάγνωσης."
 
 #: src/messageview.c:1125
 #, fuzzy
@@ -5798,6 +5805,8 @@ msgid ""
 "This message has been partially retrieved,\n"
 "and has been deleted from the server."
 msgstr ""
+"Αυτό το μήνυμα έχει ληφθεί μερικώς,\n"
+"και έχει διαγραφεί από τον διακομιστή."
 
 #: src/messageview.c:1171
 #, fuzzy, c-format
@@ -5822,6 +5831,8 @@ msgid ""
 "This message has been partially retrieved;\n"
 "it is %s and will be downloaded."
 msgstr ""
+"Αυτό το μήνυμα έχει ληφθεί μερικώς·\n"
+"είναι %s και θα ληφθεί."
 
 #: src/messageview.c:1186
 #: src/messageview.c:1199
@@ -5836,6 +5847,8 @@ msgid ""
 "This message has been partially retrieved;\n"
 "it is %s and will be deleted."
 msgstr ""
+"Αυτό το μήνυμα έχει ληφθεί μερικώς·\n"
+"είναι %s και θα διαγραφεί."
 
 #: src/messageview.c:1268
 #, fuzzy
@@ -5847,6 +5860,8 @@ msgid ""
 "The message was sent to several of your accounts.\n"
 "Please choose which account do you want to use for sending the receipt notification:"
 msgstr ""
+"Αυτό το μήνυμα στάλθηκε σε μερικούς λογαριασμούς σας.\n"
+"Παρακαλώ επιλέξτε ποιόν λογαριασμό θέλετε να χρησιμοποιήσετε για να στείλετε την ειδοποίηση ανάγνωσης:"
 
 #: src/messageview.c:1273
 #, fuzzy
@@ -6121,6 +6136,11 @@ msgid ""
 "\n"
 "This plugin only contains the actual function for scanning and deleting or moving the message. You probably want to load the Gtk+ User Interface plugin too, otherwise you will have to manually write the plugin configuration.\n"
 msgstr ""
+"Αυτό το πρόσθετο χρησιμοποιεί το Clam AntiVirus για να ελέγξει όλα τα μηνύματα που λαμβάνονται από IMAP, τοπικούς ή POP λογαριασμούς.\n"
+"\n"
+"Όταν βρεθεί κάποιο μολυσμένο από ιό συνημμένο, μπορεί είτε να διαγραφεί, είτε να αποθηκευτεί σε έναν ειδικό φάκελο.\n"
+"\n"
+"Αυτό το πρόσθετο περιλαμβάνει μόνο τη λειτουργία ελέγχου και διαγραφής ή μετακίνησης του μηνύματος. Πιθανόν να θέλετε να φορτώσετε και το πρόσθετο Διεπαφής Χρήστη GTK+ επίσης, γιατί σε διαφορετική περίπτωση θα χρειαστεί να γράψετε τις ρυθμίσεις του προσθέτου με το χέρι.\n"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:95
 #, fuzzy
@@ -6151,7 +6171,7 @@ msgstr "Αποθήκευση φακέλου"
 #: src/plugins/clamav/clamav_plugin_gtk.c:171
 #: src/plugins/clamav/clamav_plugin_gtk.c:180
 msgid "Leave empty to use the default trash folder"
-msgstr ""
+msgstr "Αφήστε το κενό για να χρησιμοποιήσετε τον προκαθορισμένο φάκελο απορριμμάτων"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:277
 msgid "Clam AntiVirus GTK"
@@ -6165,6 +6185,11 @@ msgid ""
 "\n"
 "With this plugin you can enable the scanning, enable archive content scanning, set the maximum size of an attachment to be checked, (if the attachment is larger it will not be checked), configure whether infected mail should be received (default: Yes) and select the folder where infected mail will be saved.\n"
 msgstr ""
+"Αυτό το πρόσθετο παρέχει μια σελίδα Προτιμήσεων για το πρόσθετο Clam AntiVirus.\n"
+"\n"
+"Θα βρείτε τις επιλογές στο διάλογο Προτιμήσεων στο Πρόσθετα/Clam AntiVirus.\n"
+"\n"
+"Με αυτό το πρόσθετο μπορείτε να ενεργοποιήσετε τον έλεγχο, τον έλεγχο συμπιεσμένων αρχείων, να ορίσετε το μέγιστο μέγεθος ενός συνημμένου προς έλεγχο, (εάν το συνημμένο είναι μεγαλύτερο δεν θα ελέγχεται). να ορίσετε εάν θα λαμβάνονται μολυσμένα μηνύματα (προκαθορισμένο:Ναι) και να επιλέξετε τον φάκελο που θα αποθηκεύονται τα μολυσμένα μηνύματα.\n"
 
 #: src/plugins/demo/demo.c:74
 msgid "Demo"
