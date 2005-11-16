@@ -1,11 +1,12 @@
-# Hellenic translation of Sylpheed
+# Greek translations of Sylpheed-Claws
 # Copyright (C) 2001-2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Sylpheed-Claws package.
 # Michalis Kabrianis <Michalis@bigfoot.com>, 2001.
 # Stavros Giannouris <stavrosg2002@freemail.gr>, 2005.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: sylpheed 0.4.52\n"
+"Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-10-27 22:36+0300\n"
 "PO-Revision-Date: 2005-11-12 23:56+0200\n"
@@ -42,7 +43,7 @@ msgstr ""
 
 #: src/account.c:736
 msgid " _Set as default account "
-msgstr "Ορισμός ως προκαθορισμένου λογαριασμού."
+msgstr "Ορι_σμός ως προκαθορισμένου λογαριασμού."
 
 #: src/account.c:826
 msgid "Accounts with remote folders cannot be copied."
@@ -335,14 +336,14 @@ msgstr "/_Εργαλεία/Εξαγωγή αρχείου LDI_F..."
 #: src/mainwindow.c:792
 #: src/messageview.c:319
 msgid "/_Help"
-msgstr "/Βοήθεια"
+msgstr "/_Βοήθεια"
 
 #: src/addressbook.c:439
 #: src/compose.c:741
 #: src/mainwindow.c:798
 #: src/messageview.c:320
 msgid "/_Help/_About"
-msgstr "/Βοήθεια/Σχετικά"
+msgstr "/_Βοήθεια/_Σχετικά"
 
 #: src/addressbook.c:444
 #: src/addressbook.c:456
@@ -350,12 +351,12 @@ msgstr "/Βοήθεια/Σχετικά"
 #: src/mainwindow.c:472
 #: src/messageview.c:162
 msgid "/_Edit"
-msgstr "/Επεξεργασία"
+msgstr "/_Επεξεργασία"
 
 #: src/addressbook.c:445
 #: src/addressbook.c:457
 msgid "/_Delete"
-msgstr "/Διαγραφή"
+msgstr "/_Διαγραφή"
 
 #: src/addressbook.c:446
 #: src/addressbook.c:448
@@ -414,7 +415,7 @@ msgstr "/Νέα _Ομάδα"
 #. {N_("/Pa_ste Address"),	NULL, addressbook_clip_paste_address_cb, 0, NULL},
 #: src/addressbook.c:467
 msgid "/_Mail To"
-msgstr "/Μήνυμα Προς"
+msgstr "/_Μήνυμα Προς"
 
 #: src/addressbook.c:469
 #, fuzzy
@@ -620,11 +621,11 @@ msgstr "Διαγραφή καταλόγου"
 
 #: src/addressbook.c:2495
 msgid "_Folder only"
-msgstr "Μόνο φάκελος"
+msgstr "Μόνο _φάκελος"
 
 #: src/addressbook.c:2495
 msgid "Folder and _addresses"
-msgstr "Φάκελοι και διευθύνσεις"
+msgstr "Φάκελοι και _διευθύνσεις"
 
 #: src/addressbook.c:2507
 #, c-format
@@ -734,7 +735,7 @@ msgstr "Ομάδα"
 #: src/folderview.c:430
 #: src/prefs_account.c:2320
 msgid "Folder"
-msgstr "Κατάλογος"
+msgstr "Φάκελος"
 
 # Untrans.
 #: src/addressbook.c:4154
@@ -1076,11 +1077,11 @@ msgstr ""
 
 #: src/compose.c:502
 msgid "/_Add..."
-msgstr "/Προσθήκη..."
+msgstr "/_Προσθήκη..."
 
 #: src/compose.c:503
 msgid "/_Remove"
-msgstr "/Διαγραφή"
+msgstr "/_Διαγραφή"
 
 #: src/compose.c:505
 #: src/folderview.c:283
@@ -1832,7 +1833,7 @@ msgstr "Α_πόρριψη"
 
 #: src/compose.c:7072
 msgid "_Save to Drafts"
-msgstr "Αποθήκευση στα Πρόχειρα"
+msgstr "Αποθήκευ_ση στα Πρόχειρα"
 
 #: src/compose.c:7116
 #, c-format
@@ -3867,26 +3868,23 @@ msgstr "δεν μπορώ να τα σημειώσω ως διεγραμμένα
 #: src/imap_gtk.c:55
 #: src/mh_gtk.c:50
 msgid "/Create _new folder..."
-msgstr "/Δημιουργία νέου καταλόγου..."
+msgstr "/Δημιουργία _νέου φακέλου..."
 
 #: src/imap_gtk.c:56
 #: src/mh_gtk.c:51
 msgid "/_Rename folder..."
-msgstr "/Μετονομασία καταλόγου..."
+msgstr "/_Μετονομασία φακέλου..."
 
 #: src/imap_gtk.c:57
 #: src/mh_gtk.c:52
-#, fuzzy
 msgid "/M_ove folder..."
-msgstr "Φακέλος Προορισμού:"
+msgstr "Μ_ετακίνηση φακέλου..."
 
 #: src/imap_gtk.c:58
 #: src/mh_gtk.c:53
-#, fuzzy
 msgid "/_Delete folder..."
-msgstr "_Διαγραφή φακέλου"
+msgstr "/_Διαγραφή φακέλου..."
 
-#: src/imap_gtk.c:60
 #: src/news_gtk.c:54
 msgid "/Synchronise"
 msgstr "/Συγχρονισμός"
@@ -4568,15 +4566,15 @@ msgstr "Συνέβη σφάλμα κατά την αποστολή του μην
 #: src/mainwindow.c:450
 #: src/messageview.c:156
 msgid "/_File"
-msgstr "/Αρχείο"
+msgstr "/_Αρχείο"
 
 #: src/mainwindow.c:451
 msgid "/_File/_Add mailbox"
-msgstr "/_Αρχείο/Προσθήκη Γραμματοκιβωτίου"
+msgstr "/_Αρχείο/_Προσθήκη Γραμματοκιβωτίου"
 
 #: src/mainwindow.c:452
 msgid "/_File/_Add mailbox/MH..."
-msgstr "/_Αρχείο/Προσθήκη Γραμματοκιβωτίου/MH..."
+msgstr "/_Αρχείο/_Προσθήκη Γραμματοκιβωτίου/MH..."
 
 #: src/mainwindow.c:453
 #: src/mainwindow.c:455
@@ -4586,7 +4584,7 @@ msgstr "/_Αρχείο/Προσθήκη Γραμματοκιβωτίου/MH..."
 #: src/mainwindow.c:468
 #: src/messageview.c:159
 msgid "/_File/---"
-msgstr "/Αρχείο/---"
+msgstr "/_Αρχείο/---"
 
 #: src/mainwindow.c:454
 msgid "/_File/Change folder order"
@@ -4652,11 +4650,11 @@ msgstr "/_Επεξεργασία/_Γρήγορη αναζήτηση"
 #: src/messageview.c:169
 #: src/summaryview.c:452
 msgid "/_View"
-msgstr "/Απεικόνιση"
+msgstr "/_Απεικόνιση"
 
 #: src/mainwindow.c:482
 msgid "/_View/Show or hi_de"
-msgstr "/Απεικόνιση/Εμφάνιση ή απόκρυψη"
+msgstr "/_Απεικόνιση/Εμφάνιση ή α_πόκρυψη"
 
 #: src/mainwindow.c:483
 #, fuzzy
@@ -4706,7 +4704,7 @@ msgstr "/Απεικόνιση/Ράβδος κατάστασης"
 #: src/mainwindow.c:672
 #: src/messageview.c:268
 msgid "/_View/---"
-msgstr "/Απεικόνιση/---"
+msgstr "/_Απεικόνιση/---"
 
 #: src/mainwindow.c:500
 #, fuzzy
@@ -5441,7 +5439,7 @@ msgstr "Μέγεθος του παραθύρου καταγραφής"
 
 #: src/mainwindow.c:770
 msgid "/_Configuration"
-msgstr "/Ρυθμίσεις"
+msgstr "/_Ρυθμίσεις"
 
 #: src/mainwindow.c:771
 msgid "/_Configuration/C_hange current account"
@@ -5462,7 +5460,7 @@ msgstr "/Ρυθμίσεις/Επεξεργασία λογαριασμών..."
 
 #: src/mainwindow.c:779
 msgid "/_Configuration/---"
-msgstr "/Ρυθμίσεις/---"
+msgstr "/_Ρυθμίσεις/---"
 
 #: src/mainwindow.c:780
 #, fuzzy
@@ -5515,7 +5513,7 @@ msgstr "/Βοήθεια/"
 
 #: src/mainwindow.c:797
 msgid "/_Help/---"
-msgstr "/Βοήθεια/---"
+msgstr "/_Βοήθεια/---"
 
 #: src/mainwindow.c:944
 msgid "You are online. Click the icon to go offline"
@@ -5751,7 +5749,7 @@ msgstr "_Αποστολή"
 #: src/messageview.c:558
 #: src/messageview.c:575
 msgid "+_Don't Send"
-msgstr "+Να μην Αποσταλεί"
+msgstr "_Να μην Αποσταλεί"
 
 #: src/messageview.c:571
 msgid ""
@@ -5932,16 +5930,16 @@ msgstr "/Άνοιγμα"
 
 #: src/mimeview.c:155
 msgid "/Open _with..."
-msgstr "/Άνοιγμα με..."
+msgstr "/Άνοιγμα _με..."
 
 #: src/mimeview.c:156
 msgid "/_Display as text"
-msgstr "/Εμφάνιση σαν κείμενο"
+msgstr "/_Εμφάνιση σαν κείμενο"
 
 #: src/mimeview.c:157
 #: src/summaryview.c:458
 msgid "/_Save as..."
-msgstr "/Αποθήκευση ως..."
+msgstr "/_Αποθήκευση ως..."
 
 #: src/mimeview.c:158
 #, fuzzy
