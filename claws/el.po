@@ -4836,237 +4836,199 @@ msgid "/_View/_Go to/N_ext unread message"
 msgstr "/_Προβολή/Μετά_βαση/Επόμενο μη αναγνωσμένο μήνυμα"
 
 #: src/mainwindow.c:543
-#, fuzzy
 msgid "/_View/_Go to/Prev ne_w message"
-msgstr "/Περίληψη/Προηγούμενο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Π_ροηγούμενο νέο μήνυμα"
 
 #: src/mainwindow.c:544
-#, fuzzy
 msgid "/_View/_Go to/Ne_xt new message"
-msgstr "/Περίληψη/Επόμενο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Επόμενο νέο μήνυμα"
 
 #: src/mainwindow.c:546
-#, fuzzy
 msgid "/_View/_Go to/Prev _marked message"
-msgstr "/Προβολή/Ξεχωριστή απεικόνιση μηνυμάτων"
+msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο επισημασμένο μήνυμα"
 
 #: src/mainwindow.c:548
-#, fuzzy
 msgid "/_View/_Go to/Next m_arked message"
-msgstr "Επόμενο αδιάβαστο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Επόμενο επισημασμένο μήνυμα"
 
 #: src/mainwindow.c:551
 msgid "/_View/_Go to/Prev _labeled message"
-msgstr "/Προβολή/Μετάβαση/Προηγούμενο σημειωμένο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:553
 msgid "/_View/_Go to/Next la_beled message"
-msgstr "/Προβολή/Μετάβαση/Επόμενο σημειωμένο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Επόμενο σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:556
-#, fuzzy
 msgid "/_View/_Go to/Other _folder..."
-msgstr "Συνδρομή σε φάκελλο ά_λλου χρήστη..."
+msgstr "/_Προβολή/Μετά_βαση/Άλλο _φάκελο..."
 
 #: src/mainwindow.c:560
 #: src/mainwindow.c:567
 #: src/messageview.c:172
-#, fuzzy
 msgid "/_View/Character _encoding/---"
-msgstr "Ορισμός κωδικοποίησης  _χαρακτήρων"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/---"
 
 #: src/mainwindow.c:564
 #: src/messageview.c:176
-#, fuzzy
 msgid "/_View/Character _encoding"
-msgstr "Ορισμός κωδικοποίησης  _χαρακτήρων"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων"
 
 #: src/mainwindow.c:565
 #: src/messageview.c:177
-#, fuzzy
 msgid "/_View/Character _encoding/_Auto detect"
-msgstr "/Προβολή/Κωδικοσύνολο/Αυτόματη αναγνώριση"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/_Αυτόματη αναγνώριση"
 
 #: src/mainwindow.c:568
 #: src/messageview.c:180
-#, fuzzy
 msgid "/_View/Character _encoding/7bit ascii (US-ASC_II)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/7bit ascii (US-ASC_II)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/7bit ascii (US-ASC_II)"
 
 #: src/mainwindow.c:570
 #: src/messageview.c:183
-#, fuzzy
 msgid "/_View/Character _encoding/Unicode (_UTF-8)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Unicode (_UTF-8)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Unicode (_UTF-8)"
 
 #: src/mainwindow.c:574
 #: src/messageview.c:186
-#, fuzzy
 msgid "/_View/Character _encoding/Western European (ISO-8859-_1)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_1)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_1)"
 
 #: src/mainwindow.c:576
 #: src/messageview.c:188
-#, fuzzy
 msgid "/_View/Character _encoding/Western European (ISO-8859-15)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_15)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-15)"
 
 #: src/mainwindow.c:578
-#, fuzzy
 msgid "/_View/Character _encoding/Western European (Windows-1252)"
-msgstr "/Προβολή/Κωδικοσύνολο/Δυτικής Ευρώπης (ISO-8859-_1)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (Windows-1252)"
 
 #: src/mainwindow.c:582
 #: src/messageview.c:191
-#, fuzzy
 msgid "/_View/Character _encoding/Central European (ISO-8859-_2)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κεντρικής Ευρώπης (ISO-8859-_2)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κεντρικής Ευρώπης (ISO-8859-_2)"
 
 #: src/mainwindow.c:586
 #: src/messageview.c:194
-#, fuzzy
 msgid "/_View/Character _encoding/_Baltic (ISO-8859-13)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/_Βαλτικής (ISO-8859-13)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/_Βαλτικής (ISO-8859-13)"
 
 #: src/mainwindow.c:588
 #: src/messageview.c:196
-#, fuzzy
 msgid "/_View/Character _encoding/Baltic (ISO-8859-_4)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Βαλτικής (ISO-8859-_4)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Βαλτικής (ISO-8859-_4)"
 
 #: src/mainwindow.c:592
 #: src/messageview.c:199
-#, fuzzy
 msgid "/_View/Character _encoding/Greek (ISO-8859-_7)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ελληνική (ISO-8859-_7)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ελληνικά (ISO-8859-_7)"
 
 #: src/mainwindow.c:596
 #: src/messageview.c:202
-#, fuzzy
 msgid "/_View/Character _encoding/Hebrew (ISO-8859-_8)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Βαλτικής (ISO-8859-_4)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Εβραϊκή (ISO-8859-_8)"
 
 #: src/mainwindow.c:598
 #: src/messageview.c:204
-#, fuzzy
 msgid "/_View/Character _encoding/Hebrew (Windows-1255)"
-msgstr "/Προβολή/Κωδικοσύνολο/Κυριλλικό (Windows-1251)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Εβραϊκή (Windows-1255)"
 
 #: src/mainwindow.c:602
 #: src/messageview.c:207
-#, fuzzy
 msgid "/_View/Character _encoding/Turkish (ISO-8859-_9)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Τούρκικη (ISO-8859-_9)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Τούρκικη (ISO-8859-_9)"
 
 #: src/mainwindow.c:606
 #: src/messageview.c:210
-#, fuzzy
 msgid "/_View/Character _encoding/Cyrillic (ISO-8859-_5)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (ISO-8859-_5)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (ISO-8859-_5)"
 
 #: src/mainwindow.c:608
 #: src/messageview.c:212
-#, fuzzy
 msgid "/_View/Character _encoding/Cyrillic (KOI8-_R)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (KOI8-_R)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (KOI8-_R)"
 
 #: src/mainwindow.c:610
 #: src/messageview.c:214
-#, fuzzy
 msgid "/_View/Character _encoding/Cyrillic (KOI8-U)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (KOI8-_R)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (KOI8-_U)"
 
 #: src/mainwindow.c:612
 #: src/messageview.c:216
-#, fuzzy
 msgid "/_View/Character _encoding/Cyrillic (Windows-1251)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κυριλλική (Windows-1251)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (Windows-1251)"
 
 #: src/mainwindow.c:616
 #: src/messageview.c:219
-#, fuzzy
 msgid "/_View/Character _encoding/Japanese (ISO-2022-_JP)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
 
 #: src/mainwindow.c:618
 #: src/messageview.c:221
-#, fuzzy
 msgid "/_View/Character _encoding/Japanese (ISO-2022-JP-2)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (ISO-2022-JP-2)"
 
 #: src/mainwindow.c:620
 #: src/messageview.c:223
-#, fuzzy
 msgid "/_View/Character _encoding/Japanese (_EUC-JP)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (_EUC-JP)"
 
 #: src/mainwindow.c:622
 #: src/messageview.c:225
-#, fuzzy
 msgid "/_View/Character _encoding/Japanese (_Shift__JIS)"
-msgstr "/Προβολή/Κωδικοσύνολο/Ιαπωνέζικο (_Shift__JIS)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (_Shift__JIS)"
 
 #: src/mainwindow.c:626
 #: src/messageview.c:228
-#, fuzzy
 msgid "/_View/Character _encoding/Simplified Chinese (_GB2312)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
 
 #: src/mainwindow.c:628
 #: src/messageview.c:230
-#, fuzzy
 msgid "/_View/Character _encoding/Simplified Chinese (GBK)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (GBK)"
 
 #: src/mainwindow.c:630
 #: src/messageview.c:232
-#, fuzzy
 msgid "/_View/Character _encoding/Traditional Chinese (_Big5)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Απλοποιημένη Κινέζικη (_Big5)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (_Big5)"
 
 #: src/mainwindow.c:632
 #: src/messageview.c:234
-#, fuzzy
 msgid "/_View/Character _encoding/Traditional Chinese (EUC-_TW)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Παραδοσιακή Κινέζικη (EUC-_TW)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Παραδοσιακή Κινέζικη (EUC-_TW)"
 
 #: src/mainwindow.c:634
 #: src/messageview.c:236
-#, fuzzy
 msgid "/_View/Character _encoding/Chinese (ISO-2022-_CN)"
-msgstr "/Προβολή/Κωδικοσύνολο/Κινεζικό (ISO-2022-_CN)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κινέζικη (ISO-2022-_CN)"
 
 #: src/mainwindow.c:638
 #: src/messageview.c:239
-#, fuzzy
 msgid "/_View/Character _encoding/Korean (EUC-_KR)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κορεάτικη (EUC-_KR)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κορεάτικη (EUC-_KR)"
 
 #: src/mainwindow.c:640
 #: src/messageview.c:241
-#, fuzzy
 msgid "/_View/Character _encoding/Korean (ISO-2022-KR)"
-msgstr "/Προβολή/Κωδικοσύνολο/Κορεάτικο (ISO-2022-KR)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κορεάτικη (ISO-2022-KR)"
 
 #: src/mainwindow.c:644
 #: src/messageview.c:244
-#, fuzzy
 msgid "/_View/Character _encoding/Thai (TIS-620)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ταϊλανδέζικα (TIS-620)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ταϊλανδέζικη (TIS-620)"
 
 #: src/mainwindow.c:646
 #: src/messageview.c:246
-#, fuzzy
 msgid "/_View/Character _encoding/Thai (Windows-874)"
-msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ταϊλανδέζικα (Windows-874)"
+msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ταϊλανδέζικη (Windows-874)"
 
 #: src/mainwindow.c:653
 #: src/mainwindow.c:659
 #: src/messageview.c:253
 #: src/messageview.c:259
-#, fuzzy
 msgid "/_View/Decode/---"
-msgstr "<b>Προβολή Επιλογών:</b>"
+msgstr "/_Προβολή/Αποκωδικοποίηση/---"
 
 #: src/mainwindow.c:656
 #: src/messageview.c:256
