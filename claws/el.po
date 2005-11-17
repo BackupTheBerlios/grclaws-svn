@@ -4789,7 +4789,7 @@ msgstr "/_Προβολή/Ανάπτυ_ξη όλων των νημάτων"
 
 #: src/mainwindow.c:527
 msgid "/_View/Co_llapse all threads"
-msgstr "/Προβολή/Σύμπ_τυξη όλων των νημάτων"
+msgstr "/Προβολή/Σύμπτ_υξη όλων των νημάτων"
 
 #: src/mainwindow.c:528
 msgid "/_View/_Hide read messages"
@@ -5032,61 +5032,51 @@ msgstr "/_Προβολή/Αποκωδικοποίηση/---"
 
 #: src/mainwindow.c:656
 #: src/messageview.c:256
-#, fuzzy
 msgid "/_View/Decode"
-msgstr "<b>Προβολή Επιλογών:</b>"
+msgstr "/_Προβολή/Αποκωδικοποίηση"
 
 #: src/mainwindow.c:657
 #: src/messageview.c:257
-#, fuzzy
 msgid "/_View/Decode/_Auto detect"
-msgstr "/Προβολή/Κωδικοσύνολο/Αυτόματη αναγνώριση"
+msgstr "/_Προβολή/Αποκωδικοποίηση/Αυτόματη αναγνώριση"
 
 #: src/mainwindow.c:660
 #: src/messageview.c:260
-#, fuzzy
 msgid "/_View/Decode/_8bit"
-msgstr "Προεπισκόπηση Ε_κτύπωσης"
+msgstr "/_Προβολή/Αποκωδικοποίηση/_8bit"
 
 #: src/mainwindow.c:661
 #: src/messageview.c:261
-#, fuzzy
 msgid "/_View/Decode/_Quoted printable"
-msgstr "/Προβολή/Αποκωδικοποίηση/_Quoted printable"
+msgstr "/_Προβολή/Αποκωδικοποίηση//_Quoted printable"
 
 #: src/mainwindow.c:662
 #: src/messageview.c:262
-#, fuzzy
 msgid "/_View/Decode/_Base64"
-msgstr "Προεπισκόπηση Ε_κτύπωσης"
+msgstr "/_Προβολή/Αποκωδικοποίηση/_Base64"
 
 #: src/mainwindow.c:663
 #: src/messageview.c:263
-#, fuzzy
 msgid "/_View/Decode/_Uuencode"
-msgstr "Προεπισκόπηση Ε_κτύπωσης"
+msgstr "/_Προβολή/Αποκωδικοποίηση/_Uuencode"
 
 #: src/mainwindow.c:669
 #: src/summaryview.c:453
-#, fuzzy
 msgid "/_View/Open in new _window"
-msgstr "Άνοιγμα εικόνων σε νέο παράθυρο"
+msgstr "/_Προβολή/Άνοι_γμα σε νέο παράθυρο"
 
 #: src/mainwindow.c:670
 #: src/messageview.c:269
-#, fuzzy
 msgid "/_View/Mess_age source"
-msgstr "Προβολή του πηγαίου κώδικα της σελίδας"
+msgstr "/_Προβολή/Πηγαίος _κώδικας μηνύματος"
 
 #: src/mainwindow.c:671
-#, fuzzy
 msgid "/_View/Show all headers"
-msgstr "Εμφάνιση μηνύματος με όλες τις επικεφαλίδες ηλεκτρονικού ταχυδρομείου"
+msgstr "/_Προβολή/Εμφάνιση όλων των κεφαλίδων"
 
 #: src/mainwindow.c:673
-#, fuzzy
 msgid "/_View/_Update summary"
-msgstr "Προσβάσιμη Περίληψη Πίνακα"
+msgstr "/_Προβολή/Ανανέ_ωση"
 
 #: src/mainwindow.c:676
 #, fuzzy
