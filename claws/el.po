@@ -4780,72 +4780,60 @@ msgid "/_View/_Sort/_Attract by subject"
 msgstr "/_Προβολή/_Ταξινόμηση/_Ομαδοποίηση κατά θέμα"
 
 #: src/mainwindow.c:525
-#, fuzzy
 msgid "/_View/Th_read view"
-msgstr "Δημιουργός (ανάγνωση,δημιουργία)"
+msgstr "/_Προβολή/Κατάταξη σε _νήματα"
 
 #: src/mainwindow.c:526
-#, fuzzy
 msgid "/_View/E_xpand all threads"
-msgstr "Μικρογραφίες όλων των εικονικών επιφανειών εργασίας"
+msgstr "/_Προβολή/Ανάπτυ_ξη όλων των νημάτων"
 
 #: src/mainwindow.c:527
 msgid "/_View/Co_llapse all threads"
-msgstr "/Προβολή/Σύμπτυξη όλων των νημάτων"
+msgstr "/Προβολή/Σύμπ_τυξη όλων των νημάτων"
 
 #: src/mainwindow.c:528
-#, fuzzy
 msgid "/_View/_Hide read messages"
-msgstr "Προσωρινή απόκρυψη των επιλεγμένων μηνυμάτων"
+msgstr "/_Προβολή/_Απόκρυψη αναγνωσμένων μηνυμάτων"
 
 #: src/mainwindow.c:529
-#, fuzzy
 msgid "/_View/Set displayed _columns"
-msgstr "Προβολή ιδιοτήτων του εμφανιζόμενου εγγράφου"
+msgstr "/_Προβολή/Ορ_ισμός εμφανιζόμενων στοιχείων"
 
 #: src/mainwindow.c:530
-#, fuzzy
 msgid "/_View/Set displayed _columns/in _Folder list..."
-msgstr "/Περίληψη/Ορισμός εμφανιζόμενων στοιχείων..."
+msgstr "/_Προβολή/Ορ_ισμός εμφανιζόμενων στοιχείων/στη λίστα _Φακέλων..."
 
 #: src/mainwindow.c:531
-#, fuzzy
 msgid "/_View/Set displayed _columns/in _Message list..."
-msgstr "/Περίληψη/Ορισμός εμφανιζόμενων στοιχείων..."
+msgstr "/_Προβολή/Ορ_ισμός εμφανιζόμενων στοιχείων/στη λίστα _Μηνυμάτων..."
 
 #: src/mainwindow.c:534
-#, fuzzy
 msgid "/_View/_Go to"
-msgstr "Μετάβαση στο Σήμερα"
+msgstr "/_Προβολή/Μετά_βαση"
 
 #: src/mainwindow.c:535
-#, fuzzy
 msgid "/_View/_Go to/_Prev message"
-msgstr "/Περίληψη/Προηγούμενο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/_Προηγούμενο μήνυμα"
 
 #: src/mainwindow.c:536
-#, fuzzy
 msgid "/_View/_Go to/_Next message"
-msgstr "Πήγαινε στην επόμενη αναγνωσμένη σελίδα"
+msgstr "/_Προβολή/Μετά_βαση/_Επόμενο μήνυμα"
 
 #: src/mainwindow.c:537
 #: src/mainwindow.c:542
 #: src/mainwindow.c:545
 #: src/mainwindow.c:550
 #: src/mainwindow.c:555
-#, fuzzy
 msgid "/_View/_Go to/---"
-msgstr "Μετάβαση στο Σήμερα"
+msgstr "/_Προβολή/Μετά_βαση/---"
 
 #: src/mainwindow.c:538
-#, fuzzy
 msgid "/_View/_Go to/P_rev unread message"
-msgstr "Επόμενο αδιάβαστο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Π_ροηγούμενο μη αναγνωσμένο μήνυμα"
 
 #: src/mainwindow.c:540
-#, fuzzy
 msgid "/_View/_Go to/N_ext unread message"
-msgstr "/Περίληψη/Επόμενο αδιάβαστο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Επόμενο μη αναγνωσμένο μήνυμα"
 
 #: src/mainwindow.c:543
 #, fuzzy
