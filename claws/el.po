@@ -2942,7 +2942,7 @@ msgstr "Δημιουργός (ανάγνωση,δημιουργία)"
 
 #: src/gtk/about.c:96
 msgid "About Sylpheed-Claws"
-msgstr "Περί του Sylpheed-Claws"
+msgstr "Περί Sylpheed-Claws"
 
 #: src/gtk/about.c:157
 #, c-format
@@ -4627,20 +4627,20 @@ msgstr "/_Αρχείο/Συγχρονισμός φακέλων"
 #. {N_("/_File/_Close"),		"<alt>W", app_exit_cb, 0, NULL},
 #: src/mainwindow.c:470
 msgid "/_File/E_xit"
-msgstr "/Αρχείο/Έξοδος"
+msgstr "/_Αρχείο/Έ_ξοδος"
 
 #: src/mainwindow.c:475
 msgid "/_Edit/Select _thread"
-msgstr "/Επεξεργασία/Επιλογή νήματος"
+msgstr "/_Επεξεργασία/Επιλογή _νήματος"
 
 #: src/mainwindow.c:477
 #: src/messageview.c:166
 msgid "/_Edit/_Find in current message..."
-msgstr "/_Επεξεργασία/Αναζήτηση στο τρέχον μήνυμα..."
+msgstr "/_Επεξεργασία/Εύ_ρεση στο τρέχον μήνυμα..."
 
 #: src/mainwindow.c:479
 msgid "/_Edit/_Search folder..."
-msgstr "/_Επεξεργασία/Αναζήτηση στο φάκελο..."
+msgstr "/_Επεξεργασία/Εύρεση _στο φάκελο..."
 
 #: src/mainwindow.c:480
 msgid "/_Edit/_Quick search"
@@ -4650,51 +4650,43 @@ msgstr "/_Επεξεργασία/_Γρήγορη αναζήτηση"
 #: src/messageview.c:169
 #: src/summaryview.c:452
 msgid "/_View"
-msgstr "/_Απεικόνιση"
+msgstr "/_Προβολή"
 
 #: src/mainwindow.c:482
 msgid "/_View/Show or hi_de"
-msgstr "/_Απεικόνιση/Εμφάνιση ή α_πόκρυψη"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη"
 
 #: src/mainwindow.c:483
-#, fuzzy
 msgid "/_View/Show or hi_de/_Folder tree"
-msgstr "/Απεικόνιση/Ράβδος εργαλείων"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/Στήλη _Φακέλων"
 
 #: src/mainwindow.c:485
-#, fuzzy
 msgid "/_View/Show or hi_de/_Message view"
-msgstr "/Απεικόνιση/Ράβδος εργαλείων"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/Προβολή _Μηνύματος"
 
 #: src/mainwindow.c:487
-#, fuzzy
 msgid "/_View/Show or hi_de/_Toolbar"
-msgstr "/Απεικόνιση/Ράβδος εργαλείων"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη"
 
 #: src/mainwindow.c:489
-#, fuzzy
 msgid "/_View/Show or hi_de/_Toolbar/Icon _and text"
-msgstr "/Απεικόνιση/Ράβδος εργαλείων/Εικόνες και κείμενο"
+msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/Εικο_νίδια και κείμενο"
 
 #: src/mainwindow.c:491
-#, fuzzy
 msgid "/_View/Show or hi_de/_Toolbar/_Icon"
-msgstr "/Απεικόνιση/Ράβδος εργαλείων/Εικόνες"
+msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Εικονίδια"
 
 #: src/mainwindow.c:493
-#, fuzzy
 msgid "/_View/Show or hi_de/_Toolbar/_Text"
-msgstr "/Απεικόνιση/Ράβδος εργαλείων/Κείμενο"
+msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Κείμενο"
 
 #: src/mainwindow.c:495
-#, fuzzy
 msgid "/_View/Show or hi_de/_Toolbar/_None"
-msgstr "/Απεικόνιση/Ράβδος εργαλείων/Καμία"
+msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Απόκρυψη"
 
 #: src/mainwindow.c:497
-#, fuzzy
 msgid "/_View/Show or hi_de/Status _bar"
-msgstr "/Απεικόνιση/Ράβδος κατάστασης"
+msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Γραμμή κατάστασης"
 
 #: src/mainwindow.c:499
 #: src/mainwindow.c:502
@@ -4704,108 +4696,88 @@ msgstr "/Απεικόνιση/Ράβδος κατάστασης"
 #: src/mainwindow.c:672
 #: src/messageview.c:268
 msgid "/_View/---"
-msgstr "/_Απεικόνιση/---"
+msgstr "/_Προβολή/---"
 
 #: src/mainwindow.c:500
-#, fuzzy
 msgid "/_View/Separate f_older tree"
-msgstr "Το μοντέλο για δενδροειδή προβολή"
+msgstr "/_Προβολή/Αποσύνδεση στήλης _φακέλων"
 
 #: src/mainwindow.c:501
-#, fuzzy
 msgid "/_View/Separate _message view"
-msgstr "Sylpheed - Προβολή Μηνύματος"
+msgstr "/_Προβολή/Αποσύνδεση προβολής _μηνύματος"
 
 #: src/mainwindow.c:503
-#, fuzzy
 msgid "/_View/_Sort"
-msgstr "Στήλη ταξινόμησης προβολής διεργασιών"
+msgstr "/_Προβολή/_Ταξινόμηση"
 
 #: src/mainwindow.c:504
-#, fuzzy
 msgid "/_View/_Sort/by _number"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Νούμερο"
 
 #: src/mainwindow.c:505
-#, fuzzy
 msgid "/_View/_Sort/by S_ize"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Μέγεθος"
 
 #: src/mainwindow.c:506
-#, fuzzy
 msgid "/_View/_Sort/by _Date"
-msgstr "/Ταξινόμηση λίστας/Κατά χρονολογία"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Χρονολογία"
 
 #: src/mainwindow.c:507
-#, fuzzy
 msgid "/_View/_Sort/by _From"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Αποστολέα"
 
 #: src/mainwindow.c:508
-#, fuzzy
 msgid "/_View/_Sort/by _To"
-msgstr "Φτάνει σε εσάς από:"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Παραλήπτη"
 
 #: src/mainwindow.c:509
-#, fuzzy
 msgid "/_View/_Sort/by S_ubject"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Θέμα"
 
 #: src/mainwindow.c:510
-#, fuzzy
 msgid "/_View/_Sort/by _color label"
-msgstr "/Απεικόνιση/Ξεχωριστό παράθυρο δομής καταλόγων"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά Χρ_ωματική ταμπέλα"
 
 #: src/mainwindow.c:512
-#, fuzzy
 msgid "/_View/_Sort/by _mark"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Σήμανση"
 
 #: src/mainwindow.c:513
-#, fuzzy
 msgid "/_View/_Sort/by _status"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _Κατάσταση"
 
 #: src/mainwindow.c:514
-#, fuzzy
 msgid "/_View/_Sort/by a_ttachment"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά Συν_ημμένο"
 
 #: src/mainwindow.c:516
-#, fuzzy
 msgid "/_View/_Sort/by score"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά Βαθμολογία"
 
 #: src/mainwindow.c:517
-#, fuzzy
 msgid "/_View/_Sort/by locked"
-msgstr "Ταξινόμηση λίστας/Κατά όνομα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά κλέιδωμα"
 
 #: src/mainwindow.c:518
-#, fuzzy
 msgid "/_View/_Sort/D_on't sort"
-msgstr "Στήλη ταξινόμησης προβολής διεργασιών"
+msgstr "/_Προβολή/_Ταξινόμηση/Ατα_ξινόμητα"
 
 #: src/mainwindow.c:519
 #: src/mainwindow.c:522
-#, fuzzy
 msgid "/_View/_Sort/---"
-msgstr "Στήλη ταξινόμησης προβολής διεργασιών"
+msgstr "/_Προβολή/_Ταξινόμηση/---"
 
 #: src/mainwindow.c:520
-#, fuzzy
 msgid "/_View/_Sort/Ascending"
-msgstr "Στήλη ταξινόμησης προβολής διεργασιών"
+msgstr "/_Προβολή/_Ταξινόμηση/Αύξουσα"
 
 #: src/mainwindow.c:521
-#, fuzzy
 msgid "/_View/_Sort/Descending"
-msgstr "Στήλη ταξινόμησης προβολής διεργασιών"
+msgstr "/_Προβολή/_Ταξινόμηση/Φθίνουσα"
 
 #: src/mainwindow.c:523
-#, fuzzy
 msgid "/_View/_Sort/_Attract by subject"
-msgstr "/Περίληψη/Ταξινόμηση/_Attract by subject"
+msgstr "/_Προβολή/_Ταξινόμηση/_Ομαδοποίηση κατά θέμα"
 
 #: src/mainwindow.c:525
 #, fuzzy
@@ -4819,7 +4791,7 @@ msgstr "Μικρογραφίες όλων των εικονικών επιφαν
 
 #: src/mainwindow.c:527
 msgid "/_View/Co_llapse all threads"
-msgstr "/Απεικόνιση/Σύμπτυξη όλων των νημάτων"
+msgstr "/Προβολή/Σύμπτυξη όλων των νημάτων"
 
 #: src/mainwindow.c:528
 #, fuzzy
@@ -4888,7 +4860,7 @@ msgstr "/Περίληψη/Επόμενο μήνυμα"
 #: src/mainwindow.c:546
 #, fuzzy
 msgid "/_View/_Go to/Prev _marked message"
-msgstr "/Απεικόνιση/Ξεχωριστή απεικόνιση μηνυμάτων"
+msgstr "/Προβολή/Ξεχωριστή απεικόνιση μηνυμάτων"
 
 #: src/mainwindow.c:548
 #, fuzzy
@@ -4897,11 +4869,11 @@ msgstr "Επόμενο αδιάβαστο μήνυμα"
 
 #: src/mainwindow.c:551
 msgid "/_View/_Go to/Prev _labeled message"
-msgstr "/Απεικόνιση/Μετάβαση/Προηγούμενο σημειωμένο μήνυμα"
+msgstr "/Προβολή/Μετάβαση/Προηγούμενο σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:553
 msgid "/_View/_Go to/Next la_beled message"
-msgstr "/Απεικόνιση/Μετάβαση/Επόμενο σημειωμένο μήνυμα"
+msgstr "/Προβολή/Μετάβαση/Επόμενο σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:556
 #, fuzzy
@@ -4925,7 +4897,7 @@ msgstr "Ορισμός κωδικοποίησης  _χαρακτήρων"
 #: src/messageview.c:177
 #, fuzzy
 msgid "/_View/Character _encoding/_Auto detect"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Αυτόματη αναγνώριση"
+msgstr "/Προβολή/Κωδικοσύνολο/Αυτόματη αναγνώριση"
 
 #: src/mainwindow.c:568
 #: src/messageview.c:180
@@ -4954,7 +4926,7 @@ msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Δυτ
 #: src/mainwindow.c:578
 #, fuzzy
 msgid "/_View/Character _encoding/Western European (Windows-1252)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Δυτικής Ευρώπης (ISO-8859-_1)"
+msgstr "/Προβολή/Κωδικοσύνολο/Δυτικής Ευρώπης (ISO-8859-_1)"
 
 #: src/mainwindow.c:582
 #: src/messageview.c:191
@@ -4990,7 +4962,7 @@ msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Βαλ
 #: src/messageview.c:204
 #, fuzzy
 msgid "/_View/Character _encoding/Hebrew (Windows-1255)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κυριλλικό (Windows-1251)"
+msgstr "/Προβολή/Κωδικοσύνολο/Κυριλλικό (Windows-1251)"
 
 #: src/mainwindow.c:602
 #: src/messageview.c:207
@@ -5044,7 +5016,7 @@ msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ιαπ
 #: src/messageview.c:225
 #, fuzzy
 msgid "/_View/Character _encoding/Japanese (_Shift__JIS)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Ιαπωνέζικο (_Shift__JIS)"
+msgstr "/Προβολή/Κωδικοσύνολο/Ιαπωνέζικο (_Shift__JIS)"
 
 #: src/mainwindow.c:626
 #: src/messageview.c:228
@@ -5074,7 +5046,7 @@ msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Παρ
 #: src/messageview.c:236
 #, fuzzy
 msgid "/_View/Character _encoding/Chinese (ISO-2022-_CN)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κινεζικό (ISO-2022-_CN)"
+msgstr "/Προβολή/Κωδικοσύνολο/Κινεζικό (ISO-2022-_CN)"
 
 #: src/mainwindow.c:638
 #: src/messageview.c:239
@@ -5086,7 +5058,7 @@ msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Κορ
 #: src/messageview.c:241
 #, fuzzy
 msgid "/_View/Character _encoding/Korean (ISO-2022-KR)"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Κορεάτικο (ISO-2022-KR)"
+msgstr "/Προβολή/Κωδικοσύνολο/Κορεάτικο (ISO-2022-KR)"
 
 #: src/mainwindow.c:644
 #: src/messageview.c:244
@@ -5118,7 +5090,7 @@ msgstr "<b>Προβολή Επιλογών:</b>"
 #: src/messageview.c:257
 #, fuzzy
 msgid "/_View/Decode/_Auto detect"
-msgstr "/Απεικόνιση/Κωδικοσύνολο/Αυτόματη αναγνώριση"
+msgstr "/Προβολή/Κωδικοσύνολο/Αυτόματη αναγνώριση"
 
 #: src/mainwindow.c:660
 #: src/messageview.c:260
