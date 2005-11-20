@@ -5117,56 +5117,49 @@ msgid "/_Message/_Reply"
 msgstr "/_Μήνυμα/Α_πάντηση"
 
 #: src/mainwindow.c:689
-#, fuzzy
 msgid "/_Message/Repl_y to"
-msgstr "Απάντηση σε αυτό το μύνημα"
+msgstr "/_Μήνυμα/Απάντη_ση"
 
 #: src/mainwindow.c:690
 #: src/messageview.c:277
-#, fuzzy
 msgid "/_Message/Repl_y to/_all"
-msgstr "WALLCHAN <μήνυμα>, αποστολή του μηνύματος σε όλα τα κανάλια"
+msgstr "/_Μήνυμα/Απάντη_ση/σε ό_λους"
 
 #: src/mainwindow.c:691
 #: src/messageview.c:279
-#, fuzzy
 msgid "/_Message/Repl_y to/_sender"
-msgstr "Συγγραφή απάντησης στον αποστολέα του επιλεγμένου μηνύματος"
+msgstr "/_Μήνυμα/Απάντη_ση/στον _αποστολέα"
 
 #: src/mainwindow.c:692
 #: src/messageview.c:281
-#, fuzzy
 msgid "/_Message/Repl_y to/mailing _list"
-msgstr "Αποστολή μηνύματος στη λίστα αλληλογραφίας;"
+msgstr "/_Μήνυμα/Απάντη_ση/στη _λίστα αλληλογραφίας"
 
 #: src/mainwindow.c:694
-#, fuzzy
 msgid "/_Message/Follow-up and reply to"
-msgstr "/Μήνυμα/Συνέχεια σε"
+msgstr "/_Μήνυμα/Συνέχεια-σε και απάντηση"
 
 #: src/mainwindow.c:696
 #: src/messageview.c:284
 msgid "/_Message/_Forward"
-msgstr "/_Μήνυμα/Προώθηση"
+msgstr "/_Μήνυμα/_Προώθηση"
 
 #: src/mainwindow.c:697
 #: src/messageview.c:285
-#, fuzzy
 msgid "/_Message/For_ward as attachment"
-msgstr "Λήξη χρόνου για σημείωση μηνυμάτων ως ανοιγμένα"
+msgstr "/_Μήνυμα/Π_ροώθηση ως συνημμένο"
 
 #: src/mainwindow.c:698
-#, fuzzy
 msgid "/_Message/Redirect"
-msgstr "Αριστερό μήνυμα"
+msgstr "/_Μήνυμα/Αναμετάδοση"
 
 #: src/mainwindow.c:700
 msgid "/_Message/M_ove..."
-msgstr "/_Μήνυμα/Μετακίνηση..."
+msgstr "/_Μήνυμα/Μ_ετακίνηση..."
 
 #: src/mainwindow.c:701
 msgid "/_Message/_Copy..."
-msgstr "/_Μήνυμα/Αντιγραφή..."
+msgstr "/_Μήνυμα/_Αντιγραφή..."
 
 #: src/mainwindow.c:702
 #, fuzzy
