@@ -5080,36 +5080,35 @@ msgstr "/_Προβολή/Ανανέ_ωση"
 
 #: src/mainwindow.c:676
 msgid "/_Message/Recei_ve"
-msgstr "/_Μήνυμα/Λή_ψη"
+msgstr "/_Μήνυμα/_Λήψη"
 
 #: src/mainwindow.c:677
 msgid "/_Message/Recei_ve/Get from _current account"
-msgstr "/_Μήνυμα/Λή_ψη/Από τον _τρέχον λογαριασμό"
+msgstr "/_Μήνυμα/_Λήψη/Από τον _τρέχον λογαριασμό"
 
 #: src/mainwindow.c:679
 msgid "/_Message/Recei_ve/Get from _all accounts"
-msgstr "/_Μήνυμα/Λή_ψη/Από _όλους τους λογαριασμούς"
+msgstr "/_Μήνυμα/_Λήψη/Από _όλους τους λογαριασμούς"
 
 #: src/mainwindow.c:681
 msgid "/_Message/Recei_ve/Cancel receivin_g"
-msgstr "/_Μήνυμα/Λή_ψη/_Ακύρωση λήψης"
+msgstr "/_Μήνυμα/_Λήψη/_Ακύρωση λήψης"
 
 #: src/mainwindow.c:683
 msgid "/_Message/Recei_ve/---"
-msgstr "/_Μήνυμα/Λή_ψη/---"
+msgstr "/_Μήνυμα/_Λήψη/---"
 
 #: src/mainwindow.c:684
 msgid "/_Message/_Send queued messages"
-msgstr "/_Μήνυμα/_Αποστολή μηνυμάτων στην ουρά"
+msgstr "/_Μήνυμα/Αποστολή μηνυμάτων στην _ουρά"
 
 #: src/mainwindow.c:686
 msgid "/_Message/Compose a_n email message"
 msgstr "/Μήνυμα/Σύνθεση μηνύματος ηλεκτρονικού _ταχυδρομείου"
 
 #: src/mainwindow.c:687
-#, fuzzy
 msgid "/_Message/Compose a news message"
-msgstr "/_Μήνυμα/Σύνθεση μηνύματος νέων USENET"
+msgstr "/_Μήνυμα/Σύνθεση μηνύματος _νέων"
 
 #: src/mainwindow.c:688
 #: src/messageview.c:276
@@ -5118,22 +5117,22 @@ msgstr "/_Μήνυμα/Α_πάντηση"
 
 #: src/mainwindow.c:689
 msgid "/_Message/Repl_y to"
-msgstr "/_Μήνυμα/Απάντη_ση"
+msgstr "/_Μήνυμα/Απάντηση _σε"
 
 #: src/mainwindow.c:690
 #: src/messageview.c:277
 msgid "/_Message/Repl_y to/_all"
-msgstr "/_Μήνυμα/Απάντη_ση/σε ό_λους"
+msgstr "/_Μήνυμα/Απάντηση _σε/όλ_ους"
 
 #: src/mainwindow.c:691
 #: src/messageview.c:279
 msgid "/_Message/Repl_y to/_sender"
-msgstr "/_Μήνυμα/Απάντη_ση/στον _αποστολέα"
+msgstr "/_Μήνυμα/Απάντηση _σε/_αποστολέα"
 
 #: src/mainwindow.c:692
 #: src/messageview.c:281
 msgid "/_Message/Repl_y to/mailing _list"
-msgstr "/_Μήνυμα/Απάντη_ση/στη _λίστα αλληλογραφίας"
+msgstr "/_Μήνυμα/Απάντηση _σε/_λίστα αλληλογραφίας"
 
 #: src/mainwindow.c:694
 msgid "/_Message/Follow-up and reply to"
@@ -5155,62 +5154,56 @@ msgstr "/_Μήνυμα/Αναμετάδοση"
 
 #: src/mainwindow.c:700
 msgid "/_Message/M_ove..."
-msgstr "/_Μήνυμα/Μ_ετακίνηση..."
+msgstr "/_Μήνυμα/_Μετακίνηση..."
 
 #: src/mainwindow.c:701
 msgid "/_Message/_Copy..."
 msgstr "/_Μήνυμα/_Αντιγραφή..."
 
 #: src/mainwindow.c:702
-#, fuzzy
 msgid "/_Message/Move to _trash"
-msgstr ""
-"Αδυναμία μετακίνησης στα απορρίμματα:\n"
-"%s"
+msgstr "/_Μήνυμα/Μετα_κίνηση στα απορίμματα"
 
 #: src/mainwindow.c:703
-#, fuzzy
 msgid "/_Message/_Delete..."
-msgstr "Διαγραφή Μηνύματος(ων)"
+msgstr "/_Μήνυμα/_Διαγραφή..."
 
 #: src/mainwindow.c:704
-#, fuzzy
 msgid "/_Message/Cancel a news message"
-msgstr "Μήνυμα νέων USENET"
+msgstr "/_Μήνυμα/Ακύρωση μηνύματος νέων"
 
 #: src/mainwindow.c:706
 msgid "/_Message/_Mark"
-msgstr "/_Μήνυμα/Σήμανση"
+msgstr "/_Μήνυμα/Σήμανσ_η"
 
 #: src/mainwindow.c:707
 msgid "/_Message/_Mark/_Mark"
-msgstr "/_Μήνυμα/Σήμανση/Σήμανση"
+msgstr "/_Μήνυμα/Σήμανσ_η/Σήμανσ_η"
 
 #: src/mainwindow.c:708
 msgid "/_Message/_Mark/_Unmark"
-msgstr "/_Μήνυμα/Σήμανση/Αναίρεση σήμανσης"
+msgstr "/_Μήνυμα/Σήμανσ_η/_Αναίρεση σήμανσης"
 
 #: src/mainwindow.c:709
 msgid "/_Message/_Mark/---"
-msgstr "/_Μήνυμα/Σήμανση/---"
+msgstr "/_Μήνυμα/Σήμανσ_η/---"
 
 #: src/mainwindow.c:710
 msgid "/_Message/_Mark/Mark as unr_ead"
-msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως μη αναγνωσμένο"
+msgstr "/_Μήνυμα/Σήμανσ_η/Ως _μη αναγνωσμένο"
 
 #: src/mainwindow.c:711
 msgid "/_Message/_Mark/Mark as rea_d"
-msgstr "/_Μήνυμα/Σήμανση/Σήμανση ως αναγνωσμένο"
+msgstr "/_Μήνυμα/Σήμανσ_η/Ως _αναγνωσμένο"
 
 #: src/mainwindow.c:713
-#, fuzzy
 msgid "/_Message/_Mark/Mark all _read"
-msgstr "Σήμανση Όλων ως Αναγνωσμ_ένα"
+msgstr "/_Μήνυμα/Σήμανσ_η/Ό_λων ως Αναγνωσμένα"
 
 #: src/mainwindow.c:715
 #: src/messageview.c:289
 msgid "/_Message/Re-_edit"
-msgstr "/_Μήνυμα/Επαν-επεξεργασία"
+msgstr "/_Μήνυμα/Επαν-_επεξεργασία"
 
 #: src/mainwindow.c:718
 #, fuzzy
