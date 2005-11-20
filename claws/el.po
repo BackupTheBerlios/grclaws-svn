@@ -5079,49 +5079,42 @@ msgid "/_View/_Update summary"
 msgstr "/_Προβολή/Ανανέ_ωση"
 
 #: src/mainwindow.c:676
-#, fuzzy
 msgid "/_Message/Recei_ve"
-msgstr "Επιλογές Αποθή_κευσης"
+msgstr "/_Μήνυμα/Λή_ψη"
 
 #: src/mainwindow.c:677
-#, fuzzy
 msgid "/_Message/Recei_ve/Get from _current account"
-msgstr "/Μήνυμα/Λήψη από όλους τους λογαριασμούς"
+msgstr "/_Μήνυμα/Λή_ψη/Από τον _τρέχον λογαριασμό"
 
 #: src/mainwindow.c:679
-#, fuzzy
 msgid "/_Message/Recei_ve/Get from _all accounts"
-msgstr "/Μήνυμα/Λήψη από όλους τους λογαριασμούς"
+msgstr "/_Μήνυμα/Λή_ψη/Από _όλους τους λογαριασμούς"
 
 #: src/mainwindow.c:681
-#, fuzzy
 msgid "/_Message/Recei_ve/Cancel receivin_g"
-msgstr "/Μήνυμα/Διαγραφή"
+msgstr "/_Μήνυμα/Λή_ψη/_Ακύρωση λήψης"
 
 #: src/mainwindow.c:683
-#, fuzzy
 msgid "/_Message/Recei_ve/---"
-msgstr "Επιλογές Αποθή_κευσης"
+msgstr "/_Μήνυμα/Λή_ψη/---"
 
 #: src/mainwindow.c:684
-#, fuzzy
 msgid "/_Message/_Send queued messages"
-msgstr "Αποτυχία αποστολής %d από %d μηνυμάτων"
+msgstr "/_Μήνυμα/_Αποστολή μηνυμάτων στην ουρά"
 
 #: src/mainwindow.c:686
-#, fuzzy
 msgid "/_Message/Compose a_n email message"
-msgstr "Ηλεκτρονικό μήνυμα/ κουτί αλληλογραφίας"
+msgstr "/Μήνυμα/Σύνθεση μηνύματος ηλεκτρονικού _ταχυδρομείου"
 
 #: src/mainwindow.c:687
 #, fuzzy
 msgid "/_Message/Compose a news message"
-msgstr "Μήνυμα νέων USENET"
+msgstr "/_Μήνυμα/Σύνθεση μηνύματος νέων USENET"
 
 #: src/mainwindow.c:688
 #: src/messageview.c:276
 msgid "/_Message/_Reply"
-msgstr "/_Μήνυμα/Απάντηση"
+msgstr "/_Μήνυμα/Α_πάντηση"
 
 #: src/mainwindow.c:689
 #, fuzzy
