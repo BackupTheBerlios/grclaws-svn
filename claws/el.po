@@ -5206,15 +5206,13 @@ msgid "/_Message/Re-_edit"
 msgstr "/_Μήνυμα/Επαν-_επεξεργασία"
 
 #: src/mainwindow.c:718
-#, fuzzy
 msgid "/_Tools/_Address book..."
-msgstr "Διαγραφή ευρετήριου διευθύνσεων '{0}'?"
+msgstr "/_Εργαλεία/_Ευρετήριο διευθύνσεων..."
 
 #: src/mainwindow.c:719
 #: src/messageview.c:293
-#, fuzzy
 msgid "/_Tools/Add sender to address boo_k"
-msgstr "/Εργαλεία/Κατάλογος διευθύνσεων"
+msgstr "/_Εργαλεία/Προσθήκη αποστολέα στο ευρετήριο διευθύνσεων"
 
 #: src/mainwindow.c:721
 #, fuzzy
