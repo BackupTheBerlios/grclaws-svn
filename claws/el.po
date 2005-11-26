@@ -5215,57 +5215,49 @@ msgid "/_Tools/Add sender to address boo_k"
 msgstr "/_Εργαλεία/Προσθήκη αποστολέα στο ευρετήριο διευθύνσεων"
 
 #: src/mainwindow.c:721
-#, fuzzy
 msgid "/_Tools/_Harvest addresses"
-msgstr "Εμφάνιση Λίστας Διευθύνσεων"
+msgstr "/_Εργαλεία/Συλλογή διευθύνσεων"
 
 #: src/mainwindow.c:722
 msgid "/_Tools/_Harvest addresses/from _Folder..."
-msgstr "/Εργαλεία/Συλλογή διευθύνσεων/από _Φάκελο..."
+msgstr "/_Εργαλεία/Συλλογή διευθύνσεων/από _Φάκελο..."
 
 #: src/mainwindow.c:724
 msgid "/_Tools/_Harvest addresses/from _Messages..."
-msgstr "/Εργαλεία/Συλλογή διευθύνσεων/από _Μηνύματα..."
+msgstr "/_Εργαλεία/Συλλογή διευθύνσεων/από _Μηνύματα..."
 
 #: src/mainwindow.c:727
-#, fuzzy
 msgid "/_Tools/_Filter all messages in folder"
-msgstr "/Περίληψη/Φιλτράρισμα μηνυμάτων"
+msgstr "/_Εργαλεία/_Φιλτράρισμα όλων των μηνυμάτων στο φάκελο"
 
 #: src/mainwindow.c:729
-#, fuzzy
 msgid "/_Tools/Filter _selected messages"
-msgstr "Εφαρμογή φίλτρου στα επιλεγμένα μηνύματα"
+msgstr "/_Εργαλεία/Φιλτράρισμα επιλεγμένων μηνυμάτων"
 
 #: src/mainwindow.c:731
 #: src/messageview.c:296
-#, fuzzy
 msgid "/_Tools/_Create filter rule"
-msgstr "_Δημιουργία Φίλτρου Από Το Μήνυμα"
+msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα"
 
 #: src/mainwindow.c:732
 #: src/messageview.c:298
-#, fuzzy
 msgid "/_Tools/_Create filter rule/_Automatically"
-msgstr "Δημιουργία κανόνα για το φιλτράρισμα μηνυμάτων με αυτούς του παραλήπτες"
+msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/_Αυτόματα"
 
 #: src/mainwindow.c:734
 #: src/messageview.c:300
-#, fuzzy
 msgid "/_Tools/_Create filter rule/by _From"
-msgstr "Δημιουργία κανόνα για το φιλτράρισμα μηνυμάτων από αυτόν τον αποστολέα"
+msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/από τον Απο_στολέα"
 
 #: src/mainwindow.c:736
 #: src/messageview.c:302
-#, fuzzy
 msgid "/_Tools/_Create filter rule/by _To"
-msgstr "Δημιουργία κανόνα για το φιλτράρισμα μηνυμάτων με αυτούς του παραλήπτες"
+msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/από τους _Παραλήπτες"
 
 #: src/mainwindow.c:738
 #: src/messageview.c:304
-#, fuzzy
 msgid "/_Tools/_Create filter rule/by _Subject"
-msgstr "Δημιουργία κανόνα για το φιλτράρισμα μηνυμάτων με αυτό το θέμα"
+msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/από το _Θέμα"
 
 #: src/mainwindow.c:740
 #, fuzzy
