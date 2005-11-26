@@ -5260,63 +5260,52 @@ msgid "/_Tools/_Create filter rule/by _Subject"
 msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/από το _Θέμα"
 
 #: src/mainwindow.c:740
-#, fuzzy
 msgid "/_Tools/C_reate processing rule"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας"
 
 #: src/mainwindow.c:741
 msgid "/_Tools/C_reate processing rule/_Automatically"
-msgstr "/Εργαλεία/Δημιουργία κανόνα επεξεργασίας/Αυτόματα"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/_Αυτόματα"
 
 #: src/mainwindow.c:743
-#, fuzzy
 msgid "/_Tools/C_reate processing rule/by _From"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από τον Απο_στολέα"
 
 #: src/mainwindow.c:745
-#, fuzzy
 msgid "/_Tools/C_reate processing rule/by _To"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από τους _Παραλήπτες"
 
 #: src/mainwindow.c:747
-#, fuzzy
 msgid "/_Tools/C_reate processing rule/by _Subject"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από το _Θέμα"
 
 #: src/mainwindow.c:752
-#, fuzzy
 msgid "/_Tools/Ch_eck for new messages in all folders"
-msgstr "/Αρχείο/Κατάλογος/Δημιουργία νέου καταλόγου..."
+msgstr "/_Εργαλεία/Έλεγχος για νέα μηνύματα σε όλους τους φακέλους"
 
 #: src/mainwindow.c:754
-#, fuzzy
 msgid "/_Tools/Delete du_plicated messages"
-msgstr "/Περίληψη/Διαγραφή διπλών μηνυμάτων"
+msgstr "/_Εργαλεία/Διαγραφή διπλών μηνυμάτων"
 
 #: src/mainwindow.c:756
-#, fuzzy
 msgid "/_Tools/Delete du_plicated messages/In selected folder"
-msgstr "/Περίληψη/Διαγραφή διπλών μηνυμάτων"
+msgstr "/_Εργαλεία/Διαγραφή διπλών μηνυμάτων/Στον επιλεγμένο φάκελο"
 
 #: src/mainwindow.c:758
-#, fuzzy
 msgid "/_Tools/Delete du_plicated messages/In all folders"
-msgstr "/Περίληψη/Διαγραφή διπλών μηνυμάτων"
+msgstr "/_Εργαλεία/Διαγραφή διπλών μηνυμάτων/Σε όλους τους φακέλους"
 
 #: src/mainwindow.c:761
-#, fuzzy
 msgid "/_Tools/E_xecute"
-msgstr "Εργαλεία Συστήματος"
+msgstr "/_Εργαλεία/Εκτέλεση"
 
 #: src/mainwindow.c:764
-#, fuzzy
 msgid "/_Tools/SSL cer_tificates..."
-msgstr "/Αρχείο/Εισαγωγή αρχείου mbox..."
+msgstr "/_Εργαλεία/Πιστοποιητικά SSL..."
 
 #: src/mainwindow.c:768
-#, fuzzy
 msgid "/_Tools/_Log window"
-msgstr "Μέγεθος του παραθύρου καταγραφής"
+msgstr "/_Εργαλεία/Παράθυρο καταγραφής"
 
 #: src/mainwindow.c:770
 msgid "/_Configuration"
