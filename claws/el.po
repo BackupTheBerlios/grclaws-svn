@@ -5212,19 +5212,19 @@ msgstr "/_Εργαλεία/_Ευρετήριο διευθύνσεων..."
 #: src/mainwindow.c:719
 #: src/messageview.c:293
 msgid "/_Tools/Add sender to address boo_k"
-msgstr "/_Εργαλεία/Προσθήκη αποστολέα στο ευρετήριο διευθύνσεων"
+msgstr "/_Εργαλεία/Προσθήκη αποστολέα στο ευρετήριο _διευθύνσεων"
 
 #: src/mainwindow.c:721
 msgid "/_Tools/_Harvest addresses"
-msgstr "/_Εργαλεία/Συλλογή διευθύνσεων"
+msgstr "/_Εργαλεία/_Συλλογή διευθύνσεων"
 
 #: src/mainwindow.c:722
 msgid "/_Tools/_Harvest addresses/from _Folder..."
-msgstr "/_Εργαλεία/Συλλογή διευθύνσεων/από _Φάκελο..."
+msgstr "/_Εργαλεία/_Συλλογή διευθύνσεων/από _Φάκελο..."
 
 #: src/mainwindow.c:724
 msgid "/_Tools/_Harvest addresses/from _Messages..."
-msgstr "/_Εργαλεία/Συλλογή διευθύνσεων/από _Μηνύματα..."
+msgstr "/_Εργαλεία/_Συλλογή διευθύνσεων/από _Μηνύματα..."
 
 #: src/mainwindow.c:727
 msgid "/_Tools/_Filter all messages in folder"
@@ -5232,80 +5232,80 @@ msgstr "/_Εργαλεία/_Φιλτράρισμα όλων των μηνυμά�
 
 #: src/mainwindow.c:729
 msgid "/_Tools/Filter _selected messages"
-msgstr "/_Εργαλεία/Φιλτράρισμα επιλεγμένων μηνυμάτων"
+msgstr "/_Εργαλεία/Φιλτράρισμα ε_πιλεγμένων μηνυμάτων"
 
 #: src/mainwindow.c:731
 #: src/messageview.c:296
 msgid "/_Tools/_Create filter rule"
-msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα"
+msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου"
 
 #: src/mainwindow.c:732
 #: src/messageview.c:298
 msgid "/_Tools/_Create filter rule/_Automatically"
-msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/_Αυτόματα"
+msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/_Αυτόματα"
 
 #: src/mainwindow.c:734
 #: src/messageview.c:300
 msgid "/_Tools/_Create filter rule/by _From"
-msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/από τον Απο_στολέα"
+msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/από τον Απο_στολέα"
 
 #: src/mainwindow.c:736
 #: src/messageview.c:302
 msgid "/_Tools/_Create filter rule/by _To"
-msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/από τους _Παραλήπτες"
+msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/από τους _Παραλήπτες"
 
 #: src/mainwindow.c:738
 #: src/messageview.c:304
 msgid "/_Tools/_Create filter rule/by _Subject"
-msgstr "/_Εργαλεία/_Δημιουργία Φίλτρου Από Το Μήνυμα/από το _Θέμα"
+msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/από το _Θέμα"
 
 #: src/mainwindow.c:740
 msgid "/_Tools/C_reate processing rule"
-msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας"
+msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας"
 
 #: src/mainwindow.c:741
 msgid "/_Tools/C_reate processing rule/_Automatically"
-msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/_Αυτόματα"
+msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/_Αυτόματα"
 
 #: src/mainwindow.c:743
 msgid "/_Tools/C_reate processing rule/by _From"
-msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από τον Απο_στολέα"
+msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/από τον Απο_στολέα"
 
 #: src/mainwindow.c:745
 msgid "/_Tools/C_reate processing rule/by _To"
-msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από τους _Παραλήπτες"
+msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/από τους _Παραλήπτες"
 
 #: src/mainwindow.c:747
 msgid "/_Tools/C_reate processing rule/by _Subject"
-msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από το _Θέμα"
+msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/από το _Θέμα"
 
 #: src/mainwindow.c:752
 msgid "/_Tools/Ch_eck for new messages in all folders"
-msgstr "/_Εργαλεία/Έλεγχος για νέα μηνύματα σε όλους τους φακέλους"
+msgstr "/_Εργαλεία/Έλεγχος για _νέα μηνύματα σε όλους τους φακέλους"
 
 #: src/mainwindow.c:754
 msgid "/_Tools/Delete du_plicated messages"
-msgstr "/_Εργαλεία/Διαγραφή διπλών μηνυμάτων"
+msgstr "/_Εργαλεία/Διαγραφή δ_ιπλών μηνυμάτων"
 
 #: src/mainwindow.c:756
 msgid "/_Tools/Delete du_plicated messages/In selected folder"
-msgstr "/_Εργαλεία/Διαγραφή διπλών μηνυμάτων/Στον επιλεγμένο φάκελο"
+msgstr "/_Εργαλεία/Διαγραφή δ_ιπλών μηνυμάτων/Στον επιλεγμένο φάκελο"
 
 #: src/mainwindow.c:758
 msgid "/_Tools/Delete du_plicated messages/In all folders"
-msgstr "/_Εργαλεία/Διαγραφή διπλών μηνυμάτων/Σε όλους τους φακέλους"
+msgstr "/_Εργαλεία/Διαγραφή δ_ιπλών μηνυμάτων/Σε όλους τους φακέλους"
 
 #: src/mainwindow.c:761
 msgid "/_Tools/E_xecute"
-msgstr "/_Εργαλεία/Εκτέλεση"
+msgstr "/_Εργαλεία/Εκτέ_λεση"
 
 #: src/mainwindow.c:764
 msgid "/_Tools/SSL cer_tificates..."
-msgstr "/_Εργαλεία/Πιστοποιητικά SSL..."
+msgstr "/_Εργαλεία/Πισ_τοποιητικά SSL..."
 
 #: src/mainwindow.c:768
 msgid "/_Tools/_Log window"
-msgstr "/_Εργαλεία/Παράθυρο καταγραφής"
+msgstr "/_Εργαλεία/Πα_ράθυρο καταγραφής"
 
 #: src/mainwindow.c:770
 msgid "/_Configuration"
