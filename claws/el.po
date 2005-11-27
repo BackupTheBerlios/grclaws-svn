@@ -3891,28 +3891,24 @@ msgstr "/Συγχρονισμός"
 
 #: src/imap_gtk.c:61
 #: src/news_gtk.c:55
-#, fuzzy
 msgid "/Down_load messages"
-msgstr "Όχι εξωτερικά μηνύματα"
+msgstr "/_Λήψη μηνυμάτων"
 
 #: src/imap_gtk.c:63
 #: src/mh_gtk.c:55
 #: src/news_gtk.c:57
-#, fuzzy
 msgid "/_Check for new messages"
-msgstr "_Αυτόματος έλεγχος για νέα μηνύματα κάθε"
+msgstr "/Έλε_γχος για νέα μηνύματα"
 
 #: src/imap_gtk.c:64
 #: src/mh_gtk.c:56
-#, fuzzy
 msgid "/C_heck for new folders"
-msgstr "Προβολή _νέων φακέλων με χρήση:"
+msgstr "/Έλεγχος για νέους _Φακέλους"
 
 #: src/imap_gtk.c:65
 #: src/mh_gtk.c:57
-#, fuzzy
 msgid "/R_ebuild folder tree"
-msgstr "Δέντρο φακέλου spool %s"
+msgstr "/Ανακατασκευή _διάταξης φακέλων"
 
 #: src/imap_gtk.c:134
 #, fuzzy
@@ -3997,16 +3993,14 @@ msgid "Select and rename LDIF field names to import."
 msgstr ""
 
 #: src/importldif.c:196
-#, fuzzy
 msgid "File imported."
-msgstr "Εισηγμένο Πιστοποιητικό"
+msgstr "Το αρχείο εισήχθη"
 
 #: src/importldif.c:451
 #: src/importmutt.c:125
 #: src/importpine.c:125
-#, fuzzy
 msgid "Please select a file."
-msgstr "Επιλογή ενός Αρχείου Εικόνας"
+msgstr "Παρακαλώ επιλέξτε ένα αρχείο"
 
 #: src/importldif.c:457
 #: src/importmutt.c:130
@@ -4034,9 +4028,8 @@ msgid "Specify the name for the address book that will be created from the LDIF 
 msgstr ""
 
 #: src/importldif.c:668
-#, fuzzy
 msgid "File Name"
-msgstr "Όνομα αρχείου"
+msgstr "Όνομα Αρχείου"
 
 #: src/importldif.c:679
 msgid "The full file specification of the LDIF file to import."
@@ -4058,9 +4051,8 @@ msgid "S"
 msgstr ""
 
 #: src/importldif.c:727
-#, fuzzy
 msgid "LDIF Field Name"
-msgstr "Μέγιστο μάκρος ονόματος πεδίου"
+msgstr "Όνομα πεδίου LDIF"
 
 #: src/importldif.c:728
 #, fuzzy
@@ -4068,9 +4060,8 @@ msgid "Attribute Name"
 msgstr "Το όνομα γνωρίσματος για εμφάνιση"
 
 #: src/importldif.c:783
-#, fuzzy
 msgid "LDIF Field"
-msgstr "Τι_μή Πεδίου"
+msgstr "Πεδίο LDIF"
 
 #: src/importldif.c:795
 msgid "Attribute"
@@ -4125,7 +4116,7 @@ msgstr "Επιλογή Αρχείου MUTT"
 
 #: src/importmutt.c:207
 msgid "Import MUTT file into Address Book"
-msgstr ""
+msgstr "Εισαγωγή αρχείοτ MUTT στο Ευρετήριο Διευθύνσεων"
 
 #: src/importmutt.c:295
 #: src/importpine.c:296
@@ -4189,21 +4180,19 @@ msgstr "Κλειδωμένο"
 
 #: src/inc.c:587
 #: src/plugins/spamassassin/spamassassin_gtk.c:246
-#, fuzzy
 msgid "Timeout"
-msgstr "Όριο _χρόνου:"
+msgstr "Όριο χρόνου"
 
 #: src/inc.c:685
-#, fuzzy, c-format
+#, c-format
 msgid "Finished (%d new message)"
 msgid_plural "Finished (%d new messages)"
-msgstr[0] "Φιλτράρισμα νέων μηνυμάτων"
-msgstr[1] "\t%d νέο(α) μήνυμα(μηνύματα)\n"
+msgstr[0] "Ολοκληρώθηκε (%d νέο μήνυμα)"
+msgstr[1] "Ολοκληρώθηκε (%d νέα μηνύματα)"
 
 #: src/inc.c:689
-#, fuzzy
 msgid "Finished (no new messages)"
-msgstr "Έλεγχος για νέα μηνύματα"
+msgstr "Ολοκληρώθηκε (δεν υπάρχουν νέα μηνύματα)"
 
 #: src/inc.c:698
 #, fuzzy
@@ -4232,9 +4221,8 @@ msgstr "Δεν μπορώ να συνδεθώ στον POP3 server: %s:%d"
 
 #: src/inc.c:870
 #: src/send_message.c:422
-#, fuzzy
 msgid "Authenticating..."
-msgstr "Πιστοποίηση"
+msgstr "Πιστοποίηση..."
 
 #: src/inc.c:871
 #, fuzzy, c-format
@@ -4280,41 +4268,38 @@ msgstr[0] "Παραλαβή μηνύματος ΡΟΡ %d"
 msgstr[1] "Λαμβάνω τα νέα μηνύματα"
 
 #: src/inc.c:1106
-#, fuzzy
 msgid "Connection failed."
-msgstr "Αποτυχία σύνδεσης"
+msgstr "Η σύνδεση απέτυχε"
 
 #: src/inc.c:1109
-#, fuzzy, c-format
+#, c-format
 msgid "Connection to %s:%d failed."
-msgstr "Αποτυχία εύρεσης %s"
+msgstr "Η σύνδεση στο %s:%d απέτυχε."
 
 #: src/inc.c:1114
 msgid "Error occurred while processing mail."
 msgstr "Ένα σφάλμα συνέβη καθώς επεξεργάζομαι το mail."
 
 #: src/inc.c:1119
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error occurred while processing mail:\n"
 "%s"
-msgstr "Δημιουργήθηκε σφάλμα κατά την αποσυμπίεση αρχείων."
+msgstr ""
+"Δημιουργήθηκε σφάλμα κατά την επεξεργασία μηνυμάτων:\n"
+"%s"
 
 #: src/inc.c:1125
 msgid "No disk space left."
 msgstr "Δεν υπάρχει άλλος χώρος στο δίσκο."
 
 #: src/inc.c:1130
-#, fuzzy
 msgid "Can't write file."
 msgstr "Αδύνατη η εγγραφή του αρχείου"
 
 #: src/inc.c:1135
-#, fuzzy
 msgid "Socket error."
-msgstr ""
-"Σφάλμα GConf:\n"
-"  %s"
+msgstr "Σφάλμα βύσματος"
 
 #: src/inc.c:1138
 #, fuzzy, c-format
@@ -4363,7 +4348,6 @@ msgstr ""
 
 #: src/inc.c:1171
 #: src/send_message.c:569
-#, fuzzy
 msgid "Session timed out."
 msgstr "Λήξη χρόνου σύνδεσης"
 
@@ -4398,13 +4382,13 @@ msgid "Nick Name"
 msgstr "Ψευδώνυμο"
 
 #: src/main.c:171
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "File '%s' already exists.\n"
 "Can't create folder."
 msgstr ""
-"Το αρχείο `%s' υπάρχει ήδη.\n"
-"Δεν μπορώ να δημιουργήσω τον κατάλογο."
+"Το αρχείο '%s' υπάρχει ήδη.\n"
+"Δεν είναι δυνατή η δημιουργία του φακέλου."
 
 #: src/main.c:253
 #, c-format
@@ -5466,11 +5450,11 @@ msgid "Deleting duplicated messages..."
 msgstr "Διαγράφω τα διπλά μηνύματα..."
 
 #: src/mainwindow.c:2927
-#, fuzzy, c-format
+#, c-format
 msgid "Deleted %d duplicate message in %d folders.\n"
 msgid_plural "Deleted %d duplicate messages in %d folders.\n"
-msgstr[0] "Εμφάνιση διαγραμμένων μηνυμάτων στην λίστα μηνυμάτων"
-msgstr[1] "Διαγράφω τα διπλά μηνύματα..."
+msgstr[0] "Διεγράφη %d διπλό μήνυμα σε %d φάκελους.\n"
+msgstr[1] "Διεγράφησαν %d διπλά μηνύματα σε %d φακέλους\n"
 
 #: src/mainwindow.c:3068
 #: src/summaryview.c:4204
@@ -5483,9 +5467,8 @@ msgstr ""
 
 #: src/mainwindow.c:3084
 #: src/summaryview.c:4213
-#, fuzzy
 msgid "Filtering configuration"
-msgstr "Ρύθμιση Aλληλογραφίας"
+msgstr "Ρθμίσεις Φίλτρων"
 
 #: src/matcher.c:1239
 #: src/matcher.c:1240
