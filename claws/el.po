@@ -9342,40 +9342,34 @@ msgid "/_Reply"
 msgstr "/_Απάντηση"
 
 #: src/summaryview.c:402
-#, fuzzy
 msgid "/Repl_y to"
-msgstr "Προς/Από"
+msgstr "/Απάντ_ηση σε"
 
 #: src/summaryview.c:403
-#, fuzzy
 msgid "/Repl_y to/_all"
-msgstr "Απάντηση σε _Όλους"
+msgstr "/Απάντ_ηση σε/_Όλους"
 
 #: src/summaryview.c:404
-#, fuzzy
 msgid "/Repl_y to/_sender"
-msgstr "_Απάντηση στον Αποστολέα"
+msgstr "/Απάντ_ηση σε/_Αποστολέα"
 
 #: src/summaryview.c:405
-#, fuzzy
 msgid "/Repl_y to/mailing _list"
-msgstr "Απάντηση στη λίστα ηλεκτρονικού ταχυδρομείου"
+msgstr "/Απάντ_ηση σε/_λίστα ηλεκτρονικού ταχυδρομείου"
 
 #: src/summaryview.c:408
 #: src/toolbar.c:230
 msgid "/_Forward"
-msgstr "/_Προώθηση"
+msgstr "/Πρ_οώθηση"
 
 #: src/summaryview.c:409
 #: src/toolbar.c:231
-#, fuzzy
 msgid "/For_ward as attachment"
-msgstr "Λήξη χρόνου για σημείωση μηνυμάτων ως ανοιγμένα"
+msgstr "/Προώθηση ως συ_νημμένο"
 
 #: src/summaryview.c:410
-#, fuzzy
 msgid "/Redirect"
-msgstr "/Επαν-επεξεργασία"
+msgstr "/Αναμετάδοση"
 
 #: src/summaryview.c:412
 msgid "/M_ove..."
@@ -9386,14 +9380,12 @@ msgid "/_Copy..."
 msgstr "/_Αντιγραφή..."
 
 #: src/summaryview.c:414
-#, fuzzy
 msgid "/Move to _trash"
-msgstr "Μετακίνηση στα Απορρίμα_τα"
+msgstr "/Μετακίνηση στα Απο_ρρίματα"
 
 #: src/summaryview.c:415
-#, fuzzy
 msgid "/_Delete..."
-msgstr "Διαγραφή"
+msgstr "/_Διαγραφή..."
 
 #: src/summaryview.c:417
 msgid "/_Mark"
@@ -9401,7 +9393,7 @@ msgstr "/Σή_μανση"
 
 #: src/summaryview.c:418
 msgid "/_Mark/_Mark"
-msgstr "/Σήμανση/Σή_μανση"
+msgstr "/Σή_μανση/Σή_μανση"
 
 #: src/summaryview.c:419
 msgid "/_Mark/_Unmark"
@@ -9417,98 +9409,87 @@ msgstr "/Σή_μανση/_Ως μη αναγνωσμένο"
 
 #: src/summaryview.c:422
 msgid "/_Mark/Mark as rea_d"
-msgstr "/Σήμανση/Ως αναγ_νωσμένο"
+msgstr "/Σή_μανση/Ως αναγ_νωσμένο"
 
 #: src/summaryview.c:423
 msgid "/_Mark/Mark all read"
 msgstr "/Σή_μανση/Όλων ως αναγνωσμένα"
 
 #: src/summaryview.c:424
-#, fuzzy
 msgid "/_Mark/Ignore thread"
-msgstr "Δεν ήταν δυνατή η δημιουργία thread"
+msgstr "/Σή_μανση/Αγνόηση νήματος"
 
 #: src/summaryview.c:425
-#, fuzzy
 msgid "/_Mark/Unignore thread"
-msgstr "Δεν ήταν δυνατή η δημιουργία thread"
+msgstr "/Σή_μανση/Ακύρωση αγνόησης νήματος"
 
 #: src/summaryview.c:426
-#, fuzzy
 msgid "/_Mark/Lock"
-msgstr "Κ_λείδωμα Σημειώσεων"
+msgstr "/Σή_μανση/Κλείδωμα"
 
 #: src/summaryview.c:427
-#, fuzzy
 msgid "/_Mark/Unlock"
-msgstr "Ξεκλείδωμα Keyring"
+msgstr "/Σή_μανση/Ξεκλείδωμα"
 
 #: src/summaryview.c:428
-#, fuzzy
 msgid "/Color la_bel"
-msgstr "Αμερική/Λα Παζ"
+msgstr "/_Χρωματική ταμπέλα"
 
 #: src/summaryview.c:431
-#, fuzzy
 msgid "/Add sender to address boo_k"
-msgstr "Προσθήκη Αποστολέα στο Ευρετήριο Διευθύνσεων"
+msgstr "/Προσθήκη αποστολέα στο ε_υρετήριο διευθύνσεων"
 
 #: src/summaryview.c:433
-#, fuzzy
 msgid "/Create f_ilter rule"
-msgstr "Προσθήκη Κανόνα Φίλτρου"
+msgstr "/Δημιουργία _φίλτρου"
 
 #: src/summaryview.c:434
 msgid "/Create f_ilter rule/_Automatically"
-msgstr ""
+msgstr "/Δημιουργία _φίλτρου/_Αυτόματα"
 
 #: src/summaryview.c:436
 msgid "/Create f_ilter rule/by _From"
-msgstr ""
+msgstr "/Δημιουργία _φίλτρου/από τον Απο_στολέα"
 
 #: src/summaryview.c:438
-#, fuzzy
 msgid "/Create f_ilter rule/by _To"
-msgstr "Δημιουργία κανόνα για το φιλτράρισμα μηνυμάτων με αυτούς του παραλήπτες"
+msgstr "/Δημιουργία _φίλτρου/από τον _Παραλήπτη"
 
 #: src/summaryview.c:440
 msgid "/Create f_ilter rule/by _Subject"
-msgstr ""
+msgstr "/Δημιουργία _Φίλτρου/από το _Θέμα"
 
 #: src/summaryview.c:442
-#, fuzzy
 msgid "/Create processing rule"
-msgstr "Προσθήκη Κανόνα Φίλτρου"
+msgstr "/Δημιουργία κανόνα επεξεργασίας"
 
 #: src/summaryview.c:443
 msgid "/Create processing rule/_Automatically"
-msgstr ""
+msgstr "/Δημιουργία κανόνα επεξεργασίας/_Αυτόματα"
 
 #: src/summaryview.c:445
 msgid "/Create processing rule/by _From"
-msgstr ""
+msgstr "/Δημιουργία κανόνα επεξεργασίας/από τον Απο_στολέα"
 
 #: src/summaryview.c:447
-#, fuzzy
 msgid "/Create processing rule/by _To"
-msgstr "Δημιουργία κανόνα για το φιλτράρισμα μηνυμάτων με αυτούς του παραλήπτες"
+msgstr "/Δημιουργία κανόνα επεξεργασίας/από τον _Παραλήπτη"
 
 #: src/summaryview.c:449
 msgid "/Create processing rule/by _Subject"
-msgstr ""
+msgstr "/Δημιουργία κανόνα επεξεργασίας/από το _Θέμα"
 
 #: src/summaryview.c:455
-#, fuzzy
 msgid "/_View/_Source"
-msgstr "/Προβολή/"
+msgstr "/Προ_βολή/Πηγαίου _Κώδικα"
 
 #: src/summaryview.c:456
 msgid "/_View/All _header"
-msgstr "/Προβολή/Όλων των κεφαλίδων"
+msgstr "/Προ_βολή/Ό_λων των κεφαλίδων"
 
 #: src/summaryview.c:459
 msgid "/_Print..."
-msgstr "/Εκτύ_πωση..."
+msgstr "/Ε_κτύπωση..."
 
 #: src/summaryview.c:530
 msgid "Toggle quick-search bar"
