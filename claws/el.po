@@ -5499,14 +5499,12 @@ msgid "(none)"
 msgstr "(κανένα)"
 
 #: src/message_search.c:108
-#, fuzzy
 msgid "Find in current message"
-msgstr "Κανένα τέτοιο μήνυμα %s στο %s"
+msgstr "Εύρεση στο τρέχον μήνυμα"
 
 #: src/message_search.c:126
-#, fuzzy
 msgid "Find text:"
-msgstr "Εύρεση μια λέξης στο κείμενο"
+msgstr "Εύρεση κειμένου:"
 
 #: src/message_search.c:141
 #: src/prefs_matcher.c:574
@@ -5525,14 +5523,12 @@ msgid "Search string not found."
 msgstr "Το κείμενο αναζήτησης δεν βρέθηκε."
 
 #: src/message_search.c:210
-#, fuzzy
 msgid "Beginning of message reached; continue from end?"
-msgstr "Έφτασα την αρχή της λίστας. Να συνεχίσω από το τέλος;"
+msgstr "Έφτασα την αρχή του μηνύματος. Να συνεχίσω από το τέλος;"
 
 #: src/message_search.c:213
-#, fuzzy
 msgid "End of message reached; continue from beginning?"
-msgstr "Έφτασα το τέλος της λίστας. Να συνεχίσω από την αρχή;"
+msgstr "Έφτασα το τέλος του μηνύματος. Να συνεχίσω από την αρχή;"
 
 #: src/message_search.c:216
 #: src/summary_search.c:389
@@ -5541,46 +5537,39 @@ msgstr "Η αναζήτηση τελείωσε"
 
 #: src/messageview.c:160
 msgid "/_File/_Close"
-msgstr "/Αρχείο/Κλείσιμο"
+msgstr "/_Αρχείο/_Κλείσιμο"
 
 #: src/messageview.c:270
-#, fuzzy
 msgid "/_View/Show all _headers"
-msgstr "Εμφάνιση μηνύματος με όλες τις επικεφαλίδες ηλεκτρονικού ταχυδρομείου"
+msgstr "/_Προβολή/_Εμφάνιση όλων των κεφαλίδων"
 
 #: src/messageview.c:273
-#, fuzzy
 msgid "/_Message/Compose _new message"
-msgstr "Συγγραφή _Νέου Μηνύματος"
+msgstr "/_Μήνυμα/Σύνθεση _νέου μηνύματος"
 
 #: src/messageview.c:287
-#, fuzzy
 msgid "/_Message/Redirec_t"
-msgstr "Αριστερό μήνυμα"
+msgstr "/_Μήνυμα/Αναμε_τάδοση"
 
 #: src/messageview.c:306
-#, fuzzy
 msgid "/_Tools/Create processing rule"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας"
 
 #: src/messageview.c:308
 msgid "/_Tools/Create processing rule/_Automatically"
-msgstr ""
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/_Αυτόματα"
 
 #: src/messageview.c:310
-#, fuzzy
 msgid "/_Tools/Create processing rule/by _From"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από τον Απο_στολέα"
 
 #: src/messageview.c:312
-#, fuzzy
 msgid "/_Tools/Create processing rule/by _To"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από τον _Παραλήπτη"
 
 #: src/messageview.c:314
-#, fuzzy
 msgid "/_Tools/Create processing rule/by _Subject"
-msgstr "/Αρχείο/Ενημέρωση δομής καταλόγων"
+msgstr "/_Εργαλεία/Δημιουργία κανόνα επεξεργασίας/από το _Θέμα"
 
 #: src/messageview.c:438
 msgid "Sylpheed - Message View"
