@@ -9296,24 +9296,20 @@ msgid "%s - Source"
 msgstr "%s - Πηγή"
 
 #: src/ssl_manager.c:153
-#, fuzzy
 msgid "Saved SSL Certificates"
-msgstr "Αποτυχία διαπραγματεύσεων SSL"
+msgstr "Αποθηκευμένα πιστοποιητικά SSL"
 
 #: src/ssl_manager.c:373
-#, fuzzy
 msgid "Delete certificate"
-msgstr "Πε_δία Πιστοποιητικού"
+msgstr "Διαγραφή Πιστοποιητικού"
 
 #: src/ssl_manager.c:374
-#, fuzzy
 msgid "Do you really want to delete this certificate?"
-msgstr "Θέλετε σίγουρα να διαγράψετε τα επιλεγμένα μηνύματα;"
+msgstr "Θέλετε σίγουρα να διαγράψετε το πιστοποιητικό;"
 
 #: src/summary_search.c:145
-#, fuzzy
 msgid "Search messages"
-msgstr "Προκαθορισμένα μηνύματα"
+msgstr "Αναζήτηση"
 
 #: src/summary_search.c:168
 #, fuzzy
@@ -9326,9 +9322,8 @@ msgid "Match all of the following"
 msgstr "Όλες οι αποστολές αρχείων μαζί:"
 
 #: src/summary_search.c:232
-#, fuzzy
 msgid "Body:"
-msgstr "Περιεχόμενο"
+msgstr "Περιεχόμενο:"
 
 #: src/summary_search.c:255
 msgid "Find all"
