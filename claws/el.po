@@ -5108,7 +5108,7 @@ msgstr "/Μήνυμα/Σύνθεση μηνύματος ηλεκτρονικού
 
 #: src/mainwindow.c:687
 msgid "/_Message/Compose a news message"
-msgstr "/_Μήνυμα/Σύνθεση μηνύματος _νέων"
+msgstr "/_Μήνυμα/Σύνθεση μηνύματος νέων"
 
 #: src/mainwindow.c:688
 #: src/messageview.c:276
