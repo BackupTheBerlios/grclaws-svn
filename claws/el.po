@@ -5313,73 +5313,63 @@ msgstr "/_Ρυθμίσεις"
 
 #: src/mainwindow.c:771
 msgid "/_Configuration/C_hange current account"
-msgstr "/Ρυθμίσεις/Αλλαγή τρέχοντος λογαριασμού"
+msgstr "/_Ρυθμίσεις/Α_λλαγή τρέχοντος λογαριασμού"
 
 #: src/mainwindow.c:773
-#, fuzzy
 msgid "/_Configuration/_Preferences for current account..."
-msgstr "/Ρυθμίσεις/Επιλογές ανά λογαριασμό..."
+msgstr "/_Ρυθμίσεις/Προτιμήσεις _τρέχοντος λογαριασμού..."
 
 #: src/mainwindow.c:775
 msgid "/_Configuration/Create _new account..."
-msgstr "/Ρυθμίσεις/Δημιουργία νέου λογαριασμού..."
+msgstr "/_Ρυθμίσεις/Δημιουργία _νέου λογαριασμού..."
 
 #: src/mainwindow.c:777
 msgid "/_Configuration/_Edit accounts..."
-msgstr "/Ρυθμίσεις/Επεξεργασία λογαριασμών..."
+msgstr "/_Ρυθμίσεις/_Επεξεργασία λογαριασμών..."
 
 #: src/mainwindow.c:779
 msgid "/_Configuration/---"
 msgstr "/_Ρυθμίσεις/---"
 
 #: src/mainwindow.c:780
-#, fuzzy
 msgid "/_Configuration/P_references..."
-msgstr "Ρύθμιση Aλληλογραφίας"
+msgstr "/_Ρυθμίσεις/_Προτιμήσεις..."
 
 #: src/mainwindow.c:782
-#, fuzzy
 msgid "/_Configuration/Pre-pr_ocessing..."
-msgstr "/Ρυθμίσεις/Επιλογές φίλτρων..."
+msgstr ""
 
 #: src/mainwindow.c:784
-#, fuzzy
 msgid "/_Configuration/Post-pro_cessing..."
-msgstr "/Ρυθμίσεις/Επιλογές φίλτρων..."
+msgstr ""
 
 #: src/mainwindow.c:786
-#, fuzzy
 msgid "/_Configuration/_Filtering..."
-msgstr "Φιλτράρισμα Φακέλου"
+msgstr "/_Ρυθμίσεις/_Φιλτρa..."
 
 #: src/mainwindow.c:788
-#, fuzzy
 msgid "/_Configuration/_Templates..."
-msgstr "Ρύθμιση Aλληλογραφίας"
+msgstr "/_Ρυθμίσεις/Π_ρότυπα..."
 
 #: src/mainwindow.c:789
-#, fuzzy
 msgid "/_Configuration/_Actions..."
-msgstr "Εκτέλεση ενεργειών"
+msgstr "/_Ρυθμίσεις/Ενέργε_ιες..."
 
 #: src/mainwindow.c:790
-#, fuzzy
 msgid "/_Configuration/Plu_gins..."
-msgstr "Ρύθμιση Ximian Connector "
+msgstr "/_Ρυθμίσεις/Πρόσ_θετα..."
 
 #: src/mainwindow.c:793
-#, fuzzy
 msgid "/_Help/_Manual"
-msgstr "Σελίδα τεκμηρίωσης"
+msgstr "/_Βοήθεια/_Τεκμηρίωση"
 
 #: src/mainwindow.c:794
-#, fuzzy
 msgid "/_Help/_FAQ"
-msgstr "_Συχνές ερωτήσεις για το Evolution"
+msgstr "/_Βοήθεια/_Συχνές Ερωτήσεις"
 
 #: src/mainwindow.c:795
 msgid "/_Help/_Online User-contributed FAQ"
-msgstr "/Βοήθεια/"
+msgstr "/_Βοήθεια/Συχνές Ερωτήσεις _Online"
 
 #: src/mainwindow.c:797
 msgid "/_Help/---"
