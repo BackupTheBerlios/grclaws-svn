@@ -2786,34 +2786,30 @@ msgid "Scanning folder %s ..."
 msgstr "Σάρωση καταλόγου %s ..."
 
 #: src/folderview.c:959
-#, fuzzy
 msgid "Rebuild folder tree"
 msgstr "Επαναδημιουργία διάταξης φακέλων"
 
 #: src/folderview.c:960
 msgid "Rebuilding the folder tree will remove local caches. Do you want to continue?"
-msgstr ""
+msgstr "Με αυτή τη λειτουργία θα αφαιρεθούν τα τοπικά αντίγραφα. Θέλετε να συνεχίσετε;"
 
 #: src/folderview.c:970
-#, fuzzy
 msgid "Rebuilding folder tree..."
-msgstr "Δέντρο φακέλου spool %s"
+msgstr "Επαναδημιουργία διάταξης φακέλων..."
 
 #: src/folderview.c:972
-#, fuzzy
 msgid "Scanning folder tree..."
-msgstr "Δέντρο φακέλου spool %s"
+msgstr "Σάρωση φακέλων..."
 
 #: src/folderview.c:1062
-#, fuzzy
 msgid "Checking for new messages in all folders..."
-msgstr "Έλεγχος για νέα μηνύματα σε όλους τους φακέλους"
+msgstr "Έλεγχος για νέα μηνύματα σε όλους τους φακέλους..."
 
 #. Open Folder
 #: src/folderview.c:1885
-#, fuzzy, c-format
+#, c-format
 msgid "Opening Folder %s..."
-msgstr "Άνοιγμα φακέλου"
+msgstr "Άνοιγμα φακέλου %s..."
 
 #: src/folderview.c:1897
 msgid "Folder could not be opened."
@@ -2829,9 +2825,9 @@ msgid "Delete all messages in trash?"
 msgstr "Διαγραφή όλων των μηνυμάτων στα απορρίμματα;"
 
 #: src/folderview.c:2127
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to make folder '%s' a sub-folder of '%s' ?"
-msgstr "Θέλετε πράγματι να διαγραφεί αυτή η κεφαλίδα;"
+msgstr "Θέλετε πράγματι να κάνετε τον φάκελο '%s' υποφάκελο του '%s';"
 
 #: src/folderview.c:2130
 msgid "Move folder"
@@ -2954,11 +2950,13 @@ msgstr ""
 "Λειτουργικό Σύστημα: άγνωστο"
 
 #: src/gtk/about.c:184
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Compiled-in features:\n"
 "%s"
-msgstr "Το ψευδώνυμο είναι σε χρήση"
+msgstr ""
+"Δυνατότητες που περιλήφθησαν:\n"
+"%s"
 
 #: src/gtk/about.c:263
 msgid ""
@@ -3252,14 +3250,12 @@ msgid "Protocol log"
 msgstr "Καταγραφή πρωτοκόλλου"
 
 #: src/gtk/logwindow.c:319
-#, fuzzy
 msgid "Clear _Log"
-msgstr "Ωμή Καταγραφή..."
+msgstr "Καθαρισμός _Καταγραφής"
 
 #: src/gtk/pluginwindow.c:156
-#, fuzzy
 msgid "Select Plugin to load"
-msgstr "Επιλογή ενός Plugin ή Script για φόρτωμα"
+msgstr "Επιλογή ενός Πρόσθετου για φόρτωμα"
 
 #: src/gtk/pluginwindow.c:240
 #: src/gtk/pluginwindow.c:387
@@ -3267,9 +3263,8 @@ msgstr "Επιλογή ενός Plugin ή Script για φόρτωμα"
 #: src/plugins/dillo_viewer/dillo_prefs.c:74
 #: src/plugins/pgpcore/prefs_gpg.c:486
 #: src/plugins/spamassassin/spamassassin_gtk.c:464
-#, fuzzy
 msgid "Plugins"
-msgstr "Πρόσθετες Λειτουργίες"
+msgstr "Πρόσθετα"
 
 #: src/gtk/pluginwindow.c:271
 #: src/prefs_summaries.c:211
@@ -3277,14 +3272,12 @@ msgid "Description"
 msgstr "Περιγραφή"
 
 #: src/gtk/pluginwindow.c:295
-#, fuzzy
 msgid "Load Plugin"
-msgstr "Φόρτωση Πρόσθετης Λειτουργίας ή Δέσμης ενεργειών..."
+msgstr "Φόρτωση Πρόσθετου"
 
 #: src/gtk/pluginwindow.c:300
-#, fuzzy
 msgid "Unload Plugin"
-msgstr "Διαχειριστής πρόσθετων λειτουργιών"
+msgstr "Αποφόρτωση Πρόσθετου"
 
 #: src/gtk/prefswindow.c:527
 #, fuzzy
@@ -3307,7 +3300,7 @@ msgstr "Κατάσταση"
 #: src/gtk/quicksearch.c:107
 #, fuzzy
 msgid "Extended symbols"
-msgstr "Μέτρηση συμβόλων"
+msgstr "Εκτεταμένα σύμβολα"
 
 #: src/gtk/quicksearch.c:222
 msgid "all messages"
@@ -3330,14 +3323,12 @@ msgid "messages which contain S in the whole message"
 msgstr "μηνύματα που περιέχουν S σε ολόκληρο το μήνυμα"
 
 #: src/gtk/quicksearch.c:227
-#, fuzzy
 msgid "messages carbon-copied to S"
-msgstr "Αποτυχία αποστολής %d από %d μηνυμάτων"
+msgstr "μηνύματα που είναι Αντίγραφα Προς το S"
 
 #: src/gtk/quicksearch.c:228
-#, fuzzy
 msgid "message is either to: or cc: to S"
-msgstr "Το μήνυμα %d έχει οριστεί για μετακίνηση στο %s\n"
+msgstr "μηνύματα που είναι είτε προς: είτε αντίγραφο-προς: το S"
 
 #: src/gtk/quicksearch.c:229
 msgid "deleted messages"
@@ -3354,9 +3345,8 @@ msgid "true if execute \"S\" succeeds"
 msgstr "Αν TRUE, εμφανίζεται η κεφαλίδα"
 
 #: src/gtk/quicksearch.c:232
-#, fuzzy
 msgid "messages originating from user S"
-msgstr "Κατάργηση συ_νδρομής από φάκελο άλλου χρήστη"
+msgstr "μηνύματα που προέρχονται από τον χρήστη S"
 
 #: src/gtk/quicksearch.c:233
 msgid "forwarded messages"
@@ -3375,9 +3365,8 @@ msgid "messages which contain S in inreplyto header"
 msgstr "μηνύματα που περιέχουν S στην κεφαλίδα απάντηση-σε"
 
 #: src/gtk/quicksearch.c:237
-#, fuzzy
 msgid "locked messages"
-msgstr "Προκαθορισμένα μηνύματα"
+msgstr "κλειδωμένα μηνύματα"
 
 #: src/gtk/quicksearch.c:238
 #, fuzzy
@@ -3389,71 +3378,60 @@ msgid "new messages"
 msgstr "νέα μηνύματα"
 
 #: src/gtk/quicksearch.c:240
-#, fuzzy
 msgid "old messages"
-msgstr "Προκαθορισμένα μηνύματα"
+msgstr "Παλιά μηνύματα"
 
 #: src/gtk/quicksearch.c:241
 msgid "incomplete messages (not entirely downloaded)"
 msgstr "ημιτελή μηνύματα (που δεν έχουν ληφθεί ολόκληρα)"
 
 #: src/gtk/quicksearch.c:242
-#, fuzzy
 msgid "messages which have been replied to"
-msgstr "Προεπιλεγμένη κωδικοποίηση χαρακτήρων στην σύνταξη μηνυμάτων"
+msgstr "μηνύματα που έχουν απαντηθεί"
 
 #: src/gtk/quicksearch.c:243
-#, fuzzy
 msgid "read messages"
-msgstr "Απόκρυψη _Αναγνωσμένων Μηνυμάτων"
+msgstr "αναγνωσμένα μηνύματα"
 
 #: src/gtk/quicksearch.c:244
-#, fuzzy
 msgid "messages which contain S in subject"
-msgstr "Προεπιλεγμένη κωδικοποίηση χαρακτήρων στην σύνταξη μηνυμάτων"
+msgstr "μηνύματα που περιέχουν S στο θέμα"
 
 #: src/gtk/quicksearch.c:245
 msgid "messages whose score is equal to #"
 msgstr "μηνύματα με σκορ ίσο με #"
 
 #: src/gtk/quicksearch.c:246
-#, fuzzy
 msgid "messages whose score is greater than #"
-msgstr "μηνύματα παλαιότερα από #"
+msgstr "μηνύματα με σκορ μεγαλύτερο από #"
 
 #: src/gtk/quicksearch.c:247
-#, fuzzy
 msgid "messages whose score is lower than #"
-msgstr "μηνύματα παλαιότερα από #"
+msgstr "μηνύματα με σκορ μικρότερο από #"
 
 #: src/gtk/quicksearch.c:248
 msgid "messages whose size is equal to #"
 msgstr "μηνύματα με μέγεθος ίσο με #"
 
 #: src/gtk/quicksearch.c:249
-#, fuzzy
 msgid "messages whose size is greater than #"
-msgstr "μηνύματα παλαιότερα από #"
+msgstr "μηνύματα με μέγεθος μεγαλύτερο από #"
 
 #: src/gtk/quicksearch.c:250
-#, fuzzy
 msgid "messages whose size is smaller than #"
-msgstr "μηνύματα παλαιότερα από #"
+msgstr "μηνύματα με μέγεθος μικρότερο από #"
 
 #: src/gtk/quicksearch.c:251
-#, fuzzy
 msgid "messages which have been sent to S"
-msgstr "Προεπιλεγμένη κωδικοποίηση χαρακτήρων στην σύνταξη μηνυμάτων"
+msgstr "μηνύματα που έχουν σταλεί στο S"
 
 #: src/gtk/quicksearch.c:252
-#, fuzzy
 msgid "marked messages"
-msgstr "Προκαθορισμένα μηνύματα"
+msgstr "επισημασμέμα μηνύματα"
 
 #: src/gtk/quicksearch.c:253
-#, fuzzy
 msgid "unread messages"
-msgstr "Προκαθορισμένα μηνύματα"
+msgstr "μη αναγνωσμένα μηνύματα"
 
 #: src/gtk/quicksearch.c:254
 msgid "messages which contain S in References header"
@@ -3468,24 +3446,20 @@ msgid "messages which contain S in X-Label header"
 msgstr "μηνύματα που περιέχουν S στην κεφαλίδα X-Label"
 
 #: src/gtk/quicksearch.c:258
-#, fuzzy
 msgid "logical AND operator"
-msgstr "Operator integral (display)"
+msgstr "λογικός χειριστής AND"
 
 #: src/gtk/quicksearch.c:259
-#, fuzzy
 msgid "logical OR operator"
-msgstr "Operator integral (display)"
+msgstr "λογικός χειριστής OR"
 
 #: src/gtk/quicksearch.c:260
-#, fuzzy
 msgid "logical NOT operator"
-msgstr "Operator integral (display)"
+msgstr "λογικός χειριστής NOT"
 
 #: src/gtk/quicksearch.c:261
-#, fuzzy
 msgid "case sensitive search"
-msgstr "Case Sensitive Keyword"
+msgstr "διάκριση πεζών/κεφαλαίων στην αναζήτηση"
 
 #: src/gtk/quicksearch.c:263
 msgid "all filtering expressions are allowed"
@@ -3558,7 +3532,6 @@ msgstr "Μέτρηση συμβόλων"
 #: src/gtk/sslcertwindow.c:113
 #: src/gtk/sslcertwindow.c:253
 #: src/gtk/sslcertwindow.c:307
-#, fuzzy
 msgid "correct"
 msgstr "σωστό"
 
@@ -3592,14 +3565,13 @@ msgid "Fingerprint: "
 msgstr "Αποτύπωμα:"
 
 #: src/gtk/sslcertwindow.c:174
-#, fuzzy
 msgid "Signature status: "
-msgstr "Ορισμός κατάστασης"
+msgstr "Κατάσταση υπογραφής: "
 
 #: src/gtk/sslcertwindow.c:228
-#, fuzzy, c-format
+#, c-format
 msgid "SSL certificate for %s"
-msgstr "Πιστοποιητικό πελάτη SSL"
+msgstr "Πιστοποιητικό SSL για %s"
 
 #: src/gtk/sslcertwindow.c:244
 #, c-format
@@ -3610,46 +3582,40 @@ msgstr ""
 
 #: src/gtk/sslcertwindow.c:255
 #: src/gtk/sslcertwindow.c:309
-#, fuzzy, c-format
+#, c-format
 msgid "Signature status: %s"
-msgstr "Ορισμός κατάστασης"
+msgstr "Κατάσταση υπογραφής: %s"
 
 #: src/gtk/sslcertwindow.c:262
-#, fuzzy
 msgid "_View certificate"
 msgstr "Προ_βολή Πιστοποιητικού"
 
 #: src/gtk/sslcertwindow.c:267
-#, fuzzy
 msgid "Unknown SSL Certificate"
-msgstr "Πιστοποιητικό πελάτη SSL"
+msgstr "Άγνωστο Πιστοποιητικό SSL"
 
 #: src/gtk/sslcertwindow.c:268
 #: src/gtk/sslcertwindow.c:321
-#, fuzzy
 msgid "_Accept and save"
-msgstr "Αποθήκευση και Κλείσιμο"
+msgstr "_Αποδοχή και αποθήκευση"
 
 #: src/gtk/sslcertwindow.c:268
 #: src/gtk/sslcertwindow.c:321
-#, fuzzy
 msgid "_Cancel connection"
-msgstr "Άρνηση σύνδεσης"
+msgstr "Άρνη_ση σύνδεσης"
 
 #: src/gtk/sslcertwindow.c:286
-#, fuzzy
 msgid "New certificate:"
-msgstr "Να είναι έμπιστη η νέα Αρχή Πιστοποίησης;"
+msgstr "Νέο Πιστοποιητικό:"
 
 #: src/gtk/sslcertwindow.c:291
-#, fuzzy
 msgid "Known certificate:"
-msgstr "Πε_δία Πιστοποιητικού"
+msgstr "Γνωστό Πιστοποιητικό:"
 
 #: src/gtk/sslcertwindow.c:298
 #, c-format
 msgid "Certificate for %s has changed. Do you want to accept it?"
-msgstr ""
+msgstr "Το πιστοποιητικό για το %s έχει αλλάξει. Θέλετε να το δεχτείτε;"
 
 #: src/gtk/sslcertwindow.c:316
 #, fuzzy
@@ -3657,9 +3623,8 @@ msgid "_View certificates"
 msgstr "Πιστοποιητικά επαφών"
 
 #: src/gtk/sslcertwindow.c:320
-#, fuzzy
 msgid "Changed SSL Certificate"
-msgstr "Πιστοποιητικό πελάτη SSL"
+msgstr "Το πιστοποιητικό SSL άλλαξε"
 
 #: src/headerview.c:197
 #: src/summaryview.c:2419
@@ -3743,19 +3708,19 @@ msgid "Con_tinue connecting"
 msgstr "Επι_βεβαίωση κωδικού:"
 
 #: src/imap.c:768
-#, fuzzy, c-format
+#, c-format
 msgid "Connecting to IMAP4 server: %s..."
-msgstr "Απροσδόκητη αποσύνδεση του διακομιστή IMAP4 %s: %s"
+msgstr "Σύνδεση στον διακομιστή IMAP4 : %s..."
 
 #: src/imap.c:800
-#, fuzzy, c-format
+#, c-format
 msgid "Can't connect to IMAP4 server: %s:%d"
-msgstr "Σύνδεση μόνο στον επιλεγμένο διακομιστή"
+msgstr "Δεν είναι δυνατή η σύνδεση στο διακομιστή IMAP4: %s:%d"
 
 #: src/imap.c:803
 #, c-format
 msgid "Can't connect to IMAP4 server: %s:%d\n"
-msgstr "Δεν μπορώ να συνδεθώ στον IMAP4 server: %s:%d\n"
+msgstr "Δεν είναι δυνατή η σύνδεση στον διακομιστή IMAP4: %s:%d\n"
 
 #: src/imap.c:832
 #, fuzzy
@@ -3800,9 +3765,9 @@ msgid "New folder name must not contain the namespace path separator"
 msgstr ""
 
 #: src/imap.c:1869
-#, fuzzy, c-format
+#, c-format
 msgid "can't rename mailbox: %s to %s\n"
-msgstr "Δεν ήταν δυνατή η μετονομασία του '%s' σε %s: %s"
+msgstr "Δεν ήταν δυνατή η μετονομασία του γραμματοκιβωτίου: %s σε %s"
 
 #: src/imap.c:1933
 msgid "can't delete mailbox\n"
@@ -3819,9 +3784,8 @@ msgid "can't select folder: %s\n"
 msgstr "δεν μπορώ να επιλέξω τον κατάλογο: %s\n"
 
 #: src/imap.c:2465
-#, fuzzy
 msgid "IMAP4 authentication failed.\n"
-msgstr "Απέτυχε η διάβαση από το proxy\n"
+msgstr "Η πιστοποίηση IMAP4 απέτυχε.\n"
 
 #: src/imap.c:2652
 msgid "Fetching message..."
