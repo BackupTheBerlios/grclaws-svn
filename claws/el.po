@@ -3767,7 +3767,7 @@ msgstr ""
 #: src/imap.c:1869
 #, c-format
 msgid "can't rename mailbox: %s to %s\n"
-msgstr "Δεν ήταν δυνατή η μετονομασία του γραμματοκιβωτίου: %s σε %s"
+msgstr "Δεν ήταν δυνατή η μετονομασία του γραμματοκιβωτίου: %s σε %s\n"
 
 #: src/imap.c:1933
 msgid "can't delete mailbox\n"
@@ -6459,7 +6459,7 @@ msgstr "POP3: Διαγραφή ληγμένου μηνύματος %d\n"
 #: src/pop.c:793
 #, c-format
 msgid "POP3: Skipping message %d (%d bytes)\n"
-msgstr "POP3: Προσπέραση μηνύματος (%d / %d bytes)"
+msgstr "POP3: Προσπέραση μηνύματος (%d / %d bytes)\n"
 
 #: src/pop.c:825
 msgid "mailbox is locked\n"
