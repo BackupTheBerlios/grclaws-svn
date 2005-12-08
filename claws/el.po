@@ -6452,33 +6452,30 @@ msgid "invalid UIDL response: %s\n"
 msgstr "Μη έγκυρη απάντηση UIDL: %s\n"
 
 #: src/pop.c:778
-#, fuzzy, c-format
+#, c-format
 msgid "POP3: Deleting expired message %d\n"
-msgstr "διαγράφω το μήνυμα %d...\n"
+msgstr "POP3: Διαγραφή ληγμένου μηνύματος %d\n"
 
 #: src/pop.c:793
-#, fuzzy, c-format
+#, c-format
 msgid "POP3: Skipping message %d (%d bytes)\n"
-msgstr "Στέλνω το μήνυμα (%d / %d bytes)"
+msgstr "POP3: Προσπέραση μηνύματος (%d / %d bytes)"
 
 #: src/pop.c:825
 msgid "mailbox is locked\n"
 msgstr "το γραμματοκιβώτιο είναι κλειδωμένο\n"
 
 #: src/pop.c:828
-#, fuzzy
 msgid "Session timeout\n"
-msgstr "Λήξη ορίου χρόνου εγγραφής"
+msgstr "Λήξη ορίου χρόνου συνεδρίας\n"
 
 #: src/pop.c:847
-#, fuzzy
 msgid "command not supported\n"
-msgstr "Δεν υποστηρίζεται το πρωτόκολλο"
+msgstr "η εντολή δεν υποστηρίζεται\n"
 
 #: src/pop.c:852
-#, fuzzy
 msgid "error occurred on POP3 session\n"
-msgstr "Προέκυψε σφάλμα στην εξακρίβωση\n"
+msgstr "Προέκυψε σφάλμα στη συνεδρία POP3\n"
 
 #: src/pop.c:1046
 msgid "TOP command unsupported\n"
@@ -6531,9 +6528,8 @@ msgid "Name of account"
 msgstr "Όνομα λογαριασμού"
 
 #: src/prefs_account.c:1101
-#, fuzzy
 msgid "Set as default"
-msgstr "Ορισμός ως προεπιλο_γή"
+msgstr "Ορισμός ως προκαθορισμένου"
 
 #: src/prefs_account.c:1105
 msgid "Personal information"
@@ -6553,7 +6549,7 @@ msgstr "Οργανισμός"
 
 #: src/prefs_account.c:1150
 msgid "Server information"
-msgstr "Πληροφορίες εξυπηρέτη"
+msgstr "Πληροφορίες διακομιστή"
 
 #: src/prefs_account.c:1171
 #: src/prefs_account.c:1380
@@ -6583,16 +6579,15 @@ msgstr "Κανένα (μόνο SMTP)"
 
 #: src/prefs_account.c:1199
 msgid "This server requires authentication"
-msgstr "Αυτός ο εξυπηρέτης απαιτεί πιστοποίηση"
+msgstr "Αυτός ο διακομιστής απαιτεί πιστοποίηση"
 
 #: src/prefs_account.c:1206
-#, fuzzy
 msgid "Authenticate on connect"
-msgstr "Σύνδεση στον εξυπηρετητή..."
+msgstr "Πιστοποίηση κατά τη σύνδεση"
 
 #: src/prefs_account.c:1251
 msgid "News server"
-msgstr "Εξυπηρέτης νέων"
+msgstr "Διακομιστής νέων"
 
 #: src/prefs_account.c:1257
 msgid "Server for receiving"
@@ -6605,16 +6600,15 @@ msgstr "Τοπικό γραμματοκιβώτιο"
 #. gtk_table_set_row_spacing (GTK_TABLE (serv_table), 2, 0);
 #: src/prefs_account.c:1270
 msgid "SMTP server (send)"
-msgstr "Εξυπηρέτης SMTP (αποστολή)"
+msgstr "Διακομιστής SMTP (αποστολή)"
 
 #: src/prefs_account.c:1278
 msgid "Use mail command rather than SMTP server"
-msgstr ""
+msgstr "Χρήση εντολής για την αποστολή αλληλογραφίας και όχι διακομιστή SMTP"
 
 #: src/prefs_account.c:1287
-#, fuzzy
 msgid "command to send mails"
-msgstr "Εντολή προς αποστολή για την αδρανοποίηση του υπολογιστή"
+msgstr "εντολή για την αποστολή μηνυμάτων"
 
 #. gtk_table_set_row_spacing (GTK_TABLE (serv_table), 2, 0);
 #: src/prefs_account.c:1294
@@ -6625,49 +6619,43 @@ msgstr "Όνομα χρήστη"
 #: src/prefs_account.c:1300
 #: src/prefs_account.c:1704
 msgid "Password"
-msgstr "Κωδικός"
+msgstr "Συνθηματικό"
 
 #: src/prefs_account.c:1388
-#, fuzzy
 msgid "Use secure authentication (APOP)"
-msgstr "Αυτός ο εξυπηρέτης απαιτεί πιστοποίηση"
+msgstr "Χρήση ασφαλούς πιστοποίησης"
 
 #: src/prefs_account.c:1391
-#, fuzzy
 msgid "Remove messages on server when received"
-msgstr "Διαγραφή μηνυμάτων από τον εξυπηρέτη όταν παραληφθούν"
+msgstr "Διαγραφή μηνυμάτων από τον διακομιστή όταν παραληφθούν"
 
 #: src/prefs_account.c:1402
 msgid "Remove after"
-msgstr "Απομάκρυνση μετά"
+msgstr "Διαγραφή μετά"
 
 #: src/prefs_account.c:1411
 msgid "days"
 msgstr "ημέρες"
 
 #: src/prefs_account.c:1428
-#, fuzzy
 msgid "(0 days: remove immediately)"
-msgstr "_Απομάκρυνση από την Εργαλειοθήκη"
+msgstr "(0 μέρες: άμεση διαγραφή)"
 
 #: src/prefs_account.c:1437
 msgid "Download all messages on server"
-msgstr "Λήψη όλων των μηνυμάτων από τον εξυπηρέτη"
+msgstr "Λήψη όλων των μηνυμάτων από τον διακομιστή"
 
 #: src/prefs_account.c:1443
-#, fuzzy
 msgid "Receive size limit"
-msgstr "Το όριο μεγέθους αρχείου έχει ξεπεραστεί"
+msgstr "Όριο μεγέθους για λήψη"
 
 #: src/prefs_account.c:1450
-#, fuzzy
 msgid "KB"
-msgstr "kB/s"
+msgstr ""
 
 #: src/prefs_account.c:1462
-#, fuzzy
 msgid "Default inbox"
-msgstr "Προκαθορισμένα μηνύματα"
+msgstr "Προκαθορισμένος φάκελος εισερχομένων"
 
 #: src/prefs_account.c:1471
 msgid " Select... "
@@ -6706,7 +6694,7 @@ msgstr "Φιλτράρισμα μηνυμάτων κατά την λήψη"
 
 #: src/prefs_account.c:1559
 msgid "'Get all' checks for new messages on this account"
-msgstr "`Λήψη όλων' ελέγχει για νέα μηνύματα σε αυτό το λογαριασμό"
+msgstr "'Λήψη όλων' ελέγχει για νέα μηνύματα σε αυτό το λογαριασμό"
 
 #: src/prefs_account.c:1622
 msgid "Add Date"
@@ -6742,9 +6730,8 @@ msgid "Authenticate with POP3 before sending"
 msgstr "Πιστοποίηση με POP3 πριν την αποστολή"
 
 #: src/prefs_account.c:1752
-#, fuzzy
 msgid "POP authentication timeout: "
-msgstr "<b>Διάρκεια Διπλού Κλικ</b>"
+msgstr "Χρονικό όριο για πιστοποίηση POP: "
 
 #: src/prefs_account.c:1761
 msgid "minutes"
@@ -6782,16 +6769,15 @@ msgstr "Κοινοποίηση"
 
 #: src/prefs_account.c:1892
 msgid "Bcc"
-msgstr "Bcc"
+msgstr "Κρυφή Κοινοποίηση"
 
 #: src/prefs_account.c:1905
 msgid "Reply-To"
 msgstr "Απάντηση σε"
 
 #: src/prefs_account.c:1956
-#, fuzzy
 msgid "Default privacy system"
-msgstr "/Ε_πιλογές/Προστασία Ιδιωτικού Απορρήτου"
+msgstr "Προκαθορισμένο σύστημα προστασίας απορρήτου"
 
 #: src/prefs_account.c:1965
 msgid "Encrypt message by default"
@@ -6806,42 +6792,36 @@ msgid "Sign message by default"
 msgstr "Υπογραφή μηνυμάτων εξ ορισμού"
 
 #: src/prefs_account.c:1972
-#, fuzzy
 msgid "Save sent encrypted messages as clear text"
-msgstr "Αποθήκευση σταλμένων μηνυμάτων στο outbox"
+msgstr "Αποθήκευση κρυπτογραφημένα σταλμένων μηνυμάτων σαν απλό κείμενο"
 
 #: src/prefs_account.c:2056
 #: src/prefs_account.c:2073
 #: src/prefs_account.c:2089
-#, fuzzy
 msgid "Don't use SSL"
-msgstr "Χρήση _SSL (legacy)"
+msgstr "Να μην χρησιμοποιηθεί SSL"
 
 #: src/prefs_account.c:2059
-#, fuzzy
 msgid "Use SSL for POP3 connection"
-msgstr "_Όνομα για χρήση σε αυτή τη σύνδεση:"
+msgstr "Χρήση SSL στη σύνδεση POP3"
 
 #: src/prefs_account.c:2062
 #: src/prefs_account.c:2079
 #: src/prefs_account.c:2114
 msgid "Use STARTTLS command to start SSL session"
-msgstr ""
+msgstr "Χρήση της εντολής STARTTLS για την έναρξη της συνόδου SSL"
 
 #: src/prefs_account.c:2076
-#, fuzzy
 msgid "Use SSL for IMAP4 connection"
-msgstr "_Όνομα για χρήση σε αυτή τη σύνδεση:"
+msgstr "Χρήση SSL στη σύνδεση IMAP4"
 
 #: src/prefs_account.c:2082
-#, fuzzy
 msgid "NNTP"
-msgstr "Η εντολή NNTP απέτυχε: %s"
+msgstr ""
 
 #: src/prefs_account.c:2098
-#, fuzzy
 msgid "Use SSL for NNTP connection"
-msgstr "_Όνομα για χρήση σε αυτή τη σύνδεση:"
+msgstr "Χρήση SSL στη σύνδεση NNTP"
 
 #: src/prefs_account.c:2100
 msgid "Send (SMTP)"
@@ -6849,21 +6829,19 @@ msgstr "Αποστολή (SMTP)"
 
 #: src/prefs_account.c:2108
 msgid "Don't use SSL (but, if necessary, use STARTTLS)"
-msgstr ""
+msgstr "Μη χρήση SSL (εάν είναι απαραίτητο, χρήση STARTTLS)"
 
 #: src/prefs_account.c:2111
-#, fuzzy
 msgid "Use SSL for SMTP connection"
-msgstr "_Όνομα για χρήση σε αυτή τη σύνδεση:"
+msgstr "Χρήση SSL στη σύνδεση SMTP"
 
 #: src/prefs_account.c:2122
-#, fuzzy
 msgid "Use non-blocking SSL"
-msgstr "Χρήση SSL/TLS μέσω STARTTLS"
+msgstr "Χρήση non-blocking SSL"
 
 #: src/prefs_account.c:2134
 msgid "(Turn this off if you have SSL connection problems)"
-msgstr ""
+msgstr "(Απενεργοποιήστε το εάν έχετε προβλήματα σύνδεσης με το SSL)"
 
 #: src/prefs_account.c:2260
 msgid "Specify SMTP port"
@@ -6886,46 +6864,40 @@ msgid "Specify domain name"
 msgstr "Ορισμός του ονόματος του domain"
 
 #: src/prefs_account.c:2293
-#, fuzzy
 msgid "Use command to communicate with server"
-msgstr "Χ_ρήση προσαρμοσμένης εντολής για την σύνδεση με τον διακομιστή"
+msgstr "Χρήση προσαρμοσμένης εντολής για την σύνδεση με τον διακομιστή"
 
 #: src/prefs_account.c:2301
 msgid "Mark cross-posted messages as read and color:"
-msgstr ""
+msgstr "Σήμανση πολλαπλά σταλμένων μηνυμάτων (cross posts) ως αναγνωσμένα και με χρώμα:"
 
 #: src/prefs_account.c:2348
 msgid " ... "
 msgstr " ..."
 
 #: src/prefs_account.c:2361
-#, fuzzy
 msgid "Put sent messages in"
-msgstr "Μορφοποίηση μηνυμάτων σε _HTML"
+msgstr "Αποθήκευση των σταλμένων στο"
 
 #: src/prefs_account.c:2363
-#, fuzzy
 msgid "Put queued messages in"
-msgstr "Μορφοποίηση μηνυμάτων σε _HTML"
+msgstr "Αποθήκευση μηνυμάτων που βρίσκονται στην ουρά στο"
 
 #: src/prefs_account.c:2365
-#, fuzzy
 msgid "Put draft messages in"
-msgstr "Μορφοποίηση μηνυμάτων σε _HTML"
+msgstr "Αποθήκευση πρόχειρων στο"
 
 #: src/prefs_account.c:2367
-#, fuzzy
 msgid "Put deleted messages in"
-msgstr "Εμφάνιση διαγραμμένων μηνυμάτων στην λίστα μηνυμάτων"
+msgstr "Αποθίκευση διαγραμμένων μηνυμάτων στο"
 
 #: src/prefs_account.c:2413
-#, fuzzy
 msgid "Account name is not entered."
-msgstr "Το όνομα οντότητας '%s' δεν είναι γνωστή"
+msgstr "Δεν έχει προσδιοριστεί το όνομα λογαριασμού"
 
 #: src/prefs_account.c:2417
 msgid "Mail address is not entered."
-msgstr "Η διεύθυνση mail δεν έχει οριστεί."
+msgstr "Η διεύθυνση αλληλογραφίας δεν έχει οριστεί."
 
 #: src/prefs_account.c:2424
 msgid "SMTP server is not entered."
@@ -6958,19 +6930,17 @@ msgid "mail command is not entered."
 msgstr "Το επιχείρημα σε \"%s\" δεν είναι έγκυρη εντολή: %s\n"
 
 #: src/prefs_account.c:2515
-#, fuzzy
 msgid "Select signature file"
-msgstr "Επιλογή ενός Αρχείου Εικόνας"
+msgstr "Επιλογή ενός αρχείου υπογραφής"
 
 #: src/prefs_account.c:2731
-#, fuzzy, c-format
+#, c-format
 msgid "Unsupported (%s)"
-msgstr "Μη Υποστηριζόμενη Πλατφόρμα"
+msgstr "Μη Υποστηριζόμενη Πλατφόρμα (%s)"
 
 #: src/prefs_actions.c:199
-#, fuzzy
 msgid "Actions configuration"
-msgstr "Ρύθμιση Aλληλογραφίας"
+msgstr "Ρύθμιση Ενεργειών"
 
 #: src/prefs_actions.c:223
 msgid "Menu name:"
