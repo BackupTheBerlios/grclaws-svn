@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-12-09 01:04+0200\n"
-"PO-Revision-Date: 2005-12-10 18:54+0200\n"
+"PO-Revision-Date: 2005-12-11 01:51+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -4586,9 +4586,8 @@ msgid "top level folder"
 msgstr "Δεν υπάρχει τέτοιος φάκελος %s"
 
 #: src/main.c:834
-#, fuzzy
 msgid "Really quit?"
-msgstr "Αλήθεια Έξοδος!"
+msgstr "Έξοδος;"
 
 #: src/main.c:835
 #, fuzzy
@@ -4596,19 +4595,16 @@ msgid "Composing message exists."
 msgstr "Το πιστοποιητικό υπάρχει ήδη."
 
 #: src/main.c:836
-#, fuzzy
 msgid "_Save to Draft"
-msgstr "Αποθήκευση της αναφοράς στο..."
+msgstr "Αποθήκευση στα _Πρόχειρα"
 
 #: src/main.c:836
-#, fuzzy
 msgid "_Discard them"
-msgstr "Απόρριψη Αλλαγών"
+msgstr "_Απόρριψη Αλλαγών"
 
 #: src/main.c:836
-#, fuzzy
 msgid "Do_n't quit"
-msgstr "Έξοδος από την εφαρμογή"
+msgstr "_Να μην γίνει έξοδος"
 
 #: src/main.c:850
 msgid "Queued messages"
@@ -5900,22 +5896,22 @@ msgid "Select destination folder"
 msgstr "Επιλογή Φακέλου Maildir"
 
 #: src/mimeview.c:1372
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a directory."
-msgstr "%s: Το %s (για Authdir) δεν είναι κατάλογος. Διακοπή."
+msgstr "Το '%s' δεν είναι κατάλογος."
 
 #: src/mimeview.c:1564
 msgid "Open with"
 msgstr "Άνοιγμα με"
 
 #: src/mimeview.c:1565
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Enter the command line to open file:\n"
 "('%s' will be replaced with file name)"
 msgstr ""
 "Εισάγετε την γραμμή εντολής για το άνοιγμα του αρχείου:\n"
-"(Το `%s' θα αντικατασταθεί με το όνομα αρχείου)"
+"(Το '%s' θα αντικατασταθεί με το όνομα αρχείου)"
 
 #: src/news.c:220
 #, c-format
@@ -5928,9 +5924,8 @@ msgid "NNTP connection to %s:%d has been disconnected. Reconnecting...\n"
 msgstr "Η NNTP σύνδεση στο %s:%d διακόπηκε. Επανασύνδεση...\n"
 
 #: src/news.c:438
-#, fuzzy
 msgid "can't retrieve newsgroup list\n"
-msgstr "Αδυναμία αποθήκευσης μιας άδειας λίστας!"
+msgstr ""
 
 #: src/news.c:551
 msgid "can't post article.\n"
@@ -6022,9 +6017,8 @@ msgid "Unsubscribe newsgroup"
 msgstr "Κατάργηση Συνδρομής από \"%s\""
 
 #: src/plugins/clamav/clamav_plugin.c:118
-#, fuzzy
 msgid "ClamAV: scanning message..."
-msgstr "Μπιπ σε μήνυμα"
+msgstr "ClamAV: έλεγχος μηνύματος..."
 
 #: src/plugins/clamav/clamav_plugin.c:249
 #: src/plugins/clamav/clamav_plugin_gtk.c:222
@@ -6032,7 +6026,6 @@ msgid "Clam AntiVirus"
 msgstr ""
 
 #: src/plugins/clamav/clamav_plugin.c:254
-#, fuzzy
 msgid ""
 "This plugin uses Clam AntiVirus to scan all messages that are received from an IMAP, LOCAL or POP account.\n"
 "\n"
@@ -6043,17 +6036,14 @@ msgstr ""
 "\n"
 "Όταν βρεθεί κάποιο μολυσμένο από ιό συνημμένο, μπορεί είτε να διαγραφεί, είτε να αποθηκευτεί σε έναν ειδικό φάκελο.\n"
 "\n"
-"Αυτό το πρόσθετο περιλαμβάνει μόνο τη λειτουργία ελέγχου και διαγραφής ή μετακίνησης του μηνύματος. Πιθανόν να θέλετε να φορτώσετε και το πρόσθετο Διεπαφής Χρήστη GTK+ επίσης, γιατί σε διαφορετική περίπτωση θα χρειαστεί να γράψετε τις ρυθμίσεις του προσθέτου με το χέρι.\n"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:95
-#, fuzzy
 msgid "Enable virus scanning"
-msgstr "%s: Σάρωση για νέα μηνύματα"
+msgstr "Ενεργοποίηση ελέγχου για ιούς"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:101
-#, fuzzy
 msgid "Scan archive contents"
-msgstr "Μη έγκυρα περιεχόμενα στο μήνυμα"
+msgstr "Έλεγχος συμπιεσμένων αρχείων"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:114
 msgid "Maximum attachment size"
@@ -6371,9 +6361,8 @@ msgid ""
 msgstr ""
 
 #: src/plugins/pgpinline/plugin.c:57
-#, fuzzy
 msgid "PGP/inline"
-msgstr "Προβολή μέ_σα στο μήνυμα"
+msgstr ""
 
 #: src/plugins/pgpinline/plugin.c:62
 msgid ""
@@ -6427,9 +6416,8 @@ msgid "TCP"
 msgstr ""
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:83
-#, fuzzy
 msgid "Unix Socket"
-msgstr "local socket"
+msgstr ""
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:210
 #, fuzzy
@@ -6437,9 +6425,8 @@ msgid "Transport"
 msgstr "Mail Transport Agent"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:240
-#, fuzzy
 msgid "spamd"
-msgstr "θύρα spamd"
+msgstr ""
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:248
 msgid "Port of spamd server"
@@ -6454,9 +6441,8 @@ msgid "Hostname or IP address of spamd server"
 msgstr ""
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:266
-#, fuzzy
 msgid "Path of Unix socket"
-msgstr "(τρέχων) κωδικός UNIX:"
+msgstr "Διαδρομή του unix socket"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:275
 msgid "Maximum Size"
@@ -6512,9 +6498,9 @@ msgid "/E_xit Sylpheed-Claws"
 msgstr "Η ομάδα του Sylpheed-Claws"
 
 #: src/plugins/trayicon/trayicon.c:148
-#, fuzzy, c-format
+#, c-format
 msgid "New %d, Unread: %d, Total: %d"
-msgstr "Συνολικός αριθμός URI"
+msgstr "Νέα %d, Μη αναγνωσμένα: %d, Συνολικά: %d"
 
 #: src/plugins/trayicon/trayicon.c:204
 #, fuzzy
@@ -6737,9 +6723,8 @@ msgid "Password"
 msgstr "Συνθηματικό"
 
 #: src/prefs_account.c:1399
-#, fuzzy
 msgid "Local"
-msgstr "Κλείδωμα"
+msgstr "Τοπικό"
 
 #: src/prefs_account.c:1410
 #: src/prefs_account.c:1499
@@ -6968,9 +6953,8 @@ msgid "Use non-blocking SSL"
 msgstr "Χρήση non-blocking SSL"
 
 #: src/prefs_account.c:2181
-#, fuzzy
 msgid "Turn this off if you have SSL connection problems"
-msgstr "(Απενεργοποιήστε το εάν έχετε προβλήματα σύνδεσης με το SSL)"
+msgstr "Απενεργοποιήστε το εάν έχετε προβλήματα σύνδεσης με το SSL"
 
 #: src/prefs_account.c:2307
 msgid "Specify SMTP port"
@@ -7001,9 +6985,8 @@ msgid "Mark cross-posted messages as read and color:"
 msgstr "Σήμανση πολλαπλά σταλμένων μηνυμάτων (cross posts) ως αναγνωσμένα και με χρώμα:"
 
 #: src/prefs_account.c:2395
-#, fuzzy
 msgid "Browse"
-msgstr "_Περιήγηση"
+msgstr "Περιήγηση"
 
 #: src/prefs_account.c:2408
 msgid "Put sent messages in"
@@ -7050,9 +7033,8 @@ msgid "NNTP server is not entered."
 msgstr "Ο εξυπηρέτης NNTP δεν έχει οριστεί."
 
 #: src/prefs_account.c:2497
-#, fuzzy
 msgid "local mailbox filename is not entered."
-msgstr "Η διεύθυνση mail δεν έχει οριστεί."
+msgstr "το όνομα αρχείου του τοπικού γραμματοκιβωτίου δεν προσδιορίστηκε."
 
 #: src/prefs_account.c:2503
 #, fuzzy
@@ -7124,14 +7106,12 @@ msgid ""
 msgstr "Σφάλμα σύνταξης, δεν αναγνωρίζεται η εντολή"
 
 #: src/prefs_actions.c:613
-#, fuzzy
 msgid "Delete action"
-msgstr "Διαγραφή Ενέργειας GOK"
+msgstr "Διαγραφή Ενέργειας"
 
 #: src/prefs_actions.c:614
-#, fuzzy
 msgid "Do you really want to delete this action?"
-msgstr "Θέλετε σίγουρα να διαγράψετε τα επιλεγμένα μηνύματα;"
+msgstr "Θέλετε σίγουρα να διαγράψετε αυτή την ενέργεια;"
 
 #: src/prefs_actions.c:731
 #: src/prefs_actions.c:750
@@ -7154,18 +7134,16 @@ msgid "The entry was not saved. Close anyway?"
 msgstr ""
 
 #: src/prefs_actions.c:785
-#, fuzzy
 msgid "MENU NAME:"
-msgstr "Όνομα μενού:"
+msgstr "ONOMA MENOY"
 
 #: src/prefs_actions.c:786
 msgid "Use / in menu name to make submenus."
 msgstr ""
 
 #: src/prefs_actions.c:788
-#, fuzzy
 msgid "COMMAND LINE:"
-msgstr "Γραμμή Εντολών"
+msgstr "ΓΡΑΜΜΗ ΕΝΤΟΛΩΝ:"
 
 #: src/prefs_actions.c:789
 #, fuzzy
@@ -7328,9 +7306,8 @@ msgid "characters"
 msgstr "χαρακτήρες"
 
 #: src/prefs_compose_writing.c:151
-#, fuzzy
 msgid "Undo level"
-msgstr "Επίπεδο ασφάλειας: %s"
+msgstr "Επίπεδο αναίρεσης"
 
 #: src/prefs_compose_writing.c:246
 #, fuzzy
@@ -7496,9 +7473,8 @@ msgid "Hide"
 msgstr "Απόκρυψη"
 
 #: src/prefs_filtering_action.c:166
-#, fuzzy
 msgid "Stop filter"
-msgstr "<b>Κανόνες _Φίλτρου</b>"
+msgstr "Διακοπή φίλτρου"
 
 #: src/prefs_filtering_action.c:313
 #, fuzzy
@@ -7577,9 +7553,8 @@ msgstr "Ημερομηνία"
 #: src/prefs_filtering_action.c:1074
 #: src/prefs_matcher.c:1689
 #: src/quote_fmt.c:52
-#, fuzzy
 msgid "Message-ID"
-msgstr "Αριθμός Διεργασίας:"
+msgstr ""
 
 #. cc
 #: src/prefs_filtering_action.c:1075
@@ -7595,15 +7570,13 @@ msgstr "Ομάδες συζήτησης"
 #: src/prefs_matcher.c:152
 #: src/prefs_matcher.c:1691
 #: src/quote_fmt.c:51
-#, fuzzy
 msgid "References"
-msgstr "Π_ροτιμήσεις"
+msgstr "Αναφορές"
 
 #: src/prefs_filtering_action.c:1077
 #: src/prefs_matcher.c:1692
-#, fuzzy
 msgid "Filename - should not be modified"
-msgstr "Το όνομα χρήστη του\"root\" δεν πρέπει να τροποποιηθεί"
+msgstr "Όνομα αρχείου - δεν πρέπει να τροποποιηθεί"
 
 #: src/prefs_filtering_action.c:1078
 #: src/prefs_matcher.c:1693
@@ -7623,9 +7596,8 @@ msgid "quote character"
 msgstr "Χάρτης Χαρακτήρων"
 
 #: src/prefs_filtering_action.c:1389
-#, fuzzy
 msgid "Current action list"
-msgstr "Λίστα Ονομάτων Ενέργειας"
+msgstr "Λίστα τρέχοντων ενεργειών"
 
 #: src/prefs_filtering.c:155
 #: src/prefs_filtering.c:242
@@ -7639,9 +7611,8 @@ msgstr "Κατάσταση:"
 
 #: src/prefs_filtering.c:292
 #: src/prefs_filtering.c:314
-#, fuzzy
 msgid "Define..."
-msgstr "Καθορισμός Προβολών..."
+msgstr "Καθορισμός..."
 
 #: src/prefs_filtering.c:301
 msgid "Action: "
@@ -7801,18 +7772,17 @@ msgid "Default dictionary: "
 msgstr "Προκαθορισμένο λεξικό:"
 
 #: src/prefs_folder_item.c:823
-#, fuzzy
 msgid "Pick color for folder"
-msgstr "Επιλογή ενός χρώματος για την sticky note"
+msgstr "Επιλογή ενός χρώματος για τον φάκελο"
 
 #: src/prefs_folder_item.c:835
 msgid "General"
 msgstr "Γενικές"
 
 #: src/prefs_folder_item.c:875
-#, fuzzy, c-format
+#, c-format
 msgid "Properties for folder %s"
-msgstr "Προετοιμασία φακέλου '%s' για εργασία χωρίς σύνδεση"
+msgstr "Επιλογές φακέλου %s"
 
 #: src/prefs_fonts.c:66
 #, fuzzy
@@ -7857,7 +7827,6 @@ msgid "Display images inline"
 msgstr "Έλεγχος ορθογραφίας"
 
 #: src/prefs_image_viewer.c:129
-#, fuzzy
 msgid "Image Viewer"
 msgstr "Εφαρμογή Προβολής Εικόνων"
 
@@ -7866,9 +7835,8 @@ msgid "All messages"
 msgstr "Όλα τα μηνύματα"
 
 #: src/prefs_matcher.c:151
-#, fuzzy
 msgid "To or Cc"
-msgstr "Πάντοτε κοι_νοποίηση (Cc) σε:"
+msgstr "Προς ή Κοινοποίηση"
 
 #: src/prefs_matcher.c:152
 #, fuzzy
@@ -7886,19 +7854,16 @@ msgid "Age lower than"
 msgstr "είναι μεγαλύτερο από"
 
 #: src/prefs_matcher.c:154
-#, fuzzy
 msgid "Headers part"
-msgstr "Εγκατάλειψη Καναλιού"
+msgstr "Μέρος των κεφαλίδων"
 
 #: src/prefs_matcher.c:155
-#, fuzzy
 msgid "Body part"
-msgstr "Κακοδιατυπωμένο εξωτερικό μέρος μηνύματος."
+msgstr "Μέρος του κυρίως μηνύμαυος"
 
 #: src/prefs_matcher.c:155
-#, fuzzy
 msgid "Whole message"
-msgstr "Αριστερό μήνυμα"
+msgstr "Ολόκληρο το μήνυμα"
 
 #: src/prefs_matcher.c:156
 #, fuzzy
