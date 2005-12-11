@@ -1,5 +1,5 @@
 # Greek translations of Sylpheed-Claws
-# Copyright (C) 2001-2005 Free Software Foundation, Inc.
+# Copyright (C) 2001,2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Sylpheed-Claws package.
 # Michalis Kabrianis <Michalis@bigfoot.com>, 2001.
 # Stavros Giannouris <stavrosg2002@freemail.gr>, 2005.
@@ -226,9 +226,8 @@ msgid "/_Book/New _JPilot"
 msgstr "/_Ευρετήριο/Νέο _JPilot"
 
 #: src/addressbook.c:412
-#, fuzzy
 msgid "/_Book/New LDAP _Server"
-msgstr "/_Ευρετήριο/Νέος Διακομι_στής"
+msgstr "/_Ευρετήριο/Νέος Διακομι_στής LDAP"
 
 #: src/addressbook.c:414
 #: src/addressbook.c:417
@@ -256,9 +255,8 @@ msgid "/_Address"
 msgstr "/_Διεύθυνση"
 
 #: src/addressbook.c:421
-#, fuzzy
 msgid "/_Address/_Select all"
-msgstr "/_Διεύθυνση/_Διαγραφή"
+msgstr "/_Διεύθυνση/Επιλ_ογή όλων"
 
 #: src/addressbook.c:422
 #: src/addressbook.c:426
@@ -413,9 +411,8 @@ msgid "/_Paste"
 msgstr "/Ε_πικόλληση"
 
 #: src/addressbook.c:459
-#, fuzzy
 msgid "/_Select all"
-msgstr "/_Επεξεργασία/Επιλογή όλων"
+msgstr "/Επιλ_ογή όλων"
 
 #: src/addressbook.c:464
 msgid "/New _Address"
@@ -1404,9 +1401,8 @@ msgid "/_Options/Character _encoding/Western European (ISO-8859-15)"
 msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_15)"
 
 #: src/compose.c:674
-#, fuzzy
 msgid "/_Options/Character _encoding/Western European (Windows-1252)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (Windows-1252)"
+msgstr "/_Επιλογές/Κω_δικοποίηση χαρακτήρων/Δυτικής Ευρώπης (Windows-1252)"
 
 #: src/compose.c:678
 msgid "/_Options/Character _encoding/Central European (ISO-8859-_2)"
@@ -1486,23 +1482,22 @@ msgstr "/Ε_πιλογές/Κω_δικοποίηση χαρακτήρων/Ταϊ
 
 #: src/compose.c:736
 msgid "/_Tools/Show _ruler"
-msgstr "/Εργαλεία/Προβολή χάρακα"
+msgstr "/_Εργαλεία/Προβολή _χάρακα"
 
 #: src/compose.c:737
 #: src/messageview.c:294
 msgid "/_Tools/_Address book"
-msgstr "/Εργαλεία/Ευρετήριο διευθύνσεων"
+msgstr "/_Εργαλεία/_Ευρετήριο διευθύνσεων"
 
 #: src/compose.c:738
 msgid "/_Tools/_Template"
-msgstr "/Εργαλεία/Πρότυπο"
+msgstr "/_Εργαλεία/_Πρότυπο"
 
 #: src/compose.c:739
 #: src/mainwindow.c:750
 #: src/messageview.c:319
-#, fuzzy
 msgid "/_Tools/Actio_ns"
-msgstr "Εργαλεία Δικτύου - Συσκευές"
+msgstr "/_Εργαλεία/Ε_νέργειες"
 
 #: src/compose.c:1408
 msgid "Fw: multiple emails"
@@ -1516,6 +1511,7 @@ msgstr "Απάντηση-Σε:"
 #: src/compose.c:4945
 #: src/compose.c:5629
 #: src/headerview.c:54
+#, fuzzy
 msgid "Newsgroups:"
 msgstr "Newsgroups:"
 
@@ -2040,9 +2036,8 @@ msgid "A Group Name must be supplied."
 msgstr "Θα πρέπει να καθοριστεί όνομα ομάδας"
 
 #: src/editgroup.c:286
-#, fuzzy
 msgid "Edit Group Data"
-msgstr "Διαχειριστής Προσωπικών Δεδομένων"
+msgstr "Επεξεργασία Δεδομένων της Ομάδας"
 
 #: src/editgroup.c:314
 #: src/exporthtml.c:626
@@ -2050,9 +2045,8 @@ msgid "Group Name"
 msgstr "Όνομα Ομάδας"
 
 #: src/editgroup.c:333
-#, fuzzy
 msgid "Addresses in Group"
-msgstr "Ομάδα Λίστας Εργασιών"
+msgstr "Διευθύνσεις στην Ομάδα"
 
 #: src/editgroup.c:335
 msgid " -> "
@@ -2068,7 +2062,7 @@ msgstr "Διαθέσιμες Διευθύνσεις"
 
 #: src/editgroup.c:425
 msgid "Move E-Mail Addresses to or from Group with arrow buttons"
-msgstr ""
+msgstr "Μετακινείστε διευθύνσεις μέσα ή έξω από την Ομάδα με τα βελάκια"
 
 #: src/editgroup.c:473
 msgid "Edit Group Details"
@@ -2122,7 +2116,7 @@ msgstr "Προσθήκη νέας καταχώρησης JPilot"
 
 #: src/editldap_basedn.c:143
 msgid "Edit LDAP - Select Search Base"
-msgstr ""
+msgstr "Επεξεργασία LDAP - Επιλογή Βάσης Αναζήτησης"
 
 #: src/editldap_basedn.c:163
 #: src/editldap.c:413
@@ -2427,14 +2421,12 @@ msgid "Color Banding"
 msgstr "Επικόλληση Χρωμάτων"
 
 #: src/exphtmldlg.c:545
-#, fuzzy
 msgid "Format E-Mail Links"
-msgstr "Κατάλογοι σε φορμά ΜΗ"
+msgstr "Μορφοποίηση δεσμών ηλεκτρονικών διευθύνσεων αλληλογραφίας"
 
 #: src/exphtmldlg.c:551
-#, fuzzy
 msgid "Format User Attributes"
-msgstr "γνωρίσματα στο caret"
+msgstr "Μορφοποίηση Γνωρισμάτων Χρήστη"
 
 #: src/exphtmldlg.c:606
 #: src/expldifdlg.c:636
@@ -2568,9 +2560,8 @@ msgid "Export Address Book to LDIF File"
 msgstr "Εξαγωγή Ευρετηρίου Διευθύνσεων σε αρχείο LDIF"
 
 #: src/expldifdlg.c:736
-#, fuzzy
 msgid "Distguished Name"
-msgstr "Πλήρες Όνομα"
+msgstr "Διακεκριμένο Όνομα"
 
 #: src/export.c:143
 msgid "Export"
@@ -2665,9 +2656,9 @@ msgid "Filtering messages...\n"
 msgstr "Φιλτράρισμα μηνυμάτων...\n"
 
 #: src/folder.c:2306
-#, fuzzy, c-format
+#, c-format
 msgid "Fetching all messages in %s ...\n"
-msgstr "Διαγραφή όλων των μηνυμάτων σε όλους τους φακέλους απορριμμάτων;"
+msgstr "Λήψη όλων των μηνυμάτων στο %s...\n"
 
 #. move messages
 #: src/folder.c:2594
@@ -2764,9 +2755,8 @@ msgid "Mark all as read"
 msgstr "Σήμανση όλων ως αναγνωσμένα"
 
 #: src/folderview.c:714
-#, fuzzy
 msgid "Do you really want to mark all mails in this folder as read ?"
-msgstr "Θέλετε πράγματι να διαγραφεί αυτή η κεφαλίδα;"
+msgstr "Θέλετε πράγματι να σημειώσετε όλα τα μηνύματα στο φάκελο ως αναγνωσμένα;"
 
 #: src/folderview.c:937
 #: src/mainwindow.c:3176
@@ -2864,9 +2854,8 @@ msgid "Print"
 msgstr "Εκτύπωση"
 
 #: src/gedit-print.c:244
-#, fuzzy
 msgid "Preparing pages..."
-msgstr "Επεξεργασία μηνυμάτων..."
+msgstr "Προετοιμασία σελίδων..."
 
 #: src/gedit-print.c:271
 #, c-format
@@ -2876,16 +2865,15 @@ msgstr ""
 #: src/gedit-print.c:273
 #, c-format
 msgid "Printing page %d of %d..."
-msgstr ""
+msgstr "Εκτύπωση σελίδας %d από %d..."
 
 #: src/gedit-print.c:295
-#, fuzzy
 msgid "Print preview"
-msgstr "Προεπισκόπηση"
+msgstr "Προεπισκόπηση εκτύπωσης"
 
 #: src/gedit-print.c:451
 msgid "Page %N of %Q"
-msgstr ""
+msgstr "Σελίδα %N από %Q"
 
 #: src/grouplistdialog.c:173
 msgid "Newsgroup subscription"
@@ -2946,15 +2934,13 @@ msgstr "Δημιουργός (ανάγνωση,δημιουργία)"
 
 #: src/gtk/about.c:79
 #: src/textview.c:224
-#, fuzzy
 msgid "/_Open with Web browser"
-msgstr "Προβολή βοήθειας φυλλομετρητή"
+msgstr "/_Άνοιγμα με τον περιηγητή Ιστοσελίδων"
 
 #: src/gtk/about.c:80
 #: src/textview.c:225
-#, fuzzy
 msgid "/Copy this _link"
-msgstr "Αν_τιγραφή Διεύθυνσης Συνδέσμου"
+msgstr "/Αντιγραφή _συνδέσμου"
 
 #: src/gtk/about.c:124
 msgid "About Sylpheed-Claws"
@@ -4526,36 +4512,32 @@ msgid "  --receive-all          receive new messages of all accounts"
 msgstr "  --receive-all          λήψη νέων μηνυμάτων όλων των λογαριασμών"
 
 #: src/main.c:723
-#, fuzzy
 msgid "  --send                 send all queued messages"
-msgstr "Επιλογή όλων των μηνυμάτων που εμφανίζονται"
+msgstr "  --send                 αποστολή όλων των μηνυμάτων στην ουρά"
 
 #: src/main.c:724
-#, fuzzy
 msgid "  --status [folder]...   show the total number of messages"
-msgstr "  --receive              λήψη νέων μηνυμάτων"
+msgstr "  --status [φάκελος]...  εμφάνιση του συνολικού αριθμού μηνυμάτων"
 
 #: src/main.c:725
-#, fuzzy
 msgid ""
 "  --status-full [folder]...\n"
 "                         show the status of each folder"
-msgstr "  --receive              λήψη νέων μηνυμάτων"
+msgstr ""
+"  --status-full [φάκελος]...\n"
+"                         εμφάνιση της κατάστασης του φακέλου"
 
 #: src/main.c:727
-#, fuzzy
 msgid "  --online               switch to online mode"
-msgstr "Η κατάσταση παράνοιας για χρήση"
+msgstr ""
 
 #: src/main.c:728
-#, fuzzy
 msgid "  --offline              switch to offline mode"
-msgstr "Η κατάσταση παράνοιας για χρήση"
+msgstr ""
 
 #: src/main.c:729
-#, fuzzy
 msgid "  --exit                 exit Sylpheed-Claws"
-msgstr "Επιλογή όλων των μηνυμάτων που εμφανίζονται"
+msgstr "  --exit                 έξοδος από το Sylpheed-Claws"
 
 #: src/main.c:730
 msgid "  --debug                debug mode"
@@ -4570,9 +4552,8 @@ msgid "  --version              output version information and exit"
 msgstr "  --version              εμφάνιση της έκδοσης και έξοδος"
 
 #: src/main.c:733
-#, fuzzy
 msgid "  --config-dir           output configuration directory"
-msgstr "  --version              εμφάνιση της έκδοσης και έξοδος"
+msgstr "  --config-dir           εμφάνιση καταλόγου ρυθμίσεων"
 
 #: src/main.c:773
 #: src/summaryview.c:5450
@@ -5751,9 +5732,8 @@ msgstr ""
 "είναι %s και θα διαγραφεί."
 
 #: src/messageview.c:1276
-#, fuzzy
 msgid "Return Receipt Notification"
-msgstr "/Ε_πιλογές/Βεβαίωση Ανάγνωσης"
+msgstr "Αποστολή Επιεβαίωσης Ανάγνωσης"
 
 #: src/messageview.c:1277
 msgid ""
@@ -5784,13 +5764,13 @@ msgstr ""
 
 #: src/messageview.c:1350
 #: src/summaryview.c:3676
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Print command line is invalid:\n"
 "'%s'"
 msgstr ""
-"Η γραμμή εντολής εκτύπωσης είναι άκυρη:\n"
-"`%s'"
+"Η εντολή εκτύπωσης είναι άκυρη:\n"
+"'%s'"
 
 #: src/messageview.c:1361
 #: src/summaryview.c:3649
@@ -5803,9 +5783,8 @@ msgid "can't copy message %s to %s\n"
 msgstr "δεν μπορώ να αντιγράψω το μήνυμα %s στο %s\n"
 
 #: src/mh_gtk.c:59
-#, fuzzy
 msgid "/Remove _mailbox..."
-msgstr "/Διαγραφή _γραμματοκιβωτίου"
+msgstr "/Διαγραφή _γραμματοκιβωτίου..."
 
 #: src/mh_gtk.c:323
 #, c-format
@@ -5838,9 +5817,8 @@ msgid "/_Save as..."
 msgstr "/_Αποθήκευση ως..."
 
 #: src/mimeview.c:158
-#, fuzzy
 msgid "/Save _all..."
-msgstr "_Αποθήκευση Όλων"
+msgstr "/Αποθήκευση _όλων"
 
 #: src/mimeview.c:197
 msgid "MIME Type"
@@ -5891,9 +5869,8 @@ msgid "Overwrite existing file '%s'?"
 msgstr "Θέλετε να αντικαταστήσετε το υπάρχον αρχείο '%s';"
 
 #: src/mimeview.c:1365
-#, fuzzy
 msgid "Select destination folder"
-msgstr "Επιλογή Φακέλου Maildir"
+msgstr "Επιλογή φακέλου προορισμού"
 
 #: src/mimeview.c:1372
 #, c-format
@@ -5937,9 +5914,9 @@ msgid "can't retrieve article %d\n"
 msgstr "δεν μπορώ να λάβω το άρθρο %d\n"
 
 #: src/news.c:626
-#, fuzzy, c-format
+#, c-format
 msgid "can't select group: %s\n"
-msgstr "Παρακαλώ επιλέξτε ένα άλλο όνομα ομάδας"
+msgstr "δεν είναι δυνατή η επιλογή της ομάδας: %s\n"
 
 #: src/news.c:854
 #, c-format
