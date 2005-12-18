@@ -7698,9 +7698,8 @@ msgid "Total"
 msgstr ""
 
 #: src/prefs_folder_column.c:205
-#, fuzzy
 msgid "Folder list columns configuration"
-msgstr "Ρυθμίσεις στηλών της λίστας μηνυμάτων"
+msgstr "Ρυθμίσεις στηλών της λίστας φακέλων"
 
 #: src/prefs_folder_column.c:222
 msgid ""
@@ -7727,11 +7726,12 @@ msgstr " Χρήση προκαθορισμένου"
 #. Apply to subfolders
 #: src/prefs_folder_item.c:173
 #: src/prefs_folder_item.c:490
-#, fuzzy
 msgid ""
 "Apply to\n"
 "subfolders"
-msgstr "Εφαρμογή Ταιριάσματος στο:"
+msgstr ""
+"Εφαρμογή σε\n"
+"υποφάκελους"
 
 #. Simplify Subject
 #: src/prefs_folder_item.c:180
@@ -7752,9 +7752,8 @@ msgstr "Χρώμα φακέλου:"
 
 #. Enable processing at startup
 #: src/prefs_folder_item.c:254
-#, fuzzy
 msgid "Process at startup"
-msgstr "Εμ_φάνιση Υποδείξεων κατά την Εκκίνηση"
+msgstr "Επεξεργασία κατά την εκκίνηση"
 
 #. Check folder for new mail
 #: src/prefs_folder_item.c:268
@@ -7768,19 +7767,17 @@ msgid "Synchronise for offline use"
 msgstr "Προετοιμασία φακέλου '%s' για εργασία χωρίς σύνδεση"
 
 #: src/prefs_folder_item.c:499
-#, fuzzy
 msgid "Request Return Receipt"
-msgstr "/Ε_πιλογές/Βεβαίωση Ανάγνωσης"
+msgstr "Αίτηση βεβαίωσης ανάγνωσης"
 
 #: src/prefs_folder_item.c:514
 msgid "Save copy of outgoing messages to this folder instead of Sent"
-msgstr ""
+msgstr "Αποθήκευση αντίγραφου των εξερχομένων μηνυμάτων σε αυτό το φάκελο αντί για τα Σταλμένα"
 
 #. Default To
 #: src/prefs_folder_item.c:527
-#, fuzzy
 msgid "Default To: "
-msgstr "Επανα_φορά στις Προεπιλογές"
+msgstr "Προκαθορισμένο Πρός: "
 
 #. Default address to reply to
 #: src/prefs_folder_item.c:547
@@ -7790,13 +7787,11 @@ msgstr "_Θέση προς αναζήτηση:"
 
 #. Default account
 #: src/prefs_folder_item.c:567
-#, fuzzy
 msgid "Default account: "
-msgstr "Αλφαριθμητικό UID του προεπιλεγμένου λογαριασμού."
+msgstr "Προκαθορισμένος λογαριασμός:"
 
 #. Default dictionary
 #: src/prefs_folder_item.c:618
-#, fuzzy
 msgid "Default dictionary: "
 msgstr "Προκαθορισμένο λεξικό:"
 
@@ -7814,9 +7809,8 @@ msgid "Properties for folder %s"
 msgstr "Επιλογές φακέλου %s"
 
 #: src/prefs_fonts.c:66
-#, fuzzy
 msgid "Folder and Message Lists"
-msgstr "Αποθήκευση μηνύματος στο φάκελο"
+msgstr "Κατάλογοι Φακέλων και Μηνυμάτων"
 
 #: src/prefs_fonts.c:83
 msgid "Message"
@@ -7837,23 +7831,20 @@ msgid "Preferences"
 msgstr "Προτιμήσεις"
 
 #: src/prefs_image_viewer.c:67
-#, fuzzy
 msgid "Automatically display attached images"
-msgstr "_Αυτόματη εισαγωγή εικονιδίων φατσούλας"
+msgstr "Αυτόματη εμφάνιση συνημμένων εικόνων"
 
 #: src/prefs_image_viewer.c:75
-#, fuzzy
 msgid "Resize attached images by default"
-msgstr "Υπογραφή μηνυμάτων εξ ορισμού"
+msgstr "Αυτόματη προσαρμογή των συνημμένων εικόνων στο παράθυρο"
 
 #: src/prefs_image_viewer.c:78
 msgid "Clicking image toggles scaling"
 msgstr ""
 
 #: src/prefs_image_viewer.c:84
-#, fuzzy
 msgid "Display images inline"
-msgstr "Έλεγχος ορθογραφίας"
+msgstr "Προβολή εικόνων μέσα στο μήνυμα"
 
 #: src/prefs_image_viewer.c:129
 msgid "Image Viewer"
@@ -7868,19 +7859,16 @@ msgid "To or Cc"
 msgstr "Προς ή Κοινοποίηση"
 
 #: src/prefs_matcher.c:152
-#, fuzzy
 msgid "In reply to"
-msgstr "Απάντηση σε _Όλους"
+msgstr "Απάντηση στο"
 
 #: src/prefs_matcher.c:153
-#, fuzzy
 msgid "Age greater than"
-msgstr "είναι μεγαλύτερο από"
+msgstr "Είναι παλαιότερο από"
 
 #: src/prefs_matcher.c:153
-#, fuzzy
 msgid "Age lower than"
-msgstr "είναι μεγαλύτερο από"
+msgstr "Είναι νεότερο από"
 
 #: src/prefs_matcher.c:154
 msgid "Headers part"
@@ -7930,49 +7918,41 @@ msgid "Locked flag"
 msgstr "Κατάσταση Σημαίας"
 
 #: src/prefs_matcher.c:160
-#, fuzzy
 msgid "Color label"
-msgstr "Το χρώμα της ετικέτας για το URL"
+msgstr "Χρώμα ετικέτας"
 
 #: src/prefs_matcher.c:161
 #: src/toolbar.c:174
-#, fuzzy
 msgid "Ignore thread"
-msgstr "Επιλογή _Θέματος"
+msgstr "Αγνόηση νήματος"
 
 #: src/prefs_matcher.c:162
-#, fuzzy
 msgid "Score greater than"
-msgstr "είναι μεγαλύτερο από"
+msgstr "Σκορ μεγαλύτερο από"
 
 #: src/prefs_matcher.c:162
-#, fuzzy
 msgid "Score lower than"
-msgstr "είναι μεγαλύτερο από"
+msgstr "Σκορ μικρότερο από"
 
 #: src/prefs_matcher.c:163
-#, fuzzy
 msgid "Score equal to"
-msgstr "Εφαρμογή Ταιριάσματος στο:"
+msgstr "Σκορ ίσο με"
 
 #: src/prefs_matcher.c:164
 msgid "Test"
 msgstr "Δοκιμή"
 
 #: src/prefs_matcher.c:165
-#, fuzzy
 msgid "Size greater than"
-msgstr "είναι μεγαλύτερο από"
+msgstr "Μέγεθος μεγαλύτερο από"
 
 #: src/prefs_matcher.c:166
-#, fuzzy
 msgid "Size smaller than"
-msgstr "Σμίκρυνση σε μικρότερο μέγεθος"
+msgstr "Μέγεθος μικρότερο από"
 
 #: src/prefs_matcher.c:167
-#, fuzzy
 msgid "Size exactly"
-msgstr "Κα_νονικό Μέγεθος"
+msgstr "Μέγεθος ίσο με"
 
 #: src/prefs_matcher.c:168
 msgid "Partially downloaded"
@@ -8022,9 +8002,8 @@ msgid "Predicate"
 msgstr "Κριτήριο"
 
 #: src/prefs_matcher.c:575
-#, fuzzy
 msgid "Use regexp"
-msgstr "κανονική έκφραση διεργασίας"
+msgstr "Χρήση κανονικής έκφρασης"
 
 #. boolean operation
 #: src/prefs_matcher.c:613
@@ -8033,15 +8012,16 @@ msgid "Boolean Op"
 msgstr "Τιμή Boolean "
 
 #: src/prefs_matcher.c:1200
-#, fuzzy
 msgid "Value is not set."
-msgstr "Δεν έχει οριστεί παραλήπτης"
+msgstr "Η τιμή δεν έχει οριστεί"
 
 #: src/prefs_matcher.c:1637
 msgid ""
 "The entry was not saved.\n"
 "Have you really finished?"
 msgstr ""
+"Η καταχώρηση δεν έχει αποθηκευτεί\n"
+"Σίγουρα έχετε τελειώσει;"
 
 #: src/prefs_matcher.c:1679
 msgid "'Test' allows you to test a message or message element"
@@ -8053,9 +8033,8 @@ msgid "using an external program or script. The program will"
 msgstr "Χρήση εξωτερικού προγράμματος για λήψη μηνυμάτων"
 
 #: src/prefs_matcher.c:1681
-#, fuzzy
 msgid "return either 0 or 1"
-msgstr "είτε ΠΜ ή ΜΜ"
+msgstr ""
 
 #: src/prefs_matcher.c:1682
 msgid "The following symbols can be used:"
@@ -8090,7 +8069,7 @@ msgstr "Εμφάνιση HTML μηνυμάτων σαν κείμενο"
 
 #: src/prefs_message.c:149
 msgid "Show attachment descriptions (rather than names)"
-msgstr ""
+msgstr "Εμφάνιση περιγραφής για τα συνημμένα (αντί για ονόματα)"
 
 #: src/prefs_message.c:159
 msgid "Line space"
@@ -8099,7 +8078,7 @@ msgstr "Διάστημα γραμμών"
 #: src/prefs_message.c:173
 #: src/prefs_message.c:211
 msgid "pixel(s)"
-msgstr "pixel(s)"
+msgstr "εικονοστοιχείο(α)"
 
 #: src/prefs_message.c:178
 msgid "Scroll"
@@ -8170,14 +8149,12 @@ msgid "Pick color for URI"
 msgstr "Επιλογή χρώματος για URI"
 
 #: src/prefs_msg_colors.c:245
-#, fuzzy
 msgid "Pick color for target folder"
-msgstr "Επιλογή ενός χρώματος για την sticky note"
+msgstr "Επιλογή χρώματος για τον επιλεγμένο φάκελο"
 
 #: src/prefs_msg_colors.c:248
-#, fuzzy
 msgid "Pick color for signatures"
-msgstr "Επιλογή ενός χρώματος για την sticky note"
+msgstr "Επιλογή χρώματος για τις υπογραφές"
 
 #: src/prefs_msg_colors.c:395
 msgid "Colors"
@@ -8198,7 +8175,6 @@ msgid "Clip the log size"
 msgstr "Μέγεθος του παραθύρου καταγραφής"
 
 #: src/prefs_other.c:121
-#, fuzzy
 msgid "Log window length"
 msgstr "Μέγεθος του παραθύρου καταγραφής"
 
@@ -8343,6 +8319,8 @@ msgid ""
 "Command to execute:\n"
 "(use %d as number of new mails)"
 msgstr ""
+"Εντολή προς εκτέλεση:\n"
+"(Το %d αναπαριστά τον αριθμό των νέων μηνυμάτων)"
 
 #: src/prefs_receive.c:365
 #: src/prefs_send.c:335
@@ -8367,11 +8345,11 @@ msgstr "Κωδικοποίηση εξερχόμενων"
 
 #: src/prefs_send.c:187
 msgid "If 'Automatic' is selected, the optimal encoding for the current locale will be used"
-msgstr ""
+msgstr "Εάν επιλεγεί 'Αυτόματη', θα χρησιμοποιηθεί η βέλτιστη κωδικοποίηση για το τρέχον locale"
 
 #: src/prefs_send.c:201
 msgid "Automatic (Recommended)"
-msgstr "Αυτόματη(Προτεινόμενο)"
+msgstr "Αυτόματη (Προτεινόμενο)"
 
 #: src/prefs_send.c:203
 msgid "7bit ascii (US-ASCII)"
@@ -8532,7 +8510,7 @@ msgstr "Έλεγχος Ορθογραφίας"
 
 #: src/prefs_summaries.c:141
 msgid "the full abbreviated weekday name"
-msgstr ""
+msgstr "το συντομευμένο όνομα της ημέρας"
 
 #: src/prefs_summaries.c:142
 msgid "the full weekday name"
@@ -8560,11 +8538,11 @@ msgstr "η μέρα του μήνα ως δεκαδικός αριθμός"
 
 #: src/prefs_summaries.c:148
 msgid "the hour as a decimal number using a 24-hour clock"
-msgstr ""
+msgstr "η ώρα ως δεκαδικός αριθμός σε 24ωρο ρολόι"
 
 #: src/prefs_summaries.c:149
 msgid "the hour as a decimal number using a 12-hour clock"
-msgstr ""
+msgstr "η ώρα ως δεκαδικός αριθμός σε 12ωρο ρολόι"
 
 #: src/prefs_summaries.c:150
 msgid "the day of the year as a decimal number"
@@ -8592,7 +8570,7 @@ msgstr "η μέρα της εβδομάδας ως δεκαδικός αριθμ
 
 #: src/prefs_summaries.c:156
 msgid "the preferred date for the current locale"
-msgstr ""
+msgstr "η προτιμώμενη ημερομηνία για το τρέχον locale"
 
 #: src/prefs_summaries.c:157
 msgid "the last two digits of a year"
@@ -8604,7 +8582,7 @@ msgstr "το έτος ως δεκαδικός αριθμός"
 
 #: src/prefs_summaries.c:159
 msgid "the time zone or name or abbreviation"
-msgstr ""
+msgstr "η ζώνη ώρας ως όνομα ή σύντμηση"
 
 #: src/prefs_summaries.c:180
 #: src/prefs_summaries.c:228
@@ -8668,9 +8646,8 @@ msgid "Thread using subject in addition to standard headers"
 msgstr ""
 
 #: src/prefs_summaries.c:798
-#, fuzzy
 msgid "Set displayed columns"
-msgstr "Αριθμός στηλών κελιού"
+msgstr "Ορισμός εμφανιζόμενων στηλών"
 
 #: src/prefs_summaries.c:806
 msgid " Folder list... "
