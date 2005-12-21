@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: colin@colino.net\n"
 "POT-Creation-Date: 2005-12-20 09:52+0000\n"
-"PO-Revision-Date: 2005-12-21 16:49+0200\n"
+"PO-Revision-Date: 2005-12-21 16:53+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -42,66 +42,86 @@ msgid ""
 "You can get it from http://apanel.sourceforge.net/"
 msgstr ""
 
-#: src/acpi_notifier.c:191 src/acpi_notifier.c:197 src/acpi_notifier.c:408
+#: src/acpi_notifier.c:191
+#: src/acpi_notifier.c:197
+#: src/acpi_notifier.c:408
+#, fuzzy
 msgid "Control file doesn't exist."
-msgstr ""
+msgstr "Το αρχείο %s δεν υπάρχει"
 
 #: src/acpi_notifier.c:288
+#, fuzzy
 msgid " : no new or unread mail"
-msgstr ""
+msgstr "Εμφάνιση του διαλόγου \"δεν υπάρχουν μη αναγνωσμένα (ή νέα) μηνύματα\""
 
 #: src/acpi_notifier.c:289
+#, fuzzy
 msgid " : unread mail"
-msgstr ""
+msgstr "ρυθμίσεις αλληλογραφίας"
 
 #: src/acpi_notifier.c:290
+#, fuzzy
 msgid " : new mail"
-msgstr ""
+msgstr "νέο μήνυμα"
 
-#: src/acpi_notifier.c:292 src/acpi_notifier.c:298 src/acpi_notifier.c:304
+#: src/acpi_notifier.c:292
+#: src/acpi_notifier.c:298
+#: src/acpi_notifier.c:304
+#, fuzzy
 msgid "off"
-msgstr ""
+msgstr "Κλειστό"
 
-#: src/acpi_notifier.c:294 src/acpi_notifier.c:300 src/acpi_notifier.c:306
+#: src/acpi_notifier.c:294
+#: src/acpi_notifier.c:300
+#: src/acpi_notifier.c:306
+#, fuzzy
 msgid "blinking"
-msgstr ""
+msgstr "Παλλόμενο κείμενο"
 
-#: src/acpi_notifier.c:296 src/acpi_notifier.c:302 src/acpi_notifier.c:308
+#: src/acpi_notifier.c:296
+#: src/acpi_notifier.c:302
+#: src/acpi_notifier.c:308
+#, fuzzy
 msgid "on"
-msgstr ""
+msgstr "στο"
 
-#: src/acpi_notifier.c:330 src/acpi_notifier.c:339 src/acpi_notifier.c:354
+#: src/acpi_notifier.c:330
+#: src/acpi_notifier.c:339
+#: src/acpi_notifier.c:354
 msgid "LED "
 msgstr ""
 
 #: src/acpi_notifier.c:369
+#, fuzzy
 msgid "ACPI type: "
-msgstr ""
+msgstr "Τύπος DCC"
 
 #: src/acpi_notifier.c:378
+#, fuzzy
 msgid "ACPI file: "
-msgstr ""
+msgstr "Αποστολή Αρχείου"
 
 #: src/acpi_notifier.c:389
+#, fuzzy
 msgid "values - On: "
-msgstr ""
+msgstr "Λήγει στις:"
 
 #: src/acpi_notifier.c:394
+#, fuzzy
 msgid " - Off: "
-msgstr ""
+msgstr "Κλειστό"
 
 #: src/acpi_notifier.c:703
 msgid "Plugins"
-msgstr ""
+msgstr "Πρόσθετα"
 
 #: src/acpi_notifier.c:704
+#, fuzzy
 msgid "Acpi Notifier"
-msgstr ""
+msgstr "Χειριστής γεγονότων ACPI"
 
 #: src/acpi_notifier.c:757
-msgid ""
-"Your Sylpheed-Claws version is newer than the version AcpiNotifier was built "
-"with"
+msgid "Your Sylpheed-Claws version is newer than the version AcpiNotifier was built with"
 msgstr ""
 
 #: src/acpi_notifier.c:762
@@ -109,9 +129,11 @@ msgid "Your Sylpheed-Claws version is too old for AcpiNotifier"
 msgstr ""
 
 #: src/acpi_notifier.c:776
+#, fuzzy
 msgid "Acpi notifier"
-msgstr ""
+msgstr "Χειριστής γεγονότων ACPI"
 
 #: src/acpi_notifier.c:781
 msgid "This plugin handles various ACPI mail LEDs."
 msgstr ""
+

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: andrej@kacian.sk\n"
 "POT-Creation-Date: 2005-12-20 09:45+0000\n"
-"PO-Revision-Date: 2005-12-21 16:50+0200\n"
+"PO-Revision-Date: 2005-12-21 16:55+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -17,149 +17,162 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/feed.c:148
-#, c-format
+#, fuzzy, c-format
 msgid "Fetching '%s'..."
-msgstr ""
+msgstr "Λήψη Μηνύματος"
 
 #: src/feed.c:589
-#, c-format
+#, fuzzy, c-format
 msgid "Refreshing feed '%s'..."
-msgstr ""
+msgstr "_Προσανατολισμός τροφοδοσίας:"
 
 #: src/feed.c:607
+#, fuzzy
 msgid "This feed format is not supported yet."
-msgstr ""
+msgstr "Αυτό το θέμα δεν είναι σε υποστηριζόμενη μορφή."
 
 #: src/feed.c:639
 msgid "N/A"
-msgstr ""
+msgstr "Μ/Δ"
 
 #: src/feed.c:902
+#, fuzzy
 msgid "You are already subscribed to this feed."
-msgstr ""
+msgstr "Έχετε ήδη εγγραφεί στο ημερολόγιο , \"%s\". Παρακαλώ εγγραφείτε σε άλλο ημερολόγιο."
 
 #: src/feed.c:908
-#, c-format
+#, fuzzy, c-format
 msgid "Couldn't fetch URL '%s'."
-msgstr ""
+msgstr "Αντιγραφή επιλεγμένου συνδέσμου"
 
 #: src/feed.c:914
-#, c-format
+#, fuzzy, c-format
 msgid "Can't subscribe feed '%s'."
-msgstr ""
+msgstr "Εγγραφή στο ημερολόγιο"
 
 #: src/plugin.c:44
-msgid ""
-"Your version of Sylpheed-Claws is newer than the version the plugin was "
-"built with"
-msgstr ""
+msgid "Your version of Sylpheed-Claws is newer than the version the plugin was built with"
+msgstr "Η έκδοση του Sylpheed-Claws που έχετε είναι νεότερη από αυτήν για την οποία χτίστηκε αυτό το πρόσθετο"
 
 #: src/plugin.c:49
 msgid "Your version of Sylpheed-Claws is too old"
-msgstr ""
+msgstr "Η έκδοση του Sylpheed-Claws που έχετε είναι υπερβολικά παλιά"
 
 #: src/plugin.c:70
 msgid ""
-"This plugin allows you to create a mailbox tree where you can add newsfeeds "
-"in RSS 1.0, RSS 2.0 or Atom format.\n"
+"This plugin allows you to create a mailbox tree where you can add newsfeeds in RSS 1.0, RSS 2.0 or Atom format.\n"
 "\n"
-"Each newsfeed will create a folder with appropriate entries, fetched from "
-"the web. You can read them, and delete or keep old entries."
+"Each newsfeed will create a folder with appropriate entries, fetched from the web. You can read them, and delete or keep old entries."
 msgstr ""
 
 #: src/rssyl_cb_menu.c:57
+#, fuzzy
 msgid "Subscribe feed"
-msgstr ""
+msgstr "_Προσανατολισμός τροφοδοσίας:"
 
 #: src/rssyl_cb_menu.c:58
 msgid "Input the URL of the news feed you wish to subscribe:"
 msgstr ""
 
 #: src/rssyl_cb_menu.c:82
-#, c-format
+#, fuzzy, c-format
 msgid "Really remove the folder tree '%s' ?\n"
-msgstr ""
+msgstr "Απομάκρ_υνση φακέλου άλλων χρηστών"
 
 #: src/rssyl_cb_menu.c:83
+#, fuzzy
 msgid "Remove folder tree"
-msgstr ""
+msgstr "Δέντρο φακέλου spool %s"
 
 #: src/rssyl_cb_menu.c:147
-#, c-format
+#, fuzzy, c-format
 msgid "Can't remove feed '%s'."
-msgstr ""
+msgstr "Αδύνατη η απομάκρυνση αρχείου %s: %s\n"
 
 #: src/rssyl_gtk.c:46
+#, fuzzy
 msgid "/_Refresh feed"
-msgstr ""
+msgstr "_Προσανατολισμός τροφοδοσίας:"
 
 #: src/rssyl_gtk.c:47
+#, fuzzy
 msgid "/Refresh _all feeds"
-msgstr ""
+msgstr "Όλες οι αποστολές αρχείων μαζί:"
 
 #: src/rssyl_gtk.c:49
+#, fuzzy
 msgid "/Subscribe _new feed..."
-msgstr ""
+msgstr "Παπούα Νέα Γουινέα"
 
 #: src/rssyl_gtk.c:50
+#, fuzzy
 msgid "/_Unsubscribe feed..."
-msgstr ""
+msgstr "_Προσανατολισμός τροφοδοσίας:"
 
 #: src/rssyl_gtk.c:51
+#, fuzzy
 msgid "/Feed pr_operties..."
-msgstr ""
+msgstr "Πρ_οηγούμενο Σημαντικό Μήνυμα"
 
 #: src/rssyl_gtk.c:53
+#, fuzzy
 msgid "/Remove folder _tree..."
-msgstr ""
+msgstr "Δέντρο φακέλου spool %s"
 
 #: src/rssyl_gtk.c:62
+#, fuzzy
 msgid "/Refresh feed"
-msgstr ""
+msgstr "_Προσανατολισμός τροφοδοσίας:"
 
 #: src/rssyl_gtk.c:63
+#, fuzzy
 msgid "/Refresh all feeds"
-msgstr ""
+msgstr "Όλες οι αποστολές αρχείων μαζί:"
 
 #: src/rssyl_gtk.c:64
+#, fuzzy
 msgid "/Subscribe new feed..."
-msgstr ""
+msgstr "Παπούα Νέα Γουινέα"
 
 #: src/rssyl_gtk.c:65
+#, fuzzy
 msgid "/Unsubscribe feed..."
-msgstr ""
+msgstr "_Προσανατολισμός τροφοδοσίας:"
 
 #: src/rssyl_gtk.c:66
+#, fuzzy
 msgid "/Feed properties..."
-msgstr ""
+msgstr "Ιδιότητες του πιστοποιητικού"
 
 #: src/rssyl_gtk.c:67
+#, fuzzy
 msgid "/Remove folder tree..."
-msgstr ""
+msgstr "Δέντρο φακέλου spool %s"
 
 #: src/rssyl_gtk.c:109
+#, fuzzy
 msgid "Add RSS folder tree"
-msgstr ""
+msgstr "Προ_σθήκη φακέλου άλλων χρηστών"
 
 #: src/rssyl_gtk.c:110
 msgid "Enter name for a new RSS folder tree."
 msgstr ""
 
 #: src/rssyl_gtk.c:115
-#, c-format
+#, fuzzy, c-format
 msgid "The mailbox '%s' already exists."
-msgstr ""
+msgstr "Το γραμματοκιβώτιο '%s' υπάρχει ήδη."
 
 #: src/rssyl_gtk.c:124
 msgid ""
 "Creation of folder tree failed.\n"
-"Maybe some files already exist, or you don't have the permission to write "
-"there?"
+"Maybe some files already exist, or you don't have the permission to write there?"
 msgstr ""
 
 #: src/rssyl_gtk.c:138
+#, fuzzy
 msgid "/File/Add mailbox/RSSyl..."
-msgstr ""
+msgstr "/_Αρχείο/Προσθήκη Γραμματοκιβωτίου/MH..."
 
 #: src/rssyl_gtk.c:208
 msgid "Use default refresh interval (180 minutes)"
@@ -170,8 +183,9 @@ msgid "Keep default number of expired entries (-1)"
 msgstr ""
 
 #: src/rssyl_gtk.c:252
+#, fuzzy
 msgid "<b>Source URL:</b>"
-msgstr ""
+msgstr "Χειριστές URL..."
 
 #: src/rssyl_gtk.c:279
 msgid ""
@@ -187,24 +201,30 @@ msgstr ""
 
 #: src/rssyl_gtk.c:353
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: src/rssyl_gtk.c:373
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 #: src/rssyl_gtk.c:381
+#, fuzzy
 msgid "Set feed properties"
-msgstr ""
+msgstr "Καθορισμός ιδιοτήτων παραθύρων"
 
-#: src/rssyl_gtk.c:479 src/rssyl_gtk.c:500
+#: src/rssyl_gtk.c:479
+#: src/rssyl_gtk.c:500
+#, fuzzy
 msgid "Unsubscribe feed"
-msgstr ""
+msgstr "_Προσανατολισμός τροφοδοσίας:"
 
 #: src/rssyl_gtk.c:501
+#, fuzzy
 msgid "Do you really want to remove feed"
-msgstr ""
+msgstr "Θέλετε να απομακρύνετε αυτή την τοποθεσία;"
 
 #: src/rssyl_gtk.c:511
+#, fuzzy
 msgid "Remove cached entries"
-msgstr ""
+msgstr "_Απομάκρυνση από την Εργαλειοθήκη"
+

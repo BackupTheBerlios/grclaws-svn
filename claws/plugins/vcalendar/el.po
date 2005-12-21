@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: colin@colino.net\n"
 "POT-Creation-Date: 2005-12-20 09:58+0000\n"
-"PO-Revision-Date: 2005-12-21 16:49+0200\n"
+"PO-Revision-Date: 2005-12-21 17:07+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -17,43 +17,42 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/plugin.c:40
-msgid ""
-"Your sylpheed version is newer than the version the plugin was built with"
-msgstr ""
+msgid "Your sylpheed version is newer than the version the plugin was built with"
+msgstr "Η έκδοση του Sylpheed-Claws που έχετε είναι νεότερη από αυτήν για την οποία χτίστηκε αυτό το πρόσθετο"
 
 #: src/plugin.c:45
 msgid "Your sylpheed version is too old"
-msgstr ""
+msgstr "Η έκδοση του Sylpheed-Claws που έχετε είναι υπερβολικά παλιά"
 
-#: src/plugin.c:61 src/vcal_manager.c:1134 src/vcal_meeting_gtk.c:450
+#: src/plugin.c:61
+#: src/vcal_manager.c:1134
+#: src/vcal_meeting_gtk.c:450
 #: src/vcal_prefs.c:234
 msgid "vCalendar"
 msgstr ""
 
 #: src/plugin.c:66
 msgid ""
-"This plugin enables vCalendar message handling like produced by Evolution or "
-"Outlook.\n"
+"This plugin enables vCalendar message handling like produced by Evolution or Outlook.\n"
 "\n"
-"When loaded, it will create a vCalendar mailbox in your folder list, which "
-"will be populated by meetings that you have accepted or created.\n"
-"Meeting requests that you receive will be presented in an appropriate form "
-"and you will be able to accept or decline them.\n"
-"Finally, to create a meeting right-click on the vCalendar or Meetings folder "
-"and choose \"New meeting...\"."
+"When loaded, it will create a vCalendar mailbox in your folder list, which will be populated by meetings that you have accepted or created.\n"
+"Meeting requests that you receive will be presented in an appropriate form and you will be able to accept or decline them.\n"
+"Finally, to create a meeting right-click on the vCalendar or Meetings folder and choose \"New meeting...\"."
 msgstr ""
 
 #: src/vcalendar.c:418
 msgid "Accept"
-msgstr ""
+msgstr "Αποδοχή"
 
 #: src/vcalendar.c:419
+#, fuzzy
 msgid "Tentatively accept"
-msgstr ""
+msgstr "Δοκιμαστική αποδοχή"
 
 #: src/vcalendar.c:420
+#, fuzzy
 msgid "Decline"
-msgstr ""
+msgstr "Απόκρυψη"
 
 #: src/vcalendar.c:426
 msgid "-"
@@ -67,12 +66,13 @@ msgstr ""
 msgid "You have been invited to a meeting. Details follow:"
 msgstr ""
 
-#: src/vcalendar.c:481 src/vcalendar.c:762
-msgid ""
-"You have received an answer to an unknown meeting proposal. Details follow:"
+#: src/vcalendar.c:481
+#: src/vcalendar.c:762
+msgid "You have received an answer to an unknown meeting proposal. Details follow:"
 msgstr ""
 
-#: src/vcalendar.c:484 src/vcalendar.c:765
+#: src/vcalendar.c:484
+#: src/vcalendar.c:765
 #, c-format
 msgid ""
 "You have received an answer to a meeting proposal.\n"
@@ -80,9 +80,8 @@ msgid ""
 msgstr ""
 
 #: src/vcalendar.c:494
-msgid ""
-"A meeting to which you had been invited has been cancelled. Details follow:"
-msgstr ""
+msgid "A meeting to which you had been invited has been cancelled. Details follow:"
+msgstr "Μία συνάντηση στην οποία είχατε προσκληθεί έχει ακυρωθεί. Λεπτομέρειες:"
 
 #: src/vcalendar.c:499
 msgid "You have been forwarded an appointment. Details follow:"
@@ -90,7 +89,7 @@ msgstr ""
 
 #: src/vcalendar.c:959
 msgid "Cancel meeting"
-msgstr ""
+msgstr "Ακύρωση συνάντησης"
 
 #: src/vcalendar.c:960
 msgid ""
@@ -106,117 +105,132 @@ msgstr ""
 
 #: src/vcalendar.c:1077
 msgid "Answer"
-msgstr ""
+msgstr "Aπάντηση"
 
 #: src/vcalendar.c:1078
 msgid "Edit meeting..."
-msgstr ""
+msgstr "Επεξεργασία συνάντησης..."
 
 #: src/vcalendar.c:1079
 msgid "Cancel meeting..."
-msgstr ""
+msgstr "Ακύρωση συνάντησης..."
 
 #: src/vcalendar.c:1080
+#, fuzzy
 msgid "Launch website"
-msgstr ""
+msgstr "URL Ιστοσελίδας"
 
 #: src/vcalendar.c:1101
 msgid "Event:"
-msgstr ""
+msgstr "Γεγονός:"
 
-#: src/vcalendar.c:1102 src/vcal_meeting_gtk.c:651
+#: src/vcalendar.c:1102
+#: src/vcal_meeting_gtk.c:651
 msgid "Organizer:"
-msgstr ""
+msgstr "Διοργανωτής:"
 
-#: src/vcalendar.c:1103 src/vcal_meeting_gtk.c:653
+#: src/vcalendar.c:1103
+#: src/vcal_meeting_gtk.c:653
 msgid "Summary:"
-msgstr ""
+msgstr "Περίληψη:"
 
 #: src/vcalendar.c:1104
 msgid "Starting:"
-msgstr ""
+msgstr "Αρχή:"
 
 #: src/vcalendar.c:1105
 msgid "Ending:"
-msgstr ""
+msgstr "Τέλος:"
 
-#: src/vcalendar.c:1106 src/vcal_meeting_gtk.c:654
+#: src/vcalendar.c:1106
+#: src/vcal_meeting_gtk.c:654
 msgid "Description:"
-msgstr ""
+msgstr "Περιγραφή:"
 
-#: src/vcalendar.c:1107 src/vcal_meeting_gtk.c:655
+#: src/vcalendar.c:1107
+#: src/vcal_meeting_gtk.c:655
 msgid "Attendees:"
-msgstr ""
+msgstr "Συμμετέχοντες:"
 
 #: src/vcalendar.c:1108
 msgid "Action:"
-msgstr ""
+msgstr "Δράση:"
 
 #: src/vcal_folder.c:129
 msgid "/_New meeting..."
-msgstr ""
+msgstr "/_Νέα Συνάντηση..."
 
 #: src/vcal_folder.c:130
+#, fuzzy
 msgid "/_Export calendar..."
-msgstr ""
+msgstr "URI Ημερολογίου"
 
 #: src/vcal_folder.c:132
+#, fuzzy
 msgid "/_Subscribe to webCal..."
-msgstr ""
+msgstr "Εγγραφή στο ημερολόγιο"
 
 #: src/vcal_folder.c:133
+#, fuzzy
 msgid "/_Unsubscribe..."
-msgstr ""
+msgstr "_Κατάργηση Συνδρομής"
 
 #: src/vcal_folder.c:135
+#, fuzzy
 msgid "/U_pdate subscriptions"
-msgstr ""
+msgstr "Συνδρομές Φακέλων"
 
-#: src/vcal_folder.c:400 src/vcal_folder.c:703 src/vcal_folder.c:1046
+#: src/vcal_folder.c:400
+#: src/vcal_folder.c:703
+#: src/vcal_folder.c:1046
 msgid "Meetings"
-msgstr ""
+msgstr "Ραντεβού και συναντήσεις"
 
 #: src/vcal_folder.c:821
+#, fuzzy
 msgid "/New meeting..."
-msgstr ""
+msgstr "Νέα Συνάντηση"
 
 #: src/vcal_folder.c:822
+#, fuzzy
 msgid "/Export calendar..."
-msgstr ""
+msgstr "URI Ημερολογίου"
 
 #: src/vcal_folder.c:823
+#, fuzzy
 msgid "/Subscribe to webCal..."
-msgstr ""
+msgstr "Εγγραφή στο ημερολόγιο"
 
 #: src/vcal_folder.c:824
 msgid "/Unsubscribe..."
-msgstr ""
+msgstr "/Κατάργηση Συνδρομής..."
 
 #: src/vcal_folder.c:825
+#, fuzzy
 msgid "/Update subscriptions"
-msgstr ""
+msgstr "Συνδρομές Φακέλων"
 
 #: src/vcal_folder.c:828
 msgid "/Properties..."
-msgstr ""
+msgstr "/Ιδιότητες..."
 
 #: src/vcal_folder.c:829
 msgid "/Processing..."
-msgstr ""
+msgstr "/Επεξεργασία..."
 
 #: src/vcal_folder.c:1068
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not retrieve the Webcal URL:\n"
 "%s"
-msgstr ""
+msgstr "Αδυναμία λήψης δεδομένων καιρού"
 
 #: src/vcal_folder.c:1073
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not retrieve the Webcal URL:\n"
 "%s\n"
-msgstr ""
+msgstr "Αδυναμία λήψης δεδομένων καιρού"
 
 #: src/vcal_folder.c:1085
 #, c-format
@@ -233,89 +247,96 @@ msgid ""
 msgstr ""
 
 #: src/vcal_folder.c:1152
+#, fuzzy
 msgid "Subscribe to WebCal"
-msgstr ""
+msgstr "Εγγραφή στο ημερολόγιο"
 
 #: src/vcal_folder.c:1152
+#, fuzzy
 msgid "Enter the WebCal URL:"
-msgstr ""
+msgstr "Χειριστής URL για webcal uris"
 
 #: src/vcal_folder.c:1162
+#, fuzzy
 msgid "Could not parse the URL."
-msgstr ""
+msgstr "Αδυναμία ανάλυσης URL `%s'"
 
 #: src/vcal_folder.c:1190
+#, fuzzy
 msgid "Do you really want to unsubscribe?"
-msgstr ""
+msgstr "Θέλετε σίγουρα να διαγράψετε το θέμα '%s' ;"
 
 #: src/vcal_folder.c:1191
 msgid "Delete folder"
-msgstr ""
+msgstr "Διαγραφή φακέλου"
 
 #: src/vcal_folder.c:1210
 #, c-format
 msgid "Can't remove the folder '%s'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του φακέλου '%s'."
 
 #: src/vcal_manager.c:91
+#, fuzzy
 msgid "accepted"
-msgstr ""
+msgstr "Αποδοχή"
 
 #: src/vcal_manager.c:92
+#, fuzzy
 msgid "tentatively accepted"
-msgstr ""
+msgstr "Δοκιμαστική Αποδοχή"
 
 #: src/vcal_manager.c:93
 msgid "declined"
-msgstr ""
+msgstr "αρνήθηκε"
 
 #: src/vcal_manager.c:94
 msgid "did not answer"
-msgstr ""
+msgstr "δεν απάντησε"
 
-#: src/vcal_manager.c:95 src/vcal_manager.c:128
+#: src/vcal_manager.c:95
+#: src/vcal_manager.c:128
 msgid "unknown"
-msgstr ""
+msgstr "άγνωστο"
 
 #: src/vcal_manager.c:124
 msgid "individual"
-msgstr ""
+msgstr "άτομο"
 
 #: src/vcal_manager.c:125
 msgid "group"
-msgstr ""
+msgstr "ομάδα"
 
 #: src/vcal_manager.c:126
 msgid "resource"
-msgstr ""
+msgstr "πόρος"
 
 #: src/vcal_manager.c:127
 msgid "room"
-msgstr ""
+msgstr "αίθουσα"
 
 #: src/vcal_meeting_gtk.c:214
 msgid "Individual"
-msgstr ""
+msgstr "¶τομο"
 
 #: src/vcal_meeting_gtk.c:215
 msgid "Group"
-msgstr ""
+msgstr "Ομάδα"
 
 #: src/vcal_meeting_gtk.c:216
 msgid "Resource"
-msgstr ""
+msgstr "Πόρος"
 
 #: src/vcal_meeting_gtk.c:217
 msgid "Room"
-msgstr ""
+msgstr "Αίθουσα"
 
 #: src/vcal_meeting_gtk.c:230
 msgid "Add..."
-msgstr ""
+msgstr "Προσθήκη..."
 
 #: src/vcal_meeting_gtk.c:231
 msgid "Remove"
-msgstr ""
+msgstr "Απομάκρυνση"
 
 #: src/vcal_meeting_gtk.c:446
 msgid ""
@@ -325,42 +346,43 @@ msgstr ""
 
 #: src/vcal_meeting_gtk.c:499
 msgid "Save & Send"
-msgstr ""
+msgstr "Αποθήκευση & Αποστολή"
 
 #: src/vcal_meeting_gtk.c:560
 msgid "<b>From:</b> "
-msgstr ""
+msgstr "<b>Από:</b>"
 
-#: src/vcal_meeting_gtk.c:571 src/vcal_meeting_gtk.c:587
+#: src/vcal_meeting_gtk.c:571
+#: src/vcal_meeting_gtk.c:587
 msgid "h"
 msgstr ""
 
 #: src/vcal_meeting_gtk.c:577
 msgid "<b>To:</b> "
-msgstr ""
+msgstr "<b>Προς:</b>"
 
 #: src/vcal_meeting_gtk.c:615
 msgid "New meeting"
-msgstr ""
+msgstr "Νέα συνάντηση"
 
 #: src/vcal_meeting_gtk.c:652
 msgid "Date:"
-msgstr ""
+msgstr "Ημερομηνία:"
 
 #: src/vcal_meeting_gtk.c:724
-#, c-format
+#, fuzzy, c-format
 msgid "%d hour%s"
-msgstr ""
+msgstr "Ώρα"
 
 #: src/vcal_meeting_gtk.c:727
-#, c-format
+#, fuzzy, c-format
 msgid "%d minute%s"
-msgstr ""
+msgstr "Λεπτό"
 
 #: src/vcal_meeting_gtk.c:738
-#, c-format
+#, fuzzy, c-format
 msgid "Upcoming event: %s"
-msgstr ""
+msgstr "Το γεγονός CTCP"
 
 #: src/vcal_meeting_gtk.c:739
 #, c-format
@@ -374,19 +396,21 @@ msgstr ""
 
 #: src/vcal_meeting_gtk.c:779
 msgid "Empty calendar"
-msgstr ""
+msgstr "¶δειο ημερολόγιο"
 
 #: src/vcal_meeting_gtk.c:780
 msgid "There is nothing to export."
-msgstr ""
+msgstr "Δεν υπάρχει τίποτα για να εξαχθεί."
 
 #: src/vcal_meeting_gtk.c:815
+#, fuzzy
 msgid "Export calendar to ICS"
-msgstr ""
+msgstr "Αδυναμία ανοίγματος του ημερολογίου '%s'."
 
 #: src/vcal_meeting_gtk.c:821
+#, fuzzy
 msgid "Could not export the calendar."
-msgstr ""
+msgstr "Αδυναμία εκτέλεσης εφαρμογής"
 
 #: src/vcal_prefs.c:92
 msgid "Alert me "
@@ -394,16 +418,18 @@ msgstr ""
 
 #: src/vcal_prefs.c:101
 msgid " minutes before an event"
-msgstr ""
+msgstr " λεπτά πριν από ένα γεγονός"
 
 #: src/vcal_prefs.c:126
+#, fuzzy
 msgid "Automatically export calendar to "
-msgstr ""
+msgstr "Αδυναμία ανοίγματος του ημερολογίου '%s'."
 
 #: src/vcal_prefs.c:143
 msgid "Command to run after export: "
-msgstr ""
+msgstr "Εντολή για εκτέλεση μετά την εξαγωγή:"
 
 #: src/vcal_prefs.c:233
 msgid "Plugins"
-msgstr ""
+msgstr "Πρόσθετα"
+
