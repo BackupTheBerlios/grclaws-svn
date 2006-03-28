@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: twb@users.sourceforge.net\n"
 "POT-Creation-Date: 2005-12-15 19:52+0200\n"
-"PO-Revision-Date: 2005-12-17 01:35+0200\n"
+"PO-Revision-Date: 2006-03-18 03:27+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -179,9 +179,8 @@ msgstr ""
 "(Το `%%u' θα αντικατασταθεί με το όνομα αρχείου)"
 
 #: src/action.c:1461
-#, fuzzy
 msgid "Action's user argument"
-msgstr "το \"%s\"  αναμένει 1 παράμετρο"
+msgstr "Παράμετρος χρήστη δράσης"
 
 #: src/addressadd.c:165
 msgid "Add to address book"
@@ -810,9 +809,8 @@ msgid "Folder Size :"
 msgstr "Μέγεθος φακέλου :"
 
 #: src/addrgather.c:390
-#, fuzzy
 msgid "Process these mail header fields"
-msgstr "Προσθήκη πεδίου ημερομηνίας στην κεφαλίδα"
+msgstr "Επεξεργασία αυτών των κεφαλίδων αλληλογραφίας"
 
 #: src/addrgather.c:408
 msgid "Include sub-folders"
@@ -896,9 +894,8 @@ msgid "Show this message next time"
 msgstr "Να εμφανιστεί αυτό το μήνυμα την επόμενη φορά"
 
 #: src/browseldap.c:219
-#, fuzzy
 msgid "Browse Directory Entry"
-msgstr "Καταχώρηση Κειμένου Dasher"
+msgstr "Περιήγηση Εγγραφής Καταλόγου"
 
 #: src/browseldap.c:239
 msgid "Server Name :"
@@ -1511,9 +1508,8 @@ msgstr "Απάντηση-Σε:"
 #: src/compose.c:4958
 #: src/compose.c:5642
 #: src/headerview.c:54
-#, fuzzy
 msgid "Newsgroups:"
-msgstr "Newsgroups:"
+msgstr "Ομάδες Συζητήσεων:"
 
 #: src/compose.c:1746
 msgid "Followup-To:"
@@ -2201,9 +2197,8 @@ msgid "Press this button to lookup the name of available directory names on the 
 msgstr ""
 
 #: src/editldap.c:535
-#, fuzzy
 msgid "Search Attributes"
-msgstr "Τρέχοντα γνωρίσματα"
+msgstr "Γνωρίσματα Αναζήτησης"
 
 #: src/editldap.c:545
 msgid "A list of LDAP attribute names that should be searched when attempting to find a name or address."
@@ -2317,9 +2312,8 @@ msgid "Please specify output directory and file to create."
 msgstr ""
 
 #: src/exphtmldlg.c:115
-#, fuzzy
 msgid "Select stylesheet and formatting."
-msgstr "Επιλογή και ορισμός της επιλογής αναζήτησης \"%s\""
+msgstr "Επιλέξτε φύλλο στυλ και μορφοποίησης."
 
 #: src/exphtmldlg.c:118
 #: src/expldifdlg.c:117
@@ -2491,11 +2485,8 @@ msgid "Select LDIF output file"
 msgstr "Επιλέξτε αρχείο εξόδου LDIF"
 
 #: src/expldifdlg.c:406
-#, fuzzy
 msgid "LDIF Output File"
-msgstr ""
-"Δεν είναι δυνατή η δημιουργία αρχείου αποτελέσματος: %s:\n"
-" %s"
+msgstr "Αρχείο Εξόδου LDIF"
 
 #: src/expldifdlg.c:467
 msgid "Suffix"
@@ -2844,9 +2835,9 @@ msgid "Move failed!"
 msgstr "Η μετακίνηση απέτυχε!"
 
 #: src/folderview.c:2216
-#, fuzzy, c-format
+#, c-format
 msgid "Processing configuration for folder %s"
-msgstr "Προετοιμασία φακέλου '%s' για εργασία χωρίς σύνδεση"
+msgstr "Προετοιμασία ρυθμίσεων φακέλου %s"
 
 #: src/gedit-print.c:146
 #: src/messageview.c:1343
@@ -2886,18 +2877,16 @@ msgid "Select newsgroups for subscription:"
 msgstr ""
 
 #: src/grouplistdialog.c:195
-#, fuzzy
 msgid "Find groups:"
-msgstr "Δευτερεύουσες ομάδες"
+msgstr "Εύρεση ομάδων:"
 
 #: src/grouplistdialog.c:203
 msgid " Search "
 msgstr " Αναζήτηση"
 
 #: src/grouplistdialog.c:215
-#, fuzzy
 msgid "Newsgroup name"
-msgstr "Πλήρες Όνομα"
+msgstr "Όνομα ομάδας συζητήσεων"
 
 #: src/grouplistdialog.c:216
 msgid "Messages"
@@ -2920,9 +2909,8 @@ msgid "unknown"
 msgstr "άγνωστο"
 
 #: src/grouplistdialog.c:412
-#, fuzzy
 msgid "Can't retrieve newsgroup list."
-msgstr "Αδυναμία αποθήκευσης μιας άδειας λίστας!"
+msgstr "Δεν ήταν δυνατή η λήψη της λίστας ομάδων συζητήσεων."
 
 #: src/grouplistdialog.c:447
 #: src/summaryview.c:1056
@@ -2930,9 +2918,9 @@ msgid "Done."
 msgstr "Έγινε."
 
 #: src/grouplistdialog.c:477
-#, fuzzy, c-format
+#, c-format
 msgid "%d newsgroups received (%s read)"
-msgstr "Δημιουργός (ανάγνωση,δημιουργία)"
+msgstr "Λήφθηκαν %d ομάδες συζητήσεων (%s αναγνωσμένα)"
 
 #: src/gtk/about.c:79
 #: src/textview.c:224
@@ -3152,9 +3140,8 @@ msgid "Configuration"
 msgstr "Ρυθμίσεις"
 
 #: src/gtk/gtksourceprintjob.c:271
-#, fuzzy
 msgid "Configuration options for the print job"
-msgstr "Η ρύθμιση ολοκληρώθηκε."
+msgstr "Ρυθμίσεις εργασίας εκτύπωσης"
 
 #: src/gtk/gtksourceprintjob.c:278
 #, fuzzy
@@ -3366,9 +3353,8 @@ msgstr ""
 "%s"
 
 #: src/gtk/icon_legend.c:61
-#, fuzzy
 msgid "Has been replied to"
-msgstr "μηνύματα που έχουν απαντηθεί"
+msgstr "που έχει απαντηθεί"
 
 #: src/gtk/icon_legend.c:62
 msgid "Has been forwarded"
@@ -3387,19 +3373,16 @@ msgid "Encrypted"
 msgstr ""
 
 #: src/gtk/icon_legend.c:66
-#, fuzzy
 msgid "Signed and has attachment(s)"
-msgstr "Προώ_θηση ως iCalendar"
+msgstr "Υπογεγραμμένο και με συνημμένα"
 
 #: src/gtk/icon_legend.c:67
-#, fuzzy
 msgid "Encrypted and has attachment(s)"
-msgstr "Προώ_θηση ως iCalendar"
+msgstr "Κρυπτογραφημένο και με συνημμένα"
 
 #: src/gtk/icon_legend.c:68
-#, fuzzy
 msgid "Marked"
-msgstr "Σήμανση"
+msgstr "Σημασμένα"
 
 #. S_COL_SCORE
 #: src/gtk/icon_legend.c:69
@@ -3409,12 +3392,10 @@ msgid "Locked"
 msgstr "Κλειδωμένο"
 
 #: src/gtk/icon_legend.c:70
-#, fuzzy
 msgid "In an ignored thread"
-msgstr "Επιλογή _Θέματος"
+msgstr "Σε αγνοημένο νήμα"
 
 #: src/gtk/icon_legend.c:102
-#, fuzzy
 msgid "Icon Legend"
 msgstr "Κείμενο εικονιδίων"
 
@@ -3521,9 +3502,8 @@ msgid "messages which contain S in the Sender field"
 msgstr "μηνύματα που περιέχουν S στην κεφαλίδα Αποστολέας"
 
 #: src/gtk/quicksearch.c:242
-#, fuzzy
 msgid "true if execute \"S\" succeeds"
-msgstr "Αν TRUE, εμφανίζεται η κεφαλίδα"
+msgstr "Αληθές αν η εκτέλεση του \"S\" επιτύχει"
 
 #: src/gtk/quicksearch.c:243
 msgid "messages originating from user S"
@@ -3550,9 +3530,8 @@ msgid "locked messages"
 msgstr "κλειδωμένα μηνύματα"
 
 #: src/gtk/quicksearch.c:249
-#, fuzzy
 msgid "messages which are in newsgroup S"
-msgstr "Το colorspace στο οποίο τα δείγματα ερμηνεύονται"
+msgstr "μηνύματα που βρίσκονται στην ομάδα συζήτησης S"
 
 #: src/gtk/quicksearch.c:250
 msgid "new messages"
@@ -3713,9 +3692,8 @@ msgid "Quick search: edit filtering condition"
 msgstr ""
 
 #: src/gtk/quicksearch.c:449
-#, fuzzy
 msgid " Extended Symbols... "
-msgstr "Μέτρηση συμβόλων"
+msgstr " Εκτεταμένα Σύμβολα..."
 
 #: src/gtk/sslcertwindow.c:114
 #: src/gtk/sslcertwindow.c:254
@@ -4521,18 +4499,16 @@ msgid "1.9.15 or previous"
 msgstr "1.9.15 ή προηγούμενο"
 
 #: src/main.c:260
-#, fuzzy
 msgid "Migration of configuration"
-msgstr "Ρύθμιση Aλληλογραφίας"
+msgstr "Μεταφορά ρυθμίσεων"
 
 #: src/main.c:265
 msgid "Copying configuration..."
 msgstr "Αντιγραφή ρυθμίσεων..."
 
 #: src/main.c:270
-#, fuzzy
 msgid "Migration failed!"
-msgstr "Η εισαγωγή απέτυχε"
+msgstr "Η μεταφορά απέτυχε!"
 
 #: src/main.c:337
 msgid "g_thread is not supported by glib.\n"
@@ -6278,7 +6254,7 @@ msgstr "Εισαγωγή άλλου χρήστη ή key ID:"
 #: src/plugins/pgpcore/select-keys.c:519
 #, fuzzy
 msgid "Trust key"
-msgstr "Σημαντικός Πελάτης"
+msgstr "ημαντικός Πελάτης"
 
 #: src/plugins/pgpcore/select-keys.c:520
 msgid ""
@@ -6380,12 +6356,11 @@ msgid "Primary key fingerprint: %s\n"
 msgstr "Δημιουργία Ιδιωτικού Κλειδιού."
 
 #: src/plugins/pgpcore/sgpgme.c:445
-#, fuzzy
 msgid ""
 "GnuPG is not installed properly, or needs to be upgraded.\n"
 "OpenPGP support disabled."
 msgstr ""
-"Το GnuPG δεν έχει εγκατασταθεί σωστά.\n"
+"Το GnuPG δεν έχει εγκατασταθεί σωστά, ή χρειάζεται αναβάθμιση.\n"
 "Απενεργοποιείται η υποστήριξη OpenPGP."
 
 #: src/plugins/pgpcore/plugin.c:59
@@ -6425,15 +6400,13 @@ msgid ""
 msgstr ""
 
 #: src/plugins/spamassassin/spamassassin.c:183
-#, fuzzy
 msgid "SpamAssassin: filtering message..."
-msgstr "Φιλτράρισμα νέων μηνυμάτων"
+msgstr "SpamAssasin: Φιλτράρισμα μηνύματος..."
 
 #: src/plugins/spamassassin/spamassassin.c:330
 #: src/plugins/spamassassin/spamassassin_gtk.c:457
-#, fuzzy
 msgid "SpamAssassin"
-msgstr "Spamassassin (ενσωματωμένος)"
+msgstr "SpamAssassin"
 
 #: src/plugins/spamassassin/spamassassin.c:335
 msgid ""
@@ -6460,9 +6433,8 @@ msgid "Unix Socket"
 msgstr ""
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:210
-#, fuzzy
 msgid "Transport"
-msgstr "Mail Transport Agent"
+msgstr "Μεταφορά"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:240
 msgid "spamd"
@@ -6513,14 +6485,12 @@ msgid "Save mails that where identified as spam"
 msgstr ""
 
 #: src/plugins/trayicon/trayicon.c:93
-#, fuzzy
 msgid "/_Get Mail"
-msgstr "Λήψη Αλληλογραφίας"
+msgstr "/_Λήψη Αλληλογραφίας"
 
 #: src/plugins/trayicon/trayicon.c:95
-#, fuzzy
 msgid "/_Email"
-msgstr "EMAIL"
+msgstr "/_Email"
 
 #: src/plugins/trayicon/trayicon.c:96
 #, fuzzy
@@ -6563,16 +6533,12 @@ msgid "Exit this program?"
 msgstr "Έξοδος από αυτό το πρόγραμμα;"
 
 #: src/plugins/trayicon/libeggtrayicon/eggtrayicon.c:115
-#, fuzzy
 msgid "Orientation"
-msgstr "Οργανισμός"
+msgstr "Προσανατολισμός"
 
 #: src/plugins/trayicon/libeggtrayicon/eggtrayicon.c:116
-#, fuzzy
 msgid "The orientation of the tray."
 msgstr ""
-"\n"
-"Η ομάδα μετάφρασης\n"
 
 #: src/pop.c:150
 msgid "Required APOP timestamp not found in greeting\n"
@@ -6792,9 +6758,8 @@ msgid "Remove after"
 msgstr "Διαγραφή μετά"
 
 #: src/prefs_account.c:1463
-#, fuzzy
 msgid "0 days: remove immediately"
-msgstr "(0 μέρες: άμεση διαγραφή)"
+msgstr "0 μέρες: άμεση διαγραφή"
 
 #: src/prefs_account.c:1467
 msgid "days"
@@ -6837,7 +6802,6 @@ msgid "Automatic"
 msgstr "Αυτόματη"
 
 #: src/prefs_account.c:1583
-#, fuzzy
 msgid "IMAP server directory"
 msgstr "Κατάλογος διακομιστή IMAP:"
 
@@ -7107,14 +7071,12 @@ msgid " Replace "
 msgstr " Αντικατάσταση"
 
 #: src/prefs_actions.c:274
-#, fuzzy
 msgid " Syntax help... "
-msgstr " Βοήθεια σύνταξης  "
+msgstr "  Βοήθεια σύνταξης  ..."
 
 #: src/prefs_actions.c:505
-#, fuzzy
 msgid "Menu name is not set."
-msgstr "Το όνομα οντότητας '%s' δεν είναι γνωστή"
+msgstr "Δεν  έχει οριστεί το όνομα του μενού."
 
 #: src/prefs_actions.c:510
 msgid "A leading '/' is not allowed in the menu name."
@@ -7125,26 +7087,27 @@ msgid "Colon ':' is not allowed in the menu name."
 msgstr ""
 
 #: src/prefs_actions.c:534
-#, fuzzy
 msgid "Menu name is too long."
-msgstr "Το όνομα αρχείου είναι πολύ μακρύ."
+msgstr "Το όνομα του μενού είναι πολύ μακρύ."
 
 #: src/prefs_actions.c:543
-#, fuzzy
 msgid "Command line not set."
-msgstr "Αδυναμία ανάλυσης γραμμής εντολής '%s': %s"
+msgstr "Δεν έχει οριστεί η εντολή."
 
 #: src/prefs_actions.c:548
 msgid "Menu name and command are too long."
 msgstr ""
 
 #: src/prefs_actions.c:553
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The command\n"
 "%s\n"
 "has a syntax error."
-msgstr "Σφάλμα σύνταξης, δεν αναγνωρίζεται η εντολή"
+msgstr ""
+"Η εντολή\n"
+"%s\n"
+"έχει ένα συντακτικό σφάλμα."
 
 #: src/prefs_actions.c:613
 msgid "Delete action"
@@ -7161,9 +7124,8 @@ msgstr "Θέλετε σίγουρα να διαγράψετε αυτή την ε
 #: src/prefs_matcher.c:1636
 #: src/prefs_template.c:398
 #: src/prefs_template.c:414
-#, fuzzy
 msgid "Entry not saved"
-msgstr "%s (δεν αποθηκεύτηκε)"
+msgstr "Η εγγραφή δεν αποθηκεύτηκε"
 
 #: src/prefs_actions.c:732
 #: src/prefs_actions.c:751
@@ -7215,9 +7177,8 @@ msgid "to insert command's standard output without replacing old text"
 msgstr ""
 
 #: src/prefs_actions.c:796
-#, fuzzy
 msgid "to run command asynchronously"
-msgstr "Εντολή Finger για εκτέλεση"
+msgstr "για ασύγχρονη εκτέλεση εντολής"
 
 #: src/prefs_actions.c:797
 msgid "Use:"
@@ -7245,9 +7206,8 @@ msgid "for a user provided hidden argument (e.g. password)"
 msgstr ""
 
 #: src/prefs_actions.c:803
-#, fuzzy
 msgid "for the text selection"
-msgstr "επισημασμένο για επιλογή"
+msgstr "για την επιλογή κειμένου"
 
 #: src/prefs_actions.c:804
 msgid "apply filtering actions between {} to selected messages"
@@ -7260,9 +7220,8 @@ msgid "Description of symbols"
 msgstr "Περιγραφή των συμβόλων"
 
 #: src/prefs_actions.c:896
-#, fuzzy
 msgid "Current actions"
-msgstr "Εκτέλεση ενεργειών"
+msgstr "Τρέχουσες ενέργειες"
 
 #: src/prefs_common.c:189
 msgid ""
@@ -7300,19 +7259,16 @@ msgid "Automatic account selection"
 msgstr "Δεν Έγινε Επιλογή"
 
 #: src/prefs_compose_writing.c:106
-#, fuzzy
 msgid "when replying"
-msgstr "Ό_ταν είναι βολικό"
+msgstr "κατά την απάντηση"
 
 #: src/prefs_compose_writing.c:108
-#, fuzzy
 msgid "when forwarding"
-msgstr "Προώθηση κλήσεων"
+msgstr "κατά την προώθηση"
 
 #: src/prefs_compose_writing.c:110
-#, fuzzy
 msgid "when re-editing"
-msgstr "Απενεργοποίηση επεξεργασίας σελιδοδεικτών"
+msgstr "κατά την επανεπεξεργασία"
 
 #: src/prefs_compose_writing.c:117
 #, fuzzy
@@ -7320,9 +7276,8 @@ msgid "Reply button invokes mailing list reply"
 msgstr "Συγγραφή απάντησης στη λίστα ταχυδρομείου από αυτό το μήνυμα"
 
 #: src/prefs_compose_writing.c:120
-#, fuzzy
 msgid "Automatically launch the external editor"
-msgstr "Αυτόματος έλεγχος υπογραφών"
+msgstr "Αυτόματη εκτέλεση εξωτερικού συντάκτη κειμένου"
 
 #: src/prefs_compose_writing.c:123
 #: src/prefs_filtering_action.c:159
@@ -7377,9 +7332,8 @@ msgid "Current custom headers"
 msgstr "Τρέχουσες προσαρμοσμένες κεφαλίδες"
 
 #: src/prefs_display_header.c:227
-#, fuzzy
 msgid "Displayed header configuration"
-msgstr "Ρύθμιση Ximian Connector "
+msgstr "Ρύθμιση εμφανιζόμενων κεφαλίδων"
 
 #. header name
 #: src/prefs_display_header.c:251
@@ -7491,14 +7445,12 @@ msgid "Color"
 msgstr "Χρώμα"
 
 #: src/prefs_filtering_action.c:163
-#, fuzzy
 msgid "Change score"
-msgstr "Προσαρμογή σκορ"
+msgstr "Αλλαγή σκορ"
 
 #: src/prefs_filtering_action.c:164
-#, fuzzy
 msgid "Set score"
-msgstr "Δεν έχει οριστεί βαθμολογία"
+msgstr "Ορισμός σκορ"
 
 #: src/prefs_filtering_action.c:165
 msgid "Hide"
@@ -7509,9 +7461,8 @@ msgid "Stop filter"
 msgstr "Διακοπή φίλτρου"
 
 #: src/prefs_filtering_action.c:313
-#, fuzzy
 msgid "Filtering action configuration"
-msgstr "Ρύθμιση Ximian Connector "
+msgstr "Ρύθμιση φιλτραρίσματος"
 
 #: src/prefs_filtering_action.c:338
 msgid "Action"
@@ -7592,7 +7543,6 @@ msgstr ""
 #: src/prefs_matcher.c:152
 #: src/prefs_matcher.c:1690
 #: src/quote_fmt.c:50
-#, fuzzy
 msgid "Newsgroups"
 msgstr "Ομάδες συζήτησης"
 
@@ -7695,7 +7645,7 @@ msgstr "Κανόνας"
 #. F_COL_UNREAD
 #: src/prefs_folder_column.c:82
 msgid "Total"
-msgstr ""
+msgstr "Σύνολο"
 
 #: src/prefs_folder_column.c:205
 msgid "Folder list columns configuration"
@@ -7762,9 +7712,8 @@ msgstr "Έλεγχος για νέα μηνύματα"
 
 #. Synchronise folder for offline use
 #: src/prefs_folder_item.c:281
-#, fuzzy
 msgid "Synchronise for offline use"
-msgstr "Προετοιμασία φακέλου '%s' για εργασία χωρίς σύνδεση"
+msgstr "Συγχρονισμός για εργασία χωρίς σύνδεση"
 
 #: src/prefs_folder_item.c:499
 msgid "Request Return Receipt"
@@ -7989,9 +7938,8 @@ msgstr "Ρύθμιση Aλληλογραφίας"
 
 #. criteria combo box
 #: src/prefs_matcher.c:437
-#, fuzzy
 msgid "Match type"
-msgstr "Τύπος DCC"
+msgstr "Ταίριασμα τύπου"
 
 #: src/prefs_matcher.c:502
 msgid " Info... "
@@ -8034,11 +7982,11 @@ msgstr "Χρήση εξωτερικού προγράμματος για λήψη
 
 #: src/prefs_matcher.c:1681
 msgid "return either 0 or 1"
-msgstr ""
+msgstr "επέστρεψε είτε 0 ή 1"
 
 #: src/prefs_matcher.c:1682
 msgid "The following symbols can be used:"
-msgstr ""
+msgstr "Μπορούν να χρησιμοποιηθούν τα κάτωθη σύμβολα:"
 
 #: src/prefs_matcher.c:1703
 #, fuzzy
@@ -8457,7 +8405,7 @@ msgstr "Ταϊλανδέζικη (Windows-874)"
 
 #: src/prefs_send.c:249
 msgid "Transfer encoding"
-msgstr ""
+msgstr "Κωδικοποίηση μεταφοράς"
 
 #: src/prefs_send.c:262
 msgid "Specify Content-Transfer-Encoding used when message body contains non-ASCII characters"
@@ -8630,7 +8578,7 @@ msgstr "Εμφάνιση αριθμού αδιάβαστων δίπλα στο �
 
 #: src/prefs_summaries.c:745
 msgid "Abbreviate newsgroup names longer than"
-msgstr ""
+msgstr "Σύντμηση ονομάτων ομάδων συζητήσεων που είναι μακρύτερα από"
 
 #: src/prefs_summaries.c:759
 msgid "letters"
@@ -8846,6 +8794,8 @@ msgid ""
 "A theme with the same name is\n"
 "already installed in this location"
 msgstr ""
+"Ένα θέμα με το ίδιο όνομα έχει ήδη\n"
+"εγκατασταθεί σε αυτή την τοποθεσία"
 
 #: src/prefs_themes.c:549
 msgid "Couldn't create destination directory"
@@ -8869,7 +8819,7 @@ msgstr "Αποτυχία ανάγνωσης θέματος από αρχείο %
 #: src/prefs_themes.c:673
 #, c-format
 msgid "%d themes available (%d user, %d system, 1 internal)"
-msgstr ""
+msgstr "%d διαθέσιμα θέματα (%d του χρήστη, %d συστήματος, 1 εσωτερικό)"
 
 #: src/prefs_themes.c:713
 msgid "The Sylpheed-Claws Team"
@@ -8915,9 +8865,8 @@ msgid "Author: "
 msgstr "Δημιουργός:"
 
 #: src/prefs_themes.c:933
-#, fuzzy
 msgid "URL:"
-msgstr "URL:"
+msgstr "Διεύθυνση:"
 
 #: src/prefs_themes.c:961
 msgid "Status:"
@@ -9171,9 +9120,9 @@ msgid "Can't execute command: %s"
 msgstr "Δεν είναι δυνατή η εκτέλεση της εντολής: %s"
 
 #: src/send_message.c:177
-#, fuzzy, c-format
+#, c-format
 msgid "Error occurred while executing command: %s"
-msgstr "Παρουσιάστηκε σφάλμα κατά την εκτέλεση της επιλεγμένης εντολής."
+msgstr "Προέκυψε ένα σφάλμα κατά την εκτέλεση της επιλεγμένης εντολής.: %s"
 
 #: src/send_message.c:284
 msgid "Connecting"
@@ -9252,11 +9201,13 @@ msgid "Error occurred while sending the message."
 msgstr "Συνέβη σφάλμα κατά την αποστολή του μηνύματος."
 
 #: src/send_message.c:548
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Error occurred while sending the message:\n"
 "%s"
-msgstr "Δημιουργήθηκε σφάλμα κατά την αποσυμπίεση αρχείων."
+msgstr ""
+"Προέκυψε ένα σφάλμα κατά την αποστολή του μηνύματος:\n"
+"%s"
 
 #: src/setup.c:74
 msgid "Mailbox setting"
@@ -9300,14 +9251,12 @@ msgid "Search messages"
 msgstr "Αναζήτηση"
 
 #: src/summary_search.c:168
-#, fuzzy
 msgid "Match any of the following"
-msgstr "Κάθε τύπος σύνδεσης"
+msgstr "Ταίριασμα οποιουδήποτε από τα  παρακάτω"
 
 #: src/summary_search.c:169
-#, fuzzy
 msgid "Match all of the following"
-msgstr "Όλες οι αποστολές αρχείων μαζί:"
+msgstr "Ταίριασμα όλων των παρακάτω"
 
 #: src/summary_search.c:232
 msgid "Body:"
@@ -9632,7 +9581,7 @@ msgstr "(Χωρίς Αποδέκτες)"
 
 #: src/summaryview.c:3193
 msgid "You're not the author of the article.\n"
-msgstr ""
+msgstr "Δεν είστε ο συγγραφέας αυτού του άρθρου.\n"
 
 #: src/summaryview.c:3275
 msgid "Delete message(s)"
@@ -9802,9 +9751,8 @@ msgstr "Σύνθεση Email"
 
 #: src/toolbar.c:163
 #: src/toolbar.c:1436
-#, fuzzy
 msgid "Compose News"
-msgstr "Ειδήσεις USENET"
+msgstr "Σύνθεση μηνύματος Νέων"
 
 #: src/toolbar.c:164
 #: src/toolbar.c:1442
@@ -9907,9 +9855,8 @@ msgid "Check spelling"
 msgstr "Έλεγχος ορθογραφίας"
 
 #: src/toolbar.c:190
-#, fuzzy
 msgid "Sylpheed-Claws Actions Feature"
-msgstr "Καλώς ήλθατε στο Sylpheed-Claws."
+msgstr "Ενέργειες  Sylpheed-Claws."
 
 #: src/toolbar.c:210
 msgid "/Reply with _quote"
@@ -10145,7 +10092,7 @@ msgstr "<span weight=\"bold\">Τοπικό γραμματοκιβώτιο:</span
 
 #: src/wizard.c:639
 msgid "IMAP"
-msgstr ""
+msgstr "IMAP"
 
 #: src/wizard.c:649
 msgid "<span weight=\"bold\">Server type:</span>"
