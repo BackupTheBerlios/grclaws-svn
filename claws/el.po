@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-03-29 15:07+0100\n"
-"PO-Revision-Date: 2006-03-29 19:26+0200\n"
+"PO-Revision-Date: 2006-03-30 21:37+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -1707,9 +1707,8 @@ msgid "MIME type"
 msgstr "τύπος MIME"
 
 #: src/compose.c:5582
-#, fuzzy
 msgid "Hea_der"
-msgstr "Επικεφαλίδα"
+msgstr "Κεφαλί_δα"
 
 #: src/compose.c:5586
 msgid "_Attachments"
@@ -3169,12 +3168,10 @@ msgid "Width in equivalent space characters of tabs"
 msgstr ""
 
 #: src/gtk/gtksourceprintjob.c:295
-#, fuzzy
 msgid "Wrap Mode"
-msgstr "Κανονική Λειτουργία"
+msgstr "Λειτουργία Αναδίπλωσης"
 
 #: src/gtk/gtksourceprintjob.c:296
-#, fuzzy
 msgid "Word wrapping mode"
 msgstr "Αναδίπλωση Κειμένου"
 
@@ -3361,79 +3358,64 @@ msgstr ""
 "%s"
 
 #: src/gtk/icon_legend.c:63
-#, fuzzy
 msgid "New message"
-msgstr "νέα μηνύματα"
+msgstr "Νέα μήνυμα"
 
 #: src/gtk/icon_legend.c:64
-#, fuzzy
 msgid "Unread message"
-msgstr "μη αναγνωσμένα μηνύματα"
+msgstr "Μη αναγνωσμένο μηνύμα"
 
 #: src/gtk/icon_legend.c:65
-#, fuzzy
 msgid "Message has been replied to"
-msgstr "μηνύματα που έχουν απαντηθεί"
+msgstr "Έχει απαντηθεί"
 
 #: src/gtk/icon_legend.c:66
-#, fuzzy
 msgid "Message has been forwarded"
 msgstr "Έχει προωθηθεί"
 
 #: src/gtk/icon_legend.c:67
-#, fuzzy
 msgid "Message has attachment(s)"
-msgstr "Έχει συνημμένο(α)"
+msgstr "Έχει συνημμένα"
 
 #: src/gtk/icon_legend.c:68
-#, fuzzy
 msgid "Digitally signed message"
-msgstr "Απόρριψη μηνύματος"
+msgstr "Ψηφιακά υπογεγραμμένο"
 
 #: src/gtk/icon_legend.c:69
-#, fuzzy
 msgid "Encrypted message"
-msgstr "μη αναγνωσμένα μηνύματα"
+msgstr "Κρυπτογραφημένο μήνυμα"
 
 #: src/gtk/icon_legend.c:70
-#, fuzzy
 msgid "Message is signed and has attachment(s)"
 msgstr "Υπογεγραμμένο και με συνημμένα"
 
 #: src/gtk/icon_legend.c:71
-#, fuzzy
 msgid "Message is encrypted and has attachment(s)"
 msgstr "Κρυπτογραφημένο και με συνημμένα"
 
 #: src/gtk/icon_legend.c:72
-#, fuzzy
 msgid "Marked message"
-msgstr "επισημασμέμα μηνύματα"
+msgstr "Επισημασμένο μήνυμα"
 
 #: src/gtk/icon_legend.c:73
-#, fuzzy
 msgid "Locked message"
-msgstr "κλειδωμένα μηνύματα"
+msgstr "Κλειδωμένο μήνυμα"
 
 #: src/gtk/icon_legend.c:74
-#, fuzzy
 msgid "Message is in an ignored thread"
 msgstr "Σε αγνοημένο νήμα"
 
 #: src/gtk/icon_legend.c:75
-#, fuzzy
 msgid "Message is spam"
-msgstr "Μηνύματα"
+msgstr "Είναι ανεπιθύμητη αλληλογραφία"
 
 #: src/gtk/icon_legend.c:76
-#, fuzzy
 msgid "Folder (normal, opened)"
-msgstr "Δεν ήταν δυνατό το άνοιγμα του φακέλου."
+msgstr "Φάκελος (κανονικός, ανοιχτός)"
 
 #: src/gtk/icon_legend.c:77
-#, fuzzy
 msgid "Folder with read messages hidden"
-msgstr "Κατάλογοι Φακέλων και Μηνυμάτων"
+msgstr "Φάκελος με κρυμμένα τα αναγνωσμένα μηνύματα"
 
 #: src/gtk/icon_legend.c:78
 #, fuzzy
@@ -3477,9 +3459,8 @@ msgstr ""
 "Έκδοση: "
 
 #: src/gtk/pluginwindow.c:152
-#, fuzzy
 msgid "Error: "
-msgstr "Σφάλμα"
+msgstr "Σφάλμα:"
 
 #: src/gtk/pluginwindow.c:153
 msgid "Plugin is not functional."
@@ -3518,9 +3499,8 @@ msgid "Get more..."
 msgstr "Λήψη περισσότερων..."
 
 #: src/gtk/pluginwindow.c:346
-#, fuzzy
 msgid "Load Plugin..."
-msgstr "Φόρτωση Πρόσθετου"
+msgstr "Φόρτωση πρόσθετου..."
 
 #: src/gtk/pluginwindow.c:351
 msgid "Unload Plugin"
@@ -3703,9 +3683,8 @@ msgid "all filtering expressions are allowed"
 msgstr ""
 
 #: src/gtk/quicksearch.c:292
-#, fuzzy
 msgid "Extended Search"
-msgstr "Διάφορα Μαθηματικά Σύμβολα Α"
+msgstr "Εκτεταμένη αναζήτηση"
 
 #: src/gtk/quicksearch.c:293
 msgid ""
@@ -3769,9 +3748,9 @@ msgstr " Εκτεταμένα Σύμβολα..."
 
 #: src/gtk/quicksearch.c:861
 #: src/summaryview.c:968
-#, fuzzy, c-format
+#, c-format
 msgid "Searching in %s... \n"
-msgstr "Επεξεργασία (%s)...\n"
+msgstr "Αναζήτηση στο  %s...\n"
 
 #: src/gtk/sslcertwindow.c:114
 #: src/gtk/sslcertwindow.c:254
@@ -4157,9 +4136,8 @@ msgid "Error occurred while downloading messages in '%s'."
 msgstr "Συνέβη σφάλμα κατά την λήψη μηνύματων στο '%s'."
 
 #: src/import.c:149
-#, fuzzy
 msgid "Import mbox file"
-msgstr "Εξαγωγή σε αρχείο mbox"
+msgstr "Εισαγωγή αρχείου mbox"
 
 #: src/import.c:168
 #, fuzzy
@@ -4167,9 +4145,8 @@ msgid "Locate the mbox file and specify the destination folder."
 msgstr "Ορίσετε mbox προορισμού και κατάλογο προορισμού"
 
 #: src/import.c:185
-#, fuzzy
 msgid "Destination folder:"
-msgstr "Κατάλογος προορισμού:"
+msgstr "Φάκελος προορισμού:"
 
 #: src/import.c:248
 msgid "Select importing file"
@@ -7494,9 +7471,8 @@ msgid "%y/%m/%d(%a) %H:%M"
 msgstr ""
 
 #: src/prefs_compose_writing.c:98
-#, fuzzy
 msgid "Automatic account selection"
-msgstr "Δεν Έγινε Επιλογή"
+msgstr "Αυτόματη επιλογή λογαριασμού"
 
 #: src/prefs_compose_writing.c:106
 msgid "when replying"
