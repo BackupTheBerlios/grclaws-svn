@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-03-29 15:07+0100\n"
-"PO-Revision-Date: 2006-03-30 21:37+0200\n"
+"PO-Revision-Date: 2006-04-01 19:41+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -2408,7 +2408,6 @@ msgid "Color Banding"
 msgstr "Επικόλληση Χρωμάτων"
 
 #: src/exphtmldlg.c:545
-#, fuzzy
 msgid "Format Email Links"
 msgstr "Μορφοποίηση δεσμών ηλεκτρονικών διευθύνσεων αλληλογραφίας"
 
@@ -2558,15 +2557,13 @@ msgid "Locate the folder to export and specify the mbox file."
 msgstr ""
 
 #: src/export.c:173
-#, fuzzy
 msgid "Source folder:"
 msgstr "Πηγαίος κατάλογος:"
 
 #: src/export.c:179
 #: src/import.c:179
-#, fuzzy
 msgid "Mbox file:"
-msgstr "Τοπικό αρχείο mbox"
+msgstr "Αρχείο mbox:"
 
 #: src/export.c:242
 msgid "Select exporting file"
@@ -3161,7 +3158,7 @@ msgstr ""
 
 #: src/gtk/gtksourceprintjob.c:287
 msgid "Tabs Width"
-msgstr ""
+msgstr "Πλάτος καρτελών"
 
 #: src/gtk/gtksourceprintjob.c:288
 msgid "Width in equivalent space characters of tabs"
@@ -3177,7 +3174,7 @@ msgstr "Αναδίπλωση Κειμένου"
 
 #: src/gtk/gtksourceprintjob.c:303
 msgid "Highlight"
-msgstr ""
+msgstr "Υπογράμμιση"
 
 #: src/gtk/gtksourceprintjob.c:304
 msgid "Whether to print the document with highlighted syntax"
@@ -4206,12 +4203,12 @@ msgstr "Επιλογή αρχείου LDIF για εισαγωγή."
 
 #: src/importldif.c:725
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: src/importldif.c:726
 #: src/summaryview.c:483
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: src/importldif.c:727
 msgid "LDIF Field Name"
@@ -4292,13 +4289,13 @@ msgstr "Επιλογή Αρχείου Pine"
 
 #: src/importpine.c:206
 msgid "Import Pine file into Address Book"
-msgstr ""
+msgstr "Εισαγωγή αρχείου Pine στο Ευρετήριο διευθύνσεων"
 
 #: src/inc.c:171
 #: src/inc.c:276
 #: src/inc.c:302
 msgid "Sylpheed-Claws needs network access in order to get mails."
-msgstr ""
+msgstr "Το Sylpheed-Claws χρειάζεται σύνδεση στο δίκτυο για να παραλάβει την αλληλογραφία."
 
 #: src/inc.c:372
 msgid "Retrieving new messages"
