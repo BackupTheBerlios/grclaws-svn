@@ -46,7 +46,7 @@ msgstr ""
 
 #: src/account.c:772
 msgid " _Set as default account "
-msgstr "Ορι_σμός ως προκαθορισμένου λογαριασμού."
+msgstr "Ορι_σμός ως εξορισμού λογαριασμού."
 
 #: src/account.c:862
 msgid "Accounts with remote folders cannot be copied."
@@ -6031,7 +6031,7 @@ msgstr "Κλειδί υπογραφής"
 
 #: src/plugins/pgpcore/prefs_gpg.c:248
 msgid "Use default GnuPG key"
-msgstr "Χήση προκαθορισμένου κλειδιού GnuPG"
+msgstr "Χρήση εξορισμού κλειδιού GnuPG"
 
 #: src/plugins/pgpcore/prefs_gpg.c:259
 msgid "Select key by your email address"
@@ -6551,7 +6551,7 @@ msgstr "Όνομα λογαριασμού"
 
 #: src/prefs_account.c:1123
 msgid "Set as default"
-msgstr "Ορισμός ως προκαθορισμένου"
+msgstr "Ορισμός ως εξορισμού"
 
 #: src/prefs_account.c:1127
 msgid "Personal information"
@@ -7563,7 +7563,7 @@ msgstr "Εμφανιζόμενες στήλες"
 #: src/prefs_folder_column.c:316 src/prefs_msg_colors.c:517
 #: src/prefs_summary_column.c:330 src/prefs_toolbar.c:800
 msgid " Use default "
-msgstr " Χρήση προκαθορισμένου"
+msgstr " Χρήση εξορισμού"
 
 #: src/prefs_folder_item.c:174 src/prefs_folder_item.c:494
 msgid ""
