@@ -7167,15 +7167,15 @@ msgstr "Αυτόματη επιλογή λογαριασμού"
 
 #: src/prefs_compose_writing.c:106
 msgid "when replying"
-msgstr "κατά την απάντηση"
+msgstr "στην απάντηση"
 
 #: src/prefs_compose_writing.c:108
 msgid "when forwarding"
-msgstr "κατά την προώθηση"
+msgstr "στην προώθηση"
 
 #: src/prefs_compose_writing.c:110
 msgid "when re-editing"
-msgstr "κατά την επανεπεξεργασία"
+msgstr "στην επανεπεξεργασία"
 
 #: src/prefs_compose_writing.c:112
 msgid "Forwarding"
@@ -7187,7 +7187,7 @@ msgstr "Προώθηση ως συνημμένο"
 
 #: src/prefs_compose_writing.c:123
 msgid "Keep the original 'From' header when redirecting"
-msgstr ""
+msgstr "Διατήρηση της αρχικής κεφαλίδας 'Από:' στην αναμετάδοση"
 
 #: src/prefs_compose_writing.c:125
 msgid "Editing"
@@ -7210,9 +7210,8 @@ msgid "Undo level"
 msgstr "Επίπεδο αναίρεσης"
 
 #: src/prefs_compose_writing.c:171
-#, fuzzy
 msgid "Reply button invokes mailing list reply"
-msgstr "Συγγραφή απάντησης στη λίστα ταχυδρομείου από αυτό το μήνυμα"
+msgstr "Με το κουμπί 'απάντηση' απαντάμε στη λίστα ταχυδρομείου"
 
 #: src/prefs_compose_writing.c:255 src/prefs_folder_item.c:860
 #: src/prefs_quote.c:281 src/prefs_spelling.c:394 src/prefs_wrapping.c:144
@@ -7235,7 +7234,7 @@ msgstr "Το όνομα της κεφαλίδας δεν έχει οριστεί
 
 #: src/prefs_customheader.c:496
 msgid "This Header name is not allowed as a custom header."
-msgstr ""
+msgstr "Αυτό το όνομα κεφαλίδας δεν επιτρέπεται σαν προσαρμοσμένη κεφαλίδα."
 
 #: src/prefs_customheader.c:545
 msgid "Delete header"
@@ -7274,10 +7273,9 @@ msgid "This header is already in the list."
 msgstr "Αυτή η κεφαλίδα είναι ήδη στη λίστα."
 
 #: src/prefs_ext_prog.c:102
-#, fuzzy, c-format
+#, c-format
 msgid "%s will be replaced with file name / URI"
-msgstr ""
-"Εξωτερικό πρόγραμμα σύνθεσης (το %s θα αντικατασταθεί με το όνομα αρχείου)"
+msgstr "το %s θα αντικατασταθεί με το όνομα αρχείου / URI"
 
 #: src/prefs_ext_prog.c:119
 msgid "Web browser"
@@ -7293,7 +7291,7 @@ msgstr "Επεξεργαστής κειμένου"
 
 #: src/prefs_ext_prog.c:191
 msgid "Image viewer"
-msgstr "Εφαρμογή Προβολής Εικόνων"
+msgstr "Προβολή Εικόνων"
 
 #: src/prefs_ext_prog.c:209
 msgid "Audio player"
@@ -8204,12 +8202,10 @@ msgid "Quoting"
 msgstr "Παράθεση"
 
 #: src/prefs_receive.c:122
-#, fuzzy
 msgid "External incorporation program"
-msgstr "Εξωτερικό πρόγραμμα"
+msgstr "Εξωτερικό πρόγραμμα λήψης"
 
 #: src/prefs_receive.c:129
-#, fuzzy
 msgid "Use external program for receiving mail"
 msgstr "Χρήση εξωτερικού προγράμματος για λήψη μηνυμάτων"
 
@@ -8218,14 +8214,12 @@ msgid "Command"
 msgstr "Εντολή"
 
 #: src/prefs_receive.c:145
-#, fuzzy
 msgid "Automatic checking"
-msgstr "Αυτόματος έλεγχος υπογραφών"
+msgstr "Αυτόματος έλεγχος"
 
 #: src/prefs_receive.c:156
-#, fuzzy
 msgid "Automatically check for new mail"
-msgstr "Αυτόματος έλεγχος υπογραφών"
+msgstr "Έλεγχος για νέα μηνύματα"
 
 #: src/prefs_receive.c:158
 msgid "every"
@@ -8233,7 +8227,7 @@ msgstr "κάθε"
 
 #: src/prefs_receive.c:179
 msgid "Check for new mail on startup"
-msgstr "Έλεγχος για νέα αλληλογραφία στην αρχή"
+msgstr "Έλεγχος για νέα μηνύματα στην αρχή"
 
 #: src/prefs_receive.c:182
 msgid "Dialogs"
@@ -8257,34 +8251,29 @@ msgstr "Κλείσιμο του διαλόγου λήψης όταν ολοκλ�
 
 #: src/prefs_receive.c:214
 msgid "Don't popup error dialog on receive error"
-msgstr ""
+msgstr "Να μην εμφανίζεται διάλογος στα σφάλματα λήψης"
 
 #: src/prefs_receive.c:216
-#, fuzzy
 msgid "After receiving new mail"
-msgstr "Μετακίνηση στον κατάλογο εισερχομένων μετά τη λήψη νέων μηνυμάτων"
+msgstr "Μετά τη λήψη νέων μηνυμάτων"
 
 #: src/prefs_receive.c:222
 msgid "Go to inbox"
 msgstr "Μετάβαση στα εισερχόμενα"
 
 #: src/prefs_receive.c:224
-#, fuzzy
 msgid "Update all local folders"
-msgstr "Ανανέωση όλων των τοπικών φακέλων μετά τη λήψη"
+msgstr "Ανανέωση όλων των τοπικών φακέλων"
 
 #: src/prefs_receive.c:226
-#, fuzzy
 msgid "Run command"
 msgstr "Εντολή εκτύπωσης"
 
 #: src/prefs_receive.c:235
-#, fuzzy
 msgid "after automatic check"
 msgstr "μετά από αυτόματο έλεγχο"
 
 #: src/prefs_receive.c:237
-#, fuzzy
 msgid "after manual check"
 msgstr "μετά από χειροκίνητο έλεγχο"
 
@@ -8295,7 +8284,7 @@ msgid ""
 "(use %d as number of new mails)"
 msgstr ""
 "Εντολή προς εκτέλεση:\n"
-"(Το %d αναπαριστά τον αριθμό των νέων μηνυμάτων)"
+"(Αριθμός νέων μηνυμάτων: %d)"
 
 #: src/prefs_receive.c:371 src/prefs_send.c:337
 msgid "Mail Handling"
@@ -8488,18 +8477,16 @@ msgid "Default dictionary:"
 msgstr "Προκαθορισμένο λεξικό:"
 
 #: src/prefs_spelling.c:253
-#, fuzzy
 msgid "Default suggestion mode:"
-msgstr "Προεπιλεγμένη λειτουργία μορφοποίησης"
+msgstr "Εξορισμού λειτουργία προτάσεων:"
 
 #: src/prefs_spelling.c:271
 msgid "Misspelled word color:"
 msgstr "Χρώμα λανθασμένης Λέξης:"
 
 #: src/prefs_spelling.c:291
-#, fuzzy
 msgid "Pick color for misspelled word. Use black to underline"
-msgstr "Επιλογή χρώματος για τις λανθασμένες λέξεις"
+msgstr "Επιλογή χρώματος για τις λανθασμένες λέξεις. Μαύρο για υπογράμμιση"
 
 #: src/prefs_spelling.c:395
 msgid "Spell Checking"
@@ -9010,7 +8997,7 @@ msgstr "Αυτόματη αναδίπλωση"
 
 #: src/prefs_wrapping.c:78
 msgid "Wrap quotation"
-msgstr "Τύλιξη παράθεσης"
+msgstr "Αναδίπλωση παράθεσης"
 
 #: src/prefs_wrapping.c:79
 msgid "Wrap pasted text"
@@ -9018,11 +9005,11 @@ msgstr "Αναδίπλωση επικολλημένου κειμένου"
 
 #: src/prefs_wrapping.c:85
 msgid "Wrap messages at"
-msgstr "Τύλιξη μηνυμάτων στους"
+msgstr "Αναδίπλωση μηνυμάτων στους"
 
 #: src/prefs_wrapping.c:145
 msgid "Wrapping"
-msgstr "Αναδίπλωση Κειμένου"
+msgstr "Αναδίπλωση κειμένου"
 
 #: src/privacy.c:174 src/privacy.c:178 src/privacy.c:195 src/privacy.c:199
 msgid "No signature found"
