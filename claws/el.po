@@ -1969,7 +1969,7 @@ msgstr ""
 #: src/editldap.c:494
 msgid "The port number that the server listens on. Port 389 is the default."
 msgstr ""
-"Η θύρα που αναμένει συνδέσεις ο διακομιστής. Η προκαθορισμένη είναι η 389."
+"Η θύρα που αναμένει συνδέσεις ο διακομιστής. Η εξορισμού είναι η 389."
 
 #: src/editldap.c:498
 msgid " Check Server "
@@ -2193,7 +2193,7 @@ msgstr "Κανένα"
 
 #: src/exphtmldlg.c:468 src/prefs_summaries.c:349 src/prefs_summaries.c:690
 msgid "Default"
-msgstr "Προκαθορισμένο"
+msgstr "Εξορισμού"
 
 #: src/exphtmldlg.c:474 src/plugins/pgpcore/sgpgme.c:130
 msgid "Full"
@@ -5916,7 +5916,7 @@ msgstr ""
 msgid ""
 "Folder for storing infected mail. Leave empty to use the default trash folder"
 msgstr ""
-"Αφήστε το κενό για να χρησιμοποιήσετε τον προκαθορισμένο φάκελο απορριμμάτων"
+"Αφήστε το κενό για να χρησιμοποιήσετε τον εξορισμού φάκελο απορριμμάτων"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:151
 msgid "Click this button to select a folder for storing infected mail"
@@ -6393,7 +6393,7 @@ msgid ""
 "Folder for storing identified spam. Leave empty to use the default trash "
 "folder"
 msgstr ""
-"Αφήστε το κενό για να χρησιμοποιήσετε τον προκαθορισμένο φάκελο απορριμμάτων"
+"Αφήστε το κενό για να χρησιμοποιήσετε τον εξορισμού φάκελο απορριμμάτων"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:391
 msgid "Click this button to select a folder for storing spam"
@@ -6640,7 +6640,7 @@ msgstr "Τοπικό"
 
 #: src/prefs_account.c:1426 src/prefs_account.c:1521
 msgid "Default inbox"
-msgstr "Προκαθορισμένος φάκελος εισερχομένων"
+msgstr "Εξορισμού φάκελος εισερχομένων"
 
 #: src/prefs_account.c:1433 src/prefs_account.c:1441 src/prefs_account.c:1528
 #: src/prefs_account.c:1536
@@ -6809,7 +6809,7 @@ msgstr "Απάντηση σε"
 
 #: src/prefs_account.c:2041
 msgid "Default privacy system"
-msgstr "Προκαθορισμένο σύστημα προστασίας απορρήτου"
+msgstr "Εξορισμού σύστημα προστασίας απορρήτου"
 
 #: src/prefs_account.c:2050
 #, fuzzy
@@ -7616,7 +7616,7 @@ msgstr ""
 
 #: src/prefs_folder_item.c:531
 msgid "Default To: "
-msgstr "Προκαθορισμένο Πρός: "
+msgstr "Εξορισμού Πρός: "
 
 #: src/prefs_folder_item.c:551
 #, fuzzy
@@ -7625,11 +7625,11 @@ msgstr "_Θέση προς αναζήτηση:"
 
 #: src/prefs_folder_item.c:571
 msgid "Default account: "
-msgstr "Προκαθορισμένος λογαριασμός:"
+msgstr "Εξορισμού λογαριασμός:"
 
 #: src/prefs_folder_item.c:622
 msgid "Default dictionary: "
-msgstr "Προκαθορισμένο λεξικό:"
+msgstr "Εξορισμού λεξικό:"
 
 #: src/prefs_folder_item.c:843
 msgid "General"
@@ -8461,7 +8461,7 @@ msgstr "Διαδρομή λεξικών:"
 
 #: src/prefs_spelling.c:235
 msgid "Default dictionary:"
-msgstr "Προκαθορισμένο λεξικό:"
+msgstr "Εξορισμού λεξικό:"
 
 #: src/prefs_spelling.c:253
 msgid "Default suggestion mode:"
@@ -10396,7 +10396,7 @@ msgstr ""
 #~ "Με αυτό το πρόσθετο μπορείτε να ενεργοποιήσετε τον έλεγχο, τον έλεγχο "
 #~ "συμπιεσμένων αρχείων, να ορίσετε το μέγιστο μέγεθος ενός συνημμένου προς "
 #~ "έλεγχο, (εάν το συνημμένο είναι μεγαλύτερο δεν θα ελέγχεται). να ορίσετε "
-#~ "εάν θα λαμβάνονται μολυσμένα μηνύματα (προκαθορισμένο:Ναι) και να "
+#~ "εάν θα λαμβάνονται μολυσμένα μηνύματα (εξορισμού:Ναι) και να "
 #~ "επιλέξετε τον φάκελο που θα αποθηκεύονται τα μολυσμένα μηνύματα.\n"
 
 #~ msgid "MathML Viewer"
