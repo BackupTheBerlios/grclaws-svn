@@ -7149,17 +7149,20 @@ msgstr "Τρέχουσες ενέργειες"
 
 #: src/prefs_common.c:252
 msgid "On %d\\n%f wrote:\\n\\n%q"
-msgstr ""
+msgstr "Στις %d\\nΟ/Η %f έγραψε:\\n\\n%q"
 
 #: src/prefs_common.c:258
 msgid ""
 "\\n\\nBegin forwarded message:\\n\\n?d{Date: %d\\n}?f{From: %f\\n}?t{To: %t"
 "\\n}?c{Cc: %c\\n}?n{Newsgroups: %n\\n}?s{Subject: %s\\n}\\n\\n%M"
 msgstr ""
+"\\n\\nΈναρξη προωθημένου μηνύματος:\\n\\n?{Ημερομηνία: %d\\n}?f{Από: %f\\n}"
+"?t{{Προς: %t\\n}?c{Αντίγραφο: %c\\n}?n{Ομάδες νέων: %n\\n}?s{Θέμα: %s\\n}\\n"
+"\\n%M"
 
 #: src/prefs_common.c:341
 msgid "%y/%m/%d(%a) %H:%M"
-msgstr ""
+msgstr "%y/%m/%d(%a) %H:%M"
 
 #: src/prefs_compose_writing.c:98
 msgid "Automatic account selection"
@@ -7639,7 +7642,7 @@ msgstr "Επιλογές φακέλου %s"
 
 #: src/prefs_fonts.c:66
 msgid "Folder and Message Lists"
-msgstr "Κατάλογοι Φακέλων και Μηνυμάτων"
+msgstr "Κατάλογοι φακέλων και μηνυμάτων"
 
 #: src/prefs_fonts.c:83
 msgid "Message"
@@ -7876,14 +7879,12 @@ msgid "Display header pane above message view"
 msgstr "Εμφάνιση τμήματος με την κεφαλίδα πάνω από την προβολή μηνύματος"
 
 #: src/prefs_message.c:120
-#, fuzzy
 msgid "Display (X-)Face in message view"
-msgstr "Εμφάνιση βραχείας κεφαλίδας στην απεικόνιση μηνύματος"
+msgstr "Εμφάνιση κεφαλίδας (X-)Face στην απεικόνιση μηνύματος"
 
 #: src/prefs_message.c:123
-#, fuzzy
 msgid "Display Face in message view"
-msgstr "Εμφάνιση βραχείας κεφαλίδας στην απεικόνιση μηνύματος"
+msgstr "Εμφάνιση κεφαλίδας Face στην απεικόνιση μηνύματος"
 
 #: src/prefs_message.c:137
 msgid "Display short headers on message view"
@@ -7895,11 +7896,11 @@ msgstr "Μηνύματα HTML"
 
 #: src/prefs_message.c:161
 msgid "Render HTML messages as text"
-msgstr "Εμφάνιση HTML μηνυμάτων σαν κείμενο"
+msgstr "Απεικόνιση των HTML μηνυμάτων σαν κείμενο"
 
 #: src/prefs_message.c:164
 msgid "Render HTML-only messages with plugin if possible"
-msgstr ""
+msgstr "Απεικόνιση των HTML μονο μηνυμάτων με το άρθρωμα αν είναι δυνατό"
 
 #: src/prefs_message.c:174
 msgid "Line space"
@@ -7983,14 +7984,12 @@ msgid "Pick color for 3rd level text"
 msgstr "Χρώμα τρίτου επιπέδου"
 
 #: src/prefs_msg_colors.c:272
-#, fuzzy
 msgid "Enable coloration of text background"
-msgstr "Ενεργοποίηση χρωματισμού των μηνυμάτων"
+msgstr "Χρωματισμός παρασκηνίου των μηνυμάτων"
 
 #: src/prefs_msg_colors.c:288
-#, fuzzy
 msgid "Pick color for 1st level text background"
-msgstr "Επιλογή χρώματος τρίτου επιπέδου παράθεσης"
+msgstr "Επιλογή χρώματος παρασκηνίου πρώτου επιπέδου"
 
 #: src/prefs_msg_colors.c:290 src/prefs_msg_colors.c:311
 #: src/prefs_msg_colors.c:332
@@ -7998,19 +7997,16 @@ msgid "Background"
 msgstr "Παρασκήνιο"
 
 #: src/prefs_msg_colors.c:309
-#, fuzzy
 msgid "Pick color for 2nd level text background"
-msgstr "Επιλογή χρώματος τρίτου επιπέδου παράθεσης"
+msgstr "Επιλογή χρώματος παρασκηνίου δεύτερου επιπέδου"
 
 #: src/prefs_msg_colors.c:330
-#, fuzzy
 msgid "Pick color for 3rd level text background"
-msgstr "Επιλογή χρώματος για τον επιλεγμένο φάκελο"
+msgstr "Επιλογή χρώματος παρασκηνίου τρίτου επιπέδου"
 
 #: src/prefs_msg_colors.c:350
-#, fuzzy
 msgid "Pick color for links"
-msgstr "Επιλογή χρώματος για τις υπογραφές"
+msgstr "Επιλογή χρώματος για τους συνδέσμους"
 
 #: src/prefs_msg_colors.c:352
 msgid "URI link"
@@ -8039,55 +8035,49 @@ msgid "Target folder"
 msgstr "Φάκελος προορισμού"
 
 #: src/prefs_msg_colors.c:413
-#, fuzzy
 msgid "Pick color for folders containing new messages"
-msgstr "Λαμβάνω τα νέα μηνύματα"
+msgstr "Επιλογή χρώματος για τους φακέλους που περιέχουν νέα μηνύματα"
 
 #: src/prefs_msg_colors.c:415
-#, fuzzy
 msgid "Folder containing new messages"
-msgstr "Λαμβάνω τα νέα μηνύματα"
+msgstr "Φάκελοι με νέα μηνύματα"
 
 #: src/prefs_msg_colors.c:420
-#, fuzzy
 msgid "Color labels"
-msgstr "Χρώμα ετικέτας"
+msgstr "Χρώματικές ετικέτας"
 
 #. TRANSLATORS: 'color %d' refers to the filtering/processing
 #. rule name and should not be translated
 #: src/prefs_msg_colors.c:448 src/prefs_msg_colors.c:480
-#, fuzzy, c-format
+#, c-format
 msgid "Pick color for 'color %d'"
-msgstr "Επιλογή ενός χρώματος για τον φάκελο"
+msgstr "Επιλογή ενός χρώματος για το 'color %d'"
 
 #. TRANSLATORS: 'color %d' refers to the filtering/processing
 #. rule name and should not be translated
 #: src/prefs_msg_colors.c:452 src/prefs_msg_colors.c:484
-#, fuzzy, c-format
+#, c-format
 msgid "Set label for 'color %d'"
-msgstr "Επιλογή ενός χρώματος για τον φάκελο"
+msgstr "Επιλογή μιας ετικέττας για το 'color %d'"
 
 #. TRANSLATORS: 'color %d' refers to the filtering/processing
 #. rule name and should not be translated
 #: src/prefs_msg_colors.c:612
-#, fuzzy, c-format
+#, c-format
 msgid "Pick color for 'color %d' "
-msgstr "Επιλογή ενός χρώματος για τον φάκελο"
+msgstr "Επιλογή ενός χρώματος για το 'color %d'"
 
 #: src/prefs_msg_colors.c:621
-#, fuzzy
 msgid "Pick color for 1st level text "
-msgstr "Επιλογή χρώματος πρώτου επιπέδου παράθεσης"
+msgstr "Επιλογή χρώματος κειμένου πρώτου επιπέδου"
 
 #: src/prefs_msg_colors.c:624
-#, fuzzy
 msgid "Pick color for 2nd level text "
-msgstr "Επιλογή χρώματος πρώτου επιπέδου παράθεσης"
+msgstr "Επιλογή χρώματος κειμένου δεύτερου επιπέδου"
 
 #: src/prefs_msg_colors.c:627
-#, fuzzy
 msgid "Pick color for 3rd level text "
-msgstr "Επιλογή χρώματος πρώτου επιπέδου παράθεσης"
+msgstr "Επιλογή χρώματος κειμένου τρίτου επιπέδου"
 
 #: src/prefs_msg_colors.c:630
 #, fuzzy
@@ -8105,18 +8095,16 @@ msgid "Pick color for 3rd level text background "
 msgstr "Επιλογή χρώματος για τον επιλεγμένο φάκελο"
 
 #: src/prefs_msg_colors.c:639
-#, fuzzy
 msgid "Pick color for links "
-msgstr "Επιλογή χρώματος για τις υπογραφές"
+msgstr "Επιλογή χρώματος για τους συνδέσμους"
 
 #: src/prefs_msg_colors.c:642
 msgid "Pick color for target folder"
 msgstr "Επιλογή χρώματος για τον επιλεγμένο φάκελο"
 
 #: src/prefs_msg_colors.c:645
-#, fuzzy
 msgid "Pick color for signatures "
-msgstr "Επιλογή χρώματος για τις υπογραφές"
+msgstr "Επιλογή χρώματος υπογραφών"
 
 #: src/prefs_msg_colors.c:856
 msgid "Colors"
@@ -8141,7 +8129,7 @@ msgstr "Μέγεθος του παραθύρου καταγραφής"
 
 #: src/prefs_other.c:138
 msgid "0 to stop logging in the log window"
-msgstr ""
+msgstr "0 για να σταματήσει η καταγραφή στο παράθυρο"
 
 #: src/prefs_other.c:144
 msgid "On exit"
@@ -8169,9 +8157,8 @@ msgid "Socket I/O timeout:"
 msgstr "Λήξη ορίου χρόνου εγγραφής"
 
 #: src/prefs_quote.c:90
-#, fuzzy
 msgid "Reply will quote by default"
-msgstr "Προεπιλεγμένη απόκρυψη της γραμμής κατάστασης"
+msgstr "Παράθεση του προηγούμενου μηνύματος κατά την απάντηση"
 
 #: src/prefs_quote.c:92
 msgid "Reply format"
@@ -8195,7 +8182,7 @@ msgstr "Χαρακτήρες Παράθεσης"
 
 #: src/prefs_quote.c:204
 msgid "Treat these characters as quotation marks: "
-msgstr ""
+msgstr "Αυτοί οι χαρακτήρες σημειώνουν παράθεση: "
 
 #: src/prefs_quote.c:282
 msgid "Quoting"
@@ -8624,18 +8611,16 @@ msgid "letters"
 msgstr "γράμματα"
 
 #: src/prefs_summaries.c:807
-#, fuzzy
 msgid "Display sender using address book"
-msgstr "Προσ_θήκη Αποστολέα στο Ευρετήριο Διευθύνσεων"
+msgstr "Προβολή αποστολέα βάση του ευρετηρίου διευθύνσεων"
 
 #: src/prefs_summaries.c:810
 msgid "Thread using subject in addition to standard headers"
-msgstr ""
+msgstr "Κατάταξη σε νήματα με χρήση και του θέματος εκτός των κεφαλίδων"
 
 #: src/prefs_summaries.c:833
-#, fuzzy
 msgid "Date format help"
-msgstr "Μορφοποίηση ημερομηνίας"
+msgstr "Βοήθεια στη μορφοποίηση ημερομηνίας"
 
 #: src/prefs_summaries.c:837
 msgid "Set displayed columns"
@@ -8654,30 +8639,26 @@ msgid "Execute immediately when moving or deleting messages"
 msgstr "Αυτόματη εκτέλεση για τη μεταφορά και διαγραφή μηνυμάτων"
 
 #: src/prefs_summaries.c:876
-#, fuzzy
 msgid "Messages will be marked until execution if this is turned off"
-msgstr ""
-"(Τα μηνύματα απλά θα σημανθούν μέχρι την εκτέλεση\n"
-"αν αυτό είναι απεπιλεγμένο)"
+msgstr "Τα μηνύματα θα σημανθούν μέχρι την εκτέλεση αν αυτό είναι αποεπιλεγμένο"
 
 #: src/prefs_summaries.c:882
 msgid "Confirm before marking all mails in a folder as read"
-msgstr ""
-"Επιβεβαίωση πριν την σήμανση όλων των μηνυμάτων σε ένα φάκελο ως αναγνωσμένα"
+msgstr "Επιβεβαίωση πριν την σήμανση των μηνυμάτων σε ένα φάκελο ως αναγνωσμένα"
 
 #: src/prefs_summaries.c:886
-#, fuzzy
 msgid "Always open message when selected"
-msgstr "Άνοιγμα επιλεγμένου μηνύματος σε νέο παράθυρο"
+msgstr "Άνοιγμα επιλεγμένου μηνύματος όταν επιλεγεί"
 
 #: src/prefs_summaries.c:890
 msgid "Only mark message as read when opened in a new window"
 msgstr ""
+"Σήμανση ενός μηνύματος ως αναγνωσμένου μόνο όταν ανοιχθεί σε νέο "
+"παράθυρο"
 
 #: src/prefs_summaries.c:903
-#, fuzzy
 msgid "When entering a folder"
-msgstr "Επι_βεβαίωση στην εξάλειψη από ένα φάκελο"
+msgstr "Κατά την είσοδο σε ένα φάκελο"
 
 #: src/prefs_summaries.c:919
 msgid "Do nothing"
@@ -8693,7 +8674,7 @@ msgstr "Επιλογή πρώτου νέου (ή μη αναγνωσμένου) 
 
 #: src/prefs_summaries.c:934
 msgid "Show \"no unread (or new) message\" dialog"
-msgstr "Εμφάνιση του διαλόγου \"δεν υπάρχουν μη αναγνωσμένα (ή νέα) μηνύματα\""
+msgstr "Εμφάνιση του διαλόγου \"δεν υπάρχουν νέα μηνύματα\""
 
 #: src/prefs_summaries.c:951
 msgid "Assume 'Yes'"
@@ -8704,9 +8685,8 @@ msgid "Assume 'No'"
 msgstr "Υπέθεσε 'Όχι'"
 
 #: src/prefs_summaries.c:962
-#, fuzzy
 msgid " Set key bindings... "
-msgstr "Το ψευδώνυμο του ατόμου που έθεσε το κλειδί"
+msgstr "Ορισμός συντομεύσεων πληκτρολογίου..."
 
 #: src/prefs_summaries.c:1069
 msgid "Summaries"
