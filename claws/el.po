@@ -6521,9 +6521,8 @@ msgid "%s - Account preferences"
 msgstr "%s - Προτιμήσεις λογαριασμού"
 
 #: src/prefs_account.c:1021
-#, fuzzy
 msgid "_Basic"
-msgstr "Βασικά"
+msgstr "_Βασικά"
 
 #: src/prefs_account.c:1023
 msgid "_Receive"
@@ -6812,23 +6811,21 @@ msgid "Default privacy system"
 msgstr "Εξορισμού σύστημα προστασίας απορρήτου"
 
 #: src/prefs_account.c:2050
-#, fuzzy
 msgid "Always sign messages"
-msgstr "Όλα τα μηνύματα"
+msgstr "Υπογραφή όλων των μηνυμάτων"
 
 #: src/prefs_account.c:2052
-#, fuzzy
 msgid "Always encrypt messages"
-msgstr "Κρυπτογραφημένο μήνυμα"
+msgstr "Κρυπτογράφηση όλων των μηνυμάτων"
 
 #: src/prefs_account.c:2054
-#, fuzzy
 msgid "Always encrypt messages when replying to an encrypted message"
-msgstr "Άνοιγμα επιλεγμένου μηνύματος σε νέο παράθυρο"
+msgstr "Κρυπτογράφηση απάντησης σε κρυπτογραφημένο μήνυμα"
 
 #: src/prefs_account.c:2057
 msgid "Encrypt sent messages with your own key in addition to recipient's"
 msgstr ""
+"Κρυπτογράφηση απεσταλμένων και με το προσωπικό κλειδί εκτός από του παραλήπτη"
 
 #: src/prefs_account.c:2059
 msgid "Save sent encrypted messages as clear text"
@@ -6891,9 +6888,8 @@ msgid "NNTP port"
 msgstr "Θύρα NNTP"
 
 #: src/prefs_account.c:2373
-#, fuzzy
 msgid "Domain name"
-msgstr "Ορισμός του ονόματος του domain"
+msgstr "Όνομα τομέα"
 
 #: src/prefs_account.c:2383
 msgid "Use command to communicate with server"
@@ -6958,9 +6954,8 @@ msgid "local mailbox filename is not entered."
 msgstr "το όνομα αρχείου του τοπικού γραμματοκιβωτίου δεν προσδιορίστηκε."
 
 #: src/prefs_account.c:2546
-#, fuzzy
 msgid "mail command is not entered."
-msgstr "Το επιχείρημα σε \"%s\" δεν είναι έγκυρη εντολή: %s\n"
+msgstr "δεν συμπληρώθηκε η εντολή"
 
 #: src/prefs_account.c:2611
 msgid "Select signature file"
@@ -7052,23 +7047,20 @@ msgid "_Continue editing"
 msgstr "Επι_βεβαίωση κωδικού:"
 
 #: src/prefs_actions.c:788
-#, fuzzy
 msgid "<span weight=\"bold\" underline=\"single\">Menu name:</span>"
-msgstr "<span weight=\"bold\">Το όνομά σας:</span>"
+msgstr "<span weight=\"bold\" underline=\"single\">Όνομά μενού:</span>"
 
 #: src/prefs_actions.c:789
 msgid "Use / in menu name to make submenus."
 msgstr "Χρησιμοποιήστε '/' στο όνομα του μενού για να δημιουργήσετε υπομενού."
 
 #: src/prefs_actions.c:791
-#, fuzzy
 msgid "<span weight=\"bold\" underline=\"single\">Command line:</span>"
-msgstr "<span weight=\"bold\">Όνομα Χρήστη:</span>"
+msgstr "<span weight=\"bold\" underline=\"single\">Εντολή:</span>"
 
 #: src/prefs_actions.c:792
-#, fuzzy
 msgid "<span weight=\"bold\">Begin with:</span>"
-msgstr "<span weight=\"bold\">Όνομα Χρήστη:</span>"
+msgstr "<span weight=\"bold\">Ξεκινά με:</span>"
 
 #: src/prefs_actions.c:793
 msgid "to send message body or selection to command's standard input"
@@ -7083,9 +7075,8 @@ msgid "to send user provided hidden text to command's standard input"
 msgstr ""
 
 #: src/prefs_actions.c:796
-#, fuzzy
 msgid "<span weight=\"bold\">End with:</span>"
-msgstr "<span weight=\"bold\">Όνομα Χρήστη:</span>"
+msgstr "<span weight=\"bold\">Τελειώνει με:</span>"
 
 #: src/prefs_actions.c:797
 msgid "to replace message body or selection with command's standard output"
@@ -7404,9 +7395,8 @@ msgid "Info ..."
 msgstr "Πληροφορίες ..."
 
 #: src/prefs_filtering_action.c:792
-#, fuzzy
 msgid "Command line not set"
-msgstr "Αδυναμία ανάλυσης γραμμής εντολής '%s': %s"
+msgstr "Δεν ορίστηκε γραμμή εντολών"
 
 #: src/prefs_filtering_action.c:793
 msgid "Destination is not set."
@@ -7437,12 +7427,12 @@ msgstr "Ημερομηνία"
 #: src/prefs_filtering_action.c:1081 src/prefs_matcher.c:1685
 #: src/quote_fmt.c:52
 msgid "Message-ID"
-msgstr ""
+msgstr "Message-ID"
 
 #: src/prefs_filtering_action.c:1082 src/prefs_matcher.c:152
 #: src/prefs_matcher.c:1686 src/quote_fmt.c:50
 msgid "Newsgroups"
-msgstr "Ομάδες συζήτησης"
+msgstr "Ομάδες νέων"
 
 #: src/prefs_filtering_action.c:1083 src/prefs_matcher.c:152
 #: src/prefs_matcher.c:1687 src/quote_fmt.c:51
@@ -7450,9 +7440,8 @@ msgid "References"
 msgstr "Αναφορές"
 
 #: src/prefs_filtering_action.c:1084 src/prefs_matcher.c:1688
-#, fuzzy
 msgid "filename (should not be modified)"
-msgstr "Όνομα αρχείου - δεν πρέπει να τροποποιηθεί"
+msgstr "όνομα αρχείου (δεν πρέπει να τροποποιηθεί)"
 
 #: src/prefs_filtering_action.c:1085 src/prefs_matcher.c:1689
 msgid "new line"
@@ -7485,9 +7474,8 @@ msgid "Current action list"
 msgstr "Λίστα τρέχοντων ενεργειών"
 
 #: src/prefs_filtering.c:155 src/prefs_filtering.c:242
-#, fuzzy
 msgid "Filtering/Processing configuration"
-msgstr "Ρύθμιση Ximian Connector "
+msgstr "Ρύθμιση φίλτρων/επεξεργασίας"
 
 #: src/prefs_filtering.c:279
 msgid "Condition: "
@@ -7716,7 +7704,7 @@ msgstr "Ολόκληρο το μήνυμα"
 #: src/prefs_matcher.c:156
 #, fuzzy
 msgid "Unread flag"
-msgstr "Κατάσταση Σημαίας"
+msgstr "Σημαία μη αναγνωσμένου"
 
 #: src/prefs_matcher.c:156
 #, fuzzy
@@ -7753,9 +7741,8 @@ msgid "Color label"
 msgstr "Χρώμα ετικέτας"
 
 #: src/prefs_matcher.c:161
-#, fuzzy
 msgid "Ignored thread"
-msgstr "Αγνόηση νήματος"
+msgstr "Αγνoημένο νήμα"
 
 #: src/prefs_matcher.c:162
 msgid "Score greater than"
@@ -8080,19 +8067,16 @@ msgid "Pick color for 3rd level text "
 msgstr "Επιλογή χρώματος κειμένου τρίτου επιπέδου"
 
 #: src/prefs_msg_colors.c:630
-#, fuzzy
 msgid "Pick color for 1st level text background "
-msgstr "Επιλογή χρώματος τρίτου επιπέδου παράθεσης"
+msgstr "Επιλογή χρώματος παρασκηνίου πρώτου επιπέδου"
 
 #: src/prefs_msg_colors.c:633
-#, fuzzy
 msgid "Pick color for 2nd level text background "
-msgstr "Επιλογή χρώματος τρίτου επιπέδου παράθεσης"
+msgstr "Επιλογή χρώματος παρασκηνίου δεύτερου επιπέδου"
 
 #: src/prefs_msg_colors.c:636
-#, fuzzy
 msgid "Pick color for 3rd level text background "
-msgstr "Επιλογή χρώματος για τον επιλεγμένο φάκελο"
+msgstr "Επιλογή χρώματος παρασκηνίου τρίτου επιπέδου"
 
 #: src/prefs_msg_colors.c:639
 msgid "Pick color for links "
@@ -8119,9 +8103,8 @@ msgid "Log Size"
 msgstr "Μέγεθος Καταγραφής"
 
 #: src/prefs_other.c:116
-#, fuzzy
 msgid "Clip the log size"
-msgstr "Μέγεθος του παραθύρου καταγραφής"
+msgstr "Περιορισμός μέγέθους αρχείου καταγραφής"
 
 #: src/prefs_other.c:121
 msgid "Log window length"
