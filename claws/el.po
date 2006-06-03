@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-06-03 15:21+0300\n"
-"PO-Revision-Date: 2006-06-03 17:18+0200\n"
+"PO-Revision-Date: 2006-06-03 23:46+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -117,6 +117,8 @@ msgid ""
 "The selected action cannot be used in the compose window\n"
 "because it contains %%f, %%F, %%as or %%p."
 msgstr ""
+"Η συγκεκριμένη ενέργεια δεν είναι δυνατό να χρησιμοποιηθεί στο\n"
+"παράθυρο σύνταξης γιατί περιέχει %%f, %%F, %%as ή %%p."
 
 #: src/action.c:829
 #, c-format
@@ -3931,9 +3933,8 @@ msgid ""
 msgstr "Το πιστοποιητικό για το %s έχει αλλάξει. Θέλετε να το δεχτείτε;"
 
 #: src/gtk/sslcertwindow.c:336
-#, fuzzy
 msgid "Expired SSL Certificate"
-msgstr "Πιστοποιητικό πελάτη SSL"
+msgstr "Ληγμένο πιστοποιητικό SSL"
 
 #: src/gtk/sslcertwindow.c:337
 msgid "_Accept"
@@ -4269,9 +4270,8 @@ msgid "Destination folder:"
 msgstr "Φάκελος προορισμού:"
 
 #: src/import.c:210
-#, fuzzy
 msgid "Source mbox filename can't be left empty."
-msgstr "το όνομα αρχείου του τοπικού γραμματοκιβωτίου δεν προσδιορίστηκε."
+msgstr "Πρέπει να προσδιορίσετε πηγαίο αρχείο mbox."
 
 #: src/import.c:215
 msgid ""
@@ -4280,9 +4280,8 @@ msgid ""
 msgstr ""
 
 #: src/import.c:237
-#, fuzzy
 msgid "Can't find the destination folder."
-msgstr "Δεν είναι δυνατή η εύρεση του πηγαίου φακέλου."
+msgstr "Δεν είναι δυνατή η εύρεση του φακέλου προορισμού."
 
 #: src/import.c:261
 msgid "Select importing file"
@@ -4660,9 +4659,8 @@ msgid "Offline warning"
 msgstr "Προειδοποίηση Ασφαλείας"
 
 #: src/inc.c:1446
-#, fuzzy
 msgid "On_ly once"
-msgstr "Εμφάνιση του μηνύματος απουσίας μια φορά"
+msgstr "Μόνο μια _φορά"
 
 #: src/ldif.c:831
 msgid "Nick Name"
@@ -5465,19 +5463,16 @@ msgid "/_Message/Mailing-_List/Subscribe"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Εγγραφή"
 
 #: src/mainwindow.c:729
-#, fuzzy
 msgid "/_Message/Mailing-_List/Unsubscribe"
-msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Αποστολή"
+msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Διαγραφή"
 
 #: src/mainwindow.c:730
-#, fuzzy
 msgid "/_Message/Mailing-_List/View archive"
-msgstr "Αποστολή μηνύματος στη λίστα αλληλογραφίας;"
+msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Προβολή αρχείου"
 
 #: src/mainwindow.c:731
-#, fuzzy
 msgid "/_Message/Mailing-_List/Contact owner"
-msgstr "Αποστολή μηνύματος στη λίστα αλληλογραφίας;"
+msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Επικοινωνία με κάτοχο"
 
 #: src/mainwindow.c:734
 msgid "/_Message/M_ove..."
@@ -5708,9 +5703,8 @@ msgid "/_Help/_Online User-contributed FAQ"
 msgstr "/_Βοήθεια/Συχνές Ερωτήσεις _Online"
 
 #: src/mainwindow.c:833
-#, fuzzy
 msgid "/_Help/Icon _Legend"
-msgstr "Εικονίδιο Συρταριού GnomeMeeting"
+msgstr "/_Βοήθεια/_Επεξήγηση εικονιδίων"
 
 #: src/mainwindow.c:834
 msgid "/_Help/---"
@@ -5856,14 +5850,14 @@ msgstr "Δεν είναι ημερολόγιο."
 
 #: src/mainwindow.c:3831
 #: src/mainwindow.c:3842
-#, fuzzy, c-format
+#, c-format
 msgid "selecting folder '%s'\n"
-msgstr "Φακέλος Προορισμού:"
+msgstr "επιλογή φακέλου '%s'\n"
 
 #: src/mainwindow.c:3846
-#, fuzzy, c-format
+#, c-format
 msgid "selecting message %d\n"
-msgstr "Αριστερό μήνυμα"
+msgstr "επιλογή μηνύματος %d\n"
 
 #: src/matcher.c:1285
 #: src/matcher.c:1286
@@ -5877,11 +5871,13 @@ msgid "(none)"
 msgstr "(κανένα)"
 
 #: src/mbox.c:80
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not open mbox file:\n"
 "%s\n"
-msgstr "Δεν ήταν δυνατό το άνοιγμα το αρχείο μηνυμάτων %s: %s"
+msgstr ""
+"Δεν ήταν δυνατό το άνοιγμα του αρχείου mbox:\n"
+"%s\n"
 
 #: src/mbox.c:415
 #, fuzzy
@@ -6040,9 +6036,9 @@ msgstr "Εγγραφή πάνω από το υπάρχον αρχείο;"
 #: src/summaryview.c:3840
 #: src/summaryview.c:3843
 #: src/summaryview.c:3858
-#, fuzzy, c-format
+#, c-format
 msgid "Can't save the file '%s'."
-msgstr "Αδυναμία αποθήκευσης αρχείου: %s\n"
+msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου '%s'."
 
 #: src/messageview.c:1198
 msgid "This message asks for a return receipt."
@@ -6916,18 +6912,16 @@ msgid "/_Email"
 msgstr "/_Email"
 
 #: src/plugins/trayicon/trayicon.c:96
-#, fuzzy
 msgid "/Open A_ddressbook"
-msgstr "Άνοιγμα αρχείου"
+msgstr "/Άνοιγμα ευρετηρίου _διευθύνσεων"
 
 #: src/plugins/trayicon/trayicon.c:98
 msgid "/_Work Offline"
 msgstr "/_Εργασία Χωρίς Σύνδεση"
 
 #: src/plugins/trayicon/trayicon.c:100
-#, fuzzy
 msgid "/E_xit Sylpheed-Claws"
-msgstr "Η ομάδα του Sylpheed-Claws"
+msgstr "/Έ_ξοδος από το Sylpheed-Claws"
 
 #: src/plugins/trayicon/trayicon.c:148
 #, c-format
@@ -6962,7 +6956,6 @@ msgid "Orientation"
 msgstr "Προσανατολισμός"
 
 #: src/plugins/trayicon/libeggtrayicon/eggtrayicon.c:116
-#, fuzzy
 msgid "The orientation of the tray."
 msgstr "Ο προσαναταλισμός του συρταριού."
 
@@ -8103,9 +8096,8 @@ msgstr "Το συνημμένο ημερολόγιο δεν είναι έγκυ�
 
 #: src/prefs_filtering.c:830
 #: src/prefs_filtering.c:885
-#, fuzzy
 msgid "Action string is not valid."
-msgstr "Το συνημμένο ημερολόγιο δεν είναι έγκυρο"
+msgstr "Η εντολή της ενέργειας δεν είναι έγκυρη."
 
 #: src/prefs_filtering.c:864
 #, fuzzy
@@ -10323,9 +10315,8 @@ msgid "  right-clicking the icon or list item:\n"
 msgstr ""
 
 #: src/textview.c:814
-#, fuzzy
 msgid "     - To save, select "
-msgstr "Επιλογή ενός αρχείου για αποθήκευση σε αυτό"
+msgstr "     - Για να αποθηκεύσετε, επιλέξτε"
 
 #: src/textview.c:815
 msgid "'Save as...'"
@@ -10371,9 +10362,8 @@ msgid "mouse button)\n"
 msgstr "του ποντικιού),\n"
 
 #: src/textview.c:825
-#, fuzzy
 msgid "     - Or use "
-msgstr "Χρήση gateway ή διαμεσολαβητή"
+msgstr "     - Ή χρησιμοποιήστε "
 
 #: src/textview.c:826
 msgid "'Open with...'"
@@ -10621,9 +10611,8 @@ msgid "Receive Mail on selected Account"
 msgstr "Λήψη αλληλογραφίας για τον επιλεγμένο λογαριασμό"
 
 #: src/toolbar.c:1533
-#, fuzzy
 msgid "Compose with selected Account"
-msgstr "Έναργξη Κουβέντας με χρήση του λογαριασμού %s"
+msgstr "Σύνθεση με τον επιλεγμένο λογαριασμό"
 
 #: src/toolbar.c:1539
 msgid "Ham"
