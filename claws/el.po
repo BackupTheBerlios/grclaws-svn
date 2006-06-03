@@ -9273,15 +9273,15 @@ msgstr "Καμία ενέργεια"
 
 #: src/prefs_summaries.c:920
 msgid "Select first unread (or new or marked) message"
-msgstr "Επιλογή πρώτου μη αναγνωσμένου (ή νέου) μηνύματος"
+msgstr "Επιλογή πρώτου αδιάβαστου (ή νέου) μηνύματος"
 
 #: src/prefs_summaries.c:922
 msgid "Select first unread (or marked or new) message"
-msgstr "Επιλογή πρώτου μη αναγνωσμένου (ή σημειωμένου) μηνύματος"
+msgstr "Επιλογή πρώτου αδιάβαστου (ή σημειωμένου) μηνύματος"
 
 #: src/prefs_summaries.c:924
 msgid "Select first new (or unread or marked) message"
-msgstr "Επιλογή πρώτου νέου (ή μη αναγνωσμένου) μηνύματος"
+msgstr "Επιλογή πρώτου νέου (ή αδιάβαστου) μηνύματος"
 
 #: src/prefs_summaries.c:926
 msgid "Select first new (or marked or unread) message"
