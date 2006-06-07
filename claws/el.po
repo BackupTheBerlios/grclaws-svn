@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
-"POT-Creation-Date: 2006-06-03 15:21+0300\n"
-"PO-Revision-Date: 2006-06-04 10:55+0200\n"
+"POT-Creation-Date: 2006-06-05 07:15+0100\n"
+"PO-Revision-Date: 2006-06-06 17:26+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -2392,7 +2392,7 @@ msgstr "Φύλλο Στυλ"
 #: src/gtk/gtkaspell.c:2298
 #: src/mainwindow.c:959
 #: src/prefs_account.c:650
-#: src/summaryview.c:4680
+#: src/summaryview.c:4686
 msgid "None"
 msgstr "Κανένα"
 
@@ -2583,7 +2583,7 @@ msgid "Distguished Name"
 msgstr "Διακεκριμένο Όνομα"
 
 #: src/export.c:120
-#: src/summaryview.c:6014
+#: src/summaryview.c:6020
 msgid "Export to mbox file"
 msgstr "Εξαγωγή σε αρχείο mbox"
 
@@ -2786,12 +2786,12 @@ msgid "Setting folder info..."
 msgstr "Θέτω τις πληροφορίες καταλόγων..."
 
 #: src/folderview.c:721
-#: src/summaryview.c:3234
+#: src/summaryview.c:3235
 msgid "Mark all as read"
 msgstr "Σήμανση όλων ως αναγνωσμένα"
 
 #: src/folderview.c:722
-#: src/summaryview.c:3235
+#: src/summaryview.c:3236
 msgid "Do you really want to mark all mails in this folder as read ?"
 msgstr "Θέλετε πράγματι να σημειώσετε όλα τα μηνύματα στο φάκελο ως αναγνωσμένα;"
 
@@ -2898,7 +2898,7 @@ msgstr "Προετοιμασία ρυθμίσεων φακέλου %s"
 
 #: src/gedit-print.c:146
 #: src/messageview.c:1409
-#: src/summaryview.c:3894
+#: src/summaryview.c:3900
 #: src/toolbar.c:178
 msgid "Print"
 msgstr "Εκτύπωση"
@@ -3955,14 +3955,14 @@ msgid "Changed SSL Certificate"
 msgstr "Το πιστοποιητικό SSL άλλαξε"
 
 #: src/headerview.c:196
-#: src/summaryview.c:2595
-#: src/summaryview.c:2601
+#: src/summaryview.c:2596
+#: src/summaryview.c:2602
 msgid "(No From)"
 msgstr "(Χωρίς αποστολέα)"
 
 #: src/headerview.c:211
-#: src/summaryview.c:2625
-#: src/summaryview.c:2628
+#: src/summaryview.c:2626
+#: src/summaryview.c:2629
 msgid "(No Subject)"
 msgstr "(Χωρίς Θέμα)"
 
@@ -5821,7 +5821,7 @@ msgstr[0] "Διεγράφη %d διπλό μήνυμα σε %d φάκελους.
 msgstr[1] "Διεγράφησαν %d διπλά μηνύματα σε %d φακέλους\n"
 
 #: src/mainwindow.c:3550
-#: src/summaryview.c:4476
+#: src/summaryview.c:4482
 #, fuzzy
 msgid "Processing rules to apply before folder rules"
 msgstr "Κανόνες επεξεργασίας για εφαρμογή πριν τους κανόνες φακέλων"
@@ -5832,14 +5832,14 @@ msgid "Processing rules to apply after folder rules"
 msgstr "Κανόνες επεξεργασίας για εφαρμογή μετά τους κανόνες φακέλων"
 
 #: src/mainwindow.c:3566
-#: src/summaryview.c:4485
+#: src/summaryview.c:4491
 msgid "Filtering configuration"
 msgstr "Ρθμίσεις Φίλτρων"
 
 #: src/mainwindow.c:3819
-#, fuzzy, c-format
+#, c-format
 msgid "not initialized\n"
-msgstr "Δεν είναι ημερολόγιο."
+msgstr "δεν έχει αρχικοποιηθεί\n"
 
 #: src/mainwindow.c:3831
 #: src/mainwindow.c:3842
@@ -6015,8 +6015,8 @@ msgstr ""
 
 #: src/messageview.c:1101
 #: src/mimeview.c:1503
-#: src/summaryview.c:3820
-#: src/summaryview.c:3823
+#: src/summaryview.c:3826
+#: src/summaryview.c:3829
 #: src/textview.c:2279
 msgid "Save as"
 msgstr "Αποθήκευση ως"
@@ -6026,9 +6026,9 @@ msgid "Overwrite existing file?"
 msgstr "Εγγραφή πάνω από το υπάρχον αρχείο;"
 
 #: src/messageview.c:1115
-#: src/summaryview.c:3840
-#: src/summaryview.c:3843
-#: src/summaryview.c:3858
+#: src/summaryview.c:3846
+#: src/summaryview.c:3849
+#: src/summaryview.c:3864
 #, c-format
 msgid "Can't save the file '%s'."
 msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου '%s'."
@@ -6115,7 +6115,7 @@ msgid "+_Cancel"
 msgstr "+_Άκυρο"
 
 #: src/messageview.c:1410
-#: src/summaryview.c:3895
+#: src/summaryview.c:3901
 #, fuzzy, c-format
 msgid ""
 "Enter the print command line:\n"
@@ -6125,7 +6125,7 @@ msgstr ""
 "(Το '%s' θα αντικατασταθεί με το όνομα αρχείου)"
 
 #: src/messageview.c:1416
-#: src/summaryview.c:3901
+#: src/summaryview.c:3907
 #, c-format
 msgid ""
 "Print command line is invalid:\n"
@@ -6135,14 +6135,14 @@ msgstr ""
 "'%s'"
 
 #: src/messageview.c:1427
-#: src/summaryview.c:3872
+#: src/summaryview.c:3878
 msgid "Cannot print: the message doesn't contain text."
 msgstr "Δεν είναι δυνατή η εκτύπωση: το μήνυμα δεν περιέχει κείμενο."
 
 #: src/messageview.c:1654
 #: src/messageview.c:1660
-#: src/summaryview.c:3298
-#: src/summaryview.c:5182
+#: src/summaryview.c:3299
+#: src/summaryview.c:5188
 #, fuzzy
 msgid "An error happened while learning.\n"
 msgstr "Σφάλμα κατά το άνοιγμα του ημερολογίου"
@@ -6650,14 +6650,14 @@ msgid "PGP Core: Can't get key - no gpg-agent running."
 msgstr ""
 
 #: src/plugins/pgpcore/sgpgme.c:195
-#, fuzzy, c-format
+#, c-format
 msgid "Good signature from %s."
-msgstr "Από ποιον είναι"
+msgstr "Έγκυρη υπογραφή από τον/την %s."
 
 #: src/plugins/pgpcore/sgpgme.c:201
-#, fuzzy, c-format
+#, c-format
 msgid "Good signature (untrusted) from %s."
-msgstr "Από ποιον είναι"
+msgstr "Έγκυρη υπογραφή (όχι έμπιστη) από τον/την %s."
 
 #: src/plugins/pgpcore/sgpgme.c:206
 #, c-format
@@ -6685,19 +6685,19 @@ msgid "Signature made using %s key ID %s\n"
 msgstr "Υπογραφή δημιουργήθηκε χρησιμοποιώντας το %s κλειδί %s\n"
 
 #: src/plugins/pgpcore/sgpgme.c:265
-#, fuzzy, c-format
+#, c-format
 msgid "Good signature from \"%s\" (Trust: %s)\n"
-msgstr "Αποδεκτή υπογραφή από \"%s\""
+msgstr "Έγκυρη υπογραφή από τον/την \"%s\" (Εμπιστοσύνη: %s)\n"
 
 #: src/plugins/pgpcore/sgpgme.c:270
-#, fuzzy, c-format
+#, c-format
 msgid "Expired signature from \"%s\"\n"
-msgstr "Από ποιον είναι"
+msgstr "Ληγμένη υπογραφή από τον/την %s\n"
 
 #: src/plugins/pgpcore/sgpgme.c:275
-#, fuzzy, c-format
+#, c-format
 msgid "BAD signature from \"%s\"\n"
-msgstr "Εσφαλμένη απάντηση πιστοποίησης από τον διακομιστή."
+msgstr "Εσφαλμένη υπογραφή από τον/την \"%s\"\n"
 
 #: src/plugins/pgpcore/sgpgme.c:286
 #, c-format
@@ -6705,9 +6705,9 @@ msgid "                aka \"%s\"\n"
 msgstr "επίσης γνωστός ως \"%s\"\n"
 
 #: src/plugins/pgpcore/sgpgme.c:292
-#, fuzzy, c-format
+#, c-format
 msgid "Primary key fingerprint: %s\n"
-msgstr "Δημιουργία Ιδιωτικού Κλειδιού."
+msgstr "Αποτύπωμα πρωτεύοντος κλειδιού: %s\n"
 
 #: src/plugins/pgpcore/sgpgme.c:297
 #, c-format
@@ -6878,9 +6878,8 @@ msgid "seconds"
 msgstr "δευτερόλεπτα"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:368
-#, fuzzy
 msgid "Process messages on receiving"
-msgstr "Μόνο στη χειροκίνητη λήψη"
+msgstr "Επεξεργασία μηνυμάτων κατά τη λήψη"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:376
 msgid "Save spam in"
@@ -8428,11 +8427,12 @@ msgid "Value is not set."
 msgstr "Η τιμή δεν έχει οριστεί"
 
 #: src/prefs_matcher.c:1637
-#, fuzzy
 msgid ""
 "The entry was not saved.\n"
 "Close anyway?"
-msgstr "Η εγγραφή δεν έχει αποθηκευτεί. Να κλείσω;"
+msgstr ""
+"Η εγγραφή δεν έχει αποθηκευτεί.\n"
+"Να κλείσω;"
 
 #: src/prefs_matcher.c:1699
 #, fuzzy
@@ -9466,9 +9466,8 @@ msgid "No info file available for this theme"
 msgstr "Δεν υπάρχουν πληροφορίες διαθέσιμες για αυτό το θέμα"
 
 #: src/prefs_themes.c:732
-#, fuzzy
 msgid "Error: can't get theme status"
-msgstr "Σφάλμα: Άγνωστη κατάσταση"
+msgstr "Σφάλμα: Άγνωστη κατάσταση θέματος"
 
 #: src/prefs_themes.c:756
 #, c-format
@@ -10150,109 +10149,109 @@ msgstr "Δεν υπάρχουν άλλα σημειωμένα μηνύματα"
 msgid "No labeled message found. Search from the beginning?"
 msgstr "Δεν βρέθηκαν σημειωμένα μηνύματα. Να γίνει αναζήτηση από την αρχή;"
 
-#: src/summaryview.c:1904
+#: src/summaryview.c:1905
 #, fuzzy
 msgid "Attracting messages by subject..."
 msgstr "Να _υπογράφονται πάντα ψηφιακά τα μηνύματα (προεπιλογή)"
 
-#: src/summaryview.c:2065
+#: src/summaryview.c:2066
 #, c-format
 msgid "%d deleted"
 msgstr "%d διαγράφηκαν"
 
-#: src/summaryview.c:2069
+#: src/summaryview.c:2070
 #, c-format
 msgid "%s%d moved"
 msgstr "%s%d μετακινήθηκαν"
 
-#: src/summaryview.c:2070
-#: src/summaryview.c:2077
+#: src/summaryview.c:2071
+#: src/summaryview.c:2078
 msgid ", "
 msgstr ", "
 
-#: src/summaryview.c:2075
+#: src/summaryview.c:2076
 #, c-format
 msgid "%s%d copied"
 msgstr "%s%d αντιγράφηκαν"
 
-#: src/summaryview.c:2090
+#: src/summaryview.c:2091
 msgid " item selected"
 msgstr " επιλεγμένο αντικείμενο"
 
-#: src/summaryview.c:2092
+#: src/summaryview.c:2093
 msgid " items selected"
 msgstr " επιλεγμένα αντικείμενα"
 
-#: src/summaryview.c:2108
+#: src/summaryview.c:2109
 #, c-format
 msgid "%d new, %d unread, %d total (%s)"
 msgstr "%d νέα, %d αδιάβαστα, %d συνολικά (%s)"
 
-#: src/summaryview.c:2311
+#: src/summaryview.c:2312
 msgid "Sorting summary..."
 msgstr "Περίληψη ταξινόμησης..."
 
-#: src/summaryview.c:2400
+#: src/summaryview.c:2401
 msgid "Setting summary from message data..."
 msgstr "Ορισμός περίληψης από τα δεδομένα του μηνύματος..."
 
-#: src/summaryview.c:2574
+#: src/summaryview.c:2575
 msgid "(No Date)"
 msgstr "(Χωρίς ημερομηνία)"
 
-#: src/summaryview.c:2606
+#: src/summaryview.c:2607
 msgid "(No Recipient)"
 msgstr "(Χωρίς Αποδέκτες)"
 
-#: src/summaryview.c:3392
+#: src/summaryview.c:3393
 msgid "You're not the author of the article.\n"
 msgstr "Δεν είστε ο συγγραφέας αυτού του άρθρου.\n"
 
-#: src/summaryview.c:3475
+#: src/summaryview.c:3476
 msgid "Delete message(s)"
 msgstr "Διαγραφή Μηνύματος(ων)"
 
-#: src/summaryview.c:3476
+#: src/summaryview.c:3477
 msgid "Do you really want to delete selected message(s)?"
 msgstr "Θέλετε σίγουρα να διαγράψετε τα επιλεγμένα μηνύματα;"
 
-#: src/summaryview.c:3623
+#: src/summaryview.c:3624
 msgid "Destination is same as current folder."
 msgstr "Ο προορισμός είναι ίδιος με τον τρέχοντα κατάλογο."
 
-#: src/summaryview.c:3707
+#: src/summaryview.c:3713
 msgid "Destination to copy is same as current folder."
 msgstr "Ο προορισμός αντιγραφής είναι ίδιος με τον τρέχοντα κατάλογο."
 
-#: src/summaryview.c:3827
+#: src/summaryview.c:3833
 msgid "Append or Overwrite"
 msgstr "Προσθήκη ή Αντικατάσταση"
 
-#: src/summaryview.c:3828
+#: src/summaryview.c:3834
 msgid "Append or overwrite existing file?"
 msgstr "Να γίνει προσθήκη ή να αντικατασταθεί το υπάρχον αρχείο;"
 
-#: src/summaryview.c:3829
+#: src/summaryview.c:3835
 msgid "_Append"
 msgstr "Προ_σθήκη"
 
-#: src/summaryview.c:3829
+#: src/summaryview.c:3835
 msgid "_Overwrite"
 msgstr "_Αντικατάσταση"
 
-#: src/summaryview.c:4206
+#: src/summaryview.c:4212
 msgid "Building threads..."
 msgstr "Δημιουργώ τα νήματα..."
 
-#: src/summaryview.c:4411
+#: src/summaryview.c:4417
 msgid "Filtering..."
 msgstr "Φιλτράρω..."
 
-#: src/summaryview.c:4480
+#: src/summaryview.c:4486
 msgid "Processing configuration"
 msgstr "Επεξεργασία ρυθμίσεων"
 
-#: src/summaryview.c:5903
+#: src/summaryview.c:5909
 #, c-format
 msgid ""
 "Regular expression (regexp) error:\n"
