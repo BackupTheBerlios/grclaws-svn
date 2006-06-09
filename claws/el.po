@@ -4429,7 +4429,7 @@ msgstr "Λαμβάνω τα νέα μηνύματα"
 
 #: src/inc.c:420
 msgid "Standby"
-msgstr "Περιμένω"
+msgstr "Σε αναμονή"
 
 #: src/inc.c:550
 #: src/inc.c:600
@@ -4438,7 +4438,7 @@ msgstr "Ακυρώθηκε"
 
 #: src/inc.c:561
 msgid "Retrieving"
-msgstr "Λαμβάνω"
+msgstr "Λήψη"
 
 #: src/inc.c:570
 #, c-format
@@ -4483,7 +4483,7 @@ msgstr "Ολοκληρώθηκε (δεν υπάρχουν νέα μηνύματ�
 #: src/inc.c:743
 #, c-format
 msgid "%s: Retrieving new messages"
-msgstr "%s: Λαμβάνω τα νέα μηνύματα"
+msgstr "%s: Λήψη νέων μηνυμάτων"
 
 #: src/inc.c:775
 #, c-format
@@ -4512,19 +4512,19 @@ msgstr "Λήψη μηνυμάτων από %s (%s) ..."
 
 #: src/inc.c:880
 msgid "Getting the number of new messages (STAT)..."
-msgstr "Λαμβάνω τον αριθμό των νέων μηνυμάτων (STAT)..."
+msgstr "Λήψη αριθμού νέων μηνυμάτων (STAT)..."
 
 #: src/inc.c:884
 msgid "Getting the number of new messages (LAST)..."
-msgstr "Λαμβάνω τον αριθμό των νέων μηνυμάτων (LAST)..."
+msgstr "Λήψη αριθμού νέων μηνυμάτων (LAST)..."
 
 #: src/inc.c:888
 msgid "Getting the number of new messages (UIDL)..."
-msgstr "Λαμβάνω τον αριθμό των νέων μηνυμάτων (UIDL)..."
+msgstr "Λήψη αριθμού νέων μηνυμάτων (UIDL)..."
 
 #: src/inc.c:892
 msgid "Getting the size of messages (LIST)..."
-msgstr "Λαμβάνω το μέγεθος των μηνυμάτων (LIST)..."
+msgstr "Λήψη μεγέθους μηνυμάτων (LIST)..."
 
 #: src/inc.c:899
 #: src/send_message.c:469
@@ -5668,7 +5668,7 @@ msgstr ""
 
 #: src/mainwindow.c:823
 msgid "/_Configuration/_Filtering..."
-msgstr "/_Ρυθμίσεις/_Φιλτρa..."
+msgstr "/_Ρυθμίσεις/_Φίλτρα..."
 
 #: src/mainwindow.c:825
 msgid "/_Configuration/_Templates..."
