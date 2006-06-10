@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-06-05 07:15+0100\n"
-"PO-Revision-Date: 2006-06-06 17:26+0200\n"
+"PO-Revision-Date: 2006-06-10 19:11+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -10303,9 +10303,8 @@ msgid "'Save as...'"
 msgstr "'Αποθήκευση ως...'"
 
 #: src/textview.c:816
-#, fuzzy
 msgid " (Shortcut key: 'y')\n"
-msgstr "Πλή_κτρο συντόμευσης"
+msgstr "(πλήκτρο συντόμευσης: 'y')\n"
 
 #: src/textview.c:817
 msgid "     - To display as text, select "
@@ -10316,9 +10315,8 @@ msgid "'Display as text'"
 msgstr "'Εμφάνιση σαν κείμενο'"
 
 #: src/textview.c:819
-#, fuzzy
 msgid " (Shortcut key: 't')\n"
-msgstr "Πλή_κτρο συντόμευσης"
+msgstr "(πλήκτρο συντόμευσης: 't')\n"
 
 #: src/textview.c:820
 msgid "     - To open with an external program, select "
@@ -10329,9 +10327,8 @@ msgid "'Open'"
 msgstr "'Άνοιγμα'"
 
 #: src/textview.c:822
-#, fuzzy
 msgid " (Shortcut key: 'l')\n"
-msgstr "Πλή_κτρο συντόμευσης"
+msgstr "(πλήκτρο συντόμευσης: 'l')\n"
 
 #: src/textview.c:823
 msgid "       (alternately double-click, or click the middle "
@@ -10351,7 +10348,7 @@ msgstr "'Άνοιγμα με...'"
 
 #: src/textview.c:827
 msgid " (Shortcut key: 'o')\n"
-msgstr "(Πλήκτρο συντόμευσης: 'μ')\n"
+msgstr "(Πλήκτρο συντόμευσης: 'o')\n"
 
 #: src/textview.c:2144
 #, c-format
@@ -10472,7 +10469,7 @@ msgstr "Εισαγωγή αρχείου"
 #: src/toolbar.c:185
 #: src/toolbar.c:1700
 msgid "Attach file"
-msgstr "Προσάρτηση αρχείου"
+msgstr "Επισύναψη αρχείου"
 
 #: src/toolbar.c:186
 #: src/toolbar.c:1706
@@ -10584,7 +10581,7 @@ msgstr "Εισαγωγή"
 
 #: src/toolbar.c:446
 msgid "Attach"
-msgstr "Προσάρτηση"
+msgstr "Επισύναψη"
 
 #: src/toolbar.c:1496
 msgid "Receive Mail on selected Account"
