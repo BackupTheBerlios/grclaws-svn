@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-06-05 07:15+0100\n"
-"PO-Revision-Date: 2006-06-11 11:10+0200\n"
+"PO-Revision-Date: 2006-06-11 13:51+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -984,9 +984,9 @@ msgid "can't start TLS session\n"
 msgstr "δεν ήταν δυνατό να ξεκινήσει συνεδρία TLS\n"
 
 #: src/common/socket.c:1332
-#, fuzzy, c-format
+#, c-format
 msgid "write on fd%d: %s\n"
-msgstr "Μπιπ σε μήνυμα"
+msgstr "εγγραφή στο fd%d: %s\n"
 
 #: src/common/ssl.c:159
 #, fuzzy
@@ -1937,9 +1937,8 @@ msgid "Edit Person Details"
 msgstr "Επεξεργασία λεπτομερειών"
 
 #: src/editaddress.c:316
-#, fuzzy
 msgid "An Email address must be supplied."
-msgstr "Πρέπει να προσδιοριστεί μια διεύθυνση αλληλογραφίας."
+msgstr "Πρέπει να συμπληρώσετε μια διεύθυνση ηλεκτρονικής αλληλογραφίας."
 
 #: src/editaddress.c:490
 msgid "A Name and Value must be supplied."
@@ -2270,9 +2269,8 @@ msgid "The password to be used when connecting as the \"Bind DN\" user."
 msgstr ""
 
 #: src/editldap.c:758
-#, fuzzy
 msgid "Timeout (secs)"
-msgstr "Λήξη ορίου χρόνου εγγραφής"
+msgstr "Λήξη χρονικού ορίου (δεπτ)"
 
 #: src/editldap.c:773
 #, fuzzy
@@ -3489,9 +3487,8 @@ msgid "Folder with read messages hidden"
 msgstr "Φάκελος με κρυμμένα τα αναγνωσμένα μηνύματα"
 
 #: src/gtk/icon_legend.c:78
-#, fuzzy
 msgid "Folder contains marked emails"
-msgstr "Ο φάκελος δεν έχει σημειωθεί για υποστήριξη χωρίς σύνδεση"
+msgstr "Ο φάκελος περιέχει σημειωμένα μηνύματα"
 
 #: src/gtk/icon_legend.c:110
 msgid "Icon Legend"
@@ -3816,9 +3813,8 @@ msgstr "Εκκαθάριση"
 
 #: src/gtk/quicksearch.c:480
 #: src/summary_search.c:252
-#, fuzzy
 msgid "Edit search criteria"
-msgstr "/_Επεξεργασία/Αναζήτηση στο φάκελο..."
+msgstr "Επεξεργασία κριτηρίων αναζήτησης"
 
 #: src/gtk/quicksearch.c:486
 msgid " Extended Symbols... "
@@ -5981,9 +5977,8 @@ msgstr ""
 
 #: src/messageview.c:567
 #: src/messageview.c:584
-#, fuzzy
 msgid "_Don't Send"
-msgstr "Να μην Αποσταλεί"
+msgstr "Να _μην αποσταλεί"
 
 #: src/messageview.c:567
 #: src/messageview.c:584
@@ -6096,9 +6091,8 @@ msgstr ""
 "Παρακαλώ επιλέξτε ποιόν λογαριασμό θέλετε να χρησιμοποιήσετε για να στείλετε την ειδοποίηση ανάγνωσης:"
 
 #: src/messageview.c:1347
-#, fuzzy
 msgid "_Send Notification"
-msgstr "<b>Βεβαίωση Ανάγνωσης</b>"
+msgstr "Απο_στολή βεβαίωσης"
 
 #: src/messageview.c:1347
 msgid "+_Cancel"
@@ -6463,9 +6457,8 @@ msgid "Equivalent to Dillo's '--fullwindow' option"
 msgstr "Ισοδυναμεί με την επιλογή '--fullwindow' του Dillo"
 
 #: src/plugins/dillo_viewer/dillo_viewer.c:193
-#, fuzzy
 msgid "Dillo HTML Viewer"
-msgstr "Εργοστάσιο προβολής gedit"
+msgstr "Εφαρμογή προβολής HTML Dillo"
 
 #: src/plugins/dillo_viewer/dillo_viewer.c:198
 msgid ""
@@ -7174,7 +7167,7 @@ msgstr "Όριο μεγέθους για λήψη"
 
 #: src/prefs_account.c:1499
 msgid "Messages over this limit will be partially retrieved. When selecting them you will be able to download them fully or delete them."
-msgstr ""
+msgstr "Μηνύματα μεγαλύτερα από αυτό το όριο δεν θα ληφθούν ολόκληρα. Όταν τα επιλέξετε θα μπορέσετε να τα κατεβάσετε πλήρως ή να τα διαγράψετε."
 
 #: src/prefs_account.c:1509
 msgid "KB"
@@ -7509,7 +7502,7 @@ msgstr "Δεν έχει οριστεί η εντολή."
 
 #: src/prefs_actions.c:548
 msgid "Menu name and command are too long."
-msgstr ""
+msgstr "Το όνομα μενού και η εντολή είναι πολύ μεγάλα."
 
 #: src/prefs_actions.c:553
 #, c-format
@@ -8190,9 +8183,8 @@ msgid "Default To: "
 msgstr "Εξορισμού προς: "
 
 #: src/prefs_folder_item.c:551
-#, fuzzy
 msgid "Default To for replies: "
-msgstr "Η προσθήκη της εφαρμογής `%s' απέτυχε."
+msgstr "Εξορισμού 'προς' στις απαντήσεις:"
 
 #: src/prefs_folder_item.c:571
 msgid "Default account: "
@@ -9566,9 +9558,8 @@ msgid "Icon text"
 msgstr "Κείμενο εικονιδίων"
 
 #: src/prefs_toolbar.c:1079
-#, fuzzy
 msgid "Mapped event"
-msgstr "Το γεγονός CTCP"
+msgstr ""
 
 #: src/prefs_wrapping.c:77
 msgid "Auto wrapping"
@@ -9608,9 +9599,8 @@ msgid "[Error decoding BASE64]\n"
 msgstr "[Σφάλμα αποκωδικοποίησης BASE64]\n"
 
 #: src/procmsg.c:885
-#, fuzzy
 msgid "Already trying to send\n"
-msgstr "Αποστολή email στη διεύθυνση '%s'"
+msgstr "Γίνεται ήδη αποστολή\n"
 
 #: src/procmsg.c:1557
 msgid "Could not create temporary file for news sending."
@@ -9676,14 +9666,12 @@ msgid "literal backslash"
 msgstr ""
 
 #: src/quote_fmt.c:63
-#, fuzzy
 msgid "literal question mark"
-msgstr "_Σημείωση ως Ολοκληρωμένο"
+msgstr ""
 
 #: src/quote_fmt.c:64
-#, fuzzy
 msgid "literal pipe"
-msgstr "Διακοπείσα σωλήνωση."
+msgstr ""
 
 #: src/quote_fmt.c:65
 msgid "literal opening curly brace"
@@ -9698,9 +9686,8 @@ msgid "insert file"
 msgstr "εισαγωγή αρχείου"
 
 #: src/quote_fmt.c:69
-#, fuzzy
 msgid "insert program output"
-msgstr "Δείγμα αποτελέσματος προγράμματος, δέσμες ενεργειών"
+msgstr ""
 
 #: src/quote_fmt.c:77
 msgid "Description of symbols"
@@ -10038,18 +10025,16 @@ msgid "/_Print..."
 msgstr "/Ε_κτύπωση..."
 
 #: src/summaryview.c:554
-#, fuzzy
 msgid "Toggle quick search bar"
-msgstr "εναλλαγή μπάρας γρήγορης αναζήτησης"
+msgstr "Εναλλαγή μπάρας γρήγορης αναζήτησης"
 
 #: src/summaryview.c:881
 msgid "Process mark"
 msgstr "Σημείωση προόδου"
 
 #: src/summaryview.c:882
-#, fuzzy
 msgid "Some marks are left. Process them?"
-msgstr "Μερικές σημάνσεις έχουν απομείνει. Να επεξεργαστούν;"
+msgstr "Έχουν απομείνει μερικές σημάνσεις. Να επεξεργαστούν;"
 
 #: src/summaryview.c:937
 #, c-format
@@ -10275,6 +10260,11 @@ msgid ""
 "\n"
 "  Use "
 msgstr ""
+"\n"
+" Αυτό το μήνυμα δε μπορεί να προβληθεί.\n"
+" Αυτό οφείλετε μάλλον σε κάποιο σφάλμα δικτύου.\n"
+"\n"
+"Χρησιμοποιείστε"
 
 #: src/textview.c:789
 msgid "'View Log'"
@@ -10282,7 +10272,7 @@ msgstr "'Εμφάνιση του αρχείου καταγραφών'"
 
 #: src/textview.c:790
 msgid " in the Tools menu for more information."
-msgstr ""
+msgstr "στο μενού Εργαλεία για περισσότερες πληροφορίες."
 
 #: src/textview.c:811
 msgid "  The following can be performed on this part by\n"
@@ -10356,6 +10346,10 @@ msgid ""
 "\n"
 "Open it anyway?"
 msgstr ""
+"Η πραγματική διεύθυνση (%s) είναι διαφορετική από\n"
+"αυτή που φαίνεται ότι είναι (%s).\n"
+"\n"
+"Θέλετε σίγουρα να την ανοίξετε;"
 
 #: src/textview.c:2149
 msgid "Fake URL warning"
@@ -10714,7 +10708,7 @@ msgstr "Παρακαλώ εισάγετε το όνομα και την ηλεκ
 
 #: src/wizard.c:570
 msgid "Please enter your receiving server and username."
-msgstr ""
+msgstr "Παρακαλώ εισάγετε το όνομα χρήστη και τον διακομιστή λήψης."
 
 #: src/wizard.c:580
 msgid "Please enter your username."
@@ -10757,12 +10751,16 @@ msgid ""
 "SMTP username:\n"
 "<span size=\"small\">(empty to use the same as reception)</span>"
 msgstr ""
+"Όνομα χρήστη SMTP:\n"
+"<span size=\"small\">(αφήστε το κενό για να χρησιμοποιηθεί το ίδιο με της λήψης)</span>"
 
 #: src/wizard.c:898
 msgid ""
 "SMTP password:\n"
 "<span size=\"small\">(empty to use the same as reception)</span>"
 msgstr ""
+"Κωδικός SMTP:\n"
+"<span size=\"small\">(αφήστε το κενό για να χρησιμοποιηθεί το ίδιο με της λήψης)</span>"
 
 #: src/wizard.c:925
 #: src/wizard.c:937
