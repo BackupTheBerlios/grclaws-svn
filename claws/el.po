@@ -1,15 +1,15 @@
 # Greek translations of Sylpheed-Claws
-# Copyright (C) 2001,2005 Free Software Foundation, Inc.
+# Copyright (C) 2001,2005,2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Sylpheed-Claws package.
 # Michalis Kabrianis <Michalis@bigfoot.com>, 2001.
-# Stavros Giannouris <stavrosg2002@freemail.gr>, 2005.
+# Stavros Giannouris <stavrosg2002@freemail.gr>, 2005-2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: sylpheed-claws\n"
+"Project-Id-Version: sylpheed-claws 2.3.0\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-06-05 07:15+0100\n"
-"PO-Revision-Date: 2006-06-11 13:51+0200\n"
+"PO-Revision-Date: 2006-06-11 16:13+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -1888,12 +1888,12 @@ msgstr "_Εισαγωγή"
 #: src/compose.c:8860
 #, c-format
 msgid "You are about to reply to %d messages. Opening the windows could take some time. Do you want to continue?"
-msgstr ""
+msgstr "Πρόκειται να απαντήσετε σε %d μηνύματα. Το άνοιγμα των παραθύρων θα κρατήσει λίγο χρόνο. Θέλετε να συνεχίσετε;"
 
 #: src/crash.c:142
 #, c-format
 msgid "Sylpheed-Claws process (%ld) received signal %ld"
-msgstr ""
+msgstr "Το Sylpheed-Claws (διεργασία %ld) δέχτηκε σήμα %ld"
 
 #: src/crash.c:188
 msgid "Sylpheed-Claws has crashed"
@@ -2564,7 +2564,7 @@ msgstr ""
 
 #: src/expldifdlg.c:574
 msgid "Exclude record if no Email Address"
-msgstr ""
+msgstr "Εξαίρεση εγγραφής αν δεν υπάρχει διεύθυνση ηλεκτρονικής αλληλογραφίας"
 
 #: src/expldifdlg.c:581
 msgid "An addressbook may contain entries without Email Addresses. Check this option to ignore these records."
@@ -2585,7 +2585,7 @@ msgstr "Εξαγωγή σε αρχείο mbox"
 
 #: src/export.c:139
 msgid "Locate the folder to export and specify the mbox file."
-msgstr ""
+msgstr "Επιλέξτε το φάκελο που θέλετε να εξάγετε και το αρχείο mbox προορισμού."
 
 #: src/export.c:150
 msgid "Source folder:"
@@ -2598,11 +2598,11 @@ msgstr "Αρχείο mbox:"
 
 #: src/export.c:211
 msgid "Target mbox filename can't be left empty."
-msgstr ""
+msgstr "Το αρχείο mbox προορισμού δε μπορεί να μείνει κενό."
 
 #: src/export.c:216
 msgid "Source folder can't be left empty."
-msgstr ""
+msgstr "Ο πηγαίος φάκελος δεν μπορεί να μείνει κενός."
 
 #: src/export.c:229
 msgid "Can't find the source folder."
@@ -2797,6 +2797,9 @@ msgid ""
 "\n"
 "You probably need to install libetpan and recompile Sylpheed-Claws."
 msgstr ""
+"Έχετε έναν ή περισσότερους λογαριασμούς IMAP. Όμως, αυτή η έκδοση του Sylpheed-Claws δεν ενσωματώνει υποστήριξη για IMAP και οι λογαριασμοί σας έχουν απενεργοποιηθεί.\n"
+"\n"
+"Πιθανόν να χρειάζεται να εγκαταστήσετε το libetpan και να μεταγλωττίσετε ξανά το Sylpheed-Claws."
 
 #: src/folderview.c:956
 #: src/imap.c:3129
@@ -3754,7 +3757,7 @@ msgstr "διάκριση πεζών/κεφαλαίων στην αναζήτησ
 
 #: src/gtk/quicksearch.c:294
 msgid "all filtering expressions are allowed"
-msgstr ""
+msgstr "επιτρέπονται όλες οι εκφράσεις φίλτρων"
 
 #: src/gtk/quicksearch.c:302
 #: src/summary_search.c:299
@@ -4316,7 +4319,7 @@ msgstr "Όνομα αρχείου"
 
 #: src/importldif.c:679
 msgid "The full file specification of the LDIF file to import."
-msgstr ""
+msgstr "Οι πλήρεις προδιαγραφές του αρχείου LDIF που θα εισαχθεί."
 
 #: src/importldif.c:688
 msgid "Select the LDIF file to import."
@@ -4631,9 +4634,9 @@ msgid "Incorporation cancelled\n"
 msgstr "Η ενσωμάτωση ακυρώθηκε\n"
 
 #: src/inc.c:1439
-#, c-format
+#, fuzzy, c-format
 msgid "%s%sYou're working offline. Override for %d minutes?"
-msgstr ""
+msgstr "%s%s Εργάζεστε χωρίς σύνδεση. Να παρακαμφθεί για %d λεπτά;"
 
 #: src/inc.c:1444
 #: src/toolbar.c:2090
@@ -6408,7 +6411,6 @@ msgid "Save infected mail in"
 msgstr "Αποθήκευση μολυσμένων μηνυμάτων στο"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:134
-#, fuzzy
 msgid "Save mail that contains viruses"
 msgstr "Αποθήκευση μηνυμάτων που περιέχουν ιούς"
 
