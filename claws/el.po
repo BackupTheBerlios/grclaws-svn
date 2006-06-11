@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-06-05 07:15+0100\n"
-"PO-Revision-Date: 2006-06-10 22:11+0200\n"
+"PO-Revision-Date: 2006-06-11 11:10+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -2148,7 +2148,7 @@ msgstr "Θα πρέπει να οριστεί ένα όνομα"
 
 #: src/editldap.c:165
 msgid "A Hostname must be supplied for the server."
-msgstr ""
+msgstr "Θα πρέπει να εισάγετε ένα όνομα διακομιστή."
 
 #: src/editldap.c:178
 msgid "At least one LDAP search attribute should be supplied."
@@ -4117,19 +4117,18 @@ msgid "Fetching message..."
 msgstr "Λήψη μηνύματος..."
 
 #: src/imap.c:2844
-#, fuzzy, c-format
+#, c-format
 msgid "iconv cannot convert UTF-7 to %s\n"
-msgstr "Αδυναμία μετατροπής fallback '%s' σε codeset '%s'"
+msgstr "Δεν είναι δυνατή η μετατροπή του UTF-7 σε %s από το iconv\n"
 
 #: src/imap.c:2874
-#, fuzzy, c-format
+#, c-format
 msgid "iconv cannot convert %s to UTF-7\n"
-msgstr "Αδυναμία μετατροπής fallback '%s' σε codeset '%s'"
+msgstr "Δεν είναι δυνατή η μετατροπή του %s σε UTF-7 από το iconv\n"
 
 #: src/imap.c:2918
-#, fuzzy
 msgid "iconv cannot convert UTF-8 to UTF-7\n"
-msgstr "Αδυναμία μετατροπής fallback '%s' σε codeset '%s'"
+msgstr "Δεν είναι δυνατή η μετατροπή του UTF-8 σε UTF-7 από το iconv\n"
 
 #: src/imap.c:3586
 #, c-format
@@ -5761,7 +5760,6 @@ msgstr ""
 "Ίσως κάποια αρχεία να υπάρχουν ήδη, ή δεν έχετε δικαίωμα να γράψετε εκεί. "
 
 #: src/mainwindow.c:2277
-#, fuzzy
 msgid "No posting allowed"
 msgstr "Η αποστολή δεν επιτρέπεται"
 
