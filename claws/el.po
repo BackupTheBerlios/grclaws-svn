@@ -182,7 +182,7 @@ msgstr ""
 
 #: src/action.c:1540
 msgid "Action's user argument"
-msgstr "Παράμετρος χρήστη δράσης"
+msgstr "Παράμετρος δράσης χρήστη"
 
 #: src/addressadd.c:174
 msgid "Add to address book"
