@@ -1509,9 +1509,8 @@ msgid "Followup-To:"
 msgstr "Προς/Από"
 
 #: src/compose.c:2344
-#, fuzzy
 msgid "Quote mark format error."
-msgstr "Εσωτερικό σφάλμα: uid σε μη έγκυρη μορφή: %s"
+msgstr "Σφάλμα μορφοποίησης σημείωσης παράθεσης."
 
 #: src/compose.c:2360
 #, fuzzy
@@ -2741,7 +2740,7 @@ msgstr "Δεν είναι δυνατή η δημιουργία φακέλου '%
 
 #: src/folderview.c:281
 msgid "/Mark all re_ad"
-msgstr "Σήμανση όλων ως _αναγνωσμένα"
+msgstr "Σημείωση όλων ως _αναγνωσμένα"
 
 #: src/folderview.c:282
 msgid "/_Search folder..."
@@ -2786,7 +2785,7 @@ msgstr "Θέτω τις πληροφορίες φακέλων..."
 #: src/folderview.c:721
 #: src/summaryview.c:3235
 msgid "Mark all as read"
-msgstr "Σήμανση όλων ως αναγνωσμένα"
+msgstr "Σημείωση όλων ως αναγνωσμένα"
 
 #: src/folderview.c:722
 #: src/summaryview.c:3236
@@ -3469,7 +3468,7 @@ msgstr "Κρυπτογραφημένο και με συνημμένα"
 
 #: src/gtk/icon_legend.c:72
 msgid "Marked message"
-msgstr "Επισημασμένο μήνυμα"
+msgstr "Σημειωμένο μήνυμα"
 
 #: src/gtk/icon_legend.c:73
 msgid "Locked message"
@@ -3656,9 +3655,8 @@ msgid "messages which contain S in inreplyto header"
 msgstr "μηνύματα που περιέχουν S στην κεφαλίδα απάντηση-σε"
 
 #: src/gtk/quicksearch.c:267
-#, fuzzy
 msgid "messages which are marked with color #"
-msgstr "μηνύματα που έχουν σταλεί στο S"
+msgstr "μηνύματα που έχουν σημειωθεί με χρώμα #"
 
 #: src/gtk/quicksearch.c:268
 msgid "locked messages"
@@ -3722,7 +3720,7 @@ msgstr "μηνύματα που έχουν σταλεί στο S"
 
 #: src/gtk/quicksearch.c:283
 msgid "marked messages"
-msgstr "επισημασμέμα μηνύματα"
+msgstr "σημειωμένα μηνύματα"
 
 #: src/gtk/quicksearch.c:284
 msgid "unread messages"
@@ -4329,12 +4327,12 @@ msgstr "Επιλογή αρχείου LDIF για εισαγωγή."
 
 #: src/importldif.c:725
 msgid "R"
-msgstr "R"
+msgstr "Δ"
 
 #: src/importldif.c:726
 #: src/summaryview.c:483
 msgid "S"
-msgstr "S"
+msgstr "Ε"
 
 #: src/importldif.c:727
 msgid "LDIF Field Name"
@@ -4362,7 +4360,7 @@ msgstr ";;;"
 
 #: src/importldif.c:829
 msgid "Choose the LDIF field that will be renamed or selected for import in the list above. Reserved fields (marked with a tick in the \"R\" column), are automatically imported and cannot be renamed. A single click in the Select (\"S\") column will select the field for import with a tick. A single click anywhere in the row will select that field for rename in the input area below the list. A double click anywhere in the row will also select the field for import."
-msgstr ""
+msgstr "Επιλέξτε το πεδίο LDIF που θα μετονομαστεί ή επιλεγεί για εισαγωγή στην πιο πάνω λίστα. Τα δεσμευμένα πεδία (που είναι σημειωμένα με ένα τικ στη στήλη \"Δ\"), εισάγονται αυτόματα και δε γίνεται να μετονομαστούν. Η επιλογή των πεδίων για εισαγωγή γίνεται με μονό κλικ στη στήλη \"Ε\". Με μονό κλικ οπουδήποτε στη γραμή θα επιλέξει το πεδίο για μετονομασία στην περιοχή εισαγωγής κάτω από τη λίστα. Με διπλό κλίκ οπουδήποτε στη γραμμή θα επιλέξει το πεδίο για εισαγωγή."
 
 #: src/importldif.c:841
 msgid "Select for Import"
@@ -5023,7 +5021,7 @@ msgstr "/_Προβολή/_Ταξινόμηση/κατά Χρ_ωματική τα
 
 #: src/mainwindow.c:534
 msgid "/_View/_Sort/by _mark"
-msgstr "/_Προβολή/_Ταξινόμηση/κατά _σήμανση"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά _σημείωση"
 
 #: src/mainwindow.c:535
 msgid "/_View/_Sort/by _status"
@@ -5116,21 +5114,23 @@ msgstr "/_Προβολή/Μετά_βαση/Επόμενο νέο μήνυμα"
 
 #: src/mainwindow.c:565
 msgid "/_View/_Go to/Previous _marked message"
-msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο _επισημασμένο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο _σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:567
 msgid "/_View/_Go to/Next m_arked message"
-msgstr "/_Προβολή/Μετά_βαση/Επόμενο επισημασμένο μήνυμα"
+msgstr "/_Προβολή/Μετά_βαση/Επόμενο σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:570
+#, fuzzy
 msgid "/_View/_Go to/Previous _labeled message"
 msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο _σημειωμένο μήνυμα"
 
 #: src/mainwindow.c:572
+#, #fuzzy
 msgid "/_View/_Go to/Next la_beled message"
 msgstr "/_Προβολή/Μετά_βαση/Επόμενο σημειωμένο μήνυμα"
 
-#: src/mainwindow.c:575
+#: src/mainwindow.c:575 
 msgid "/_View/_Go to/Other _folder..."
 msgstr "/_Προβολή/Μετά_βαση/Άλλο _φάκελο..."
 
@@ -5484,40 +5484,40 @@ msgstr "/_Μήνυμα/Ακύρωση μηνύματος νέων"
 
 #: src/mainwindow.c:740
 msgid "/_Message/_Mark"
-msgstr "/_Μήνυμα/Σήμανσ_η"
+msgstr "/_Μήνυμα/Σ_ημείωση"
 
 #: src/mainwindow.c:741
 msgid "/_Message/_Mark/_Mark"
-msgstr "/_Μήνυμα/Σήμανσ_η/Σήμανσ_η"
+msgstr "/_Μήνυμα/Σ_ημείωση/Σ_ημείωση"
 
 #: src/mainwindow.c:742
 msgid "/_Message/_Mark/_Unmark"
-msgstr "/_Μήνυμα/Σήμανσ_η/_Αναίρεση σήμανσης"
+msgstr "/_Μήνυμα/Σ_ημείωση/_Αναίρεση σημείωσης"
 
 #: src/mainwindow.c:743
 #: src/mainwindow.c:747
 msgid "/_Message/_Mark/---"
-msgstr "/_Μήνυμα/Σήμανσ_η/---"
+msgstr "/_Μήνυμα/Σ_ημείωση/---"
 
 #: src/mainwindow.c:744
 msgid "/_Message/_Mark/Mark as unr_ead"
-msgstr "/_Μήνυμα/Σήμανσ_η/Ως _μη αναγνωσμένο"
+msgstr "/_Μήνυμα/Σ_ημείωση/Ως _μη αναγνωσμένο"
 
 #: src/mainwindow.c:745
 msgid "/_Message/_Mark/Mark as rea_d"
-msgstr "/_Μήνυμα/Σήμανσ_η/Ως _αναγνωσμένο"
+msgstr "/_Μήνυμα/Σ_ημείωση/Ως _αναγνωσμένο"
 
 #: src/mainwindow.c:746
 msgid "/_Message/_Mark/Mark all _read"
-msgstr "/_Μήνυμα/Σήμανσ_η/Ό_λων ως Αναγνωσμένα"
+msgstr "/_Μήνυμα/Σ_ημείωση/Ό_λων ως αναγνωσμένα"
 
 #: src/mainwindow.c:748
 msgid "/_Message/_Mark/Mark as _spam"
-msgstr "/_Μήνυμα/Σήμανσ_η/_Ανεπιθύμητη αλληλογραφία"
+msgstr "/_Μήνυμα/Σ_ημείωση/_Ανεπιθύμητη αλληλογραφία"
 
 #: src/mainwindow.c:749
 msgid "/_Message/_Mark/Mark as _ham"
-msgstr "/_Μήνυμα/Σήμανσ_η/_Επιθυμητή αλληλογραφία"
+msgstr "/_Μήνυμα/Σ_ημείωση/_Επιθυμητή αλληλογραφία"
 
 #: src/mainwindow.c:750
 msgid "/_Message/Color la_bel"
@@ -6041,23 +6041,23 @@ msgstr ""
 "και έχει διαγραφεί από τον διακομιστή."
 
 #: src/messageview.c:1245
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This message has been partially retrieved;\n"
 "it is %s."
 msgstr ""
-"Αυτό το μήνυμα έχει ληφθεί μερικώς,\n"
-"και έχει διαγραφεί από τον διακομιστή."
+"Αυτό το μήνυμα έχει ληφθεί μερικώς·\n"
+"είναι %s."
 
 #: src/messageview.c:1249
 #: src/messageview.c:1271
 msgid "Mark for download"
-msgstr "Σήμανση για λήψη"
+msgstr "Σημείωση για λήψη"
 
 #: src/messageview.c:1250
 #: src/messageview.c:1262
 msgid "Mark for deletion"
-msgstr "Σήμανση για διαγραφή"
+msgstr "Σημείωση για διαγραφή"
 
 #: src/messageview.c:1255
 #, c-format
@@ -6072,7 +6072,7 @@ msgstr ""
 #: src/messageview.c:1273
 #: src/prefs_filtering_action.c:154
 msgid "Unmark"
-msgstr "Αποσήμανση"
+msgstr "Αποσημείωση"
 
 #: src/messageview.c:1266
 #, c-format
@@ -7396,7 +7396,7 @@ msgstr "Χρήση προσαρμοσμένης εντολής για την σ�
 
 #: src/prefs_account.c:2391
 msgid "Mark cross-posted messages as read and color:"
-msgstr "Σήμανση πολλαπλά σταλμένων μηνυμάτων (cross posts) ως αναγνωσμένα και με χρώμα:"
+msgstr "Σημείωση πολλαπλά σταλμένων μηνυμάτων (cross posts) ως αναγνωσμένα και με χρώμα:"
 
 #: src/prefs_account.c:2438
 msgid "Browse"
@@ -7858,7 +7858,7 @@ msgstr "Αντιγραφή"
 #: src/prefs_filtering_action.c:153
 #: src/prefs_summary_column.c:79
 msgid "Mark"
-msgstr "Σήμανση"
+msgstr "Σημείωση"
 
 #: src/prefs_filtering_action.c:155
 msgid "Lock"
@@ -7870,11 +7870,11 @@ msgstr "Ξεκλείδωμα"
 
 #: src/prefs_filtering_action.c:157
 msgid "Mark as read"
-msgstr "Σήμανση ως αναγνωσμένο"
+msgstr "Σημείωση ως αναγνωσμένο"
 
 #: src/prefs_filtering_action.c:158
 msgid "Mark as unread"
-msgstr "Σήμανση ως μη αναγνωσμένο"
+msgstr "Σημείωση ως μη αναγνωσμένο"
 
 #: src/prefs_filtering_action.c:159
 #: src/toolbar.c:397
@@ -8290,12 +8290,12 @@ msgstr "Κατάσταση Σημαίας"
 #: src/prefs_matcher.c:156
 #, fuzzy
 msgid "New flag"
-msgstr "Κατάσταση Σημαίας"
+msgstr "Νέα σημαία"
 
 #: src/prefs_matcher.c:157
 #, fuzzy
 msgid "Marked flag"
-msgstr "Κατάσταση Σημαίας"
+msgstr "Σημαία σημείωσης"
 
 #: src/prefs_matcher.c:157
 #, fuzzy
@@ -9217,11 +9217,11 @@ msgstr "Αυτόματη εκτέλεση για τη μεταφορά και δ
 
 #: src/prefs_summaries.c:876
 msgid "Messages will be marked until execution if this is turned off"
-msgstr "Τα μηνύματα θα σημανθούν μέχρι την εκτέλεση αν αυτό είναι αποεπιλεγμένο"
+msgstr "Τα μηνύματα θα σημειωθούν μέχρι την εκτέλεση αν αυτό είναι αποεπιλεγμένο"
 
 #: src/prefs_summaries.c:882
 msgid "Confirm before marking all mails in a folder as read"
-msgstr "Επιβεβαίωση πριν την σήμανση των μηνυμάτων σε ένα φάκελο ως αναγνωσμένα"
+msgstr "Επιβεβαίωση πριν την σημείωση των μηνυμάτων σε ένα φάκελο ως αναγνωσμένα"
 
 #: src/prefs_summaries.c:886
 msgid "Always open message when selected"
@@ -9229,7 +9229,7 @@ msgstr "Άνοιγμα επιλεγμένου μηνύματος όταν επι
 
 #: src/prefs_summaries.c:890
 msgid "Only mark message as read when opened in a new window"
-msgstr "Σήμανση ενός μηνύματος ως αναγνωσμένου μόνο όταν ανοιχθεί σε νέο παράθυρο"
+msgstr "Σημείωση ενός μηνύματος ως αναγνωσμένου μόνο όταν ανοιχθεί σε νέο παράθυρο"
 
 #: src/prefs_summaries.c:903
 msgid "When entering a folder"
@@ -9916,57 +9916,57 @@ msgstr "/_Διαγραφή..."
 
 #: src/summaryview.c:432
 msgid "/_Mark"
-msgstr "/Σή_μανση"
+msgstr "/Ση_μείωση"
 
 #: src/summaryview.c:433
 msgid "/_Mark/_Mark"
-msgstr "/Σή_μανση/Σή_μανση"
+msgstr "/Ση_μείωση/Ση_μείωση"
 
 #: src/summaryview.c:434
 msgid "/_Mark/_Unmark"
-msgstr "/Σή_μανση/_Αναίρεση σήμανσης"
+msgstr "/Ση_μείωση/_Αναίρεση σημείωσης"
 
 #: src/summaryview.c:435
 #: src/summaryview.c:441
 #: src/summaryview.c:444
 msgid "/_Mark/---"
-msgstr "/Σή_μανση/---"
+msgstr "/Ση_μείωση/---"
 
 #: src/summaryview.c:436
 msgid "/_Mark/Mark as unr_ead"
-msgstr "/Σή_μανση/_Ως μη αναγνωσμένο"
+msgstr "/Ση_μείωση/_Ως μη αναγνωσμένο"
 
 #: src/summaryview.c:437
 msgid "/_Mark/Mark as rea_d"
-msgstr "/Σή_μανση/Ως αναγ_νωσμένο"
+msgstr "/Ση_μείωση/Ως αναγ_νωσμένο"
 
 #: src/summaryview.c:438
 msgid "/_Mark/Mark all read"
-msgstr "/Σή_μανση/Όλων ως αναγνωσμένα"
+msgstr "/Ση_μείωση/Όλων ως αναγνωσμένα"
 
 #: src/summaryview.c:439
 msgid "/_Mark/Ignore thread"
-msgstr "/Σή_μανση/Αγνόηση νήματος"
+msgstr "/Ση_μείωση/Αγνόηση νήματος"
 
 #: src/summaryview.c:440
 msgid "/_Mark/Unignore thread"
-msgstr "/Σή_μανση/Ακύρωση αγνόησης νήματος"
+msgstr "/Ση_μείωση/Ακύρωση αγνόησης νήματος"
 
 #: src/summaryview.c:442
 msgid "/_Mark/Mark as _spam"
-msgstr "/Σή_μανση/Ανε_πιθύμητη αλληλογραφία"
+msgstr "/Ση_μείωση/Ανε_πιθύμητη αλληλογραφία"
 
 #: src/summaryview.c:443
 msgid "/_Mark/Mark as _ham"
-msgstr "/Σή_μανση/_Επιθυμητή αλληλογραφία"
+msgstr "/Ση_μείωση/_Επιθυμητή αλληλογραφία"
 
 #: src/summaryview.c:445
 msgid "/_Mark/Lock"
-msgstr "/Σή_μανση/Κλείδωμα"
+msgstr "/Ση_μείωση/Κλείδωμα"
 
 #: src/summaryview.c:446
 msgid "/_Mark/Unlock"
-msgstr "/Σή_μανση/Ξεκλείδωμα"
+msgstr "/Ση_μείωση/Ξεκλείδωμα"
 
 #: src/summaryview.c:447
 msgid "/Color la_bel"
@@ -10038,7 +10038,7 @@ msgstr "Σημείωση προόδου"
 
 #: src/summaryview.c:882
 msgid "Some marks are left. Process them?"
-msgstr "Έχουν απομείνει μερικές σημάνσεις. Να επεξεργαστούν;"
+msgstr "Έχουν απομείνει μερικές σημειώσεις. Να επεξεργαστούν;"
 
 #: src/summaryview.c:937
 #, c-format
