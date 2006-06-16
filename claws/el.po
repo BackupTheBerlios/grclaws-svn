@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws 2.3.0\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-06-05 07:15+0100\n"
-"PO-Revision-Date: 2006-06-15 23:06+0200\n"
+"PO-Revision-Date: 2006-06-17 02:05+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: src/action.c:1531
 msgid "Action's hidden user argument"
-msgstr ""
+msgstr "Το κρυμμένο όρισμα της δράσης"
 
 #: src/action.c:1535
 #, c-format
@@ -625,7 +625,7 @@ msgstr "Διαγραφή"
 #: src/addressbook.c:2557
 #, c-format
 msgid "Do you want to delete '%s' ?If you delete the folder only, the addresses it contains will be moved into the parent folder."
-msgstr ""
+msgstr "Θέλετε να διαγράψετε το '%s' ; Αν διαγράψετε μόνο το φάκελο, οι διευθύνσεις που περιέχει θα μετακινηθούν στον γονικό φάκελο."
 
 #: src/addressbook.c:2560
 #: src/imap_gtk.c:283
@@ -650,6 +650,8 @@ msgid ""
 "Do you want to delete '%s'?\n"
 "The addresses it contains will be lost."
 msgstr ""
+"Θέλετε να διαγράψετε το '%s' ;\n"
+"Οι διευθύνσεις που περιέχει θα χαθούν."
 
 #: src/addressbook.c:3382
 msgid "New user, could not save index file."
@@ -1512,9 +1514,8 @@ msgid "Quote mark format error."
 msgstr "Σφάλμα μορφοποίησης σημείωσης παράθεσης."
 
 #: src/compose.c:2360
-#, fuzzy
 msgid "Message reply/forward format error."
-msgstr "Προώθηση του επιλεγμένου μηνύματος με αναφορά σαν απάντηση"
+msgstr "Σφάλμα στην απάντηση/προώθηση του μηνύματος."
 
 #: src/compose.c:2905
 #, c-format
@@ -1749,30 +1750,20 @@ msgid "The privacy system '%s' cannot be loaded. You will not be able to sign or
 msgstr ""
 
 #: src/compose.c:6547
-#, fuzzy
 msgid "Message To format error."
-msgstr "Σφάλμα αποθήκευσης επαφών σε {0}: {1} "
+msgstr "Σφάλμα στη μορφή του Προς του μηνύματος."
 
 #: src/compose.c:6560
-#, fuzzy
 msgid "Message Cc format error."
-msgstr ""
-"\n"
-"\n"
-"Το τελευταίο μήνυμα σφάλματος ήταν:\n"
+msgstr "Σφάλμα στη μορφή της Κοινοποίησης του μηνύματος."
 
 #: src/compose.c:6573
-#, fuzzy
 msgid "Message Bcc format error."
-msgstr ""
-"\n"
-"\n"
-"Το τελευταίο μήνυμα σφάλματος ήταν:\n"
+msgstr "Σφάλμα στη μορφή της Κρυφής κοινοποίησης του μηνύματος."
 
 #: src/compose.c:6587
-#, fuzzy
 msgid "Message subject format error."
-msgstr "Προεπιλεγμένο θέμα για το μήνυμα."
+msgstr "Σφάλμα στη μορφή του θέματος του μηνύματος."
 
 #: src/compose.c:6806
 msgid "Invalid MIME type."
@@ -2321,7 +2312,7 @@ msgstr "Προσθήκη νέας εγγραφής vCard"
 
 #: src/exphtmldlg.c:112
 msgid "Please specify output directory and file to create."
-msgstr ""
+msgstr "Παρακαλώ εισάγετε τον κατάλογο και αρχείο εξόδου που θα δημιουργηθούν."
 
 #: src/exphtmldlg.c:115
 msgid "Select stylesheet and formatting."
@@ -3000,7 +2991,7 @@ msgid ""
 "Operating System: %s %s (%s)"
 msgstr ""
 "GTK+ %d.%d.%d / GLib %d.%d.%d\n"
-"Locale: %s (σύνολο χαρακτήρων: %s)\n"
+"Ρύθμιση τοπικότητας: %s (σύνολο χαρακτήρων: %s)\n"
 "Λειτουργικό σύστημα: %s %s (%s)"
 
 #: src/gtk/about.c:170
@@ -3011,7 +3002,7 @@ msgid ""
 "Operating System: %s"
 msgstr ""
 "GTK+ %d.%d.%d / GLib %d.%d.%d\n"
-"Locale: %s (σύνολο χαρακτήρων: %s)\n"
+"Ρύθμιση τοπικότητας: %s (σύνολο χαρακτήρων: %s)\n"
 "Λειτουργικό σύστημα: %s"
 
 #: src/gtk/about.c:179
@@ -3022,7 +3013,7 @@ msgid ""
 "Operating System: unknown"
 msgstr ""
 "GTK+ %d.%d.%d / GLib %d.%d.%d\n"
-"Locale: %s (σύνολο χαρακτήρων: %s)\n"
+"Ρύθμιση τοπικότητας: %s (σύνολο χαρακτήρων: %s)\n"
 "Λειτουργικό σύστημα: άγνωστο"
 
 #: src/gtk/about.c:194
@@ -3031,7 +3022,7 @@ msgid ""
 "Compiled-in features:\n"
 "%s"
 msgstr ""
-"Δυνατότητες που περιελήφθησαν:\n"
+"Δυνατότητες που περιλήφθηκαν:\n"
 "%s"
 
 #: src/gtk/about.c:237
@@ -3311,7 +3302,6 @@ msgid "Header and Footer Font"
 msgstr "Γραμματοσειρά κεφαλίδας και υποσέλιδου"
 
 #: src/gtk/gtksourceprintjob.c:369
-#, fuzzy
 msgid "GnomeFont name to use for the header and footer (deprecated)"
 msgstr "Όνομα γραμματοσειράς Gnome για χρήση στις κεφαλίδες και τα υποσέλιδα (σε αχρηστία)"
 
@@ -3881,6 +3871,8 @@ msgid ""
 "Certificate for %s is unknown.\n"
 "Do you want to accept it?"
 msgstr ""
+"Το πιστοποιητικό για το %s είναι άγνωστο.\n"
+"Θέλετε να το δεχτείτε;"
 
 #: src/gtk/sslcertwindow.c:284
 #: src/gtk/sslcertwindow.c:324
@@ -4637,9 +4629,8 @@ msgstr "%s%s Εργάζεστε χωρίς σύνδεση. Να παρακαμφ
 
 #: src/inc.c:1444
 #: src/toolbar.c:2090
-#, fuzzy
 msgid "Offline warning"
-msgstr "Προειδοποίηση Ασφαλείας"
+msgstr "Προειδοποίηση εργασίας δίχως σύνδεση"
 
 #: src/inc.c:1446
 msgid "On_ly once"
@@ -6484,13 +6475,13 @@ msgid ""
 "\n"
 "%.*s\n"
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">%sΠαρακαλώ εισάγετε την κωδική φράση για το:</span>\n"
+"<span weight=\"bold\" size=\"larger\">%sΠαρακαλώ εισάγετε τη φράση πρόσβασης για το:</span>\n"
 "\n"
 "%.*s\n"
 
 #: src/plugins/pgpcore/passphrase.c:277
 msgid "Bad passphrase.\n"
-msgstr "Λάθος κωδική φράση.\n"
+msgstr "Λάθος φράση πρόσβασης.\n"
 
 #: src/plugins/pgpcore/prefs_gpg.c:92
 msgid "Automatically check signatures"
@@ -6498,7 +6489,7 @@ msgstr "Αυτόματος έλεγχος υπογραφών"
 
 #: src/plugins/pgpcore/prefs_gpg.c:102
 msgid "Store passphrase in memory"
-msgstr "Αποθήκευση κωδικής φράσης στη μνήμη"
+msgstr "Αποθήκευση φράσης πρόσβασης στη μνήμη"
 
 #: src/plugins/pgpcore/prefs_gpg.c:108
 msgid "Expire after"
@@ -6506,7 +6497,7 @@ msgstr "Λήγει μετά"
 
 #: src/plugins/pgpcore/prefs_gpg.c:123
 msgid "Setting to '0' will store the passphrase for the whole session"
-msgstr ""
+msgstr "Ορίζοντας το σε '0' η φράση πρόσβασης θα αποθηκεύεται για όλη τη σύνοδο"
 
 #: src/plugins/pgpcore/prefs_gpg.c:128
 #: src/prefs_receive.c:170
@@ -6515,7 +6506,7 @@ msgstr "λεπτό(ά)"
 
 #: src/plugins/pgpcore/prefs_gpg.c:138
 msgid "Grab input while entering a passphrase"
-msgstr "Grab input while entering a passphrase"
+msgstr ""
 
 #: src/plugins/pgpcore/prefs_gpg.c:145
 msgid "Display warning on startup if GnuPG doesn't work"
@@ -9618,7 +9609,7 @@ msgstr "Συνέβη σφάλμα κατά την αποστολή του μην
 
 #: src/quote_fmt.c:40
 msgid "customized date format (see man strftime)"
-msgstr ""
+msgstr "προσαρμοσμένη μορφή ημερομηνίας (δείτε το man strftime)"
 
 #: src/quote_fmt.c:43
 msgid "full name of sender"
