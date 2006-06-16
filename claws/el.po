@@ -6462,7 +6462,7 @@ msgstr ""
 #: src/plugins/pgpcore/passphrase.c:99
 #: src/plugins/pgpcore/prefs_gpg.c:94
 msgid "Passphrase"
-msgstr "Κωδική φράση"
+msgstr "Φράση πρόσβασης"
 
 #: src/plugins/pgpcore/passphrase.c:260
 msgid "[no user id]"
