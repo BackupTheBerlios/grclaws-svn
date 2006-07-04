@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws 2.3.0\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-07-03 20:52+0300\n"
-"PO-Revision-Date: 2006-07-03 22:49+0200\n"
+"PO-Revision-Date: 2006-07-04 18:32+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -1744,7 +1744,7 @@ msgstr ""
 #: src/compose.c:6198
 #, c-format
 msgid "From: <i>%s</i>"
-msgstr ""
+msgstr "Από: <i>%s</i>"
 
 #: src/compose.c:6229
 msgid "Account to use for this email"
@@ -1897,7 +1897,7 @@ msgstr "_Εισαγωγή"
 
 #: src/compose.c:8535
 msgid "Insert or attach?"
-msgstr ""
+msgstr "Εισαγωγή ή επισύναψη;"
 
 #: src/compose.c:8536
 msgid "Do you want to insert the contents of the file(s) into the message body, or attach it to the email?"
@@ -2495,7 +2495,7 @@ msgstr "Μορφοποίηση"
 
 #: src/expldifdlg.c:111
 msgid "Please specify output directory and LDIF filename to create."
-msgstr ""
+msgstr "Παρακαλώ εισάγετε τον κατάλογο και αρχείο LDIF προς δημιουργία."
 
 #: src/expldifdlg.c:114
 msgid "Specify parameters to format distinguished name."
@@ -2795,9 +2795,8 @@ msgid "/------queuesep"
 msgstr "/------"
 
 #: src/folderview.c:298
-#, fuzzy
 msgid "/Send _queue..."
-msgstr "Αποστολή μηνύματος..."
+msgstr "/Ου_ρά αποστολής..."
 
 #: src/folderview.c:441
 #: src/prefs_actions.c:440
@@ -2932,18 +2931,19 @@ msgstr "_Αποστολή"
 
 #: src/folderview.c:2302
 #: src/toolbar.c:2131
-#, fuzzy
 msgid "Some errors occurred while sending queued messages."
-msgstr "Συνέβη σφάλμα κατά την αποστολή του μηνύματος."
+msgstr "Συνέβησαν σφάλματα κατά την αποστολή των μηνυμάτων στην ουρά."
 
 #: src/folderview.c:2305
 #: src/main.c:1242
 #: src/toolbar.c:2134
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Some errors occurred while sending queued messages:\n"
 "%s"
-msgstr "Συνέβη σφάλμα κατά την αποστολή του μηνύματος."
+msgstr ""
+"Συνέβησαν σφάλματα κατά την αποστολή των μηνυμάτων στην ουρά:\n"
+"%s"
 
 #: src/folderview.c:2372
 #, c-format
@@ -3371,9 +3371,8 @@ msgid "Print Line Numbers"
 msgstr "Εκτύπωση αριθμών γραμμής"
 
 #: src/gtk/gtksourceprintjob.c:345
-#, fuzzy
 msgid "Interval of printed line numbers (0 means no numbers)"
-msgstr "Διάστημα των εκτυπωμένων αριθμών γραμμής (0 σημαίνει όχι αριθμοί)"
+msgstr "Διάστημα των εκτυπωμένων αριθμών γραμμής (με 0 δεν εκτυπώνονται αριθμοί)"
 
 #: src/gtk/gtksourceprintjob.c:352
 msgid "Print Header"
@@ -4351,6 +4350,8 @@ msgid ""
 "Destination folder is not set.\n"
 "Import mbox file to the inbox folder?"
 msgstr ""
+"Δεν έχει οριστεί φάκελος προορισμού.\n"
+"Να γίνει η εισαγωγή του αρχείου mbox στα εισερχόμενα;"
 
 #: src/import.c:237
 msgid "Can't find the destination folder."
@@ -4712,9 +4713,9 @@ msgid "Session timed out."
 msgstr "Λήξη χρόνου σύνδεσης"
 
 #: src/inc.c:1167
-#, fuzzy, c-format
+#, c-format
 msgid "Connection to %s:%d timed out."
-msgstr "Η ενεργοποίηση απλουστευμένου ονόματος ξεπέρασε το καθορισμένο χρόνο"
+msgstr "Η σύνδεση στο %s:%d ξεπέρασε το καθορισμένο χρόνο."
 
 #: src/inc.c:1202
 msgid "Incorporation cancelled\n"
@@ -6801,7 +6802,7 @@ msgstr "δεν έχει αρχικοποιηθεί\n"
 #: src/plugins/pgpcore/sgpgme.c:480
 #, c-format
 msgid "Private key not found (%s)"
-msgstr ""
+msgstr "Δεν βρέθηκε το προσωπικό κλειδί (%s)"
 
 #: src/plugins/pgpcore/sgpgme.c:488
 msgid "Private key specification is ambiguous"
@@ -7976,7 +7977,7 @@ msgstr ""
 
 #: src/prefs_compose_writing.c:190
 msgid "Ask whether to insert or attach"
-msgstr ""
+msgstr "Να γίνεται ερώτηση για εισαγωγή ή επισύναψη"
 
 #: src/prefs_compose_writing.c:191
 msgid "Always insert"
@@ -8025,31 +8026,31 @@ msgstr "Σύνθεση Email"
 
 #: src/prefs_customheader.c:564
 msgid "Choose an xbm file"
-msgstr ""
+msgstr "Επιλέξτε ένα αρχείο xbm"
 
 #: src/prefs_customheader.c:566
 msgid "Choose a text file"
-msgstr ""
+msgstr "Επιλέξτε ένα αρχείο κειμένου"
 
 #: src/prefs_customheader.c:579
 msgid "This file isn't an image."
-msgstr ""
+msgstr "Αυτό το αρχείο δεν είναι εικόνα."
 
 #: src/prefs_customheader.c:584
 msgid "The chosen image isn't the correct size (48x48)."
-msgstr ""
+msgstr "Η επιλεγμένη εικόνα δεν είναι στο σωστό μέγεθος (48x48)"
 
 #: src/prefs_customheader.c:590
 msgid "The image is too big; it must be maximum 725 bytes."
-msgstr ""
+msgstr "Η εικόνα είναι πολύ μεγάλη· πρέπει να είναι το πολύ 725 bytes."
 
 #: src/prefs_customheader.c:595
 msgid "The image isn't in the correct format (PNG)."
-msgstr ""
+msgstr "Η επιλεγμένη εικόνα δεν είναι στη σωστή μορφή (PNG)."
 
 #: src/prefs_customheader.c:604
 msgid "The image isn't in the correct format (XBM)."
-msgstr ""
+msgstr "Η επιλεγμένη εικόνα δεν είναι στη σωστή μορφή (XBM)."
 
 #: src/prefs_customheader.c:613
 msgid "Couldn't call `compface`. Make sure it's in your $PATH."
@@ -8057,7 +8058,7 @@ msgstr ""
 
 #: src/prefs_customheader.c:664
 msgid "This file contains newlines."
-msgstr ""
+msgstr "Το αρχείο περιέχει αλλαγές γραμμών."
 
 #: src/prefs_customheader.c:694
 msgid "Delete header"
@@ -8523,7 +8524,7 @@ msgstr "Μήνυμα"
 
 #: src/prefs_fonts.c:110
 msgid "Use different font for printing"
-msgstr ""
+msgstr "Χρήση διαφορετικής γραμματοσειράς για εκτύπωση"
 
 #: src/prefs_fonts.c:119
 #, fuzzy
