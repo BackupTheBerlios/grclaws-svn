@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sylpheed-claws 2.3.0\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
-"POT-Creation-Date: 2006-07-03 20:52+0300\n"
-"PO-Revision-Date: 2006-07-04 18:32+0200\n"
+"POT-Creation-Date: 2006-07-06 18:16+0300\n"
+"PO-Revision-Date: 2006-07-06 19:05+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/account.c:376
+#: src/account.c:377
 msgid ""
 "Some composing windows are open.\n"
 "Please close all the composing windows before editing the accounts."
@@ -25,15 +25,15 @@ msgstr ""
 "Μερικά παράθυρα σύνθεσης μηνύματος είναι ανοιχτά.\n"
 "Παρακαλώ κλείστε όλα τα παράθυρα σύνθεσης μηνύματος πριν επεξεργαστείτε τους λογαριασμούς."
 
-#: src/account.c:423
+#: src/account.c:424
 msgid "Can't create folder."
 msgstr "Δεν είναι δυνατή η δημιουργία φακέλου."
 
-#: src/account.c:679
+#: src/account.c:681
 msgid "Edit accounts"
 msgstr "Επεξεργασία λογαριασμών"
 
-#: src/account.c:697
+#: src/account.c:699
 msgid ""
 "New messages will be checked in this order. Check the boxes\n"
 "on the 'G' column to enable message retrieval by 'Get Mail'."
@@ -41,37 +41,37 @@ msgstr ""
 "Ο έλεγχος για νέα μηνύματα θα γίνει με αυτή τη σειρά. Επιλέξτε τα κουτάκια\n"
 "στη στήλη 'G' για να ενεργοποιήσετε τη λήψη μηνυμάτων με την εντολή 'Λήψη όλων'."
 
-#: src/account.c:772
+#: src/account.c:774
 msgid " _Set as default account "
 msgstr "Ορι_σμός ως εξορισμού λογαριασμού"
 
-#: src/account.c:862
+#: src/account.c:868
 msgid "Accounts with remote folders cannot be copied."
 msgstr "Οι λογαριασμοί με απομακρυσμένους φακέλους δεν μπορούν να αντιγραφούν."
 
-#: src/account.c:868
+#: src/account.c:874
 #, c-format
 msgid "Copy of %s"
 msgstr "Αντίγραφο του %s"
 
-#: src/account.c:1006
+#: src/account.c:1012
 #, c-format
 msgid "Do you really want to delete the account '%s'?"
 msgstr "Θέλετε σίγουρα να διαγράψετε το λογαριασμό '%s' ;"
 
-#: src/account.c:1008
+#: src/account.c:1014
 msgid "(Untitled)"
 msgstr "(Χωρίς τίτλο)"
 
-#: src/account.c:1009
+#: src/account.c:1015
 msgid "Delete account"
 msgstr "Διαγραφή λογαριασμού"
 
-#: src/account.c:1450
+#: src/account.c:1456
 #: src/addressadd.c:196
-#: src/addressbook.c:117
-#: src/compose.c:5515
-#: src/compose.c:5806
+#: src/addressbook.c:118
+#: src/compose.c:5516
+#: src/compose.c:5807
 #: src/editaddress.c:953
 #: src/editaddress.c:1002
 #: src/editbook.c:175
@@ -83,17 +83,17 @@ msgstr "Διαγραφή λογαριασμού"
 #: src/importpine.c:226
 #: src/mimeview.c:201
 #: src/plugins/pgpcore/select-keys.c:338
-#: src/prefs_filtering.c:1317
+#: src/prefs_filtering.c:1342
 msgid "Name"
 msgstr "Όνομα"
 
-#: src/account.c:1457
+#: src/account.c:1463
 #: src/prefs_account.c:1165
 #: src/prefs_account.c:2684
 msgid "Protocol"
 msgstr "Πρωτόκολλο"
 
-#: src/account.c:1464
+#: src/account.c:1470
 #: src/ssl_manager.c:99
 msgid "Server"
 msgstr "Διακομιστής"
@@ -199,7 +199,7 @@ msgid "Address"
 msgstr "Διεύθυνση"
 
 #: src/addressadd.c:218
-#: src/addressbook.c:119
+#: src/addressbook.c:120
 #: src/editaddress.c:761
 #: src/editaddress.c:825
 #: src/editgroup.c:281
@@ -210,7 +210,7 @@ msgstr "Σχόλια"
 msgid "Select Address Book Folder"
 msgstr "Επιλογή φακέλου από το Ευρετήριο διευθύνσεων"
 
-#: src/addressbook.c:118
+#: src/addressbook.c:119
 #: src/editaddress.c:759
 #: src/editaddress.c:807
 #: src/editgroup.c:280
@@ -221,170 +221,170 @@ msgstr "Επιλογή φακέλου από το Ευρετήριο διευθ�
 msgid "Email Address"
 msgstr "Διεύθυνση αλληλογραφίας"
 
-#: src/addressbook.c:401
+#: src/addressbook.c:402
 msgid "/_Book"
 msgstr "/_Ευρετήριο"
 
-#: src/addressbook.c:402
+#: src/addressbook.c:403
 msgid "/_Book/New _Book"
 msgstr "/_Ευρετήριο/Νέο _ευρετήριο"
 
-#: src/addressbook.c:403
+#: src/addressbook.c:404
 msgid "/_Book/New _Folder"
 msgstr "/_Ευρετήριο/Νέος _φάκελος"
 
-#: src/addressbook.c:404
+#: src/addressbook.c:405
 msgid "/_Book/New _vCard"
 msgstr "/_Ευρετήριο/Νέα _vCard"
 
-#: src/addressbook.c:406
+#: src/addressbook.c:407
 msgid "/_Book/New _JPilot"
 msgstr "/_Ευρετήριο/Νέο _JPilot"
 
-#: src/addressbook.c:409
+#: src/addressbook.c:410
 msgid "/_Book/New LDAP _Server"
 msgstr "/_Ευρετήριο/Νέος διακομι_στής LDAP"
 
-#: src/addressbook.c:411
-#: src/addressbook.c:414
+#: src/addressbook.c:412
+#: src/addressbook.c:415
 msgid "/_Book/---"
 msgstr "/_Ευρετήριο/---"
 
-#: src/addressbook.c:412
+#: src/addressbook.c:413
 msgid "/_Book/_Edit book"
 msgstr "/_Ευρετήριο/_Επεξεργασία ευρετήριου"
 
-#: src/addressbook.c:413
+#: src/addressbook.c:414
 msgid "/_Book/_Delete book"
 msgstr "/_Ευρετήριο/_Διαγραφή ευρετήριου"
 
-#: src/addressbook.c:415
+#: src/addressbook.c:416
 msgid "/_Book/_Save"
 msgstr "/_Ευρετήριο/_Αποθήκευση"
 
-#: src/addressbook.c:416
+#: src/addressbook.c:417
 msgid "/_Book/_Close"
 msgstr "/_Ευρετήριο/_Κλείσιμο"
 
-#: src/addressbook.c:417
+#: src/addressbook.c:418
 msgid "/_Address"
 msgstr "/_Διεύθυνση"
 
-#: src/addressbook.c:418
+#: src/addressbook.c:419
 msgid "/_Address/_Select all"
 msgstr "/_Διεύθυνση/Επιλ_ογή όλων"
 
-#: src/addressbook.c:419
-#: src/addressbook.c:423
-#: src/addressbook.c:426
-#: src/addressbook.c:429
+#: src/addressbook.c:420
+#: src/addressbook.c:424
+#: src/addressbook.c:427
+#: src/addressbook.c:430
 msgid "/_Address/---"
 msgstr "/_Διεύθυνση/---"
 
-#: src/addressbook.c:420
+#: src/addressbook.c:421
 msgid "/_Address/C_ut"
 msgstr "/_Διεύθυνση/_Αποκοπή"
 
-#: src/addressbook.c:421
+#: src/addressbook.c:422
 msgid "/_Address/_Copy"
 msgstr "/_Διεύθυνση/Α_ντιγραφή"
 
-#: src/addressbook.c:422
+#: src/addressbook.c:423
 msgid "/_Address/_Paste"
 msgstr "/_Διεύθυνση/Ε_πικόλληση"
 
-#: src/addressbook.c:424
+#: src/addressbook.c:425
 msgid "/_Address/_Edit"
 msgstr "/_Διεύθυνση/_Επεξεργασία"
 
-#: src/addressbook.c:425
+#: src/addressbook.c:426
 msgid "/_Address/_Delete"
 msgstr "/_Διεύθυνση/_Διαγραφή"
 
-#: src/addressbook.c:427
+#: src/addressbook.c:428
 msgid "/_Address/New _Address"
 msgstr "/_Διεύθυνση/Νέα δ_ιεύθυνση"
 
-#: src/addressbook.c:428
+#: src/addressbook.c:429
 msgid "/_Address/New _Group"
 msgstr "/_Διεύθυνση/Νέα ο_μάδα"
 
-#: src/addressbook.c:430
+#: src/addressbook.c:431
 msgid "/_Address/_Mail To"
 msgstr "/_Διεύθυνση/Αποστολή _μηνύματος"
 
-#: src/addressbook.c:431
+#: src/addressbook.c:432
 #: src/compose.c:756
-#: src/mainwindow.c:758
+#: src/mainwindow.c:759
 #: src/messageview.c:300
 msgid "/_Tools"
 msgstr "/_Εργαλεία"
 
-#: src/addressbook.c:432
+#: src/addressbook.c:433
 msgid "/_Tools/Import _LDIF file..."
 msgstr "/_Εργαλεία/Εισαγωγή αρχείου _LDIF..."
 
-#: src/addressbook.c:433
+#: src/addressbook.c:434
 msgid "/_Tools/Import M_utt file..."
 msgstr "/_Εργαλεία/Εισαγωγή αρχείου M_utt..."
 
-#: src/addressbook.c:434
+#: src/addressbook.c:435
 msgid "/_Tools/Import _Pine file..."
 msgstr "/_Εργαλεία/Εισαγωγή αρχείου _Pine..."
 
-#: src/addressbook.c:435
-#: src/mainwindow.c:767
-#: src/mainwindow.c:790
-#: src/mainwindow.c:792
-#: src/mainwindow.c:801
-#: src/mainwindow.c:804
-#: src/mainwindow.c:808
+#: src/addressbook.c:436
+#: src/mainwindow.c:768
+#: src/mainwindow.c:791
+#: src/mainwindow.c:793
+#: src/mainwindow.c:802
+#: src/mainwindow.c:805
+#: src/mainwindow.c:809
 #: src/messageview.c:304
 #: src/messageview.c:325
 msgid "/_Tools/---"
 msgstr "/_Εργαλεία/---"
 
-#: src/addressbook.c:436
+#: src/addressbook.c:437
 msgid "/_Tools/Export _HTML..."
 msgstr "/_Εργαλεία/Εξαγωγή αρχείου _HTML..."
 
-#: src/addressbook.c:437
+#: src/addressbook.c:438
 msgid "/_Tools/Export LDI_F..."
 msgstr "/_Εργαλεία/Εξαγωγή αρχείου LDI_F..."
 
-#: src/addressbook.c:438
+#: src/addressbook.c:439
 #: src/compose.c:761
-#: src/mainwindow.c:833
+#: src/mainwindow.c:834
 #: src/messageview.c:328
 msgid "/_Help"
 msgstr "/_Βοήθεια"
 
-#: src/addressbook.c:439
+#: src/addressbook.c:440
 #: src/compose.c:762
-#: src/mainwindow.c:839
+#: src/mainwindow.c:840
 #: src/messageview.c:329
 msgid "/_Help/_About"
 msgstr "/_Βοήθεια/_Σχετικά"
 
-#: src/addressbook.c:444
-#: src/addressbook.c:458
+#: src/addressbook.c:445
+#: src/addressbook.c:459
 #: src/compose.c:535
-#: src/mainwindow.c:491
+#: src/mainwindow.c:492
 #: src/messageview.c:164
 msgid "/_Edit"
 msgstr "/_Επεξεργασία"
 
-#: src/addressbook.c:445
-#: src/addressbook.c:459
+#: src/addressbook.c:446
+#: src/addressbook.c:460
 msgid "/_Delete"
 msgstr "/_Διαγραφή"
 
-#: src/addressbook.c:446
-#: src/addressbook.c:448
-#: src/addressbook.c:457
-#: src/addressbook.c:460
-#: src/addressbook.c:463
-#: src/addressbook.c:467
+#: src/addressbook.c:447
+#: src/addressbook.c:449
+#: src/addressbook.c:458
+#: src/addressbook.c:461
+#: src/addressbook.c:464
+#: src/addressbook.c:468
 #: src/compose.c:514
 #: src/imap_gtk.c:59
 #: src/imap_gtk.c:62
@@ -398,55 +398,55 @@ msgstr "/_Διαγραφή"
 #: src/plugins/trayicon/trayicon.c:94
 #: src/plugins/trayicon/trayicon.c:97
 #: src/plugins/trayicon/trayicon.c:99
-#: src/summaryview.c:422
-#: src/summaryview.c:426
-#: src/summaryview.c:431
-#: src/summaryview.c:449
-#: src/summaryview.c:470
-#: src/summaryview.c:476
+#: src/summaryview.c:423
+#: src/summaryview.c:427
+#: src/summaryview.c:432
+#: src/summaryview.c:450
+#: src/summaryview.c:471
+#: src/summaryview.c:477
 msgid "/---"
 msgstr "/---"
 
-#: src/addressbook.c:447
+#: src/addressbook.c:448
 msgid "/New _Folder"
 msgstr "/Νέος _φάκελος"
 
-#: src/addressbook.c:449
-#: src/addressbook.c:464
+#: src/addressbook.c:450
+#: src/addressbook.c:465
 msgid "/C_ut"
 msgstr "/_Αποκοπή"
 
-#: src/addressbook.c:450
-#: src/addressbook.c:465
+#: src/addressbook.c:451
+#: src/addressbook.c:466
 msgid "/_Copy"
 msgstr "/_Αντιγραφή"
 
-#: src/addressbook.c:451
-#: src/addressbook.c:466
+#: src/addressbook.c:452
+#: src/addressbook.c:467
 msgid "/_Paste"
 msgstr "/Ε_πικόλληση"
 
-#: src/addressbook.c:456
+#: src/addressbook.c:457
 msgid "/_Select all"
 msgstr "/Επιλ_ογή όλων"
 
-#: src/addressbook.c:461
+#: src/addressbook.c:462
 msgid "/New _Address"
 msgstr "/Νέα _διεύθυνση"
 
-#: src/addressbook.c:462
+#: src/addressbook.c:463
 msgid "/New _Group"
 msgstr "/Νέα _ομάδα"
 
-#: src/addressbook.c:469
+#: src/addressbook.c:470
 msgid "/_Mail To"
 msgstr "/_Μήνυμα προς"
 
-#: src/addressbook.c:471
+#: src/addressbook.c:472
 msgid "/_Browse Entry"
 msgstr "/_Περιήγηση εγγραφής"
 
-#: src/addressbook.c:484
+#: src/addressbook.c:485
 #: src/crash.c:450
 #: src/crash.c:469
 #: src/importldif.c:119
@@ -457,194 +457,194 @@ msgstr "/_Περιήγηση εγγραφής"
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: src/addressbook.c:491
-#: src/addressbook.c:510
+#: src/addressbook.c:492
+#: src/addressbook.c:511
 #: src/importldif.c:126
 msgid "Success"
 msgstr "Επιτυχία"
 
-#: src/addressbook.c:492
+#: src/addressbook.c:493
 #: src/importldif.c:127
 msgid "Bad arguments"
 msgstr "Μη έγκυρες παράμετροι"
 
-#: src/addressbook.c:493
+#: src/addressbook.c:494
 #: src/importldif.c:128
 msgid "File not specified"
 msgstr "Δεν ορίστηκε αρχείο"
 
-#: src/addressbook.c:494
+#: src/addressbook.c:495
 #: src/importldif.c:129
 msgid "Error opening file"
 msgstr "Σφάλμα κατά το άνοιγμα του αρχείου"
 
-#: src/addressbook.c:495
+#: src/addressbook.c:496
 #: src/importldif.c:130
 msgid "Error reading file"
 msgstr "Σφάλμα κατά την ανάγνωση του αρχείου"
 
-#: src/addressbook.c:496
+#: src/addressbook.c:497
 #: src/importldif.c:131
 msgid "End of file encountered"
 msgstr "Εντοπίστηκε πρόωρος τερματισμός αρχείου"
 
-#: src/addressbook.c:497
+#: src/addressbook.c:498
 #: src/importldif.c:132
 msgid "Error allocating memory"
 msgstr "Σφάλμα κατά τη δέσμευση μνήμης"
 
-#: src/addressbook.c:498
+#: src/addressbook.c:499
 #: src/importldif.c:133
 msgid "Bad file format"
 msgstr "Λανθασμένη μορφή αρχείου"
 
-#: src/addressbook.c:499
+#: src/addressbook.c:500
 #: src/importldif.c:134
 msgid "Error writing to file"
 msgstr "Σφάλμα κατά την εγγραφή του αρχείου"
 
-#: src/addressbook.c:500
+#: src/addressbook.c:501
 #: src/importldif.c:135
 msgid "Error opening directory"
 msgstr "Σφάλμα κατά το άνοιγμα του καταλόγου"
 
-#: src/addressbook.c:501
+#: src/addressbook.c:502
 #: src/importldif.c:136
 msgid "No path specified"
 msgstr "Δεν καθορίστηκε διαδρομή"
 
-#: src/addressbook.c:511
+#: src/addressbook.c:512
 msgid "Error connecting to LDAP server"
 msgstr "Σφάλμα κατά τη σύνδεση στο διακομιστή LDAP"
 
-#: src/addressbook.c:512
+#: src/addressbook.c:513
 msgid "Error initializing LDAP"
 msgstr "Σφάλμα αρχικοποίησης LDAP"
 
-#: src/addressbook.c:513
+#: src/addressbook.c:514
 msgid "Error binding to LDAP server"
 msgstr "Σφάλμα σύνδεσης στον διακομιστή LDAP"
 
-#: src/addressbook.c:514
+#: src/addressbook.c:515
 msgid "Error searching LDAP database"
 msgstr "Σφάλμα στην αναζήτηση στη βάση δεδομένων LDAP"
 
-#: src/addressbook.c:515
+#: src/addressbook.c:516
 msgid "Timeout performing LDAP operation"
 msgstr "Λήξη του χρονικού ορίου κατά την εκτέλεση της λειτουργίας LDAP"
 
-#: src/addressbook.c:516
+#: src/addressbook.c:517
 msgid "Error in LDAP search criteria"
 msgstr "Σφάλμα στα κριτήρια αναζήτησης του LDAP"
 
-#: src/addressbook.c:517
+#: src/addressbook.c:518
 msgid "No LDAP entries found for search criteria"
 msgstr "Δε βρέθηκαν καταχωρήσεις LDAP για τα κριτήρια αναζήτησης"
 
-#: src/addressbook.c:518
+#: src/addressbook.c:519
 msgid "LDAP search terminated on request"
 msgstr "Η αναζήτηση LDAP τερματίστηκε από το χρήστη"
 
-#: src/addressbook.c:519
+#: src/addressbook.c:520
 msgid "Error starting TLS connection"
 msgstr "Υπήρξε σφάλμα κατά τη δημιουργία TLS σύνδεσης"
 
-#: src/addressbook.c:833
+#: src/addressbook.c:835
 msgid "Sources"
 msgstr "Πηγές"
 
-#: src/addressbook.c:837
+#: src/addressbook.c:839
 #: src/prefs_other.c:100
 #: src/toolbar.c:190
 #: src/toolbar.c:1730
 msgid "Address book"
 msgstr "Κατάλογος διευθύνσεων"
 
-#: src/addressbook.c:960
+#: src/addressbook.c:962
 #, fuzzy
 msgid "Lookup name:"
 msgstr "Αποτυχία Name lookup"
 
-#: src/addressbook.c:1018
+#: src/addressbook.c:1026
 #: src/compose.c:1956
-#: src/compose.c:4183
-#: src/compose.c:5377
-#: src/compose.c:6122
-#: src/prefs_template.c:205
-#: src/summary_search.c:261
+#: src/compose.c:4184
+#: src/compose.c:5378
+#: src/compose.c:6123
+#: src/prefs_template.c:207
+#: src/summary_search.c:264
 msgid "To:"
 msgstr "Προς:"
 
-#: src/addressbook.c:1022
+#: src/addressbook.c:1030
 #: src/compose.c:1940
-#: src/compose.c:3962
-#: src/compose.c:4182
-#: src/prefs_template.c:207
+#: src/compose.c:3963
+#: src/compose.c:4183
+#: src/prefs_template.c:209
 msgid "Cc:"
 msgstr "Κοινοποίηση:"
 
-#: src/addressbook.c:1026
+#: src/addressbook.c:1034
 #: src/compose.c:1943
-#: src/compose.c:3993
-#: src/prefs_template.c:209
+#: src/compose.c:3994
+#: src/prefs_template.c:211
 msgid "Bcc:"
 msgstr "Κρυφή κοινοποίηση:"
 
-#: src/addressbook.c:1260
-#: src/addressbook.c:1283
+#: src/addressbook.c:1269
+#: src/addressbook.c:1292
 msgid "Delete address(es)"
 msgstr "Διαγραφή διεύθυνσης (διευθύνσεων)"
 
-#: src/addressbook.c:1261
+#: src/addressbook.c:1270
 msgid "This address data is readonly and cannot be deleted."
 msgstr "Αυτά τα δεδομένα διεύθυνσης είναι μόνο για ανάγνωση και δεν είναι δυνατό να διαγραφούν."
 
-#: src/addressbook.c:1284
+#: src/addressbook.c:1293
 msgid "Really delete the address(es)?"
 msgstr "Σίγουρα να διαγράψω την (τις) διεύθυνση (διευθύνσεις);"
 
-#: src/addressbook.c:1878
+#: src/addressbook.c:1887
 msgid "Cannot paste. Target address book is readonly."
 msgstr "Δεν είναι δυνατή η επικόλληση. Το ευρετήριο διευθύνσεων είναι μόνο για ανάγνωση."
 
-#: src/addressbook.c:1889
+#: src/addressbook.c:1898
 msgid "Cannot paste into an address group."
 msgstr "Δεν είναι δυνατή η επικόλληση σε μια ομάδα διευθύνσεων."
 
-#: src/addressbook.c:2545
+#: src/addressbook.c:2554
 #, c-format
 msgid "Do you want to delete the query results and addresses in '%s' ?"
 msgstr "Θέλετε να σβήσετε τα αποτελέσματα της αναζήτησης και τις διευθύνσεις στο '%s';"
 
-#: src/addressbook.c:2548
-#: src/addressbook.c:2574
+#: src/addressbook.c:2557
+#: src/addressbook.c:2583
 #: src/prefs_filtering_action.c:152
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: src/addressbook.c:2557
+#: src/addressbook.c:2566
 #, c-format
 msgid "Do you want to delete '%s' ?If you delete the folder only, the addresses it contains will be moved into the parent folder."
 msgstr "Θέλετε να διαγράψετε το '%s' ; Αν διαγράψετε μόνο το φάκελο, οι διευθύνσεις που περιέχει θα μετακινηθούν στον γονικό φάκελο."
 
-#: src/addressbook.c:2560
+#: src/addressbook.c:2569
 #: src/imap_gtk.c:283
 #: src/mh_gtk.c:179
 msgid "Delete folder"
 msgstr "Διαγραφή φακέλου"
 
-#: src/addressbook.c:2561
+#: src/addressbook.c:2570
 #, fuzzy
 msgid "+Delete _folder only"
 msgstr ""
 "Δεν ήταν δυνατή η διαγραφή του φακέλου:\n"
 "%s"
 
-#: src/addressbook.c:2561
+#: src/addressbook.c:2570
 msgid "Delete folder and _addresses"
 msgstr "Διαγραφή φακέλου και _διευθύνσεων"
 
-#: src/addressbook.c:2572
+#: src/addressbook.c:2581
 #, c-format
 msgid ""
 "Do you want to delete '%s'?\n"
@@ -653,19 +653,19 @@ msgstr ""
 "Θέλετε να διαγράψετε το '%s' ;\n"
 "Οι διευθύνσεις που περιέχει θα χαθούν."
 
-#: src/addressbook.c:3382
+#: src/addressbook.c:3391
 msgid "New user, could not save index file."
 msgstr "Νέος χρήστης, δεν ήταν δυνατή η αποθήκευση του ευρετηρίου."
 
-#: src/addressbook.c:3386
+#: src/addressbook.c:3395
 msgid "New user, could not save address book files."
 msgstr "Νέος χρήστης, δεν ήταν δυνατή η αποθήκευση του ευρετηρίου διευθύνσεων."
 
-#: src/addressbook.c:3396
+#: src/addressbook.c:3405
 msgid "Old address book converted successfully."
 msgstr "Το παλιό ευρετήριο διευθύνσεων μετατράπηκε με επιτυχία."
 
-#: src/addressbook.c:3401
+#: src/addressbook.c:3410
 #, fuzzy
 msgid ""
 "Old address book converted,\n"
@@ -674,7 +674,7 @@ msgstr ""
 "Το παλιό βιβλίο διευθύνσεων μετατράπηκε επιτυχώς,\n"
 "δεν ήταν δυνατή η αποθήκευση του νέου ευρετηρίου διευθύνσεων"
 
-#: src/addressbook.c:3414
+#: src/addressbook.c:3423
 msgid ""
 "Could not convert address book,\n"
 "but created empty new address book files."
@@ -682,7 +682,7 @@ msgstr ""
 "Δεν ήταν δυνατή η μετατροπή του ευρετηρίου διευθύνσεων.\n"
 "Δημιουργήθηκε νέο, κενό αρχείο."
 
-#: src/addressbook.c:3420
+#: src/addressbook.c:3429
 #, fuzzy
 msgid ""
 "Could not convert address book,\n"
@@ -691,7 +691,7 @@ msgstr ""
 "Το παλιό βιβλίο διευθύνσεων μετατράπηκε επιτυχώς,\n"
 "δεν ήταν δυνατή η αποθήκευση του νέου ευρετηρίου διευθύνσεων"
 
-#: src/addressbook.c:3425
+#: src/addressbook.c:3434
 msgid ""
 "Could not convert address book\n"
 "and could not create new address book files."
@@ -699,33 +699,33 @@ msgstr ""
 "Δεν ήταν δυνατή η μετατροπή του ευρετηρίου διευθύνσεων,\n"
 "ούτε η δημιουργία νέου."
 
-#: src/addressbook.c:3432
-#: src/addressbook.c:3438
+#: src/addressbook.c:3441
+#: src/addressbook.c:3447
 msgid "Addressbook conversion error"
 msgstr "Σφάλμα κατά τη μετατροπή του ευρετηρίου διευθύνσεων"
 
-#: src/addressbook.c:3476
+#: src/addressbook.c:3485
 msgid "Addressbook Error"
 msgstr "Σφάλμα ευρετηρίου διευθύνσεων"
 
-#: src/addressbook.c:3477
+#: src/addressbook.c:3486
 msgid "Could not read address index"
 msgstr "Δεν ήταν δυνατή η ανάγνωση του ευρετηρίου διευθύνσεων"
 
-#: src/addressbook.c:3804
+#: src/addressbook.c:3813
 msgid "Busy searching..."
 msgstr "Αναζήτηση..."
 
-#: src/addressbook.c:3875
+#: src/addressbook.c:3884
 #, c-format
 msgid "Search '%s'"
 msgstr "Αναζήτηση '%s'"
 
-#: src/addressbook.c:4100
+#: src/addressbook.c:4109
 msgid "Interface"
 msgstr "Διεπαφή"
 
-#: src/addressbook.c:4116
+#: src/addressbook.c:4125
 #: src/exphtmldlg.c:378
 #: src/expldifdlg.c:394
 #: src/exporthtml.c:1020
@@ -733,42 +733,42 @@ msgstr "Διεπαφή"
 msgid "Address Book"
 msgstr "Ευρετήριο διευθύνσεων"
 
-#: src/addressbook.c:4132
+#: src/addressbook.c:4141
 msgid "Person"
 msgstr "Άτομο"
 
-#: src/addressbook.c:4148
+#: src/addressbook.c:4157
 msgid "EMail Address"
 msgstr "Διεύθυνση Email"
 
-#: src/addressbook.c:4164
+#: src/addressbook.c:4173
 msgid "Group"
 msgstr "Ομάδα"
 
-#: src/addressbook.c:4180
+#: src/addressbook.c:4189
 #: src/exporthtml.c:922
-#: src/folderview.c:440
+#: src/folderview.c:441
 #: src/prefs_account.c:2399
 #: src/prefs_folder_column.c:79
 msgid "Folder"
 msgstr "Φάκελος"
 
 # Untrans.
-#: src/addressbook.c:4196
+#: src/addressbook.c:4205
 msgid "vCard"
 msgstr "vCard"
 
 # Untans.
-#: src/addressbook.c:4212
-#: src/addressbook.c:4228
+#: src/addressbook.c:4221
+#: src/addressbook.c:4237
 msgid "JPilot"
 msgstr "JPilot"
 
-#: src/addressbook.c:4244
+#: src/addressbook.c:4253
 msgid "LDAP servers"
 msgstr "Διακομιστές LDAP"
 
-#: src/addressbook.c:4260
+#: src/addressbook.c:4269
 msgid "LDAP Query"
 msgstr "Ερώτημα LDAP"
 
@@ -832,8 +832,8 @@ msgstr "Μέτρηση διευθύνσεων"
 
 #: src/addrgather.c:537
 #: src/alertpanel.c:153
-#: src/compose.c:4514
-#: src/compose.c:8949
+#: src/compose.c:4515
+#: src/compose.c:8950
 #: src/messageview.c:566
 #: src/messageview.c:579
 #: src/plugins/pgpcore/sgpgme.c:563
@@ -876,13 +876,13 @@ msgid "Personal address"
 msgstr "Προσωπικές διευθύνσεις"
 
 #: src/alertpanel.c:140
-#: src/compose.c:7195
+#: src/compose.c:7196
 msgid "Notice"
 msgstr "Σημείωση"
 
 #: src/alertpanel.c:166
 #: src/alertpanel.c:188
-#: src/compose.c:4460
+#: src/compose.c:4461
 #: src/inc.c:594
 #: src/plugins/pgpcore/sgpgme.c:135
 #: src/plugins/pgpcore/sgpgme.c:226
@@ -1067,12 +1067,12 @@ msgid "/_Remove"
 msgstr "/_Διαγραφή"
 
 #: src/compose.c:515
-#: src/folderview.c:287
+#: src/folderview.c:288
 msgid "/_Properties..."
 msgstr "/_Ιδιότητες..."
 
 #: src/compose.c:520
-#: src/mainwindow.c:704
+#: src/mainwindow.c:705
 #: src/messageview.c:281
 msgid "/_Message"
 msgstr "/_Μήνυμα"
@@ -1088,11 +1088,11 @@ msgstr "/_Μήνυμα/Αποστο_λή αργότερα"
 #: src/compose.c:525
 #: src/compose.c:529
 #: src/compose.c:532
-#: src/mainwindow.c:714
-#: src/mainwindow.c:724
-#: src/mainwindow.c:737
-#: src/mainwindow.c:743
-#: src/mainwindow.c:755
+#: src/mainwindow.c:715
+#: src/mainwindow.c:725
+#: src/mainwindow.c:738
+#: src/mainwindow.c:744
+#: src/mainwindow.c:756
 #: src/messageview.c:284
 #: src/messageview.c:292
 #: src/messageview.c:297
@@ -1131,7 +1131,7 @@ msgstr "/_Επεξεργασία/Επανάληψη"
 #: src/compose.c:626
 #: src/compose.c:629
 #: src/compose.c:635
-#: src/mainwindow.c:495
+#: src/mainwindow.c:496
 #: src/messageview.c:167
 msgid "/_Edit/---"
 msgstr "/_Επεξεργασία/---"
@@ -1141,7 +1141,7 @@ msgid "/_Edit/Cu_t"
 msgstr "/_Επεξεργασία/Αποκοπή"
 
 #: src/compose.c:540
-#: src/mainwindow.c:492
+#: src/mainwindow.c:493
 #: src/messageview.c:165
 msgid "/_Edit/_Copy"
 msgstr "/_Επεξεργασία/Αντιγραφή"
@@ -1167,7 +1167,7 @@ msgid "/_Edit/Special paste/_unwrapped"
 msgstr "/_Επεξεργασία/Ειδική επικόλληση/όχι αναδιπλωμένο"
 
 #: src/compose.c:549
-#: src/mainwindow.c:493
+#: src/mainwindow.c:494
 #: src/messageview.c:166
 msgid "/_Edit/Select _all"
 msgstr "/_Επεξεργασία/Επιλογή όλων"
@@ -1485,7 +1485,7 @@ msgid "/_Tools/_Template"
 msgstr "/_Εργαλεία/_Πρότυπο"
 
 #: src/compose.c:760
-#: src/mainwindow.c:791
+#: src/mainwindow.c:792
 #: src/messageview.c:326
 msgid "/_Tools/Actio_ns"
 msgstr "/_Εργαλεία/Ε_νέργειες"
@@ -1499,8 +1499,8 @@ msgid "Reply-To:"
 msgstr "Απάντηση-Σε:"
 
 #: src/compose.c:1949
-#: src/compose.c:5374
-#: src/compose.c:6124
+#: src/compose.c:5375
+#: src/compose.c:6125
 msgid "Newsgroups:"
 msgstr "Ομάδες συζητήσεων:"
 
@@ -1532,21 +1532,21 @@ msgstr "Δεν ήταν δυνατή η ανάγνωση του %s."
 msgid "Message: %s"
 msgstr "Μήνυμα: %s"
 
-#: src/compose.c:3764
+#: src/compose.c:3765
 msgid " [Edited]"
 msgstr " [Τροποποιημένο]"
 
-#: src/compose.c:3770
+#: src/compose.c:3771
 #, c-format
 msgid "%s - Compose message%s"
 msgstr "%s - Σύνθεση μηνύματος%s"
 
-#: src/compose.c:3773
+#: src/compose.c:3774
 #, c-format
 msgid "[no subject] - Compose message%s"
 msgstr "[χωρίς θέμα] - Σύνθεση μηνύματος%s"
 
-#: src/compose.c:3798
+#: src/compose.c:3799
 #: src/messageview.c:601
 msgid ""
 "Account for sending mail is not specified.\n"
@@ -1555,39 +1555,39 @@ msgstr ""
 "Ο λογαριασμός για αποστολή μηνύματος δεν έχει οριστεί.\n"
 "Παρακαλώ επιλέξτε ένα λογαριασμό πριν στείλετε."
 
-#: src/compose.c:3975
-#: src/compose.c:4006
-#: src/compose.c:4037
+#: src/compose.c:3976
+#: src/compose.c:4007
+#: src/compose.c:4038
 #: src/toolbar.c:391
 #: src/toolbar.c:441
 msgid "Send"
 msgstr "Αποστολή"
 
-#: src/compose.c:3976
+#: src/compose.c:3977
 msgid "The only recipient is the default CC address. Send anyway?"
 msgstr ""
 
-#: src/compose.c:3977
-#: src/compose.c:4008
-#: src/compose.c:4039
-#: src/compose.c:4460
+#: src/compose.c:3978
+#: src/compose.c:4009
+#: src/compose.c:4040
+#: src/compose.c:4461
 msgid "+_Send"
 msgstr "+_Αποστολή"
 
-#: src/compose.c:4007
+#: src/compose.c:4008
 msgid "The only recipient is the default BCC address. Send anyway?"
 msgstr ""
 
-#: src/compose.c:4024
+#: src/compose.c:4025
 msgid "Recipient is not specified."
 msgstr "Δεν έχει οριστεί παραλήπτης."
 
-#: src/compose.c:4038
+#: src/compose.c:4039
 msgid "Subject is empty. Send it anyway?"
 msgstr "Το θέμα είναι κενό. Να γίνει η αποστολή;"
 
-#: src/compose.c:4077
-#: src/compose.c:7545
+#: src/compose.c:4078
+#: src/compose.c:7546
 msgid ""
 "Could not queue message for sending:\n"
 "\n"
@@ -1597,8 +1597,8 @@ msgstr ""
 "\n"
 "Απέτυχε η μετατροπή κωδικοσελίδας."
 
-#: src/compose.c:4081
-#: src/compose.c:7542
+#: src/compose.c:4082
+#: src/compose.c:7543
 #, fuzzy, c-format
 msgid ""
 "Could not queue message for sending:\n"
@@ -1609,7 +1609,7 @@ msgstr ""
 "\n"
 "Απέτυχε η υπογραφή."
 
-#: src/compose.c:4084
+#: src/compose.c:4085
 #, c-format
 msgid ""
 "Could not queue message for sending:\n"
@@ -1620,12 +1620,12 @@ msgstr ""
 "\n"
 "%s."
 
-#: src/compose.c:4086
+#: src/compose.c:4087
 msgid "Could not queue message for sending."
 msgstr "Δεν ήταν δυνατή η προσθήκη του μηνύματος στην ουρά αποστολής."
 
-#: src/compose.c:4100
-#: src/compose.c:4140
+#: src/compose.c:4101
+#: src/compose.c:4141
 msgid ""
 "The message was queued but could not be sent.\n"
 "Use \"Send queued messages\" from the main window to retry."
@@ -1633,7 +1633,7 @@ msgstr ""
 "Το μήνυμα μπήκε στην ουρά αλλά δεν ήταν δυνατή η αποστολή του.\n"
 "Επιλέξτε \"Αποστολή μηνυμάτων στην ουρά\" από το κύριο παράθυρο για να προσπαθήσετε ξανά."
 
-#: src/compose.c:4134
+#: src/compose.c:4135
 #, fuzzy, c-format
 msgid ""
 "%s\n"
@@ -1642,7 +1642,7 @@ msgstr ""
 "Το μήνυμα μπήκε στην ουρά αλλά δεν ήταν δυνατή η αποστολή του.\n"
 "Επιλέξτε \"Αποστολή μηνυμάτων στην ουρά\" από το κύριο παράθυρο για να προσπαθήσετε ξανά."
 
-#: src/compose.c:4457
+#: src/compose.c:4458
 #, c-format
 msgid ""
 "Can't convert the character encoding of the message \n"
@@ -1653,7 +1653,7 @@ msgstr ""
 "του μηνύματος στο προσδιορισμένο σύνολο %s.\n"
 "Να αποσταλεί ως %s;"
 
-#: src/compose.c:4510
+#: src/compose.c:4511
 #, c-format
 msgid ""
 "Line %d exceeds the line length limit (998 bytes).\n"
@@ -1666,36 +1666,36 @@ msgstr ""
 "\n"
 "Να γίνει αποστολή;"
 
-#: src/compose.c:4695
+#: src/compose.c:4696
 msgid "No account for sending mails available!"
 msgstr "Δεν υπάρχει λογαριασμός για αποστολή μηνυμάτων!"
 
-#: src/compose.c:4705
+#: src/compose.c:4706
 msgid "No account for posting news available!"
 msgstr "Δεν υπάρχει λογαριασμός για αποστολή μηνυμάτων νέων!"
 
-#: src/compose.c:5391
+#: src/compose.c:5392
 msgid "Use <tab> to autocomplete from addressbook"
 msgstr "Χρησιμοποιείστε το <tab> για αυτόματη συμπλήρωση από το ευρετήριο διευθύνσεων"
 
-#: src/compose.c:5503
+#: src/compose.c:5504
 msgid "Mime type"
 msgstr "Τύπος MIME"
 
-#: src/compose.c:5509
-#: src/compose.c:5805
+#: src/compose.c:5510
+#: src/compose.c:5806
 #: src/mimeview.c:200
 #: src/plugins/pgpcore/select-keys.c:336
 #: src/prefs_summary_column.c:86
-#: src/summaryview.c:489
+#: src/summaryview.c:490
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: src/compose.c:5570
+#: src/compose.c:5571
 msgid "Save Message to "
 msgstr "Αποθήκευση μηνύματος σε"
 
-#: src/compose.c:5592
+#: src/compose.c:5593
 #: src/editjpilot.c:289
 #: src/editldap.c:526
 #: src/editvcard.c:202
@@ -1709,30 +1709,30 @@ msgstr "Αποθήκευση μηνύματος σε"
 msgid "_Browse"
 msgstr "_Περιήγηση"
 
-#: src/compose.c:5804
-#: src/compose.c:6955
+#: src/compose.c:5805
+#: src/compose.c:6956
 msgid "MIME type"
 msgstr "τύπος MIME"
 
-#: src/compose.c:5876
+#: src/compose.c:5877
 msgid "Hea_der"
 msgstr "Κεφαλί_δα"
 
-#: src/compose.c:5880
+#: src/compose.c:5881
 msgid "_Attachments"
 msgstr "_Συνημμένα"
 
-#: src/compose.c:5884
+#: src/compose.c:5885
 msgid "Othe_rs"
 msgstr "Ά_λλα"
 
-#: src/compose.c:5899
-#: src/prefs_template.c:211
-#: src/summary_search.c:268
+#: src/compose.c:5900
+#: src/prefs_template.c:213
+#: src/summary_search.c:271
 msgid "Subject:"
 msgstr "Θέμα:"
 
-#: src/compose.c:6087
+#: src/compose.c:6088
 #, c-format
 msgid ""
 "Spell checker could not be started.\n"
@@ -1741,66 +1741,66 @@ msgstr ""
 "Δεν ήταν δυνατό να ξεκινήσει ο έλεγχος ορθογραφίας.\n"
 "%s"
 
-#: src/compose.c:6198
+#: src/compose.c:6199
 #, c-format
 msgid "From: <i>%s</i>"
 msgstr "Από: <i>%s</i>"
 
-#: src/compose.c:6229
+#: src/compose.c:6230
 msgid "Account to use for this email"
 msgstr "Λογαριασμός για χρήση με αυτό το μήνυμα"
 
-#: src/compose.c:6231
+#: src/compose.c:6232
 msgid "Sender address to be used"
 msgstr "Διεύθυνση αποστολέα που θα χρησιμοποιηθεί"
 
-#: src/compose.c:6355
+#: src/compose.c:6356
 #, c-format
 msgid "The privacy system '%s' cannot be loaded. You will not be able to sign or encrypt this message."
 msgstr ""
 
-#: src/compose.c:6594
+#: src/compose.c:6595
 msgid "Message To format error."
 msgstr "Σφάλμα στη μορφή του Προς του μηνύματος."
 
-#: src/compose.c:6607
+#: src/compose.c:6608
 msgid "Message Cc format error."
 msgstr "Σφάλμα στη μορφή της Κοινοποίησης του μηνύματος."
 
-#: src/compose.c:6620
+#: src/compose.c:6621
 msgid "Message Bcc format error."
 msgstr "Σφάλμα στη μορφή της Κρυφής κοινοποίησης του μηνύματος."
 
-#: src/compose.c:6634
+#: src/compose.c:6635
 msgid "Message subject format error."
 msgstr "Σφάλμα στη μορφή του θέματος του μηνύματος."
 
-#: src/compose.c:6849
+#: src/compose.c:6850
 msgid "Invalid MIME type."
 msgstr "Μη έγκυρος τύπος MIME"
 
-#: src/compose.c:6864
+#: src/compose.c:6865
 msgid "File doesn't exist or is empty."
 msgstr "Το αρχείο δεν υπάρχει ή είναι άδειο."
 
-#: src/compose.c:6937
+#: src/compose.c:6938
 msgid "Properties"
 msgstr "Ιδιότητες"
 
-#: src/compose.c:6988
+#: src/compose.c:6989
 msgid "Encoding"
 msgstr "Κωδικοποίηση"
 
-#: src/compose.c:7008
+#: src/compose.c:7009
 msgid "Path"
 msgstr "Διαδρομή"
 
-#: src/compose.c:7009
+#: src/compose.c:7010
 #: src/prefs_toolbar.c:1060
 msgid "File name"
 msgstr "Όνομα αρχείου"
 
-#: src/compose.c:7192
+#: src/compose.c:7193
 #, c-format
 msgid ""
 "The external editor is still working.\n"
@@ -1811,16 +1811,16 @@ msgstr ""
 "Να επιβάλω τερματισμό της διεργασίας;\n"
 "process group id:  %d"
 
-#: src/compose.c:7234
+#: src/compose.c:7235
 msgid "Compose: input from monitoring process\n"
 msgstr "Σύνθεση: εισαγωγή από παρακολουθούμενη διεργασία\n"
 
-#: src/compose.c:7515
+#: src/compose.c:7516
 #: src/messageview.c:706
 msgid "Sylpheed-Claws needs network access in order to send this email."
 msgstr "Το Sylpheed-Claws χρειάζεται πρόσβαση στο δίκτυο για να στείλει αυτό το μήνυμα."
 
-#: src/compose.c:7537
+#: src/compose.c:7538
 #, fuzzy
 msgid "Could not queue message."
 msgstr ""
@@ -1828,7 +1828,7 @@ msgstr ""
 "\n"
 "%s."
 
-#: src/compose.c:7539
+#: src/compose.c:7540
 #, c-format
 msgid ""
 "Could not queue message:\n"
@@ -1839,21 +1839,21 @@ msgstr ""
 "\n"
 "%s."
 
-#: src/compose.c:7638
+#: src/compose.c:7639
 msgid "Could not save draft."
 msgstr "Δεν ήταν δυνατή η αποθήκευση του προχείρου."
 
-#: src/compose.c:7713
-#: src/compose.c:7736
+#: src/compose.c:7714
+#: src/compose.c:7737
 msgid "Select file"
 msgstr "Επιλογή αρχείου"
 
-#: src/compose.c:7749
+#: src/compose.c:7750
 #, c-format
 msgid "File '%s' could not be read."
 msgstr "Δεν ήταν δυνατή η ανάγνωση του αρχείου '%s'."
 
-#: src/compose.c:7751
+#: src/compose.c:7752
 #, c-format
 msgid ""
 "File '%s' contained invalid characters\n"
@@ -1862,56 +1862,56 @@ msgstr ""
 "Το αρχείο '%s' περιέχει μη έγκυρους για την τρέχουσα\n"
 "κωδικοποίηση χαρακτήρες. Η εισαγωγή μπορεί να έγινε λανθασμένα."
 
-#: src/compose.c:7799
+#: src/compose.c:7800
 msgid "Discard message"
 msgstr "Απόρριψη μηνύματος"
 
-#: src/compose.c:7800
+#: src/compose.c:7801
 msgid "This message has been modified. Discard it?"
 msgstr "Αυτό το μήνυμα έχει τροποποιηθεί. Να απορριφθεί;"
 
-#: src/compose.c:7801
+#: src/compose.c:7802
 msgid "_Discard"
 msgstr "Α_πόρριψη"
 
-#: src/compose.c:7801
+#: src/compose.c:7802
 msgid "_Save to Drafts"
 msgstr "Αποθήκευ_ση στα Πρόχειρα"
 
-#: src/compose.c:7845
+#: src/compose.c:7846
 #, c-format
 msgid "Do you want to apply the template '%s' ?"
 msgstr "Θέλετε να εφαρμόσετε το πρότυπο '%s' ;"
 
-#: src/compose.c:7847
+#: src/compose.c:7848
 msgid "Apply template"
 msgstr "Εφαρμογή προτύπου"
 
-#: src/compose.c:7848
+#: src/compose.c:7849
 msgid "_Replace"
 msgstr "_Αντικατάσταση"
 
-#: src/compose.c:7848
+#: src/compose.c:7849
 msgid "_Insert"
 msgstr "_Εισαγωγή"
 
-#: src/compose.c:8535
+#: src/compose.c:8536
 msgid "Insert or attach?"
 msgstr "Εισαγωγή ή επισύναψη;"
 
-#: src/compose.c:8536
+#: src/compose.c:8537
 msgid "Do you want to insert the contents of the file(s) into the message body, or attach it to the email?"
 msgstr ""
 
-#: src/compose.c:8538
+#: src/compose.c:8539
 msgid "+_Insert"
 msgstr "+_Εισαγωγή"
 
-#: src/compose.c:8538
+#: src/compose.c:8539
 msgid "_Attach"
 msgstr "_Επισύναψη"
 
-#: src/compose.c:8943
+#: src/compose.c:8944
 #, c-format
 msgid "You are about to reply to %d messages. Opening the windows could take some time. Do you want to continue?"
 msgstr "Πρόκειται να απαντήσετε σε %d μηνύματα. Το άνοιγμα των παραθύρων θα κρατήσει λίγο χρόνο. Θέλετε να συνεχίσετε;"
@@ -2411,9 +2411,9 @@ msgstr "Φύλλο στυλ"
 #: src/gtk/colorlabel.c:367
 #: src/gtk/gtkaspell.c:1632
 #: src/gtk/gtkaspell.c:2299
-#: src/mainwindow.c:963
+#: src/mainwindow.c:964
 #: src/prefs_account.c:661
-#: src/summaryview.c:4731
+#: src/summaryview.c:4735
 msgid "None"
 msgstr "Κανένα"
 
@@ -2604,7 +2604,7 @@ msgid "Distguished Name"
 msgstr "Διακεκριμένο όνομα"
 
 #: src/export.c:120
-#: src/summaryview.c:6065
+#: src/summaryview.c:6069
 msgid "Export to mbox file"
 msgstr "Εξαγωγή σε αρχείο mbox"
 
@@ -2766,72 +2766,72 @@ msgstr "Ο φάκελος '%s' υπάρχει ήδη."
 msgid "Can't create the folder '%s'."
 msgstr "Δεν είναι δυνατή η δημιουργία φακέλου '%s'."
 
-#: src/folderview.c:285
+#: src/folderview.c:286
 msgid "/Mark all re_ad"
 msgstr "Σημείωση όλων ως _αναγνωσμένα"
 
-#: src/folderview.c:286
+#: src/folderview.c:287
 msgid "/_Search folder..."
 msgstr "/Αναζήτηση _στο φάκελο..."
 
-#: src/folderview.c:288
+#: src/folderview.c:289
 msgid "/Process_ing..."
 msgstr "Επεξεργασ_ία..."
 
 # Untranslatable
-#: src/folderview.c:292
+#: src/folderview.c:293
 #, fuzzy
 msgid "/------trashsep"
 msgstr "/------"
 
-#: src/folderview.c:293
+#: src/folderview.c:294
 msgid "/Empty _trash..."
 msgstr "Ά_δειασμα απορριμμάτων"
 
 # Untranslatable
-#: src/folderview.c:297
+#: src/folderview.c:298
 #, fuzzy
 msgid "/------queuesep"
 msgstr "/------"
 
-#: src/folderview.c:298
+#: src/folderview.c:299
 msgid "/Send _queue..."
 msgstr "/Ου_ρά αποστολής..."
 
-#: src/folderview.c:441
-#: src/prefs_actions.c:440
+#: src/folderview.c:442
+#: src/prefs_actions.c:446
 #: src/prefs_filtering_action.c:585
 #: src/prefs_folder_column.c:80
 #: src/prefs_matcher.c:730
 msgid "New"
 msgstr "Νέα"
 
-#: src/folderview.c:442
+#: src/folderview.c:443
 #: src/prefs_folder_column.c:81
 msgid "Unread"
 msgstr "Αδιάβαστα"
 
 #. TRANSLATORS: This in Number sign in American style
-#: src/folderview.c:444
-#: src/summaryview.c:490
+#: src/folderview.c:445
+#: src/summaryview.c:491
 msgid "#"
 msgstr "αρ."
 
-#: src/folderview.c:677
+#: src/folderview.c:678
 msgid "Setting folder info..."
 msgstr "Θέτω τις πληροφορίες φακέλων..."
 
-#: src/folderview.c:731
-#: src/summaryview.c:3277
+#: src/folderview.c:732
+#: src/summaryview.c:3278
 msgid "Mark all as read"
 msgstr "Σημείωση όλων ως αναγνωσμένα"
 
-#: src/folderview.c:732
-#: src/summaryview.c:3278
+#: src/folderview.c:733
+#: src/summaryview.c:3279
 msgid "Do you really want to mark all mails in this folder as read ?"
 msgstr "Θέλετε πράγματι να σημειώσετε όλα τα μηνύματα στο φάκελο ως αναγνωσμένα;"
 
-#: src/folderview.c:1017
+#: src/folderview.c:1018
 msgid ""
 "You have one or more IMAP accounts defined. However this version of Sylpheed-Claws has been built without IMAP support; your IMAP account(s) are disabled.\n"
 "\n"
@@ -2841,87 +2841,92 @@ msgstr ""
 "\n"
 "Πιθανόν να χρειάζεται να εγκαταστήσετε το libetpan και να μεταγλωττίσετε ξανά το Sylpheed-Claws."
 
-#: src/folderview.c:1034
+#: src/folderview.c:1035
 #: src/imap.c:3111
-#: src/mainwindow.c:3688
+#: src/mainwindow.c:3692
 #: src/setup.c:90
 #, c-format
 msgid "Scanning folder %s%c%s ..."
 msgstr "Σάρωση φακέλων %s%c%s ..."
 
-#: src/folderview.c:1038
+#: src/folderview.c:1039
 #: src/imap.c:3116
-#: src/mainwindow.c:3693
+#: src/mainwindow.c:3697
 #: src/setup.c:95
 #, c-format
 msgid "Scanning folder %s ..."
 msgstr "Σάρωση φακέλου %s ..."
 
-#: src/folderview.c:1065
+#: src/folderview.c:1066
 msgid "Rebuild folder tree"
 msgstr "Επαναδημιουργία διάταξης φακέλων"
 
-#: src/folderview.c:1066
+#: src/folderview.c:1067
 msgid "Rebuilding the folder tree will remove local caches. Do you want to continue?"
 msgstr "Με αυτή τη λειτουργία θα αφαιρεθούν τα τοπικά αντίγραφα. Θέλετε να συνεχίσετε;"
 
-#: src/folderview.c:1076
+#: src/folderview.c:1077
 msgid "Rebuilding folder tree..."
 msgstr "Επαναδημιουργία διάταξης φακέλων..."
 
-#: src/folderview.c:1078
+#: src/folderview.c:1079
 msgid "Scanning folder tree..."
 msgstr "Σάρωση φακέλων..."
 
-#: src/folderview.c:1196
+#: src/folderview.c:1197
 msgid "Checking for new messages in all folders..."
 msgstr "Έλεγχος για νέα μηνύματα σε όλους τους φακέλους..."
 
-#: src/folderview.c:2062
+#: src/folderview.c:2031
+#, fuzzy, c-format
+msgid "Closing Folder %s..."
+msgstr "Άνοιγμα φακέλου %s..."
+
+#: src/folderview.c:2070
 #, c-format
 msgid "Opening Folder %s..."
 msgstr "Άνοιγμα φακέλου %s..."
 
-#: src/folderview.c:2075
+#: src/folderview.c:2083
 msgid "Folder could not be opened."
 msgstr "Δεν ήταν δυνατό το άνοιγμα του φακέλου."
 
-#: src/folderview.c:2234
-#: src/mainwindow.c:1961
+#: src/folderview.c:2242
+#: src/mainwindow.c:1962
 msgid "Empty trash"
 msgstr "Άδειασμα απορριμμάτων"
 
-#: src/folderview.c:2235
+#: src/folderview.c:2243
 msgid "Delete all messages in trash?"
 msgstr "Διαγραφή όλων των μηνυμάτων στα απορρίμματα;"
 
-#: src/folderview.c:2236
-#: src/mainwindow.c:1963
+#: src/folderview.c:2244
+#: src/mainwindow.c:1964
 msgid "+_Empty trash"
 msgstr "+_Άδειασμα απορριμμάτων"
 
-#: src/folderview.c:2280
+#: src/folderview.c:2288
 #: src/inc.c:1444
 #: src/toolbar.c:2091
 msgid "Offline warning"
 msgstr "Προειδοποίηση εργασίας δίχως σύνδεση"
 
-#: src/folderview.c:2281
+#: src/folderview.c:2289
 #: src/toolbar.c:2092
 msgid "You're working offline. Override?"
 msgstr "Εργάζεστε χωρίς σύνδεση. Θέλετε να το παρακάμψετε;"
 
-#: src/folderview.c:2292
+#: src/folderview.c:2300
 #: src/toolbar.c:2111
 msgid "Send queued messages"
 msgstr "Αποστολή μηνυμάτων στην ουρά"
 
-#: src/folderview.c:2293
+#: src/folderview.c:2301
 #: src/toolbar.c:2112
 msgid "Send all queued messages?"
 msgstr "Αποστολή όλων των μηνυμάτων στην ουρά;"
 
-#: src/folderview.c:2294
+#: src/folderview.c:2302
 #: src/messageview.c:567
 #: src/messageview.c:584
 #: src/prefs_account.c:1030
@@ -2929,13 +2934,13 @@ msgstr "Αποστολή όλων των μηνυμάτων στην ουρά;"
 msgid "_Send"
 msgstr "_Αποστολή"
 
-#: src/folderview.c:2302
+#: src/folderview.c:2310
 #: src/toolbar.c:2131
 msgid "Some errors occurred while sending queued messages."
 msgstr "Συνέβησαν σφάλματα κατά την αποστολή των μηνυμάτων στην ουρά."
 
-#: src/folderview.c:2305
-#: src/main.c:1242
+#: src/folderview.c:2313
+#: src/main.c:1243
 #: src/toolbar.c:2134
 #, c-format
 msgid ""
@@ -2945,44 +2950,44 @@ msgstr ""
 "Συνέβησαν σφάλματα κατά την αποστολή των μηνυμάτων στην ουρά:\n"
 "%s"
 
-#: src/folderview.c:2372
+#: src/folderview.c:2380
 #, c-format
 msgid "Do you really want to make folder '%s' a sub-folder of '%s' ?"
 msgstr "Θέλετε πράγματι να κάνετε τον φάκελο '%s' υποφάκελο του '%s';"
 
-#: src/folderview.c:2375
+#: src/folderview.c:2383
 msgid "Move folder"
 msgstr "Μετακίνηση φακέλου"
 
-#: src/folderview.c:2386
+#: src/folderview.c:2394
 #, c-format
 msgid "Moving %s to %s..."
 msgstr "Μετακίνηση του %s στο %s..."
 
-#: src/folderview.c:2415
+#: src/folderview.c:2423
 msgid "Source and destination are the same."
 msgstr "Ο προορισμός και η πηγή είναι τα ίδια."
 
-#: src/folderview.c:2418
+#: src/folderview.c:2426
 msgid "Can't move a folder to one of its children."
 msgstr "Δεν είναι δυνατή η μετακίνηση ενός φακέλου μέσα σε έναν υπο-φάκελο του."
 
-#: src/folderview.c:2421
+#: src/folderview.c:2429
 msgid "Folder moving cannot be done between different mailboxes."
 msgstr "Δεν είναι δυνατή η μετακίνηση φακέλων μεταξύ γραμματοκιβωτίων."
 
-#: src/folderview.c:2424
+#: src/folderview.c:2432
 msgid "Move failed!"
 msgstr "Η μετακίνηση απέτυχε!"
 
-#: src/folderview.c:2460
+#: src/folderview.c:2468
 #, c-format
 msgid "Processing configuration for folder %s"
 msgstr "Προετοιμασία ρυθμίσεων φακέλου %s"
 
 #: src/gedit-print.c:146
 #: src/messageview.c:1414
-#: src/summaryview.c:3944
+#: src/summaryview.c:3945
 #: src/toolbar.c:178
 msgid "Print"
 msgstr "Εκτύπωση"
@@ -3054,7 +3059,7 @@ msgid "Can't retrieve newsgroup list."
 msgstr "Δεν ήταν δυνατή η λήψη της λίστας ομάδων συζητήσεων."
 
 #: src/grouplistdialog.c:447
-#: src/summaryview.c:1167
+#: src/summaryview.c:1168
 msgid "Done."
 msgstr "Έγινε."
 
@@ -3064,12 +3069,12 @@ msgid "%d newsgroups received (%s read)"
 msgstr "Λήφθηκαν %d ομάδες συζητήσεων (%s αναγνωσμένα)"
 
 #: src/gtk/about.c:78
-#: src/textview.c:223
+#: src/textview.c:225
 msgid "/_Open with Web browser"
 msgstr "/_Άνοιγμα με τον περιηγητή ιστοσελίδων"
 
 #: src/gtk/about.c:79
-#: src/textview.c:224
+#: src/textview.c:226
 msgid "/Copy this _link"
 msgstr "/Αντιγραφή _συνδέσμου"
 
@@ -3599,8 +3604,8 @@ msgstr "Καταγραφή πρωτοκόλλου"
 msgid "Clear _Log"
 msgstr "Καθαρισμός _καταγραφής"
 
-#: src/gtk/pluginwindow.c:149
-#: src/gtk/pluginwindow.c:154
+#: src/gtk/pluginwindow.c:150
+#: src/gtk/pluginwindow.c:155
 msgid ""
 "\n"
 "\n"
@@ -3610,19 +3615,19 @@ msgstr ""
 "\n"
 "Έκδοση: "
 
-#: src/gtk/pluginwindow.c:152
+#: src/gtk/pluginwindow.c:153
 msgid "Error: "
 msgstr "Σφάλμα:"
 
-#: src/gtk/pluginwindow.c:153
+#: src/gtk/pluginwindow.c:154
 msgid "Plugin is not functional."
 msgstr "Το Πρόσθετο λειτουργεί"
 
-#: src/gtk/pluginwindow.c:184
+#: src/gtk/pluginwindow.c:185
 msgid "Select Plugin to load"
 msgstr "Επιλογή ενός πρόσθετου για φόρτωμα"
 
-#: src/gtk/pluginwindow.c:198
+#: src/gtk/pluginwindow.c:199
 #, fuzzy, c-format
 msgid ""
 "The following error occured while loading the plugin [%s] :\n"
@@ -3631,8 +3636,8 @@ msgstr ""
 "Προέκυψε ένα σφάλμα κατά την αποστολή του μηνύματος:\n"
 "%s"
 
-#: src/gtk/pluginwindow.c:281
-#: src/gtk/pluginwindow.c:440
+#: src/gtk/pluginwindow.c:283
+#: src/gtk/pluginwindow.c:433
 #: src/plugins/clamav/clamav_plugin_gtk.c:213
 #: src/plugins/dillo_viewer/dillo_prefs.c:75
 #: src/plugins/pgpcore/prefs_gpg.c:453
@@ -3640,12 +3645,12 @@ msgstr ""
 msgid "Plugins"
 msgstr "Πρόσθετα"
 
-#: src/gtk/pluginwindow.c:312
+#: src/gtk/pluginwindow.c:314
 #: src/prefs_summaries.c:210
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: src/gtk/pluginwindow.c:335
+#: src/gtk/pluginwindow.c:337
 #: src/prefs_themes.c:866
 msgid "Get more..."
 msgstr "Λήψη περισσότερων..."
@@ -3654,7 +3659,7 @@ msgstr "Λήψη περισσότερων..."
 msgid "Load Plugin..."
 msgstr "Φόρτωση πρόσθετου..."
 
-#: src/gtk/pluginwindow.c:351
+#: src/gtk/pluginwindow.c:347
 msgid "Unload Plugin"
 msgstr "Αποφόρτωση πρόσθετου"
 
@@ -3840,7 +3845,7 @@ msgid "all filtering expressions are allowed"
 msgstr "επιτρέπονται όλες οι εκφράσεις φίλτρων"
 
 #: src/gtk/quicksearch.c:302
-#: src/summary_search.c:299
+#: src/summary_search.c:302
 msgid "Extended Search"
 msgstr "Εκτεταμένη αναζήτηση"
 
@@ -3857,7 +3862,7 @@ msgstr ""
 #: src/prefs_matcher.c:1684
 #: src/prefs_summary_column.c:82
 #: src/quote_fmt.c:47
-#: src/summaryview.c:485
+#: src/summaryview.c:486
 msgid "Subject"
 msgstr "Θέμα"
 
@@ -3867,7 +3872,7 @@ msgstr "Θέμα"
 #: src/prefs_matcher.c:1685
 #: src/prefs_summary_column.c:83
 #: src/quote_fmt.c:42
-#: src/summaryview.c:486
+#: src/summaryview.c:487
 msgid "From"
 msgstr "Από"
 
@@ -3877,7 +3882,7 @@ msgstr "Από"
 #: src/prefs_matcher.c:1686
 #: src/prefs_summary_column.c:84
 #: src/quote_fmt.c:48
-#: src/summaryview.c:487
+#: src/summaryview.c:488
 msgid "To"
 msgstr "Προς"
 
@@ -3895,7 +3900,7 @@ msgid " Clear "
 msgstr "Εκκαθάριση"
 
 #: src/gtk/quicksearch.c:480
-#: src/summary_search.c:252
+#: src/summary_search.c:255
 msgid "Edit search criteria"
 msgstr "Επεξεργασία κριτηρίων αναζήτησης"
 
@@ -3904,7 +3909,7 @@ msgid " Extended Symbols... "
 msgstr "Εκτεταμένα σύμβολα..."
 
 #: src/gtk/quicksearch.c:917
-#: src/summaryview.c:992
+#: src/summaryview.c:993
 #, c-format
 msgid "Searching in %s... \n"
 msgstr "Αναζήτηση στο  %s...\n"
@@ -3926,7 +3931,7 @@ msgstr "Υπογράφων"
 
 #: src/gtk/sslcertwindow.c:142
 #: src/gtk/sslcertwindow.c:163
-#: src/prefs_filtering.c:270
+#: src/prefs_filtering.c:294
 #: src/prefs_themes.c:883
 msgid "Name: "
 msgstr "Όνομα:"
@@ -4031,14 +4036,14 @@ msgid "Changed SSL Certificate"
 msgstr "Το πιστοποιητικό SSL άλλαξε"
 
 #: src/headerview.c:196
-#: src/summaryview.c:2632
-#: src/summaryview.c:2643
+#: src/summaryview.c:2633
+#: src/summaryview.c:2644
 msgid "(No From)"
 msgstr "(Χωρίς αποστολέα)"
 
 #: src/headerview.c:211
-#: src/summaryview.c:2668
-#: src/summaryview.c:2671
+#: src/summaryview.c:2669
+#: src/summaryview.c:2672
 msgid "(No Subject)"
 msgstr "(Χωρίς θέμα)"
 
@@ -4097,14 +4102,14 @@ msgstr "Το Sylpheed-Claws απαιτεί πρόσβαση στο δίκτυο 
 
 #: src/imap.c:765
 #: src/inc.c:759
-#: src/news.c:283
+#: src/news.c:295
 #: src/send_message.c:299
 msgid "Insecure connection"
 msgstr "Μη ασφαλής σύνδεση"
 
 #: src/imap.c:766
 #: src/inc.c:760
-#: src/news.c:284
+#: src/news.c:296
 #: src/send_message.c:300
 msgid ""
 "This connection is configured to be secured using SSL, but SSL is not available in this build of Sylpheed-Claws. \n"
@@ -4114,7 +4119,7 @@ msgstr ""
 
 #: src/imap.c:772
 #: src/inc.c:766
-#: src/news.c:290
+#: src/news.c:302
 #: src/send_message.c:306
 #, fuzzy
 msgid "Con_tinue connecting"
@@ -4418,7 +4423,7 @@ msgid "R"
 msgstr "Δ"
 
 #: src/importldif.c:726
-#: src/summaryview.c:483
+#: src/summaryview.c:484
 msgid "S"
 msgstr "Ε"
 
@@ -4776,28 +4781,28 @@ msgstr "Η μεταφορά απέτυχε!"
 msgid "g_thread is not supported by glib.\n"
 msgstr "το g_thread δεν υποστηρίζεται από την glib.\n"
 
-#: src/main.c:540
+#: src/main.c:541
 msgid "Some plugin(s) failed to load. Check the Plugins configuration for more information."
 msgstr ""
 
-#: src/main.c:550
+#: src/main.c:551
 msgid "Sylpheed-Claws has detected a configured mailbox, but could not load it. It is probably provided by an out-of-date external plugin. Please reinstall the plugin and try again."
 msgstr ""
 
-#: src/main.c:782
+#: src/main.c:783
 #, c-format
 msgid "Usage: %s [OPTION]...\n"
 msgstr "Χρήση: %s [ΕΠΙΛΟΓΗ]...\n"
 
-#: src/main.c:784
+#: src/main.c:785
 msgid "  --compose [address]    open composition window"
 msgstr "  --compose [διεύθυνση]  άνοιγμα παραθύρου σύνθεσης"
 
-#: src/main.c:785
+#: src/main.c:786
 msgid "  --subscribe [uri]      subscribe to the given URI if possible"
 msgstr ""
 
-#: src/main.c:786
+#: src/main.c:787
 msgid ""
 "  --attach file1 [file2]...\n"
 "                         open composition window with specified files\n"
@@ -4807,23 +4812,23 @@ msgstr ""
 "                         άνοιγμα του παραθύρου σύνθεσης μηνύματος με\n"
 "                         τα καθορισμένα αρχεία συνημμένα"
 
-#: src/main.c:789
+#: src/main.c:790
 msgid "  --receive              receive new messages"
 msgstr "  --receive              λήψη νέων μηνυμάτων"
 
-#: src/main.c:790
+#: src/main.c:791
 msgid "  --receive-all          receive new messages of all accounts"
 msgstr "  --receive-all          λήψη νέων μηνυμάτων όλων των λογαριασμών"
 
-#: src/main.c:791
+#: src/main.c:792
 msgid "  --send                 send all queued messages"
 msgstr "  --send                 αποστολή όλων των μηνυμάτων στην ουρά"
 
-#: src/main.c:792
+#: src/main.c:793
 msgid "  --status [folder]...   show the total number of messages"
 msgstr "  --status [φάκελος]...  εμφάνιση του συνολικού αριθμού μηνυμάτων"
 
-#: src/main.c:793
+#: src/main.c:794
 msgid ""
 "  --status-full [folder]...\n"
 "                         show the status of each folder"
@@ -4831,986 +4836,986 @@ msgstr ""
 "  --status-full [φάκελος]...\n"
 "                         εμφάνιση της κατάστασης του φακέλου"
 
-#: src/main.c:795
+#: src/main.c:796
 msgid ""
 "  --select folder[/msg]  jumps to the specified folder/message\n"
 "                         folder is a folder id like '#mh/Mailbox/inbox'"
 msgstr ""
 
-#: src/main.c:797
+#: src/main.c:798
 #, fuzzy
 msgid "  --online               switch to online mode"
 msgstr "Η κατάσταση παράνοιας για χρήση"
 
-#: src/main.c:798
+#: src/main.c:799
 #, fuzzy
 msgid "  --offline              switch to offline mode"
 msgstr "Η κατάσταση παράνοιας για χρήση"
 
-#: src/main.c:799
+#: src/main.c:800
 msgid "  --exit                 exit Sylpheed-Claws"
 msgstr "  --exit                 έξοδος από το Sylpheed-Claws"
 
-#: src/main.c:800
+#: src/main.c:801
 msgid "  --debug                debug mode"
 msgstr "  --debug                λειτουργία αποσφαλμάτωσης"
 
-#: src/main.c:801
+#: src/main.c:802
 msgid "  --help                 display this help and exit"
 msgstr "  --help                 εμφάνιση αυτού του κειμένου και έξοδος"
 
-#: src/main.c:802
+#: src/main.c:803
 msgid "  --version              output version information and exit"
 msgstr "  --version              εμφάνιση της έκδοσης και έξοδος"
 
-#: src/main.c:803
+#: src/main.c:804
 msgid "  --config-dir           output configuration directory"
 msgstr "  --config-dir           εμφάνιση καταλόγου ρυθμίσεων"
 
-#: src/main.c:868
+#: src/main.c:869
 #, c-format
 msgid "Processing (%s)..."
 msgstr "Επεξεργασία (%s)..."
 
-#: src/main.c:871
+#: src/main.c:872
 #, fuzzy
 msgid "top level folder"
 msgstr "Δεν υπάρχει τέτοιος φάκελος %s"
 
-#: src/main.c:932
+#: src/main.c:933
 msgid "Really quit?"
 msgstr "Έξοδος;"
 
-#: src/main.c:933
+#: src/main.c:934
 msgid "Composing message exists."
 msgstr "Υπάρχει ήδη μήνυμα υπό σύνθεση."
 
-#: src/main.c:934
+#: src/main.c:935
 msgid "_Save to Draft"
 msgstr "Αποθήκευση στα _πρόχειρα"
 
-#: src/main.c:934
+#: src/main.c:935
 msgid "_Discard them"
 msgstr "_Απόρριψη αλλαγών"
 
-#: src/main.c:934
+#: src/main.c:935
 msgid "Do_n't quit"
 msgstr "_Να μην γίνει έξοδος"
 
-#: src/main.c:948
+#: src/main.c:949
 msgid "Queued messages"
 msgstr "Μηνύματα στην ουρά"
 
-#: src/main.c:949
+#: src/main.c:950
 msgid "Some unsent messages are queued. Exit now?"
 msgstr "Μερικά μηνύματα δεν έχουν σταλεί και είναι στην ουρά. Να κλείσω;"
 
-#: src/mainwindow.c:469
+#: src/mainwindow.c:470
 #: src/messageview.c:158
 msgid "/_File"
 msgstr "/_Αρχείο"
 
-#: src/mainwindow.c:470
+#: src/mainwindow.c:471
 msgid "/_File/_Add mailbox"
 msgstr "/_Αρχείο/_Προσθήκη γραμματοκιβωτίου"
 
-#: src/mainwindow.c:471
+#: src/mainwindow.c:472
 msgid "/_File/_Add mailbox/MH..."
 msgstr "/_Αρχείο/_Προσθήκη γραμματοκιβωτίου/MH..."
 
-#: src/mainwindow.c:472
-#: src/mainwindow.c:474
-#: src/mainwindow.c:479
-#: src/mainwindow.c:481
-#: src/mainwindow.c:484
-#: src/mainwindow.c:487
+#: src/mainwindow.c:473
+#: src/mainwindow.c:475
+#: src/mainwindow.c:480
+#: src/mainwindow.c:482
+#: src/mainwindow.c:485
+#: src/mainwindow.c:488
 #: src/messageview.c:161
 msgid "/_File/---"
 msgstr "/_Αρχείο/---"
 
-#: src/mainwindow.c:473
+#: src/mainwindow.c:474
 msgid "/_File/Change folder order..."
 msgstr "/_Αρχείο/Αλλαγή της διάταξης των φακέλων..."
 
-#: src/mainwindow.c:475
+#: src/mainwindow.c:476
 msgid "/_File/_Import mbox file..."
 msgstr "/Αρχείο/Εισαγωγή αρχείου mbox..."
 
-#: src/mainwindow.c:476
+#: src/mainwindow.c:477
 msgid "/_File/_Export to mbox file..."
 msgstr "/Αρχείο/Εξαγωγή σε αρχείο mbox..."
 
-#: src/mainwindow.c:477
+#: src/mainwindow.c:478
 msgid "/_File/Exp_ort selected to mbox file..."
 msgstr "/_Αρχείο/Εξαγωγή επιλεγμένου σε αρχείο mbox..."
 
-#: src/mainwindow.c:480
+#: src/mainwindow.c:481
 msgid "/_File/Empty all _Trash folders"
 msgstr "/_Αρχείο/Άδειασμα όλων των φακέλων απορριμμάτων"
 
-#: src/mainwindow.c:482
+#: src/mainwindow.c:483
 #: src/messageview.c:159
 msgid "/_File/_Save as..."
 msgstr "/Αρχείο/Αποθήκευση ως..."
 
-#: src/mainwindow.c:483
+#: src/mainwindow.c:484
 #: src/messageview.c:160
 msgid "/_File/_Print..."
 msgstr "/Αρχείο/Εκτύπωση..."
 
-#: src/mainwindow.c:485
+#: src/mainwindow.c:486
 msgid "/_File/_Work offline"
 msgstr "/_Αρχείο/Εργασία χωρίς σύνδεση"
 
-#: src/mainwindow.c:486
+#: src/mainwindow.c:487
 msgid "/_File/Synchronise folders"
 msgstr "/_Αρχείο/Συγχρονισμός φακέλων"
 
-#: src/mainwindow.c:489
+#: src/mainwindow.c:490
 msgid "/_File/E_xit"
 msgstr "/_Αρχείο/Έ_ξοδος"
 
-#: src/mainwindow.c:494
+#: src/mainwindow.c:495
 msgid "/_Edit/Select _thread"
 msgstr "/_Επεξεργασία/Επιλογή _νήματος"
 
-#: src/mainwindow.c:496
+#: src/mainwindow.c:497
 #: src/messageview.c:168
 msgid "/_Edit/_Find in current message..."
 msgstr "/_Επεξεργασία/Εύ_ρεση στο τρέχον μήνυμα..."
 
-#: src/mainwindow.c:498
+#: src/mainwindow.c:499
 msgid "/_Edit/_Search folder..."
 msgstr "/_Επεξεργασία/Εύρεση _στο φάκελο..."
 
-#: src/mainwindow.c:499
+#: src/mainwindow.c:500
 msgid "/_Edit/_Quick search"
 msgstr "/_Επεξεργασία/_Γρήγορη αναζήτηση"
 
-#: src/mainwindow.c:500
+#: src/mainwindow.c:501
 #: src/messageview.c:171
-#: src/summaryview.c:471
+#: src/summaryview.c:472
 msgid "/_View"
 msgstr "/_Προβολή"
 
-#: src/mainwindow.c:501
+#: src/mainwindow.c:502
 msgid "/_View/Show or hi_de"
 msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη"
 
-#: src/mainwindow.c:502
+#: src/mainwindow.c:503
 msgid "/_View/Show or hi_de/_Folder tree"
 msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/Στήλη _φακέλων"
 
-#: src/mainwindow.c:504
+#: src/mainwindow.c:505
 msgid "/_View/Show or hi_de/_Message view"
 msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/Προβολή _μηνύματος"
 
-#: src/mainwindow.c:506
+#: src/mainwindow.c:507
 msgid "/_View/Show or hi_de/_Toolbar"
 msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη"
 
-#: src/mainwindow.c:508
+#: src/mainwindow.c:509
 msgid "/_View/Show or hi_de/_Toolbar/Text _below icons"
 msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Κείμενο κάτω από τα εικονίδια"
 
-#: src/mainwindow.c:510
+#: src/mainwindow.c:511
 msgid "/_View/Show or hi_de/_Toolbar/Text be_side icons"
 msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Κείμενο δίπλα από τα εικονίδια"
 
-#: src/mainwindow.c:512
+#: src/mainwindow.c:513
 msgid "/_View/Show or hi_de/_Toolbar/_Icons only"
 msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/Μόνο _εικονίδια"
 
-#: src/mainwindow.c:514
+#: src/mainwindow.c:515
 msgid "/_View/Show or hi_de/_Toolbar/_Text only"
 msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/Μόνο _κείμενο"
 
-#: src/mainwindow.c:516
+#: src/mainwindow.c:517
 msgid "/_View/Show or hi_de/_Toolbar/_Hide"
 msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Απόκρυψη"
 
-#: src/mainwindow.c:518
+#: src/mainwindow.c:519
 msgid "/_View/Show or hi_de/Status _bar"
 msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Γραμμή κατάστασης"
 
-#: src/mainwindow.c:520
+#: src/mainwindow.c:521
 msgid "/_View/Set displayed _columns"
 msgstr "/_Προβολή/Ορ_ισμός εμφανιζόμενων στοιχείων"
 
-#: src/mainwindow.c:521
+#: src/mainwindow.c:522
 msgid "/_View/Set displayed _columns/in _Folder list..."
 msgstr "/_Προβολή/Ορ_ισμός εμφανιζόμενων στοιχείων/στη λίστα _φακέλων..."
 
-#: src/mainwindow.c:522
+#: src/mainwindow.c:523
 msgid "/_View/Set displayed _columns/in _Message list..."
 msgstr "/_Προβολή/Ορ_ισμός εμφανιζόμενων στοιχείων/στη λίστα _μηνυμάτων..."
 
-#: src/mainwindow.c:524
-#: src/mainwindow.c:527
-#: src/mainwindow.c:555
-#: src/mainwindow.c:580
-#: src/mainwindow.c:697
-#: src/mainwindow.c:701
+#: src/mainwindow.c:525
+#: src/mainwindow.c:528
+#: src/mainwindow.c:556
+#: src/mainwindow.c:581
+#: src/mainwindow.c:698
+#: src/mainwindow.c:702
 #: src/messageview.c:277
 msgid "/_View/---"
 msgstr "/_Προβολή/---"
 
-#: src/mainwindow.c:525
+#: src/mainwindow.c:526
 msgid "/_View/Separate f_older tree"
 msgstr "/_Προβολή/Αποσύνδεση στήλης _φακέλων"
 
-#: src/mainwindow.c:526
+#: src/mainwindow.c:527
 msgid "/_View/Separate _message view"
 msgstr "/_Προβολή/Αποσύνδεση προβολής _μηνύματος"
 
-#: src/mainwindow.c:528
+#: src/mainwindow.c:529
 msgid "/_View/_Sort"
 msgstr "/_Προβολή/_Ταξινόμηση"
 
-#: src/mainwindow.c:529
+#: src/mainwindow.c:530
 msgid "/_View/_Sort/by _number"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _νούμερο"
 
-#: src/mainwindow.c:530
+#: src/mainwindow.c:531
 msgid "/_View/_Sort/by S_ize"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _μέγεθος"
 
-#: src/mainwindow.c:531
+#: src/mainwindow.c:532
 msgid "/_View/_Sort/by _Date"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _χρονολογία"
 
-#: src/mainwindow.c:532
+#: src/mainwindow.c:533
 msgid "/_View/_Sort/by _From"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _αποστολέα"
 
-#: src/mainwindow.c:533
+#: src/mainwindow.c:534
 msgid "/_View/_Sort/by _To"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _παραλήπτη"
 
-#: src/mainwindow.c:534
+#: src/mainwindow.c:535
 msgid "/_View/_Sort/by S_ubject"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _θέμα"
 
-#: src/mainwindow.c:535
+#: src/mainwindow.c:536
 msgid "/_View/_Sort/by _color label"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά Χρ_ωματική ταμπέλα"
 
-#: src/mainwindow.c:537
+#: src/mainwindow.c:538
 msgid "/_View/_Sort/by _mark"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _σημείωση"
 
-#: src/mainwindow.c:538
+#: src/mainwindow.c:539
 msgid "/_View/_Sort/by _status"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά _κατάσταση"
 
-#: src/mainwindow.c:539
+#: src/mainwindow.c:540
 msgid "/_View/_Sort/by a_ttachment"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά συν_ημμένο"
 
-#: src/mainwindow.c:541
+#: src/mainwindow.c:542
 msgid "/_View/_Sort/by score"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά βαθμολογία"
 
-#: src/mainwindow.c:542
+#: src/mainwindow.c:543
 msgid "/_View/_Sort/by locked"
 msgstr "/_Προβολή/_Ταξινόμηση/κατά κλέιδωμα"
 
-#: src/mainwindow.c:543
+#: src/mainwindow.c:544
 msgid "/_View/_Sort/D_on't sort"
 msgstr "/_Προβολή/_Ταξινόμηση/Ατα_ξινόμητα"
 
-#: src/mainwindow.c:544
-#: src/mainwindow.c:547
+#: src/mainwindow.c:545
+#: src/mainwindow.c:548
 msgid "/_View/_Sort/---"
 msgstr "/_Προβολή/_Ταξινόμηση/---"
 
-#: src/mainwindow.c:545
+#: src/mainwindow.c:546
 msgid "/_View/_Sort/Ascending"
 msgstr "/_Προβολή/_Ταξινόμηση/Αύξουσα"
 
-#: src/mainwindow.c:546
+#: src/mainwindow.c:547
 msgid "/_View/_Sort/Descending"
 msgstr "/_Προβολή/_Ταξινόμηση/Φθίνουσα"
 
-#: src/mainwindow.c:548
+#: src/mainwindow.c:549
 msgid "/_View/_Sort/_Attract by subject"
 msgstr "/_Προβολή/_Ταξινόμηση/_Ομαδοποίηση κατά θέμα"
 
-#: src/mainwindow.c:550
+#: src/mainwindow.c:551
 msgid "/_View/Th_read view"
 msgstr "/_Προβολή/Κατάταξη σε _νήματα"
 
-#: src/mainwindow.c:551
+#: src/mainwindow.c:552
 msgid "/_View/E_xpand all threads"
 msgstr "/_Προβολή/Ανάπτυ_ξη όλων των νημάτων"
 
-#: src/mainwindow.c:552
+#: src/mainwindow.c:553
 msgid "/_View/Co_llapse all threads"
 msgstr "/Προβολή/Σύμπτ_υξη όλων των νημάτων"
 
-#: src/mainwindow.c:553
+#: src/mainwindow.c:554
 msgid "/_View/_Hide read messages"
 msgstr "/_Προβολή/_Απόκρυψη αναγνωσμένων μηνυμάτων"
 
-#: src/mainwindow.c:556
+#: src/mainwindow.c:557
 msgid "/_View/_Go to"
 msgstr "/_Προβολή/Μετά_βαση"
 
-#: src/mainwindow.c:557
+#: src/mainwindow.c:558
 msgid "/_View/_Go to/_Previous message"
 msgstr "/_Προβολή/Μετά_βαση/_Προηγούμενο μήνυμα"
 
-#: src/mainwindow.c:558
+#: src/mainwindow.c:559
 msgid "/_View/_Go to/_Next message"
 msgstr "/_Προβολή/Μετά_βαση/_Επόμενο μήνυμα"
 
-#: src/mainwindow.c:559
-#: src/mainwindow.c:564
-#: src/mainwindow.c:567
-#: src/mainwindow.c:572
-#: src/mainwindow.c:577
+#: src/mainwindow.c:560
+#: src/mainwindow.c:565
+#: src/mainwindow.c:568
+#: src/mainwindow.c:573
+#: src/mainwindow.c:578
 msgid "/_View/_Go to/---"
 msgstr "/_Προβολή/Μετά_βαση/---"
 
-#: src/mainwindow.c:560
+#: src/mainwindow.c:561
 msgid "/_View/_Go to/P_revious unread message"
 msgstr "/_Προβολή/Μετά_βαση/Π_ροηγούμενο μη αναγνωσμένο μήνυμα"
 
-#: src/mainwindow.c:562
+#: src/mainwindow.c:563
 msgid "/_View/_Go to/N_ext unread message"
 msgstr "/_Προβολή/Μετά_βαση/Επόμενο μη αναγνωσμένο μήνυμα"
 
-#: src/mainwindow.c:565
+#: src/mainwindow.c:566
 msgid "/_View/_Go to/Previous ne_w message"
 msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο _νέο μήνυμα"
 
-#: src/mainwindow.c:566
+#: src/mainwindow.c:567
 msgid "/_View/_Go to/Ne_xt new message"
 msgstr "/_Προβολή/Μετά_βαση/Επόμενο νέο μήνυμα"
 
-#: src/mainwindow.c:568
+#: src/mainwindow.c:569
 msgid "/_View/_Go to/Previous _marked message"
 msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο _σημειωμένο μήνυμα"
 
-#: src/mainwindow.c:570
+#: src/mainwindow.c:571
 msgid "/_View/_Go to/Next m_arked message"
 msgstr "/_Προβολή/Μετά_βαση/Επόμενο σημειωμένο μήνυμα"
 
-#: src/mainwindow.c:573
+#: src/mainwindow.c:574
 #, fuzzy
 msgid "/_View/_Go to/Previous _labeled message"
 msgstr "/_Προβολή/Μετά_βαση/Προηγούμενο _σημειωμένο μήνυμα"
 
-#: src/mainwindow.c:575
+#: src/mainwindow.c:576
 msgid "/_View/_Go to/Next la_beled message"
 msgstr "/_Προβολή/Μετά_βαση/Επόμενο σημειωμένο μήνυμα"
 
-#: src/mainwindow.c:578
+#: src/mainwindow.c:579
 msgid "/_View/_Go to/Next unread _folder"
 msgstr "/_Προβολή/Μετά_βαση/Επόμενο μη αναγνωσμένο _φάκελο"
 
-#: src/mainwindow.c:579
+#: src/mainwindow.c:580
 msgid "/_View/_Go to/_Other folder..."
 msgstr "/_Προβολή/Μετά_βαση/Ά_λλο φάκελο..."
 
-#: src/mainwindow.c:583
-#: src/mainwindow.c:590
+#: src/mainwindow.c:584
+#: src/mainwindow.c:591
 #: src/messageview.c:174
 msgid "/_View/Character _encoding/---"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/---"
 
-#: src/mainwindow.c:587
+#: src/mainwindow.c:588
 #: src/messageview.c:178
 msgid "/_View/Character _encoding"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων"
 
-#: src/mainwindow.c:588
+#: src/mainwindow.c:589
 #: src/messageview.c:179
 msgid "/_View/Character _encoding/_Auto detect"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/_Αυτόματη αναγνώριση"
 
-#: src/mainwindow.c:591
+#: src/mainwindow.c:592
 #: src/messageview.c:182
 msgid "/_View/Character _encoding/7bit ascii (US-ASC_II)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/7bit ascii (US-ASC_II)"
 
-#: src/mainwindow.c:593
+#: src/mainwindow.c:594
 #: src/messageview.c:185
 msgid "/_View/Character _encoding/Unicode (_UTF-8)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Unicode (_UTF-8)"
 
-#: src/mainwindow.c:597
+#: src/mainwindow.c:598
 #: src/messageview.c:188
 msgid "/_View/Character _encoding/Western European (ISO-8859-_1)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_1)"
 
-#: src/mainwindow.c:599
+#: src/mainwindow.c:600
 #: src/messageview.c:190
 msgid "/_View/Character _encoding/Western European (ISO-8859-15)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-15)"
 
-#: src/mainwindow.c:601
+#: src/mainwindow.c:602
 #: src/messageview.c:192
 msgid "/_View/Character _encoding/Western European (Windows-1252)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (Windows-1252)"
 
-#: src/mainwindow.c:605
+#: src/mainwindow.c:606
 #: src/messageview.c:195
 msgid "/_View/Character _encoding/Central European (ISO-8859-_2)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κεντρικής Ευρώπης (ISO-8859-_2)"
 
-#: src/mainwindow.c:609
+#: src/mainwindow.c:610
 #: src/messageview.c:198
 msgid "/_View/Character _encoding/_Baltic (ISO-8859-13)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/_Βαλτικής (ISO-8859-13)"
 
-#: src/mainwindow.c:611
+#: src/mainwindow.c:612
 #: src/messageview.c:200
 msgid "/_View/Character _encoding/Baltic (ISO-8859-_4)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Βαλτικής (ISO-8859-_4)"
 
-#: src/mainwindow.c:615
+#: src/mainwindow.c:616
 #: src/messageview.c:203
 msgid "/_View/Character _encoding/Greek (ISO-8859-_7)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ελληνικά (ISO-8859-_7)"
 
-#: src/mainwindow.c:619
+#: src/mainwindow.c:620
 #: src/messageview.c:206
 msgid "/_View/Character _encoding/Hebrew (ISO-8859-_8)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Εβραϊκή (ISO-8859-_8)"
 
-#: src/mainwindow.c:621
+#: src/mainwindow.c:622
 #: src/messageview.c:208
 msgid "/_View/Character _encoding/Hebrew (Windows-1255)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Εβραϊκή (Windows-1255)"
 
-#: src/mainwindow.c:625
+#: src/mainwindow.c:626
 #: src/messageview.c:211
 msgid "/_View/Character _encoding/Arabic (ISO-8859-_6)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Αραβική (ISO-8859-_6)"
 
-#: src/mainwindow.c:627
+#: src/mainwindow.c:628
 #: src/messageview.c:213
 msgid "/_View/Character _encoding/Arabic (Windows-1256)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Αραβική (Windows-1256)"
 
-#: src/mainwindow.c:631
+#: src/mainwindow.c:632
 #: src/messageview.c:216
 msgid "/_View/Character _encoding/Turkish (ISO-8859-_9)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Τούρκικη (ISO-8859-_9)"
 
-#: src/mainwindow.c:635
+#: src/mainwindow.c:636
 #: src/messageview.c:219
 msgid "/_View/Character _encoding/Cyrillic (ISO-8859-_5)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (ISO-8859-_5)"
 
-#: src/mainwindow.c:637
+#: src/mainwindow.c:638
 #: src/messageview.c:221
 msgid "/_View/Character _encoding/Cyrillic (KOI8-_R)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (KOI8-_R)"
 
-#: src/mainwindow.c:639
+#: src/mainwindow.c:640
 #: src/messageview.c:223
 msgid "/_View/Character _encoding/Cyrillic (KOI8-U)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (KOI8-_U)"
 
-#: src/mainwindow.c:641
+#: src/mainwindow.c:642
 #: src/messageview.c:225
 msgid "/_View/Character _encoding/Cyrillic (Windows-1251)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (Windows-1251)"
 
-#: src/mainwindow.c:645
+#: src/mainwindow.c:646
 #: src/messageview.c:228
 msgid "/_View/Character _encoding/Japanese (ISO-2022-_JP)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
 
-#: src/mainwindow.c:647
+#: src/mainwindow.c:648
 #: src/messageview.c:230
 msgid "/_View/Character _encoding/Japanese (ISO-2022-JP-2)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (ISO-2022-JP-2)"
 
-#: src/mainwindow.c:649
+#: src/mainwindow.c:650
 #: src/messageview.c:232
 msgid "/_View/Character _encoding/Japanese (_EUC-JP)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (_EUC-JP)"
 
-#: src/mainwindow.c:651
+#: src/mainwindow.c:652
 #: src/messageview.c:234
 msgid "/_View/Character _encoding/Japanese (_Shift__JIS)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (_Shift__JIS)"
 
-#: src/mainwindow.c:655
+#: src/mainwindow.c:656
 #: src/messageview.c:237
 msgid "/_View/Character _encoding/Simplified Chinese (_GB2312)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
 
-#: src/mainwindow.c:657
+#: src/mainwindow.c:658
 #: src/messageview.c:239
 msgid "/_View/Character _encoding/Simplified Chinese (GBK)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (GBK)"
 
-#: src/mainwindow.c:659
+#: src/mainwindow.c:660
 #: src/messageview.c:241
 msgid "/_View/Character _encoding/Traditional Chinese (_Big5)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (_Big5)"
 
-#: src/mainwindow.c:661
+#: src/mainwindow.c:662
 #: src/messageview.c:243
 msgid "/_View/Character _encoding/Traditional Chinese (EUC-_TW)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Παραδοσιακή Κινέζικη (EUC-_TW)"
 
-#: src/mainwindow.c:663
+#: src/mainwindow.c:664
 #: src/messageview.c:245
 msgid "/_View/Character _encoding/Chinese (ISO-2022-_CN)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κινέζικη (ISO-2022-_CN)"
 
-#: src/mainwindow.c:667
+#: src/mainwindow.c:668
 #: src/messageview.c:248
 msgid "/_View/Character _encoding/Korean (EUC-_KR)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κορεάτικη (EUC-_KR)"
 
-#: src/mainwindow.c:669
+#: src/mainwindow.c:670
 #: src/messageview.c:250
 msgid "/_View/Character _encoding/Korean (ISO-2022-KR)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κορεάτικη (ISO-2022-KR)"
 
-#: src/mainwindow.c:673
+#: src/mainwindow.c:674
 #: src/messageview.c:253
 msgid "/_View/Character _encoding/Thai (TIS-620)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ταϊλανδέζικη (TIS-620)"
 
-#: src/mainwindow.c:675
+#: src/mainwindow.c:676
 #: src/messageview.c:255
 msgid "/_View/Character _encoding/Thai (Windows-874)"
 msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ταϊλανδέζικη (Windows-874)"
 
-#: src/mainwindow.c:682
-#: src/mainwindow.c:688
+#: src/mainwindow.c:683
+#: src/mainwindow.c:689
 #: src/messageview.c:262
 #: src/messageview.c:268
 msgid "/_View/Decode/---"
 msgstr "/_Προβολή/Αποκωδικοποίηση/---"
 
-#: src/mainwindow.c:685
+#: src/mainwindow.c:686
 #: src/messageview.c:265
 msgid "/_View/Decode"
 msgstr "/_Προβολή/Αποκωδικοποίηση"
 
-#: src/mainwindow.c:686
+#: src/mainwindow.c:687
 #: src/messageview.c:266
 msgid "/_View/Decode/_Auto detect"
 msgstr "/_Προβολή/Αποκωδικοποίηση/Αυτόματη αναγνώριση"
 
-#: src/mainwindow.c:689
+#: src/mainwindow.c:690
 #: src/messageview.c:269
 msgid "/_View/Decode/_8bit"
 msgstr "/_Προβολή/Αποκωδικοποίηση/_8bit"
 
-#: src/mainwindow.c:690
+#: src/mainwindow.c:691
 #: src/messageview.c:270
 msgid "/_View/Decode/_Quoted printable"
 msgstr "/_Προβολή/Αποκωδικοποίηση//_Quoted printable"
 
-#: src/mainwindow.c:691
+#: src/mainwindow.c:692
 #: src/messageview.c:271
 msgid "/_View/Decode/_Base64"
 msgstr "/_Προβολή/Αποκωδικοποίηση/_Base64"
 
-#: src/mainwindow.c:692
+#: src/mainwindow.c:693
 #: src/messageview.c:272
 msgid "/_View/Decode/_Uuencode"
 msgstr "/_Προβολή/Αποκωδικοποίηση/_Uuencode"
 
-#: src/mainwindow.c:698
-#: src/summaryview.c:472
+#: src/mainwindow.c:699
+#: src/summaryview.c:473
 msgid "/_View/Open in new _window"
 msgstr "/_Προβολή/Άνοι_γμα σε νέο παράθυρο"
 
-#: src/mainwindow.c:699
+#: src/mainwindow.c:700
 #: src/messageview.c:278
 msgid "/_View/Mess_age source"
 msgstr "/_Προβολή/Πηγαίος _κώδικας μηνύματος"
 
-#: src/mainwindow.c:700
+#: src/mainwindow.c:701
 msgid "/_View/Show all headers"
 msgstr "/_Προβολή/Εμφάνιση όλων των κεφαλίδων"
 
-#: src/mainwindow.c:702
+#: src/mainwindow.c:703
 msgid "/_View/_Update summary"
 msgstr "/_Προβολή/Ανανέ_ωση"
 
-#: src/mainwindow.c:705
+#: src/mainwindow.c:706
 msgid "/_Message/Recei_ve"
 msgstr "/_Μήνυμα/_Λήψη"
 
-#: src/mainwindow.c:706
+#: src/mainwindow.c:707
 msgid "/_Message/Recei_ve/Get from _current account"
 msgstr "/_Μήνυμα/_Λήψη/Από τον _τρέχοντα λογαριασμό"
 
-#: src/mainwindow.c:708
+#: src/mainwindow.c:709
 msgid "/_Message/Recei_ve/Get from _all accounts"
 msgstr "/_Μήνυμα/_Λήψη/Από _όλους τους λογαριασμούς"
 
-#: src/mainwindow.c:710
+#: src/mainwindow.c:711
 msgid "/_Message/Recei_ve/Cancel receivin_g"
 msgstr "/_Μήνυμα/_Λήψη/_Ακύρωση λήψης"
 
-#: src/mainwindow.c:712
+#: src/mainwindow.c:713
 msgid "/_Message/Recei_ve/---"
 msgstr "/_Μήνυμα/_Λήψη/---"
 
-#: src/mainwindow.c:713
+#: src/mainwindow.c:714
 msgid "/_Message/_Send queued messages"
 msgstr "/_Μήνυμα/Αποστολή μηνυμάτων στην _ουρά"
 
-#: src/mainwindow.c:715
+#: src/mainwindow.c:716
 msgid "/_Message/Compose a_n email message"
 msgstr "/Μήνυμα/Σύνθεση μηνύματος ηλεκτρονικού _ταχυδρομείου"
 
-#: src/mainwindow.c:716
+#: src/mainwindow.c:717
 msgid "/_Message/Compose a news message"
 msgstr "/_Μήνυμα/Σύνθεση μηνύματος νέων"
 
-#: src/mainwindow.c:717
+#: src/mainwindow.c:718
 #: src/messageview.c:285
 msgid "/_Message/_Reply"
 msgstr "/_Μήνυμα/Α_πάντηση"
 
-#: src/mainwindow.c:718
+#: src/mainwindow.c:719
 msgid "/_Message/Repl_y to"
 msgstr "/_Μήνυμα/Απάντηση _σε"
 
-#: src/mainwindow.c:719
+#: src/mainwindow.c:720
 #: src/messageview.c:286
 msgid "/_Message/Repl_y to/_all"
 msgstr "/_Μήνυμα/Απάντηση _σε/όλ_ους"
 
-#: src/mainwindow.c:720
+#: src/mainwindow.c:721
 #: src/messageview.c:288
 msgid "/_Message/Repl_y to/_sender"
 msgstr "/_Μήνυμα/Απάντηση _σε/_αποστολέα"
 
-#: src/mainwindow.c:721
+#: src/mainwindow.c:722
 #: src/messageview.c:290
 msgid "/_Message/Repl_y to/mailing _list"
 msgstr "/_Μήνυμα/Απάντηση _σε/_λίστα αλληλογραφίας"
 
-#: src/mainwindow.c:723
+#: src/mainwindow.c:724
 msgid "/_Message/Follow-up and reply to"
 msgstr "/_Μήνυμα/Συνέχεια-σε και απάντηση"
 
-#: src/mainwindow.c:725
+#: src/mainwindow.c:726
 #: src/messageview.c:293
 msgid "/_Message/_Forward"
 msgstr "/_Μήνυμα/_Προώθηση"
 
-#: src/mainwindow.c:726
+#: src/mainwindow.c:727
 #: src/messageview.c:294
 msgid "/_Message/For_ward as attachment"
 msgstr "/_Μήνυμα/Π_ροώθηση ως συνημμένο"
 
-#: src/mainwindow.c:727
+#: src/mainwindow.c:728
 msgid "/_Message/Redirect"
 msgstr "/_Μήνυμα/Αναμετάδοση"
 
-#: src/mainwindow.c:729
+#: src/mainwindow.c:730
 msgid "/_Message/Mailing-_List"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας"
 
-#: src/mainwindow.c:730
+#: src/mainwindow.c:731
 msgid "/_Message/Mailing-_List/Post"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Αποστολή"
 
-#: src/mainwindow.c:731
+#: src/mainwindow.c:732
 msgid "/_Message/Mailing-_List/Help"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Βοήθεια"
 
-#: src/mainwindow.c:732
+#: src/mainwindow.c:733
 msgid "/_Message/Mailing-_List/Subscribe"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Εγγραφή"
 
-#: src/mainwindow.c:733
+#: src/mainwindow.c:734
 msgid "/_Message/Mailing-_List/Unsubscribe"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Διαγραφή"
 
-#: src/mainwindow.c:734
+#: src/mainwindow.c:735
 msgid "/_Message/Mailing-_List/View archive"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Προβολή αρχείου"
 
-#: src/mainwindow.c:735
+#: src/mainwindow.c:736
 msgid "/_Message/Mailing-_List/Contact owner"
 msgstr "/_Μήνυμα/_Λίστα αλληλογραφίας/Επικοινωνία με κάτοχο"
 
-#: src/mainwindow.c:738
+#: src/mainwindow.c:739
 msgid "/_Message/M_ove..."
 msgstr "/_Μήνυμα/_Μετακίνηση..."
 
-#: src/mainwindow.c:739
+#: src/mainwindow.c:740
 msgid "/_Message/_Copy..."
 msgstr "/_Μήνυμα/_Αντιγραφή..."
 
-#: src/mainwindow.c:740
+#: src/mainwindow.c:741
 msgid "/_Message/Move to _trash"
 msgstr "/_Μήνυμα/Μετα_κίνηση στα απορίμματα"
 
-#: src/mainwindow.c:741
+#: src/mainwindow.c:742
 msgid "/_Message/_Delete..."
 msgstr "/_Μήνυμα/_Διαγραφή..."
 
-#: src/mainwindow.c:742
+#: src/mainwindow.c:743
 msgid "/_Message/Cancel a news message"
 msgstr "/_Μήνυμα/Ακύρωση μηνύματος νέων"
 
-#: src/mainwindow.c:744
+#: src/mainwindow.c:745
 msgid "/_Message/_Mark"
 msgstr "/_Μήνυμα/Σ_ημείωση"
 
-#: src/mainwindow.c:745
+#: src/mainwindow.c:746
 msgid "/_Message/_Mark/_Mark"
 msgstr "/_Μήνυμα/Σ_ημείωση/Σ_ημείωση"
 
-#: src/mainwindow.c:746
+#: src/mainwindow.c:747
 msgid "/_Message/_Mark/_Unmark"
 msgstr "/_Μήνυμα/Σ_ημείωση/_Αναίρεση σημείωσης"
 
-#: src/mainwindow.c:747
-#: src/mainwindow.c:751
+#: src/mainwindow.c:748
+#: src/mainwindow.c:752
 msgid "/_Message/_Mark/---"
 msgstr "/_Μήνυμα/Σ_ημείωση/---"
 
-#: src/mainwindow.c:748
+#: src/mainwindow.c:749
 msgid "/_Message/_Mark/Mark as unr_ead"
 msgstr "/_Μήνυμα/Σ_ημείωση/Ως _μη αναγνωσμένο"
 
-#: src/mainwindow.c:749
+#: src/mainwindow.c:750
 msgid "/_Message/_Mark/Mark as rea_d"
 msgstr "/_Μήνυμα/Σ_ημείωση/Ως _αναγνωσμένο"
 
-#: src/mainwindow.c:750
+#: src/mainwindow.c:751
 msgid "/_Message/_Mark/Mark all _read"
 msgstr "/_Μήνυμα/Σ_ημείωση/Ό_λων ως αναγνωσμένα"
 
-#: src/mainwindow.c:752
+#: src/mainwindow.c:753
 msgid "/_Message/_Mark/Mark as _spam"
 msgstr "/_Μήνυμα/Σ_ημείωση/_Ανεπιθύμητη αλληλογραφία"
 
-#: src/mainwindow.c:753
+#: src/mainwindow.c:754
 msgid "/_Message/_Mark/Mark as _ham"
 msgstr "/_Μήνυμα/Σ_ημείωση/_Επιθυμητή αλληλογραφία"
 
-#: src/mainwindow.c:754
+#: src/mainwindow.c:755
 msgid "/_Message/Color la_bel"
 msgstr "/_Μήνυμα/_Χρωματική ταμπέλα"
 
-#: src/mainwindow.c:756
+#: src/mainwindow.c:757
 #: src/messageview.c:298
 msgid "/_Message/Re-_edit"
 msgstr "/_Μήνυμα/Επαν-_επεξεργασία"
 
-#: src/mainwindow.c:759
+#: src/mainwindow.c:760
 msgid "/_Tools/_Address book..."
 msgstr "/_Εργαλεία/_Ευρετήριο διευθύνσεων..."
 
-#: src/mainwindow.c:760
+#: src/mainwindow.c:761
 #: src/messageview.c:302
 msgid "/_Tools/Add sender to address boo_k"
 msgstr "/_Εργαλεία/Προσθήκη αποστολέα στο ευρετήριο _διευθύνσεων"
 
-#: src/mainwindow.c:762
+#: src/mainwindow.c:763
 msgid "/_Tools/_Harvest addresses"
 msgstr "/_Εργαλεία/_Συλλογή διευθύνσεων"
 
-#: src/mainwindow.c:763
+#: src/mainwindow.c:764
 msgid "/_Tools/_Harvest addresses/from _Folder..."
 msgstr "/_Εργαλεία/_Συλλογή διευθύνσεων/από _φάκελο..."
 
-#: src/mainwindow.c:765
+#: src/mainwindow.c:766
 msgid "/_Tools/_Harvest addresses/from _Messages..."
 msgstr "/_Εργαλεία/_Συλλογή διευθύνσεων/από _μηνύματα..."
 
-#: src/mainwindow.c:768
+#: src/mainwindow.c:769
 msgid "/_Tools/_Filter all messages in folder"
 msgstr "/_Εργαλεία/_Φιλτράρισμα όλων των μηνυμάτων στο φάκελο"
 
-#: src/mainwindow.c:770
+#: src/mainwindow.c:771
 msgid "/_Tools/Filter _selected messages"
 msgstr "/_Εργαλεία/Φιλτράρισμα ε_πιλεγμένων μηνυμάτων"
 
-#: src/mainwindow.c:772
+#: src/mainwindow.c:773
 #: src/messageview.c:305
 msgid "/_Tools/_Create filter rule"
 msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου"
 
-#: src/mainwindow.c:773
+#: src/mainwindow.c:774
 #: src/messageview.c:307
 msgid "/_Tools/_Create filter rule/_Automatically"
 msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/_Αυτόματα"
 
-#: src/mainwindow.c:775
+#: src/mainwindow.c:776
 #: src/messageview.c:309
 msgid "/_Tools/_Create filter rule/by _From"
 msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/από τον απο_στολέα"
 
-#: src/mainwindow.c:777
+#: src/mainwindow.c:778
 #: src/messageview.c:311
 msgid "/_Tools/_Create filter rule/by _To"
 msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/από τους _παραλήπτες"
 
-#: src/mainwindow.c:779
+#: src/mainwindow.c:780
 #: src/messageview.c:313
 msgid "/_Tools/_Create filter rule/by _Subject"
 msgstr "/_Εργαλεία/Δη_μιουργία Φίλτρου/από το _θέμα"
 
-#: src/mainwindow.c:781
+#: src/mainwindow.c:782
 msgid "/_Tools/C_reate processing rule"
 msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας"
 
-#: src/mainwindow.c:782
+#: src/mainwindow.c:783
 msgid "/_Tools/C_reate processing rule/_Automatically"
 msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/_Αυτόματα"
 
-#: src/mainwindow.c:784
+#: src/mainwindow.c:785
 msgid "/_Tools/C_reate processing rule/by _From"
 msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/από τον απο_στολέα"
 
-#: src/mainwindow.c:786
+#: src/mainwindow.c:787
 msgid "/_Tools/C_reate processing rule/by _To"
 msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/από τους _παραλήπτες"
 
-#: src/mainwindow.c:788
+#: src/mainwindow.c:789
 msgid "/_Tools/C_reate processing rule/by _Subject"
 msgstr "/_Εργαλεία/Δημιουργία _κανόνα επεξεργασίας/από το _θέμα"
 
-#: src/mainwindow.c:793
+#: src/mainwindow.c:794
 msgid "/_Tools/Ch_eck for new messages in all folders"
 msgstr "/_Εργαλεία/Έλεγχος για _νέα μηνύματα σε όλους τους φακέλους"
 
-#: src/mainwindow.c:795
+#: src/mainwindow.c:796
 msgid "/_Tools/Delete du_plicated messages"
 msgstr "/_Εργαλεία/Διαγραφή δ_ιπλών μηνυμάτων"
 
-#: src/mainwindow.c:797
+#: src/mainwindow.c:798
 msgid "/_Tools/Delete du_plicated messages/In selected folder"
 msgstr "/_Εργαλεία/Διαγραφή δ_ιπλών μηνυμάτων/Στον επιλεγμένο φάκελο"
 
-#: src/mainwindow.c:799
+#: src/mainwindow.c:800
 msgid "/_Tools/Delete du_plicated messages/In all folders"
 msgstr "/_Εργαλεία/Διαγραφή δ_ιπλών μηνυμάτων/Σε όλους τους φακέλους"
 
-#: src/mainwindow.c:802
+#: src/mainwindow.c:803
 msgid "/_Tools/E_xecute"
 msgstr "/_Εργαλεία/Εκτέ_λεση"
 
-#: src/mainwindow.c:805
+#: src/mainwindow.c:806
 msgid "/_Tools/SSL cer_tificates..."
 msgstr "/_Εργαλεία/Πισ_τοποιητικά SSL..."
 
-#: src/mainwindow.c:809
+#: src/mainwindow.c:810
 msgid "/_Tools/_Log window"
 msgstr "/_Εργαλεία/Πα_ράθυρο καταγραφής"
 
-#: src/mainwindow.c:811
+#: src/mainwindow.c:812
 msgid "/_Configuration"
 msgstr "/_Ρυθμίσεις"
 
-#: src/mainwindow.c:812
+#: src/mainwindow.c:813
 msgid "/_Configuration/C_hange current account"
 msgstr "/_Ρυθμίσεις/Α_λλαγή τρέχοντος λογαριασμού"
 
-#: src/mainwindow.c:814
+#: src/mainwindow.c:815
 msgid "/_Configuration/_Preferences for current account..."
 msgstr "/_Ρυθμίσεις/Προτιμήσεις _τρέχοντος λογαριασμού..."
 
-#: src/mainwindow.c:816
+#: src/mainwindow.c:817
 msgid "/_Configuration/Create _new account..."
 msgstr "/_Ρυθμίσεις/Δημιουργία _νέου λογαριασμού..."
 
-#: src/mainwindow.c:818
+#: src/mainwindow.c:819
 msgid "/_Configuration/_Edit accounts..."
 msgstr "/_Ρυθμίσεις/_Επεξεργασία λογαριασμών..."
 
-#: src/mainwindow.c:820
+#: src/mainwindow.c:821
 msgid "/_Configuration/---"
 msgstr "/_Ρυθμίσεις/---"
 
-#: src/mainwindow.c:821
+#: src/mainwindow.c:822
 msgid "/_Configuration/P_references..."
 msgstr "/_Ρυθμίσεις/_Προτιμήσεις..."
 
-#: src/mainwindow.c:823
+#: src/mainwindow.c:824
 msgid "/_Configuration/Pre-pr_ocessing..."
 msgstr ""
 
-#: src/mainwindow.c:825
+#: src/mainwindow.c:826
 msgid "/_Configuration/Post-pro_cessing..."
 msgstr ""
 
-#: src/mainwindow.c:827
+#: src/mainwindow.c:828
 msgid "/_Configuration/_Filtering..."
 msgstr "/_Ρυθμίσεις/_Φίλτρα..."
 
-#: src/mainwindow.c:829
+#: src/mainwindow.c:830
 msgid "/_Configuration/_Templates..."
 msgstr "/_Ρυθμίσεις/Π_ρότυπα..."
 
-#: src/mainwindow.c:830
+#: src/mainwindow.c:831
 msgid "/_Configuration/_Actions..."
 msgstr "/_Ρυθμίσεις/Ενέργε_ιες..."
 
-#: src/mainwindow.c:831
+#: src/mainwindow.c:832
 msgid "/_Configuration/Plu_gins..."
 msgstr "/_Ρυθμίσεις/Πρόσ_θετα..."
 
-#: src/mainwindow.c:834
+#: src/mainwindow.c:835
 msgid "/_Help/_Manual"
 msgstr "/_Βοήθεια/_Τεκμηρίωση"
 
-#: src/mainwindow.c:835
+#: src/mainwindow.c:836
 msgid "/_Help/_Online User-contributed FAQ"
 msgstr "/_Βοήθεια/Συχνές Ερωτήσεις _Online"
 
-#: src/mainwindow.c:837
+#: src/mainwindow.c:838
 msgid "/_Help/Icon _Legend"
 msgstr "/_Βοήθεια/_Επεξήγηση εικονιδίων"
 
-#: src/mainwindow.c:838
+#: src/mainwindow.c:839
 msgid "/_Help/---"
 msgstr "/_Βοήθεια/---"
 
-#: src/mainwindow.c:1131
+#: src/mainwindow.c:1132
 msgid "You are online. Click the icon to go offline"
 msgstr "Είστε συνδεδεμένος. Κάντε κλικ στο εικονίδιο για να αποσυνδεθείτε"
 
-#: src/mainwindow.c:1135
+#: src/mainwindow.c:1136
 msgid "You are offline. Click the icon to go online"
 msgstr "Είστε αποσυνδεδεμένος. Κάντε κλικ στο εικονίδιο για να συνδεθείτε"
 
-#: src/mainwindow.c:1152
+#: src/mainwindow.c:1153
 msgid "Select account"
 msgstr "Επιλογή λογαριασμού"
 
-#: src/mainwindow.c:1544
-#: src/mainwindow.c:1585
-#: src/mainwindow.c:1621
-#: src/mainwindow.c:1657
-#: src/mainwindow.c:1699
+#: src/mainwindow.c:1545
+#: src/mainwindow.c:1586
+#: src/mainwindow.c:1622
+#: src/mainwindow.c:1658
+#: src/mainwindow.c:1700
 #: src/prefs_folder_item.c:668
 msgid "Untitled"
 msgstr "Χωρίς τίτλο"
 
-#: src/mainwindow.c:1700
+#: src/mainwindow.c:1701
 msgid "none"
 msgstr "κανένα"
 
-#: src/mainwindow.c:1962
+#: src/mainwindow.c:1963
 msgid "Delete all messages in trash folders?"
 msgstr "Διαγραφή όλων των μηνυμάτων σε όλους τους φακέλους απορριμμάτων;"
 
-#: src/mainwindow.c:1981
+#: src/mainwindow.c:1982
 msgid "Add mailbox"
 msgstr "Προσθήκη γραμματοκιβωτίου"
 
-#: src/mainwindow.c:1982
+#: src/mainwindow.c:1983
 msgid ""
 "Input the location of mailbox.\n"
 "If the existing mailbox is specified, it will be\n"
@@ -5820,17 +5825,17 @@ msgstr ""
 "Αν οριστεί το υπάρχον γραμματοκιβώτιο, θα\n"
 "σαρωθεί αυτόματα."
 
-#: src/mainwindow.c:1988
+#: src/mainwindow.c:1989
 #, c-format
 msgid "The mailbox '%s' already exists."
 msgstr "Το γραμματοκιβώτιο '%s' υπάρχει ήδη."
 
-#: src/mainwindow.c:1993
+#: src/mainwindow.c:1994
 #: src/setup.c:51
 msgid "Mailbox"
 msgstr "Γραμματοκιβώτιο"
 
-#: src/mainwindow.c:1998
+#: src/mainwindow.c:1999
 #: src/setup.c:54
 msgid ""
 "Creation of the mailbox failed.\n"
@@ -5839,87 +5844,87 @@ msgstr ""
 "Η δημιουργία του mailbox απέτυχε.\n"
 "Ίσως κάποια αρχεία να υπάρχουν ήδη, ή δεν έχετε δικαίωμα να γράψετε εκεί. "
 
-#: src/mainwindow.c:2280
+#: src/mainwindow.c:2281
 msgid "No posting allowed"
 msgstr "Η αποστολή δεν επιτρέπεται"
 
-#: src/mainwindow.c:2542
+#: src/mainwindow.c:2543
 msgid "Sylpheed-Claws - Folder View"
 msgstr "Sylpheed-Claws - Προβολή φακέλων"
 
-#: src/mainwindow.c:2578
+#: src/mainwindow.c:2579
 #: src/messageview.c:447
 #: src/messageview.c:830
 msgid "Sylpheed-Claws - Message View"
 msgstr "Sylpheed-Claws - Προβολή μηνύματος"
 
-#: src/mainwindow.c:2928
+#: src/mainwindow.c:2929
 msgid "Mbox import has failed."
 msgstr "Η εισαγωγή του αρχείου mbox απέτυχε."
 
-#: src/mainwindow.c:2937
-#: src/mainwindow.c:2946
+#: src/mainwindow.c:2938
+#: src/mainwindow.c:2947
 msgid "Export to mbox has failed."
 msgstr "Η εξαγωγή σε αρχείο mbox απέτυχε."
 
-#: src/mainwindow.c:2969
+#: src/mainwindow.c:2970
 #: src/plugins/trayicon/trayicon.c:369
 msgid "Exit"
 msgstr "Έξοδος"
 
-#: src/mainwindow.c:2969
+#: src/mainwindow.c:2970
 msgid "Exit Sylpheed-Claws?"
 msgstr "Έξοδος από το Sylpheed-Claws;"
 
-#: src/mainwindow.c:3115
+#: src/mainwindow.c:3116
 msgid "Folder synchronisation"
 msgstr "Συγχρονισμός φακέλων"
 
-#: src/mainwindow.c:3116
+#: src/mainwindow.c:3117
 msgid "Do you want to synchronise your folders now?"
 msgstr "Θέλετε να συγχρονίσετε τους φακέλους τώρα;"
 
-#: src/mainwindow.c:3117
+#: src/mainwindow.c:3118
 msgid "+_Synchronise"
 msgstr "+_Συγχρονισμός"
 
-#: src/mainwindow.c:3387
+#: src/mainwindow.c:3388
 msgid "Deleting duplicated messages..."
 msgstr "Διαγράφω τα διπλά μηνύματα..."
 
-#: src/mainwindow.c:3421
+#: src/mainwindow.c:3422
 #, c-format
 msgid "Deleted %d duplicate message in %d folders.\n"
 msgid_plural "Deleted %d duplicate messages in %d folders.\n"
 msgstr[0] "Διεγράφη %d διπλό μήνυμα σε %d φάκελους.\n"
 msgstr[1] "Διεγράφησαν %d διπλά μηνύματα σε %d φακέλους\n"
 
-#: src/mainwindow.c:3568
-#: src/summaryview.c:4526
+#: src/mainwindow.c:3569
+#: src/summaryview.c:4527
 msgid "Processing rules to apply before folder rules"
 msgstr "Κανόνες επεξεργασίας για εφαρμογή πριν τους κανόνες φακέλων"
 
-#: src/mainwindow.c:3576
+#: src/mainwindow.c:3578
 msgid "Processing rules to apply after folder rules"
 msgstr "Κανόνες επεξεργασίας για εφαρμογή μετά τους κανόνες φακέλων"
 
-#: src/mainwindow.c:3584
-#: src/summaryview.c:4535
+#: src/mainwindow.c:3587
+#: src/summaryview.c:4538
 msgid "Filtering configuration"
 msgstr "Ρυθμίσεις φίλτρων"
 
-#: src/mainwindow.c:3837
+#: src/mainwindow.c:3841
 #, c-format
 msgid "not initialized\n"
 msgstr "δεν έχει αρχικοποιηθεί\n"
 
-#: src/mainwindow.c:3849
-#: src/mainwindow.c:3860
+#: src/mainwindow.c:3853
+#: src/mainwindow.c:3864
 #, c-format
 msgid "selecting folder '%s'\n"
 msgstr "επιλογή φακέλου '%s'\n"
 
-#: src/mainwindow.c:3864
+#: src/mainwindow.c:3868
 #, c-format
 msgid "selecting message %d\n"
 msgstr "επιλογή μηνύματος %d\n"
@@ -5961,7 +5966,7 @@ msgstr "Αυτό το αρχείο υπάρχει ήδη.  Θέλετε να τ�
 #: src/mbox.c:469
 #: src/messageview.c:1111
 #: src/mimeview.c:1388
-#: src/textview.c:2347
+#: src/textview.c:2355
 msgid "Overwrite"
 msgstr "Εγγραφή από πάνω"
 
@@ -5976,40 +5981,40 @@ msgstr "Αδυναμία δημιουργίας αντιγράφου ασφαλ�
 msgid "Exporting to mbox..."
 msgstr "Εξαγωγή σε αρχείο mbox..."
 
-#: src/message_search.c:128
+#: src/message_search.c:131
 msgid "Find in current message"
 msgstr "Εύρεση στο τρέχον μήνυμα"
 
-#: src/message_search.c:146
+#: src/message_search.c:149
 msgid "Find text:"
 msgstr "Εύρεση κειμένου:"
 
-#: src/message_search.c:161
+#: src/message_search.c:164
 #: src/prefs_matcher.c:578
-#: src/summary_search.c:294
+#: src/summary_search.c:297
 msgid "Case sensitive"
 msgstr "Διαχωρισμός πεζών/κεφαλαίων"
 
-#: src/message_search.c:233
-#: src/summary_search.c:496
+#: src/message_search.c:240
+#: src/summary_search.c:505
 msgid "Search failed"
 msgstr "Η αναζήτηση απέτυχε"
 
-#: src/message_search.c:234
-#: src/summary_search.c:497
+#: src/message_search.c:241
+#: src/summary_search.c:506
 msgid "Search string not found."
 msgstr "Το κείμενο αναζήτησης δεν βρέθηκε."
 
-#: src/message_search.c:243
+#: src/message_search.c:250
 msgid "Beginning of message reached; continue from end?"
 msgstr "Έφτασα την αρχή του μηνύματος. Να συνεχίσω από το τέλος;"
 
-#: src/message_search.c:246
+#: src/message_search.c:253
 msgid "End of message reached; continue from beginning?"
 msgstr "Έφτασα το τέλος του μηνύματος. Να συνεχίσω από την αρχή;"
 
-#: src/message_search.c:249
-#: src/summary_search.c:508
+#: src/message_search.c:256
+#: src/summary_search.c:517
 msgid "Search finished"
 msgstr "Η αναζήτηση τελείωσε"
 
@@ -6088,9 +6093,9 @@ msgstr "Δεν ήταν δυνατή η αποκρυπτογράφηση: %s"
 
 #: src/messageview.c:1106
 #: src/mimeview.c:1513
-#: src/summaryview.c:3870
-#: src/summaryview.c:3873
-#: src/textview.c:2335
+#: src/summaryview.c:3871
+#: src/summaryview.c:3874
+#: src/textview.c:2343
 msgid "Save as"
 msgstr "Αποθήκευση ως"
 
@@ -6099,9 +6104,9 @@ msgid "Overwrite existing file?"
 msgstr "Εγγραφή πάνω από το υπάρχον αρχείο;"
 
 #: src/messageview.c:1120
-#: src/summaryview.c:3890
-#: src/summaryview.c:3893
-#: src/summaryview.c:3908
+#: src/summaryview.c:3891
+#: src/summaryview.c:3894
+#: src/summaryview.c:3909
 #, c-format
 msgid "Can't save the file '%s'."
 msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου '%s'."
@@ -6186,7 +6191,7 @@ msgid "+_Cancel"
 msgstr "+_Άκυρο"
 
 #: src/messageview.c:1415
-#: src/summaryview.c:3945
+#: src/summaryview.c:3946
 #, fuzzy, c-format
 msgid ""
 "Enter the print command line:\n"
@@ -6196,7 +6201,7 @@ msgstr ""
 "(Το '%s' θα αντικατασταθεί με το όνομα αρχείου)"
 
 #: src/messageview.c:1421
-#: src/summaryview.c:3951
+#: src/summaryview.c:3952
 #, c-format
 msgid ""
 "Print command line is invalid:\n"
@@ -6206,14 +6211,14 @@ msgstr ""
 "'%s'"
 
 #: src/messageview.c:1432
-#: src/summaryview.c:3922
+#: src/summaryview.c:3923
 msgid "Cannot print: the message doesn't contain text."
 msgstr "Δεν είναι δυνατή η εκτύπωση: το μήνυμα δεν περιέχει κείμενο."
 
 #: src/messageview.c:1659
 #: src/messageview.c:1665
-#: src/summaryview.c:3341
-#: src/summaryview.c:5233
+#: src/summaryview.c:3342
+#: src/summaryview.c:5237
 #, fuzzy
 msgid "An error happened while learning.\n"
 msgstr "Σφάλμα κατά το άνοιγμα του ημερολογίου"
@@ -6261,7 +6266,7 @@ msgid "/_Display as text"
 msgstr "/_Εμφάνιση σαν κείμενο"
 
 #: src/mimeview.c:159
-#: src/summaryview.c:477
+#: src/summaryview.c:478
 msgid "/_Save as..."
 msgstr "/_Αποθήκευση ως..."
 
@@ -6312,7 +6317,7 @@ msgid "Can't save the part of multipart message."
 msgstr "Δεν μπορώ να αποθηκεύσω το τμήμα του πολυτμηματικού μηνύματος."
 
 #: src/mimeview.c:1385
-#: src/textview.c:2345
+#: src/textview.c:2353
 #, c-format
 msgid "Overwrite existing file '%s'?"
 msgstr "Θέλετε να αντικαταστήσετε το υπάρχον αρχείο '%s';"
@@ -6326,11 +6331,11 @@ msgstr "Επιλογή φακέλου προορισμού"
 msgid "'%s' is not a directory."
 msgstr "Το '%s' δεν είναι κατάλογος."
 
-#: src/mimeview.c:1626
+#: src/mimeview.c:1634
 msgid "Open with"
 msgstr "Άνοιγμα με"
 
-#: src/mimeview.c:1627
+#: src/mimeview.c:1635
 #, c-format
 msgid ""
 "Enter the command line to open file:\n"
@@ -6339,89 +6344,89 @@ msgstr ""
 "Εισάγετε την γραμμή εντολής για το άνοιγμα του αρχείου:\n"
 "(Το '%s' θα αντικατασταθεί με το όνομα αρχείου)"
 
-#: src/news.c:243
+#: src/news.c:255
 #, c-format
 msgid "creating NNTP connection to %s:%d ...\n"
 msgstr "δημιουργώ NNTP σύνδεση στο %s:%d ...\n"
 
-#: src/news.c:316
+#: src/news.c:328
 msgid "Sylpheed-Claws needs network access in order to access the News server."
 msgstr "Το Sylpheed-Claws απαιτεί πρόσβαση στο δίκτυο προκειμένου να επικοινωνήσει με τον διακομιστή νέων."
 
-#: src/news.c:333
+#: src/news.c:345
 #, c-format
 msgid "NNTP connection to %s:%d has been disconnected. Reconnecting...\n"
 msgstr "Η NNTP σύνδεση στο %s:%d διακόπηκε. Επανασύνδεση...\n"
 
-#: src/news.c:463
+#: src/news.c:475
 msgid "can't retrieve newsgroup list\n"
 msgstr "δεν ήταν δυνατή η λήψη της λίστας ομάδων συζητήσεων\n"
 
-#: src/news.c:576
+#: src/news.c:588
 msgid "can't post article.\n"
 msgstr "δεν μπορώ να στείλω το άρθρο.\n"
 
-#: src/news.c:602
+#: src/news.c:614
 #, c-format
 msgid "can't retrieve article %d\n"
 msgstr "δεν μπορώ να λάβω το άρθρο %d\n"
 
-#: src/news.c:651
+#: src/news.c:663
 #, c-format
 msgid "can't select group: %s\n"
 msgstr "δεν είναι δυνατή η επιλογή της ομάδας: %s\n"
 
-#: src/news.c:876
+#: src/news.c:888
 #, c-format
 msgid "can't set group: %s\n"
 msgstr "δεν μπορώ να ορίσω την ομάδα: %s\n"
 
-#: src/news.c:885
+#: src/news.c:897
 #, c-format
 msgid "invalid article range: %d - %d\n"
 msgstr "μη έγκυρη ακολουθία άρθρων: %d - %d\n"
 
-#: src/news.c:905
+#: src/news.c:917
 #, c-format
 msgid "error occurred while getting %s.\n"
 msgstr "σφάλμα κατά την λήψη του %s.\n"
 
-#: src/news.c:923
+#: src/news.c:935
 #, fuzzy, c-format
 msgid "getting xover %d in %s...\n"
 msgstr "Το ψευδώνυμο είναι σε χρήση"
 
-#: src/news.c:930
-#: src/news.c:1023
+#: src/news.c:942
+#: src/news.c:1035
 msgid "can't get xover\n"
 msgstr "δεν μπορώ να λάβω xover\n"
 
-#: src/news.c:940
-#: src/news.c:1035
+#: src/news.c:952
+#: src/news.c:1047
 msgid "error occurred while getting xover.\n"
 msgstr "συνέβη σφάλμα καθώς λάμβανα xover.\n"
 
-#: src/news.c:947
-#: src/news.c:1049
+#: src/news.c:959
+#: src/news.c:1061
 #, c-format
 msgid "invalid xover line: %s\n"
 msgstr "μη έγκυρη γραμμή xover: %s\n"
 
-#: src/news.c:964
-#: src/news.c:985
-#: src/news.c:1068
-#: src/news.c:1100
+#: src/news.c:976
+#: src/news.c:997
+#: src/news.c:1080
+#: src/news.c:1112
 msgid "can't get xhdr\n"
 msgstr "δεν μπορώ να λάβω xhdr\n"
 
-#: src/news.c:974
-#: src/news.c:995
-#: src/news.c:1081
-#: src/news.c:1113
+#: src/news.c:986
+#: src/news.c:1007
+#: src/news.c:1093
+#: src/news.c:1125
 msgid "error occurred while getting xhdr.\n"
 msgstr "συνέβη σφάλμα καθώς λάμβανα xhdr.\n"
 
-#: src/news.c:1019
+#: src/news.c:1031
 #, c-format
 msgid "getting xover %d - %d in %s...\n"
 msgstr "λαμβάνω xover %d - %d στο %s...\n"
@@ -7687,52 +7692,52 @@ msgstr "Πρωτόκολλο:"
 msgid "Unsupported (%s)"
 msgstr "Μη υποστηριζόμενο (%s)"
 
-#: src/prefs_actions.c:199
+#: src/prefs_actions.c:202
 msgid "Actions configuration"
 msgstr "Ρύθμιση ενεργειών"
 
-#: src/prefs_actions.c:223
+#: src/prefs_actions.c:229
 msgid "Menu name:"
 msgstr "Όνομα μενού:"
 
-#: src/prefs_actions.c:232
+#: src/prefs_actions.c:238
 msgid "Command line:"
 msgstr "Γραμμή εντολών:"
 
-#: src/prefs_actions.c:261
+#: src/prefs_actions.c:267
 #: src/prefs_filtering_action.c:493
-#: src/prefs_filtering.c:347
+#: src/prefs_filtering.c:371
 #: src/prefs_matcher.c:602
-#: src/prefs_template.c:258
+#: src/prefs_template.c:260
 #: src/prefs_toolbar.c:788
 msgid "Replace"
 msgstr "Αντικατάσταση"
 
-#: src/prefs_actions.c:505
+#: src/prefs_actions.c:511
 msgid "Menu name is not set."
 msgstr "Δεν έχει οριστεί το όνομα του μενού."
 
-#: src/prefs_actions.c:510
+#: src/prefs_actions.c:516
 msgid "A leading '/' is not allowed in the menu name."
 msgstr "Δεν επιτρέπεται το '/' για πρώτο γράμμα στο όνομα του μενού."
 
-#: src/prefs_actions.c:515
+#: src/prefs_actions.c:521
 msgid "Colon ':' is not allowed in the menu name."
 msgstr "Δεν επιτρέπεται η άνω & κάτω τελεία ':' στο όνομα του μενού."
 
-#: src/prefs_actions.c:534
+#: src/prefs_actions.c:540
 msgid "Menu name is too long."
 msgstr "Το όνομα του μενού είναι πολύ μακρύ."
 
-#: src/prefs_actions.c:543
+#: src/prefs_actions.c:549
 msgid "Command line not set."
 msgstr "Δεν έχει οριστεί η εντολή."
 
-#: src/prefs_actions.c:548
+#: src/prefs_actions.c:554
 msgid "Menu name and command are too long."
 msgstr "Το όνομα μενού και η εντολή είναι πολύ μεγάλα."
 
-#: src/prefs_actions.c:553
+#: src/prefs_actions.c:559
 #, c-format
 msgid ""
 "The command\n"
@@ -7743,130 +7748,130 @@ msgstr ""
 "%s\n"
 "έχει ένα συντακτικό σφάλμα."
 
-#: src/prefs_actions.c:613
+#: src/prefs_actions.c:619
 msgid "Delete action"
 msgstr "Διαγραφή ενέργειας"
 
-#: src/prefs_actions.c:614
+#: src/prefs_actions.c:620
 msgid "Do you really want to delete this action?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτή την ενέργεια;"
 
-#: src/prefs_actions.c:731
-#: src/prefs_actions.c:751
-#: src/prefs_filtering.c:1102
-#: src/prefs_filtering.c:1124
+#: src/prefs_actions.c:737
+#: src/prefs_actions.c:757
+#: src/prefs_filtering.c:1127
+#: src/prefs_filtering.c:1149
 #: src/prefs_matcher.c:1640
-#: src/prefs_template.c:404
-#: src/prefs_template.c:421
+#: src/prefs_template.c:411
+#: src/prefs_template.c:428
 msgid "Entry not saved"
 msgstr "Η εγγραφή δεν αποθηκεύτηκε"
 
-#: src/prefs_actions.c:732
-#: src/prefs_actions.c:752
-#: src/prefs_filtering.c:1103
-#: src/prefs_filtering.c:1125
-#: src/prefs_template.c:405
-#: src/prefs_template.c:422
+#: src/prefs_actions.c:738
+#: src/prefs_actions.c:758
+#: src/prefs_filtering.c:1128
+#: src/prefs_filtering.c:1150
+#: src/prefs_template.c:412
+#: src/prefs_template.c:429
 msgid "The entry was not saved. Close anyway?"
 msgstr "Η εγγραφή δεν έχει αποθηκευτεί. Να κλείσω;"
 
-#: src/prefs_actions.c:733
-#: src/prefs_actions.c:753
-#: src/prefs_filtering.c:1104
-#: src/prefs_filtering.c:1126
+#: src/prefs_actions.c:739
+#: src/prefs_actions.c:759
+#: src/prefs_filtering.c:1129
+#: src/prefs_filtering.c:1151
 #: src/prefs_matcher.c:1642
-#: src/prefs_template.c:406
-#: src/prefs_template.c:423
-msgid "_Continue editing"
-msgstr "_Συνέχεια επεξεργασίας"
+#: src/prefs_template.c:413
+#: src/prefs_template.c:430
+msgid "+_Continue editing"
+msgstr "+_Συνέχεια επεξεργασίας"
 
-#: src/prefs_actions.c:788
+#: src/prefs_actions.c:794
 msgid "<span weight=\"bold\" underline=\"single\">Menu name:</span>"
 msgstr "<span weight=\"bold\" underline=\"single\">Όνομα μενού:</span>"
 
-#: src/prefs_actions.c:789
+#: src/prefs_actions.c:795
 msgid "Use / in menu name to make submenus."
 msgstr "Χρησιμοποιήστε '/' στο όνομα του μενού για να δημιουργήσετε υπομενού."
 
-#: src/prefs_actions.c:791
+#: src/prefs_actions.c:797
 msgid "<span weight=\"bold\" underline=\"single\">Command line:</span>"
 msgstr "<span weight=\"bold\" underline=\"single\">Εντολή:</span>"
 
-#: src/prefs_actions.c:792
+#: src/prefs_actions.c:798
 msgid "<span weight=\"bold\">Begin with:</span>"
 msgstr "<span weight=\"bold\">Ξεκινά με:</span>"
 
-#: src/prefs_actions.c:793
+#: src/prefs_actions.c:799
 msgid "to send message body or selection to command's standard input"
 msgstr ""
 
-#: src/prefs_actions.c:794
+#: src/prefs_actions.c:800
 msgid "to send user provided text to command's standard input"
 msgstr ""
 
-#: src/prefs_actions.c:795
+#: src/prefs_actions.c:801
 msgid "to send user provided hidden text to command's standard input"
 msgstr ""
 
-#: src/prefs_actions.c:796
+#: src/prefs_actions.c:802
 msgid "<span weight=\"bold\">End with:</span>"
 msgstr "<span weight=\"bold\">Τελειώνει με:</span>"
 
-#: src/prefs_actions.c:797
+#: src/prefs_actions.c:803
 msgid "to replace message body or selection with command's standard output"
 msgstr ""
 
-#: src/prefs_actions.c:798
+#: src/prefs_actions.c:804
 msgid "to insert command's standard output without replacing old text"
 msgstr ""
 
-#: src/prefs_actions.c:799
+#: src/prefs_actions.c:805
 msgid "to run command asynchronously"
 msgstr "για ασύγχρονη εκτέλεση εντολής"
 
-#: src/prefs_actions.c:800
+#: src/prefs_actions.c:806
 msgid "<span weight=\"bold\">Use:</span>"
 msgstr "<span weight=\"bold\">Χρήση:</span>"
 
-#: src/prefs_actions.c:801
+#: src/prefs_actions.c:807
 msgid "for the file of the selected message in RFC822/2822 format "
 msgstr ""
 
-#: src/prefs_actions.c:802
+#: src/prefs_actions.c:808
 msgid "for the list of the files of the selected messages in RFC822/2822 format"
 msgstr ""
 
-#: src/prefs_actions.c:803
+#: src/prefs_actions.c:809
 msgid "for the file of the selected decoded message MIME part"
 msgstr ""
 
-#: src/prefs_actions.c:804
+#: src/prefs_actions.c:810
 #, fuzzy
 msgid "for a user provided argument"
 msgstr "Εισάγετε κωδικό πρόσβασης για %s (χρήστης %s)"
 
-#: src/prefs_actions.c:805
+#: src/prefs_actions.c:811
 msgid "for a user provided hidden argument (e.g. password)"
 msgstr ""
 
-#: src/prefs_actions.c:806
+#: src/prefs_actions.c:812
 msgid "for the text selection"
 msgstr "για την επιλογή κειμένου"
 
-#: src/prefs_actions.c:807
+#: src/prefs_actions.c:813
 msgid "apply filtering actions between {} to selected messages"
 msgstr ""
 
-#: src/prefs_actions.c:816
+#: src/prefs_actions.c:822
 #: src/prefs_themes.c:982
 msgid "Actions"
 msgstr "Ενέργειες"
 
-#: src/prefs_actions.c:817
+#: src/prefs_actions.c:823
 msgid "The Actions feature is a way for the user to launch external commands to process a complete message file or just one of its parts."
 msgstr ""
 
-#: src/prefs_actions.c:903
+#: src/prefs_actions.c:909
 msgid "Current actions"
 msgstr "Τρέχουσες ενέργειες"
 
@@ -8231,7 +8236,7 @@ msgstr "Παραλήπτης"
 
 #: src/prefs_filtering_action.c:439
 #: src/prefs_summary_column.c:88
-#: src/summaryview.c:491
+#: src/summaryview.c:492
 msgid "Score"
 msgstr "Βαθμολογία"
 
@@ -8273,7 +8278,7 @@ msgstr "κυριολεκτικό %"
 #: src/prefs_matcher.c:1688
 #: src/prefs_summary_column.c:85
 #: src/quote_fmt.c:41
-#: src/summaryview.c:488
+#: src/summaryview.c:489
 msgid "Date"
 msgstr "Ημερομηνία"
 
@@ -8334,65 +8339,65 @@ msgstr ""
 msgid "Current action list"
 msgstr "Λίστα τρέχοντων ενεργειών"
 
-#: src/prefs_filtering.c:159
-#: src/prefs_filtering.c:246
+#: src/prefs_filtering.c:164
+#: src/prefs_filtering.c:270
 msgid "Filtering/Processing configuration"
 msgstr "Ρύθμιση φίλτρων/επεξεργασίας"
 
-#: src/prefs_filtering.c:283
+#: src/prefs_filtering.c:307
 msgid "Condition: "
 msgstr "Κατάσταση:"
 
-#: src/prefs_filtering.c:296
-#: src/prefs_filtering.c:318
+#: src/prefs_filtering.c:320
+#: src/prefs_filtering.c:342
 msgid " Define... "
 msgstr "Ορισμός..."
 
-#: src/prefs_filtering.c:305
+#: src/prefs_filtering.c:329
 msgid "Action: "
 msgstr "Δράση:"
 
-#: src/prefs_filtering.c:652
-#: src/prefs_filtering.c:653
-#: src/prefs_filtering.c:715
-#: src/prefs_template.c:354
+#: src/prefs_filtering.c:677
+#: src/prefs_filtering.c:678
+#: src/prefs_filtering.c:740
+#: src/prefs_template.c:361
 msgid "(New)"
 msgstr "(Νέο)"
 
-#: src/prefs_filtering.c:794
-#: src/prefs_filtering.c:877
+#: src/prefs_filtering.c:819
+#: src/prefs_filtering.c:902
 #, fuzzy
 msgid "Condition string is not valid."
 msgstr "Το συνημμένο ημερολόγιο δεν είναι έγκυρο"
 
-#: src/prefs_filtering.c:830
-#: src/prefs_filtering.c:885
+#: src/prefs_filtering.c:855
+#: src/prefs_filtering.c:910
 msgid "Action string is not valid."
 msgstr "Η εντολή της ενέργειας δεν είναι έγκυρη."
 
-#: src/prefs_filtering.c:864
+#: src/prefs_filtering.c:889
 #, fuzzy
 msgid "Condition string is empty."
 msgstr " Η λίστα αγνοημένων είναι άδεια."
 
-#: src/prefs_filtering.c:870
+#: src/prefs_filtering.c:895
 #, fuzzy
 msgid "Action string is empty."
 msgstr " Η λίστα αγνοημένων είναι άδεια."
 
-#: src/prefs_filtering.c:942
+#: src/prefs_filtering.c:967
 msgid "Delete rule"
 msgstr "Διαγραφή κανόνα"
 
-#: src/prefs_filtering.c:943
+#: src/prefs_filtering.c:968
 msgid "Do you really want to delete this rule?"
 msgstr "Θέλετε πράγματι να διαγραφεί αυτός ο κανόνας;"
 
-#: src/prefs_filtering.c:1306
+#: src/prefs_filtering.c:1331
 msgid "Enable"
 msgstr "Ενεργοποίηση"
 
-#: src/prefs_filtering.c:1326
+#: src/prefs_filtering.c:1351
 msgid "Rule"
 msgstr "Κανόνας"
 
@@ -9622,39 +9627,39 @@ msgid ""
 "the order by using the Up / Down buttons or by dragging the items."
 msgstr ""
 
-#: src/prefs_template.c:190
+#: src/prefs_template.c:192
 msgid "Template name"
 msgstr "Όνομα Προτύπου"
 
-#: src/prefs_template.c:274
+#: src/prefs_template.c:276
 msgid " Symbols... "
 msgstr " Σύμβολα..."
 
-#: src/prefs_template.c:301
+#: src/prefs_template.c:305
 msgid "Template configuration"
 msgstr "Ρύθμιση Προτύπου"
 
-#: src/prefs_template.c:514
+#: src/prefs_template.c:521
 msgid "Template format error."
 msgstr "Σφάλμα μορφής προτύπου."
 
-#: src/prefs_template.c:523
+#: src/prefs_template.c:530
 msgid "Template name is not set."
 msgstr "Το όνομα του πρότυπου δεν έχει οριστεί."
 
-#: src/prefs_template.c:612
+#: src/prefs_template.c:619
 msgid "Delete template"
 msgstr "Διαγραφή προτύπου"
 
-#: src/prefs_template.c:613
+#: src/prefs_template.c:620
 msgid "Do you really want to delete this template?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτό το πρότυπο;"
 
-#: src/prefs_template.c:750
+#: src/prefs_template.c:757
 msgid "Current templates"
 msgstr "Τρέχων πρότυπα"
 
-#: src/prefs_template.c:775
+#: src/prefs_template.c:782
 msgid "Template"
 msgstr "Πρότυπο"
 
@@ -10222,406 +10227,406 @@ msgstr "Διαγραφή πιστοποιητικού"
 msgid "Do you really want to delete this certificate?"
 msgstr "Θέλετε σίγουρα να διαγράψετε το πιστοποιητικό;"
 
-#: src/summary_search.c:172
+#: src/summary_search.c:175
 msgid "Search messages"
 msgstr "Αναζήτηση"
 
-#: src/summary_search.c:194
+#: src/summary_search.c:197
 msgid "Match any of the following"
 msgstr "Ταίριασμα οποιουδήποτε από τα  παρακάτω"
 
-#: src/summary_search.c:195
+#: src/summary_search.c:198
 msgid "Match all of the following"
 msgstr "Ταίριασμα όλων των παρακάτω"
 
-#: src/summary_search.c:254
+#: src/summary_search.c:257
 msgid "From:"
 msgstr "Από:"
 
-#: src/summary_search.c:275
+#: src/summary_search.c:278
 msgid "Body:"
 msgstr "Περιεχόμενο:"
 
-#: src/summary_search.c:282
+#: src/summary_search.c:285
 msgid "Condition:"
 msgstr "Κατάσταση:"
 
-#: src/summary_search.c:310
+#: src/summary_search.c:315
 msgid "Find _all"
 msgstr "Εύρεση ό_λων"
 
-#: src/summary_search.c:504
+#: src/summary_search.c:513
 msgid "Beginning of list reached; continue from end?"
 msgstr "Έφτασα την αρχή της λίστας. Να συνεχίσω από το τέλος;"
 
-#: src/summary_search.c:506
+#: src/summary_search.c:515
 msgid "End of list reached; continue from beginning?"
 msgstr "Έφτασα το τέλος της λίστας. Να συνεχίσω από την αρχή;"
 
-#: src/summaryview.c:416
+#: src/summaryview.c:417
 msgid "/_Reply"
 msgstr "/_Απάντηση"
 
-#: src/summaryview.c:417
+#: src/summaryview.c:418
 msgid "/Repl_y to"
 msgstr "/Απάντ_ηση σε"
 
-#: src/summaryview.c:418
+#: src/summaryview.c:419
 msgid "/Repl_y to/_all"
 msgstr "/Απάντ_ηση σε/_Όλους"
 
-#: src/summaryview.c:419
+#: src/summaryview.c:420
 msgid "/Repl_y to/_sender"
 msgstr "/Απάντ_ηση σε/_Αποστολέα"
 
-#: src/summaryview.c:420
+#: src/summaryview.c:421
 msgid "/Repl_y to/mailing _list"
 msgstr "/Απάντ_ηση σε/_λίστα ηλεκτρονικού ταχυδρομείου"
 
-#: src/summaryview.c:423
+#: src/summaryview.c:424
 #: src/toolbar.c:234
 msgid "/_Forward"
 msgstr "/Πρ_οώθηση"
 
-#: src/summaryview.c:424
+#: src/summaryview.c:425
 #: src/toolbar.c:235
 msgid "/For_ward as attachment"
 msgstr "/Προώθηση ως συ_νημμένο"
 
-#: src/summaryview.c:425
+#: src/summaryview.c:426
 msgid "/Redirect"
 msgstr "/Αναμετάδοση"
 
-#: src/summaryview.c:427
+#: src/summaryview.c:428
 msgid "/M_ove..."
 msgstr "/Μ_ετακίνηση..."
 
-#: src/summaryview.c:428
+#: src/summaryview.c:429
 msgid "/_Copy..."
 msgstr "/_Αντιγραφή..."
 
-#: src/summaryview.c:429
+#: src/summaryview.c:430
 msgid "/Move to _trash"
 msgstr "/Μετακίνηση στα απο_ρρίματα"
 
-#: src/summaryview.c:430
+#: src/summaryview.c:431
 msgid "/_Delete..."
 msgstr "/_Διαγραφή..."
 
-#: src/summaryview.c:432
+#: src/summaryview.c:433
 msgid "/_Mark"
 msgstr "/Ση_μείωση"
 
-#: src/summaryview.c:433
+#: src/summaryview.c:434
 msgid "/_Mark/_Mark"
 msgstr "/Ση_μείωση/Ση_μείωση"
 
-#: src/summaryview.c:434
+#: src/summaryview.c:435
 msgid "/_Mark/_Unmark"
 msgstr "/Ση_μείωση/_Αναίρεση σημείωσης"
 
-#: src/summaryview.c:435
-#: src/summaryview.c:441
-#: src/summaryview.c:444
+#: src/summaryview.c:436
+#: src/summaryview.c:442
+#: src/summaryview.c:445
 msgid "/_Mark/---"
 msgstr "/Ση_μείωση/---"
 
-#: src/summaryview.c:436
+#: src/summaryview.c:437
 msgid "/_Mark/Mark as unr_ead"
 msgstr "/Ση_μείωση/_Ως μη αναγνωσμένο"
 
-#: src/summaryview.c:437
+#: src/summaryview.c:438
 msgid "/_Mark/Mark as rea_d"
 msgstr "/Ση_μείωση/Ως αναγ_νωσμένο"
 
-#: src/summaryview.c:438
+#: src/summaryview.c:439
 msgid "/_Mark/Mark all read"
 msgstr "/Ση_μείωση/Όλων ως αναγνωσμένα"
 
-#: src/summaryview.c:439
+#: src/summaryview.c:440
 msgid "/_Mark/Ignore thread"
 msgstr "/Ση_μείωση/Αγνόηση νήματος"
 
-#: src/summaryview.c:440
+#: src/summaryview.c:441
 msgid "/_Mark/Unignore thread"
 msgstr "/Ση_μείωση/Ακύρωση αγνόησης νήματος"
 
-#: src/summaryview.c:442
+#: src/summaryview.c:443
 msgid "/_Mark/Mark as _spam"
 msgstr "/Ση_μείωση/Ανε_πιθύμητη αλληλογραφία"
 
-#: src/summaryview.c:443
+#: src/summaryview.c:444
 msgid "/_Mark/Mark as _ham"
 msgstr "/Ση_μείωση/_Επιθυμητή αλληλογραφία"
 
-#: src/summaryview.c:445
+#: src/summaryview.c:446
 msgid "/_Mark/Lock"
 msgstr "/Ση_μείωση/Κλείδωμα"
 
-#: src/summaryview.c:446
+#: src/summaryview.c:447
 msgid "/_Mark/Unlock"
 msgstr "/Ση_μείωση/Ξεκλείδωμα"
 
-#: src/summaryview.c:447
+#: src/summaryview.c:448
 msgid "/Color la_bel"
 msgstr "/_Χρωματική ταμπέλα"
 
-#: src/summaryview.c:450
+#: src/summaryview.c:451
 msgid "/Add sender to address boo_k"
 msgstr "/Προσθήκη αποστολέα στο ε_υρετήριο διευθύνσεων"
 
-#: src/summaryview.c:452
+#: src/summaryview.c:453
 msgid "/Create f_ilter rule"
 msgstr "/Δημιουργία _φίλτρου"
 
-#: src/summaryview.c:453
+#: src/summaryview.c:454
 msgid "/Create f_ilter rule/_Automatically"
 msgstr "/Δημιουργία _φίλτρου/_Αυτόματα"
 
-#: src/summaryview.c:455
+#: src/summaryview.c:456
 msgid "/Create f_ilter rule/by _From"
 msgstr "/Δημιουργία _φίλτρου/από τον απο_στολέα"
 
-#: src/summaryview.c:457
+#: src/summaryview.c:458
 msgid "/Create f_ilter rule/by _To"
 msgstr "/Δημιουργία _φίλτρου/από τον _παραλήπτη"
 
-#: src/summaryview.c:459
+#: src/summaryview.c:460
 msgid "/Create f_ilter rule/by _Subject"
 msgstr "/Δημιουργία _Φίλτρου/από το _θέμα"
 
-#: src/summaryview.c:461
+#: src/summaryview.c:462
 msgid "/Create processing rule"
 msgstr "/Δημιουργία κανόνα επεξεργασίας"
 
-#: src/summaryview.c:462
+#: src/summaryview.c:463
 msgid "/Create processing rule/_Automatically"
 msgstr "/Δημιουργία κανόνα επεξεργασίας/_Αυτόματα"
 
-#: src/summaryview.c:464
+#: src/summaryview.c:465
 msgid "/Create processing rule/by _From"
 msgstr "/Δημιουργία κανόνα επεξεργασίας/από τον απο_στολέα"
 
-#: src/summaryview.c:466
+#: src/summaryview.c:467
 msgid "/Create processing rule/by _To"
 msgstr "/Δημιουργία κανόνα επεξεργασίας/από τον _παραλήπτη"
 
-#: src/summaryview.c:468
+#: src/summaryview.c:469
 msgid "/Create processing rule/by _Subject"
 msgstr "/Δημιουργία κανόνα επεξεργασίας/από το _θέμα"
 
-#: src/summaryview.c:474
+#: src/summaryview.c:475
 msgid "/_View/_Source"
 msgstr "/Προ_βολή/Πηγαίου _κώδικα"
 
-#: src/summaryview.c:475
+#: src/summaryview.c:476
 msgid "/_View/All _header"
 msgstr "/Προ_βολή/Ό_λων των κεφαλίδων"
 
-#: src/summaryview.c:478
+#: src/summaryview.c:479
 msgid "/_Print..."
 msgstr "/Ε_κτύπωση..."
 
-#: src/summaryview.c:554
+#: src/summaryview.c:555
 msgid "Toggle quick search bar"
 msgstr "Εναλλαγή μπάρας γρήγορης αναζήτησης"
 
-#: src/summaryview.c:892
+#: src/summaryview.c:893
 msgid "Process mark"
 msgstr "Σημείωση προόδου"
 
-#: src/summaryview.c:893
+#: src/summaryview.c:894
 msgid "Some marks are left. Process them?"
 msgstr "Έχουν απομείνει μερικές σημειώσεις. Να επεξεργαστούν;"
 
-#: src/summaryview.c:948
+#: src/summaryview.c:949
 #, c-format
 msgid "Scanning folder (%s)..."
 msgstr "Σάρωση φακέλου (%s)..."
 
-#: src/summaryview.c:1410
-#: src/summaryview.c:1462
+#: src/summaryview.c:1411
+#: src/summaryview.c:1463
 msgid "No more unread messages"
 msgstr "Δεν υπάρχουν άλλα μη αναγνωσμένα μηνύματα"
 
-#: src/summaryview.c:1411
+#: src/summaryview.c:1412
 msgid "No unread message found. Search from the end?"
 msgstr "Δεν βρέθηκαν μη αναγνωσμένα μηνύματα. Να γίνει αναζήτηση από το τέλος;"
 
-#: src/summaryview.c:1423
-#: src/summaryview.c:1475
-#: src/summaryview.c:1522
-#: src/summaryview.c:1574
-#: src/summaryview.c:1653
+#: src/summaryview.c:1424
+#: src/summaryview.c:1476
+#: src/summaryview.c:1523
+#: src/summaryview.c:1575
+#: src/summaryview.c:1654
 msgid "Internal error: unexpected value for prefs_common.next_unread_msg_dialog\n"
 msgstr ""
 
-#: src/summaryview.c:1431
+#: src/summaryview.c:1432
 msgid "No unread messages."
 msgstr "Δεν υπάρχουν μη αναγνωσμένα μηνύματα."
 
-#: src/summaryview.c:1463
+#: src/summaryview.c:1464
 msgid "No unread message found. Go to next folder?"
 msgstr "Δεν βρέθηκαν αδιάβαστα μηνύματα. Να πάω στον επόμενο κατάλογο;"
 
-#: src/summaryview.c:1509
-#: src/summaryview.c:1561
+#: src/summaryview.c:1510
+#: src/summaryview.c:1562
 msgid "No more new messages"
 msgstr "Δεν υπάρχουν άλλα νέα μηνύματα"
 
-#: src/summaryview.c:1510
+#: src/summaryview.c:1511
 msgid "No new message found. Search from the end?"
 msgstr "Δεν βρέθηκαν νέα μηνύματα. Να γίνει αναζήτηση από το τέλος;"
 
-#: src/summaryview.c:1530
+#: src/summaryview.c:1531
 msgid "No new messages."
 msgstr "Δεν υπάρχουν νέα μηνύματα."
 
-#: src/summaryview.c:1562
+#: src/summaryview.c:1563
 msgid "No new message found. Go to next folder?"
 msgstr "Δεν βρέθηκαν νέα μηνύματα. Μετάβαση στον επόμενο φάκελο;"
 
-#: src/summaryview.c:1599
-#: src/summaryview.c:1640
+#: src/summaryview.c:1600
+#: src/summaryview.c:1641
 msgid "No more marked messages"
 msgstr "Δεν υπάρχουν άλλα σημειωμένα μηνύματα"
 
-#: src/summaryview.c:1600
+#: src/summaryview.c:1601
 msgid "No marked message found. Search from the end?"
 msgstr "Δεν βρέθηκαν σημειωμένα μηνύματα. Να γίνει αναζήτηση από το τέλος;"
 
-#: src/summaryview.c:1609
+#: src/summaryview.c:1610
 msgid "No marked messages."
 msgstr "Δεν υπάρχουν σημειωμένα μηνύματα."
 
-#: src/summaryview.c:1641
+#: src/summaryview.c:1642
 msgid "No marked message found. Go to next folder?"
 msgstr "Δεν βρέθηκαν σημειωμένα μηνύματα. Να πάω στον επόμενο κατάλογο;"
 
-#: src/summaryview.c:1678
-#: src/summaryview.c:1703
+#: src/summaryview.c:1679
+#: src/summaryview.c:1704
 msgid "No more labeled messages"
 msgstr "Δεν υπάρχουν άλλα σημειωμένα μηνύματα"
 
-#: src/summaryview.c:1679
+#: src/summaryview.c:1680
 #, fuzzy
 msgid "No labeled message found. Search from the end?"
 msgstr "Δεν βρέθηκαν μη αναγνωσμένα μηνύματα. Να γίνει αναζήτηση από το τέλος;"
 
-#: src/summaryview.c:1688
-#: src/summaryview.c:1713
+#: src/summaryview.c:1689
+#: src/summaryview.c:1714
 #, fuzzy
 msgid "No labeled messages."
 msgstr "Δεν υπάρχουν άλλα σημειωμένα μηνύματα"
 
-#: src/summaryview.c:1704
+#: src/summaryview.c:1705
 #, fuzzy
 msgid "No labeled message found. Search from the beginning?"
 msgstr "Δεν βρέθηκαν σημειωμένα μηνύματα. Να γίνει αναζήτηση από την αρχή;"
 
-#: src/summaryview.c:1941
+#: src/summaryview.c:1942
 #, fuzzy
 msgid "Attracting messages by subject..."
 msgstr "Να _υπογράφονται πάντα ψηφιακά τα μηνύματα (προεπιλογή)"
 
-#: src/summaryview.c:2102
+#: src/summaryview.c:2103
 #, c-format
 msgid "%d deleted"
 msgstr "%d διαγράφηκαν"
 
-#: src/summaryview.c:2106
+#: src/summaryview.c:2107
 #, c-format
 msgid "%s%d moved"
 msgstr "%s%d μετακινήθηκαν"
 
-#: src/summaryview.c:2107
-#: src/summaryview.c:2114
+#: src/summaryview.c:2108
+#: src/summaryview.c:2115
 msgid ", "
 msgstr ", "
 
-#: src/summaryview.c:2112
+#: src/summaryview.c:2113
 #, c-format
 msgid "%s%d copied"
 msgstr "%s%d αντιγράφηκαν"
 
-#: src/summaryview.c:2127
+#: src/summaryview.c:2128
 msgid " item selected"
 msgstr " επιλεγμένο αντικείμενο"
 
-#: src/summaryview.c:2129
+#: src/summaryview.c:2130
 msgid " items selected"
 msgstr " επιλεγμένα αντικείμενα"
 
-#: src/summaryview.c:2145
+#: src/summaryview.c:2146
 #, c-format
 msgid "%d new, %d unread, %d total (%s)"
 msgstr "%d νέα, %d αδιάβαστα, %d συνολικά (%s)"
 
-#: src/summaryview.c:2348
+#: src/summaryview.c:2349
 msgid "Sorting summary..."
 msgstr "Περίληψη ταξινόμησης..."
 
-#: src/summaryview.c:2437
+#: src/summaryview.c:2438
 msgid "Setting summary from message data..."
 msgstr "Ορισμός περίληψης από τα δεδομένα του μηνύματος..."
 
-#: src/summaryview.c:2611
+#: src/summaryview.c:2612
 msgid "(No Date)"
 msgstr "(Χωρίς ημερομηνία)"
 
-#: src/summaryview.c:2649
+#: src/summaryview.c:2650
 msgid "(No Recipient)"
 msgstr "(Χωρίς αποδέκτες)"
 
-#: src/summaryview.c:3435
+#: src/summaryview.c:3436
 msgid "You're not the author of the article.\n"
 msgstr "Δεν είστε ο συγγραφέας αυτού του άρθρου.\n"
 
-#: src/summaryview.c:3519
+#: src/summaryview.c:3520
 msgid "Delete message(s)"
 msgstr "Διαγραφή μηνύματος(ων)"
 
-#: src/summaryview.c:3520
+#: src/summaryview.c:3521
 msgid "Do you really want to delete selected message(s)?"
 msgstr "Θέλετε σίγουρα να διαγράψετε τα επιλεγμένα μηνύματα;"
 
-#: src/summaryview.c:3668
+#: src/summaryview.c:3669
 msgid "Destination is same as current folder."
 msgstr "Ο προορισμός είναι ίδιος με τον τρέχοντα κατάλογο."
 
-#: src/summaryview.c:3757
+#: src/summaryview.c:3758
 msgid "Destination to copy is same as current folder."
 msgstr "Ο προορισμός αντιγραφής είναι ίδιος με τον τρέχοντα κατάλογο."
 
-#: src/summaryview.c:3877
+#: src/summaryview.c:3878
 msgid "Append or Overwrite"
 msgstr "Προσθήκη ή αντικατάσταση"
 
-#: src/summaryview.c:3878
+#: src/summaryview.c:3879
 msgid "Append or overwrite existing file?"
 msgstr "Να γίνει προσθήκη ή να αντικατασταθεί το υπάρχον αρχείο;"
 
-#: src/summaryview.c:3879
+#: src/summaryview.c:3880
 msgid "_Append"
 msgstr "Προ_σθήκη"
 
-#: src/summaryview.c:3879
+#: src/summaryview.c:3880
 msgid "_Overwrite"
 msgstr "_Αντικατάσταση"
 
-#: src/summaryview.c:4256
+#: src/summaryview.c:4257
 msgid "Building threads..."
 msgstr "Δημιουργώ τα νήματα..."
 
-#: src/summaryview.c:4461
+#: src/summaryview.c:4462
 msgid "Filtering..."
 msgstr "Φιλτράρω..."
 
-#: src/summaryview.c:4530
+#: src/summaryview.c:4532
 msgid "Processing configuration"
 msgstr "Επεξεργασία ρυθμίσεων"
 
-#: src/summaryview.c:5954
+#: src/summaryview.c:5958
 #, c-format
 msgid ""
 "Regular expression (regexp) error:\n"
@@ -10630,27 +10635,27 @@ msgstr ""
 "Σφάλμα σύνταξης κανονικής έκφρασης (regexp):\n"
 "%s"
 
-#: src/textview.c:229
+#: src/textview.c:231
 msgid "/Compose _new message"
 msgstr "/Σύνθεση _νέου μηνύματος"
 
-#: src/textview.c:230
+#: src/textview.c:232
 msgid "/Add to _address book"
 msgstr "/Προσθήκη στο _ευρετήριο διευθύνσεων"
 
-#: src/textview.c:231
+#: src/textview.c:233
 msgid "/Copy this add_ress"
 msgstr "/Αντιγραφή αυτής της διεύθυνσης"
 
-#: src/textview.c:236
+#: src/textview.c:238
 msgid "/_Open image"
 msgstr "/_Άνοιγμα εικόνας"
 
-#: src/textview.c:237
+#: src/textview.c:239
 msgid "/_Save image..."
 msgstr "/Α_ποθήκευση εικόνας..."
 
-#: src/textview.c:785
+#: src/textview.c:789
 msgid ""
 "\n"
 "  This message can't be displayed.\n"
@@ -10664,79 +10669,79 @@ msgstr ""
 "\n"
 "Χρησιμοποιείστε"
 
-#: src/textview.c:790
+#: src/textview.c:794
 msgid "'View Log'"
 msgstr "'Εμφάνιση του αρχείου καταγραφών'"
 
-#: src/textview.c:791
+#: src/textview.c:795
 msgid " in the Tools menu for more information."
 msgstr "στο μενού Εργαλεία για περισσότερες πληροφορίες."
 
-#: src/textview.c:812
+#: src/textview.c:816
 msgid "  The following can be performed on this part by\n"
 msgstr ""
 
-#: src/textview.c:813
+#: src/textview.c:817
 msgid "  right-clicking the icon or list item:\n"
 msgstr ""
 
-#: src/textview.c:815
+#: src/textview.c:819
 msgid "     - To save, select "
 msgstr "     - Για να αποθηκεύσετε, επιλέξτε"
 
-#: src/textview.c:816
+#: src/textview.c:820
 msgid "'Save as...'"
 msgstr "'Αποθήκευση ως...'"
 
-#: src/textview.c:817
+#: src/textview.c:821
 msgid " (Shortcut key: 'y')\n"
 msgstr "(πλήκτρο συντόμευσης: 'y')\n"
 
-#: src/textview.c:818
+#: src/textview.c:822
 msgid "     - To display as text, select "
 msgstr "     - Για προβολή ως κείμενο, επιλέξτε"
 
-#: src/textview.c:819
+#: src/textview.c:823
 msgid "'Display as text'"
 msgstr "'Εμφάνιση σαν κείμενο'"
 
-#: src/textview.c:820
+#: src/textview.c:824
 msgid " (Shortcut key: 't')\n"
 msgstr "(πλήκτρο συντόμευσης: 't')\n"
 
-#: src/textview.c:821
+#: src/textview.c:825
 msgid "     - To open with an external program, select "
 msgstr "     - Για να το ανοίξετε με ένα εξωτερικό πρόγραμμα, επιλέξτε"
 
-#: src/textview.c:822
+#: src/textview.c:826
 msgid "'Open'"
 msgstr "'Άνοιγμα'"
 
-#: src/textview.c:823
+#: src/textview.c:827
 msgid " (Shortcut key: 'l')\n"
 msgstr "(πλήκτρο συντόμευσης: 'l')\n"
 
-#: src/textview.c:824
+#: src/textview.c:828
 msgid "       (alternately double-click, or click the middle "
 msgstr "       (ή κάντε διπλό κλικ, ή πατήστε το μεσαίο κουμπί"
 
-#: src/textview.c:825
+#: src/textview.c:829
 msgid "mouse button)\n"
 msgstr "του ποντικιού),\n"
 
-#: src/textview.c:826
+#: src/textview.c:830
 msgid "     - Or use "
 msgstr "     - Ή χρησιμοποιήστε "
 
-#: src/textview.c:827
+#: src/textview.c:831
 msgid "'Open with...'"
 msgstr "'Άνοιγμα με...'"
 
-#: src/textview.c:828
+#: src/textview.c:832
 msgid " (Shortcut key: 'o')\n"
 msgstr "(Πλήκτρο συντόμευσης: 'o')\n"
 
-#: src/textview.c:2196
+#: src/textview.c:2204
 #, c-format
 msgid ""
 "The real URL is different from the displayed URL.\n"
@@ -10756,11 +10761,11 @@ msgstr ""
 "\n"
 "Θέλετε σίγουρα να την ανοίξετε;"
 
-#: src/textview.c:2205
+#: src/textview.c:2213
 msgid "Phishing attempt warning"
 msgstr "Προειδοποίηση απόπειρας εξαπάτησης"
 
-#: src/textview.c:2206
+#: src/textview.c:2214
 msgid "_Open URL"
 msgstr "_Άνοιγμα διεύθυνσης"
 
