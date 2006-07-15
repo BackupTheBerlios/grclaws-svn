@@ -1028,7 +1028,7 @@ msgstr ""
 
 #: src/common/ssl_certificate.c:348
 msgid "Can't load X509 default paths"
-msgstr "Δεν ήταν δυνατή η φόρτωση των εξορισμού διαδρομών του X509"
+msgstr "Δεν ήταν δυνατή η φόρτωση των προεπιλεγμένων διαδρομών του X509"
 
 #: src/common/string_match.c:79
 msgid "(Subject cleared by RegExp)"
@@ -1560,8 +1560,8 @@ msgid "Send"
 msgstr "Αποστολή"
 
 #: src/compose.c:3977
-msgid "The only recipient is the default CC address. Send anyway?"
-msgstr ""
+msgid "The only recipient is the default CC address. Send anyway?" 
+msgstr "Ο μόνος παραλήπτης είναι η προεπιλεγμένη διεύθυνση κοινοποίησης. Να γίνει η αποστολή;"
 
 #: src/compose.c:3978
 #: src/compose.c:4009
@@ -1572,7 +1572,7 @@ msgstr "+_Αποστολή"
 
 #: src/compose.c:4008
 msgid "The only recipient is the default BCC address. Send anyway?"
-msgstr ""
+msgstr "Ο μόνος παραλήπτης είναι η προεπιλεγμένη διεύθυνση κρυφής κοινοποίησης. Να γίνει η αποστολή;"
 
 #: src/compose.c:4025
 msgid "Recipient is not specified."
@@ -2207,7 +2207,7 @@ msgstr ""
 
 #: src/editldap.c:494
 msgid "The port number that the server listens on. Port 389 is the default."
-msgstr "Η θύρα που αναμένει συνδέσεις ο διακομιστής. Η εξορισμού είναι η 389."
+msgstr "Η θύρα που αναμένει συνδέσεις ο διακομιστής. Η προεπιλεγμένη είναι η 389."
 
 #: src/editldap.c:498
 msgid " Check Server "
@@ -6500,13 +6500,12 @@ msgid "Save mail that contains viruses"
 msgstr "Αποθήκευση μηνυμάτων που περιέχουν ιούς"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:142
-#, fuzzy
 msgid "Folder for storing infected mail. Leave empty to use the default trash folder"
 msgstr "Φάκελος για την αποθήκευση μολυσμένων μηνυμάτων. Αφήστε το κενό για να χρησιμοποιήσετε τον προεπιλεγμένο φάκελο απορριμμάτων"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:151
 msgid "Click this button to select a folder for storing infected mail"
-msgstr ""
+msgstr "Πατήστε αυτό το κουμπί για να επιλέξετε το φάκελο που θα αποθηκεύεται η μολυσμένη αλληλογραφία"
 
 #: src/plugins/demo/demo.c:74
 msgid "Demo"
@@ -6613,7 +6612,7 @@ msgstr "Κλειδί υπογραφής"
 
 #: src/plugins/pgpcore/prefs_gpg.c:248
 msgid "Use default GnuPG key"
-msgstr "Χρήση εξορισμού κλειδιού GnuPG"
+msgstr "Χρήση προεπιλεγμένου κλειδιού GnuPG"
 
 #: src/plugins/pgpcore/prefs_gpg.c:259
 msgid "Select key by your email address"
@@ -7100,7 +7099,7 @@ msgstr "Φάκελος για την αποθήκευση ανεπιθύμητη
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:391
 msgid "Click this button to select a folder for storing spam"
-msgstr ""
+msgstr "Πατήστε αυτό το κουμπί για να επιλέξετε φάκελο για την αποθήκευση της ανεπιθύμητης αλληλογραφίας"
 
 #: src/plugins/trayicon/trayicon.c:93
 msgid "/_Get Mail"
@@ -7276,7 +7275,7 @@ msgstr "Όνομα λογαριασμού"
 
 #: src/prefs_account.c:1105
 msgid "Set as default"
-msgstr "Ορισμός ως εξορισμού"
+msgstr "Ορισμός ως προεπιλεγμένου"
 
 #: src/prefs_account.c:1109
 msgid "Personal information"
