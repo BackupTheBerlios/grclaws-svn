@@ -6479,6 +6479,7 @@ msgstr ""
 "\n"
 "Όταν βρεθεί κάποιο μολυσμένο από ιό συνημμένο, μπορεί είτε να διαγραφεί, είτε να αποθηκευτεί σε έναν ειδικό φάκελο.\n"
 "\n"
+"Οι επιλογές του βρίσκονται στο /Ρυθμίσεις/Προτιμήσεις/Πρόσθετα/Clam AntiVirus"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:96
 msgid "Enable virus scanning"
@@ -6511,7 +6512,7 @@ msgstr "Αποθήκευση μηνυμάτων που περιέχουν ιού
 #: src/plugins/clamav/clamav_plugin_gtk.c:142
 #, fuzzy
 msgid "Folder for storing infected mail. Leave empty to use the default trash folder"
-msgstr "Αφήστε το κενό για να χρησιμοποιήσετε τον εξορισμού φάκελο απορριμμάτων"
+msgstr "Φάκελος για την αποθήκευση μολυσμένων μηνυμάτων. Αφήστε το κενό για να χρησιμοποιήσετε τον προεπιλεγμένο φάκελο απορριμμάτων"
 
 #: src/plugins/clamav/clamav_plugin_gtk.c:151
 msgid "Click this button to select a folder for storing infected mail"
@@ -6714,9 +6715,9 @@ msgid "Ultimate"
 msgstr "Έσχατο"
 
 #: src/plugins/pgpcore/sgpgme.c:167
-#, fuzzy, c-format
+#, c-format
 msgid "The signature can't be checked - %s"
-msgstr "Η υπογραφή δεν είναι δυνατό να ελεγχθεί - σφάλμα GPG."
+msgstr "Η υπογραφή δεν είναι δυνατό να ελεγχθεί - %s"
 
 #: src/plugins/pgpcore/sgpgme.c:171
 #: src/plugins/pgpcore/sgpgme.c:175
@@ -6772,7 +6773,7 @@ msgstr "Έγκυρη υπογραφή από τον/την \"%s\" (Εμπιστ�
 #: src/plugins/pgpcore/sgpgme.c:271
 #, c-format
 msgid "Expired signature from \"%s\"\n"
-msgstr "Ληγμένη υπογραφή από τον/την %s\n"
+msgstr "Ληγμένη υπογραφή από τον/την \"%s\"\n"
 
 #: src/plugins/pgpcore/sgpgme.c:276
 #, c-format
@@ -6800,9 +6801,9 @@ msgid "Verified signer's address is \"%s\"\n"
 msgstr ""
 
 #: src/plugins/pgpcore/sgpgme.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't get data from message, %s"
-msgstr "Δεν ήταν δυνατή η λήψη του μηνύματος %d"
+msgstr "Δεν ήταν δυνατή η λήψη δεδομένων από το μήνυμα %s"
 
 #: src/plugins/pgpcore/sgpgme.c:364
 #, fuzzy, c-format
@@ -6878,11 +6879,9 @@ msgstr "Δεν ήταν δυνατή η λήψη μέρους του μηνύμ�
 
 #: src/plugins/pgpinline/pgpinline.c:407
 #: src/plugins/pgpmime/pgpmime.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't open decrypted file %s"
-msgstr ""
-"Δεν ήταν δυνατό το άνοιγμα του αρχείου mbox:\n"
-"%s\n"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αποκρυπτογραφημένου αρχείου %s"
 
 #: src/plugins/pgpinline/pgpinline.c:437
 #, fuzzy
@@ -6895,9 +6894,8 @@ msgid "Couldn't scan decrypted file parts."
 msgstr "Δεν ήταν δυνατή η ανάγνωση του αρχείου."
 
 #: src/plugins/pgpinline/pgpinline.c:499
-#, fuzzy
 msgid "Couldn't create temporary file."
-msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού αρχείου για την αποστολή νέων."
+msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού αρχείου."
 
 #: src/plugins/pgpinline/pgpinline.c:533
 #: src/plugins/pgpmime/pgpmime.c:479
@@ -6929,9 +6927,9 @@ msgstr ""
 
 #: src/plugins/pgpinline/pgpinline.c:656
 #: src/plugins/pgpmime/pgpmime.c:611
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't create temporary file, %s"
-msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού αρχείου για την αποστολή νέων."
+msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού αρχείου, %s"
 
 #: src/plugins/pgpinline/pgpinline.c:681
 #: src/plugins/pgpmime/pgpmime.c:637
@@ -7107,9 +7105,8 @@ msgid "Save spam in"
 msgstr "Αποθήκευση ανεπιθύμητης αλληλογραφίας στο"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:384
-#, fuzzy
 msgid "Folder for storing identified spam. Leave empty to use the default trash folder"
-msgstr "Αφήστε το κενό για να χρησιμοποιήσετε τον εξορισμού φάκελο απορριμμάτων"
+msgstr "Φάκελος για την αποθήκευση ανεπιθύμητης αλληλογραφίας. Αφήστε το κενό για να χρησιμοποιήσετε τον προεπιλεγμένο φάκελο απορριμμάτων"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:391
 msgid "Click this button to select a folder for storing spam"
@@ -7161,7 +7158,7 @@ msgstr ""
 
 #: src/plugins/trayicon/trayicon.c:369
 msgid "Exit this program?"
-msgstr "Έξοδος από αυτό το πρόγραμμα;"
+msgstr "Έξοδος από το πρόγραμμα;"
 
 #: src/plugins/trayicon/libeggtrayicon/eggtrayicon.c:115
 msgid "Orientation"
@@ -7377,7 +7374,7 @@ msgstr "Περιή_γηση"
 
 #: src/prefs_account.c:1448
 msgid "Use secure authentication (APOP)"
-msgstr "Χρήση ασφαλούς πιστοποίησης"
+msgstr "Χρήση ασφαλούς πιστοποίησης (APOP)"
 
 #: src/prefs_account.c:1451
 msgid "Remove messages on server when received"
@@ -7437,7 +7434,7 @@ msgstr "Αυτόματη"
 
 #: src/prefs_account.c:1598
 msgid "IMAP server directory"
-msgstr "Κατάλογος διακομιστή IMAP:"
+msgstr "Κατάλογος διακομιστή IMAP"
 
 #: src/prefs_account.c:1602
 msgid "(usually empty)"
@@ -7469,7 +7466,7 @@ msgstr "Προσθήκη κεφαλίδας ορισμένης από τον χ�
 #: src/prefs_account.c:1936
 #: src/prefs_message.c:142
 msgid " Edit... "
-msgstr "Επεξεργασία..."
+msgstr " Επεξεργασία... "
 
 #: src/prefs_account.c:1704
 msgid "Authentication"
@@ -7481,7 +7478,7 @@ msgstr "Πιστοποίηση SMTP (SMTP AUTH)"
 
 #: src/prefs_account.c:1788
 msgid "If you leave these entries empty, the same user ID and password as receiving will be used."
-msgstr "Εάν αφήσετε αυτά τα πεδία άδεια, θα χρησιμοποιηθούν το ίδιο όνομα χρήστη και συνθηματικό όπως για τη λήψη."
+msgstr "Εάν αφήσετε αυτά τα πεδία άδεια, θα χρησιμοποιηθούν το ίδιο όνομα χρήστη και κωδικός όπως για τη λήψη."
 
 #: src/prefs_account.c:1799
 msgid "Authenticate with POP3 before sending"
@@ -7650,7 +7647,7 @@ msgstr "Αποθήκευση διαγραμμένων μηνυμάτων στο"
 
 #: src/prefs_account.c:2487
 msgid "Account name is not entered."
-msgstr "Δεν έχει προσδιοριστεί το όνομα λογαριασμού"
+msgstr "Δεν έχει εισάγει όνομα λογαριασμού."
 
 #: src/prefs_account.c:2491
 msgid "Mail address is not entered."
@@ -7662,7 +7659,7 @@ msgstr "Ο διακομιστής SMTP δεν έχει οριστεί."
 
 #: src/prefs_account.c:2503
 msgid "User ID is not entered."
-msgstr "Το όνομα χρήστη δεν έχει οριστεί."
+msgstr "Δεν έχετε εισάγει όνομα χρήστη."
 
 #: src/prefs_account.c:2508
 msgid "POP3 server is not entered."
@@ -7682,7 +7679,7 @@ msgstr "το όνομα αρχείου του τοπικού γραμματοκ�
 
 #: src/prefs_account.c:2530
 msgid "mail command is not entered."
-msgstr "δεν συμπληρώθηκε η εντολή"
+msgstr "δεν συμπληρώθηκε η εντολή αλληλογραφίας."
 
 #: src/prefs_account.c:2595
 msgid "Select signature file"
@@ -7796,7 +7793,7 @@ msgstr "<span weight=\"bold\" underline=\"single\">Όνομα μενού:</span>
 
 #: src/prefs_actions.c:795
 msgid "Use / in menu name to make submenus."
-msgstr "Χρησιμοποιήστε '/' στο όνομα του μενού για να δημιουργήσετε υπομενού."
+msgstr "Χρησιμοποιήστε / στο όνομα του μενού για να δημιουργήσετε υπομενού."
 
 #: src/prefs_actions.c:797
 msgid "<span weight=\"bold\" underline=\"single\">Command line:</span>"
@@ -7979,7 +7976,7 @@ msgstr "Επίπεδο αναίρεσης"
 
 #: src/prefs_compose_writing.c:179
 msgid "Reply button invokes mailing list reply"
-msgstr "Με το κουμπί 'απάντηση' απαντάμε στη λίστα ταχυδρομείου"
+msgstr "Με το κουμπί απάντηση απαντάμε στη λίστα ταχυδρομείου"
 
 #: src/prefs_compose_writing.c:182
 msgid "When dropping files into the Compose window"
@@ -8030,9 +8027,8 @@ msgid "This Header name is not allowed as a custom header."
 msgstr "Αυτό το όνομα κεφαλίδας δεν επιτρέπεται σαν προσαρμοσμένη κεφαλίδα."
 
 #: src/prefs_customheader.c:562
-#, fuzzy
 msgid "Choose a png file"
-msgstr "Σύνθεση Email"
+msgstr "Επιλέξτε ένα αρχείο png"
 
 #: src/prefs_customheader.c:564
 msgid "Choose an xbm file"
@@ -8048,7 +8044,7 @@ msgstr "Αυτό το αρχείο δεν είναι εικόνα."
 
 #: src/prefs_customheader.c:584
 msgid "The chosen image isn't the correct size (48x48)."
-msgstr "Η επιλεγμένη εικόνα δεν είναι στο σωστό μέγεθος (48x48)"
+msgstr "Η επιλεγμένη εικόνα δεν είναι στο σωστό μέγεθος (48x48)."
 
 #: src/prefs_customheader.c:590
 msgid "The image is too big; it must be maximum 725 bytes."
@@ -8076,7 +8072,7 @@ msgstr "Διαγραφή κεφαλίδας"
 
 #: src/prefs_customheader.c:695
 msgid "Do you really want to delete this header?"
-msgstr "Θέλετε πράγματι να διαγραφεί αυτή η κεφαλίδα;"
+msgstr "Θέλετε πράγματι να διαγράψετε αυτή την κεφαλίδα;"
 
 #: src/prefs_customheader.c:865
 msgid "Current custom headers"
@@ -8125,9 +8121,8 @@ msgid "Image viewer"
 msgstr "Προβολή εικόνων"
 
 #: src/prefs_ext_prog.c:201
-#, fuzzy
 msgid "Command for 'Display as text'"
-msgstr "'Εμφάνιση σαν κείμενο'"
+msgstr "Εντολή για το 'Εμφάνιση σαν κείμενο'"
 
 #: src/prefs_ext_prog.c:213
 msgid "This option enables MIME parts to be displayed in the message view via a script when using the 'Display as text' contextual menu item"
@@ -8263,7 +8258,7 @@ msgstr "Ο προορισμός δεν έχει οριστεί."
 
 #: src/prefs_filtering_action.c:808
 msgid "Recipient is not set."
-msgstr "Δεν έχει οριστεί παραλήπτης"
+msgstr "Δεν έχει οριστεί παραλήπτης."
 
 #: src/prefs_filtering_action.c:823
 msgid "Score is not set"
@@ -8271,7 +8266,7 @@ msgstr "Δεν έχει οριστεί βαθμολογία"
 
 #: src/prefs_filtering_action.c:1042
 msgid "No action was defined."
-msgstr "Δεν έχει οριστεί δράση"
+msgstr "Δεν έχει οριστεί δράση."
 
 #: src/prefs_filtering_action.c:1079
 #: src/prefs_matcher.c:1683
@@ -8329,9 +8324,8 @@ msgid "quote character"
 msgstr "χαρακτήρας παράθεσης"
 
 #: src/prefs_filtering_action.c:1099
-#, fuzzy
 msgid "Filtering Action: 'Execute'"
-msgstr "Ρύθμιση φιλτραρίσματος"
+msgstr "Ενέργεια φιλτραρίσματος: 'Εκτέλεση'"
 
 #: src/prefs_filtering_action.c:1100
 msgid ""
@@ -8351,16 +8345,16 @@ msgstr "Ρύθμιση φίλτρων/επεξεργασίας"
 
 #: src/prefs_filtering.c:307
 msgid "Condition: "
-msgstr "Κατάσταση:"
+msgstr "Κατάσταση: "
 
 #: src/prefs_filtering.c:320
 #: src/prefs_filtering.c:342
 msgid " Define... "
-msgstr "Ορισμός..."
+msgstr " Ορισμός... "
 
 #: src/prefs_filtering.c:329
 msgid "Action: "
-msgstr "Δράση:"
+msgstr "Δράση: "
 
 #: src/prefs_filtering.c:677
 #: src/prefs_filtering.c:678
@@ -8396,7 +8390,7 @@ msgstr "Διαγραφή κανόνα"
 
 #: src/prefs_filtering.c:968
 msgid "Do you really want to delete this rule?"
-msgstr "Θέλετε πράγματι να διαγραφεί αυτός ο κανόνας;"
+msgstr "Θέλετε πράγματι να διαγράψετε αυτό τον κανόνα;"
 
 #: src/prefs_filtering.c:1331
 msgid "Enable"
@@ -8435,7 +8429,7 @@ msgstr "Εμφανιζόμενες στήλες"
 #: src/prefs_summary_column.c:330
 #: src/prefs_toolbar.c:800
 msgid " Use default "
-msgstr "Χρήση εξορισμού"
+msgstr " Χρήση προεπιλεγμένου "
 
 #: src/prefs_folder_item.c:183
 #: src/prefs_folder_item.c:566
@@ -8457,7 +8451,7 @@ msgstr "Εξερχόμενα"
 
 #: src/prefs_folder_item.c:226
 msgid "Folder type:"
-msgstr "Τύπος φακέλου :"
+msgstr "Τύπος φακέλου:"
 
 #: src/prefs_folder_item.c:238
 #, fuzzy
@@ -8471,7 +8465,7 @@ msgstr "Φάκελος προορισμού:"
 
 #: src/prefs_folder_item.c:284
 msgid "Folder color: "
-msgstr "Χρώμα φακέλου:"
+msgstr "Χρώμα φακέλου: "
 
 #: src/prefs_folder_item.c:298
 #: src/prefs_folder_item.c:906
@@ -8505,15 +8499,15 @@ msgstr "Εξορισμού προς: "
 
 #: src/prefs_folder_item.c:623
 msgid "Default To for replies: "
-msgstr "Εξορισμού 'προς' στις απαντήσεις:"
+msgstr "Προεπιλεγμένο προς: στις απαντήσεις: "
 
 #: src/prefs_folder_item.c:643
 msgid "Default account: "
-msgstr "Εξορισμού λογαριασμός:"
+msgstr "Προεπιλεγμένος λογαριασμός: "
 
 #: src/prefs_folder_item.c:694
 msgid "Default dictionary: "
-msgstr "Εξορισμού λεξικό:"
+msgstr "Προεπιλεγμένο λεξικό: "
 
 #: src/prefs_folder_item.c:918
 msgid "General"
@@ -8537,9 +8531,8 @@ msgid "Use different font for printing"
 msgstr "Χρήση διαφορετικής γραμματοσειράς για εκτύπωση"
 
 #: src/prefs_fonts.c:119
-#, fuzzy
 msgid "Message Printing"
-msgstr "Παράθυρο μηνύματος"
+msgstr "Εκτύπωση μηνύματος"
 
 #: src/prefs_fonts.c:197
 #: src/prefs_msg_colors.c:855
@@ -8717,7 +8710,7 @@ msgstr "Ταίριασμα τύπου"
 
 #: src/prefs_matcher.c:505
 msgid " Info... "
-msgstr " Πληροφορίες ..."
+msgstr " Πληροφορίες... "
 
 #: src/prefs_matcher.c:528
 msgid "Predicate"
@@ -8734,7 +8727,7 @@ msgstr "Τιμή Boolean "
 
 #: src/prefs_matcher.c:1204
 msgid "Value is not set."
-msgstr "Η τιμή δεν έχει οριστεί"
+msgstr "Η τιμή δεν έχει οριστεί."
 
 #: src/prefs_matcher.c:1641
 msgid ""
@@ -8959,35 +8952,35 @@ msgstr "Επιλογή μιας ετικέτας για το 'color %d'"
 #: src/prefs_msg_colors.c:612
 #, c-format
 msgid "Pick color for 'color %d' "
-msgstr "Επιλογή ενός χρώματος για το 'color %d'"
+msgstr "Επιλογή ενός χρώματος για το 'color %d' "
 
 #: src/prefs_msg_colors.c:621
 msgid "Pick color for 1st level text "
-msgstr "Επιλογή χρώματος κειμένου πρώτου επιπέδου"
+msgstr "Επιλογή χρώματος κειμένου πρώτου επιπέδου "
 
 #: src/prefs_msg_colors.c:624
 msgid "Pick color for 2nd level text "
-msgstr "Επιλογή χρώματος κειμένου δεύτερου επιπέδου"
+msgstr "Επιλογή χρώματος κειμένου δεύτερου επιπέδου "
 
 #: src/prefs_msg_colors.c:627
 msgid "Pick color for 3rd level text "
-msgstr "Επιλογή χρώματος κειμένου τρίτου επιπέδου"
+msgstr "Επιλογή χρώματος κειμένου τρίτου επιπέδου "
 
 #: src/prefs_msg_colors.c:630
 msgid "Pick color for 1st level text background "
-msgstr "Επιλογή χρώματος παρασκηνίου πρώτου επιπέδου"
+msgstr "Επιλογή χρώματος παρασκηνίου πρώτου επιπέδου "
 
 #: src/prefs_msg_colors.c:633
 msgid "Pick color for 2nd level text background "
-msgstr "Επιλογή χρώματος παρασκηνίου δεύτερου επιπέδου"
+msgstr "Επιλογή χρώματος παρασκηνίου δεύτερου επιπέδου "
 
 #: src/prefs_msg_colors.c:636
 msgid "Pick color for 3rd level text background "
-msgstr "Επιλογή χρώματος παρασκηνίου τρίτου επιπέδου"
+msgstr "Επιλογή χρώματος παρασκηνίου τρίτου επιπέδου "
 
 #: src/prefs_msg_colors.c:639
 msgid "Pick color for links "
-msgstr "Επιλογή χρώματος για τους συνδέσμους"
+msgstr "Επιλογή χρώματος για τους συνδέσμους "
 
 #: src/prefs_msg_colors.c:642
 msgid "Pick color for target folder"
@@ -8995,7 +8988,7 @@ msgstr "Επιλογή χρώματος για τον επιλεγμένο φά�
 
 #: src/prefs_msg_colors.c:645
 msgid "Pick color for signatures "
-msgstr "Επιλογή χρώματος υπογραφών"
+msgstr "Επιλογή χρώματος υπογραφών "
 
 #: src/prefs_msg_colors.c:856
 msgid "Colors"
@@ -9047,9 +9040,8 @@ msgid "Socket I/O timeout:"
 msgstr "Λήξη ορίου χρόνου εγγραφής"
 
 #: src/prefs_other.c:192
-#, fuzzy
 msgid "Never send Return Receipts"
-msgstr "Αίτηση βεβαίωσης ανάγνωσης"
+msgstr "Να μη στέλνονται βεβαιώσεις ανάγνωσης"
 
 #: src/prefs_quote.c:90
 msgid "Reply will quote by default"
@@ -9070,7 +9062,7 @@ msgstr "Μορφή προώθησης"
 
 #: src/prefs_quote.c:184
 msgid " Description of symbols... "
-msgstr "Περιγραφή συμβόλων..."
+msgstr " Περιγραφή συμβόλων... "
 
 #: src/prefs_quote.c:193
 msgid "Quotation characters"
@@ -9198,7 +9190,7 @@ msgstr "Κωδικοποίηση εξερχόμενων"
 
 #: src/prefs_send.c:187
 msgid "If 'Automatic' is selected, the optimal encoding for the current locale will be used"
-msgstr "Εάν επιλεγεί 'Αυτόματη', θα χρησιμοποιηθεί η βέλτιστη κωδικοποίηση για το τρέχον locale"
+msgstr "Αν επιλεγεί 'Αυτόματη', θα χρησιμοποιηθεί η βέλτιστη κωδικοποίηση για την τρέχουσα τοπική ρύθμιση"
 
 #: src/prefs_send.c:201
 msgid "Automatic (Recommended)"
@@ -9218,7 +9210,7 @@ msgstr "Δυτικής Ευρώπης (ISO-8859-1)"
 
 #: src/prefs_send.c:207
 msgid "Western European (ISO-8859-15)"
-msgstr "Δυτικής Ευρώπης (ISO-8859-15]"
+msgstr "Δυτικής Ευρώπης (ISO-8859-15)"
 
 #: src/prefs_send.c:209
 msgid "Central European (ISO-8859-2)"
@@ -9310,7 +9302,7 @@ msgstr "Κορεατική (EUC-KR)"
 
 #: src/prefs_send.c:245
 msgid "Thai (TIS-620)"
-msgstr "Ταϊλανδέζικη (TIS-_620)"
+msgstr "Ταϊλανδέζικη (TIS-620)"
 
 #: src/prefs_send.c:246
 msgid "Thai (Windows-874)"
@@ -9536,11 +9528,11 @@ msgstr "Ορισμός εμφανιζόμενων στηλών"
 
 #: src/prefs_summaries.c:845
 msgid " Folder list... "
-msgstr " Λίστα φακέλων..."
+msgstr " Λίστα φακέλων... "
 
 #: src/prefs_summaries.c:853
 msgid " Message list... "
-msgstr " Λίστα μηνυμάτων..."
+msgstr " Λίστα μηνυμάτων... "
 
 #: src/prefs_summaries.c:874
 msgid "Execute immediately when moving or deleting messages"
@@ -9588,7 +9580,7 @@ msgstr "Επιλογή πρώτου νέου (ή σημειωμένου) μην�
 
 #: src/prefs_summaries.c:928
 msgid "Select first marked (or new or unread) message"
-msgstr "Επιλογή πρώτου σημειωμένου (ή νέου)  μηνύματος"
+msgstr "Επιλογή πρώτου σημειωμένου (ή νέου) μηνύματος"
 
 #: src/prefs_summaries.c:930
 msgid "Select first marked (or unread or new) message"
@@ -9608,7 +9600,7 @@ msgstr "Υπέθεσε 'Όχι'"
 
 #: src/prefs_summaries.c:970
 msgid " Set key bindings... "
-msgstr "Ορισμός συντομεύσεων πληκτρολογίου..."
+msgstr " Ορισμός συντομεύσεων πληκτρολογίου... "
 
 #: src/prefs_summaries.c:1077
 msgid "Summaries"
@@ -9638,7 +9630,7 @@ msgstr "Όνομα Προτύπου"
 
 #: src/prefs_template.c:276
 msgid " Symbols... "
-msgstr " Σύμβολα..."
+msgstr " Σύμβολα... "
 
 #: src/prefs_template.c:305
 msgid "Template configuration"
@@ -9803,7 +9795,7 @@ msgstr "Πληροφορίες"
 
 #: src/prefs_themes.c:891
 msgid "Author: "
-msgstr "Δημιουργός:"
+msgstr "Δημιουργός: "
 
 #: src/prefs_themes.c:899
 msgid "URL:"
@@ -9947,21 +9939,18 @@ msgid "Already trying to send\n"
 msgstr "Γίνεται ήδη αποστολή\n"
 
 #: src/procmsg.c:903
-#, fuzzy
 msgid "Already trying to send."
-msgstr "Γίνεται ήδη αποστολή\n"
+msgstr "Γίνεται ήδη προσπάθεια αποστολής."
 
 #: src/procmsg.c:1434
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't open file %s."
-msgstr ""
-"Δεν ήταν δυνατό το άνοιγμα του αρχείου mbox:\n"
-"%s\n"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου %s."
 
 #: src/procmsg.c:1528
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't encrypt the email: %s"
-msgstr "Αδυναμία δημιουργίας αντιγράφου ασφαλείας."
+msgstr "Δεν ήταν δυνατή η κρυπτογράφηση του μηνύματος: %s"
 
 #: src/procmsg.c:1561
 #, fuzzy
@@ -9969,9 +9958,8 @@ msgid "Queued message header is broken."
 msgstr "Μηνύματα στην ουρά"
 
 #: src/procmsg.c:1582
-#, fuzzy
 msgid "An error happened during SMTP session."
-msgstr "Σφάλμα κατά το άνοιγμα του ημερολογίου"
+msgstr "Προέκυψε ένα σφάλμα κατά τη σύνοδο SMTP."
 
 #: src/procmsg.c:1596
 msgid "No specific account has been found to send, and an error happened during SMTP session."
@@ -9990,9 +9978,9 @@ msgid "Error when writing temporary file for news sending."
 msgstr "Σφάλμα κατά την εγγραφή του προσωρινού αρχείου για την αποστολή νέων."
 
 #: src/procmsg.c:1649
-#, fuzzy, c-format
+#, c-format
 msgid "Error occurred while posting the message to %s."
-msgstr "Συνέβη σφάλμα κατά την αποστολή του μηνύματος σε %s ."
+msgstr "Συνέβη σφάλμα κατά την αποστολή του μηνύματος στο %s."
 
 #: src/quote_fmt.c:40
 #, fuzzy
@@ -10238,7 +10226,7 @@ msgstr "Αναζήτηση"
 
 #: src/summary_search.c:197
 msgid "Match any of the following"
-msgstr "Ταίριασμα οποιουδήποτε από τα  παρακάτω"
+msgstr "Ταίριασμα οποιουδήποτε από τα παρακάτω"
 
 #: src/summary_search.c:198
 msgid "Match all of the following"
@@ -10669,10 +10657,10 @@ msgid ""
 "  Use "
 msgstr ""
 "\n"
-" Αυτό το μήνυμα δε μπορεί να προβληθεί.\n"
-" Αυτό οφείλετε μάλλον σε κάποιο σφάλμα δικτύου.\n"
+"  Αυτό το μήνυμα δε μπορεί να προβληθεί.\n"
+"  Αυτό οφείλετε μάλλον σε κάποιο σφάλμα δικτύου.\n"
 "\n"
-"Χρησιμοποιείστε"
+"  Χρησιμοποιείστε το "
 
 #: src/textview.c:794
 msgid "'View Log'"
@@ -10680,7 +10668,7 @@ msgstr "'Εμφάνιση του αρχείου καταγραφών'"
 
 #: src/textview.c:795
 msgid " in the Tools menu for more information."
-msgstr "στο μενού Εργαλεία για περισσότερες πληροφορίες."
+msgstr " στο μενού Εργαλεία για περισσότερες πληροφορίες."
 
 #: src/textview.c:816
 msgid "  The following can be performed on this part by\n"
@@ -10692,7 +10680,7 @@ msgstr ""
 
 #: src/textview.c:819
 msgid "     - To save, select "
-msgstr "     - Για να αποθηκεύσετε, επιλέξτε"
+msgstr "     - Για να αποθηκεύσετε, επιλέξτε "
 
 #: src/textview.c:820
 msgid "'Save as...'"
@@ -10700,11 +10688,11 @@ msgstr "'Αποθήκευση ως...'"
 
 #: src/textview.c:821
 msgid " (Shortcut key: 'y')\n"
-msgstr "(πλήκτρο συντόμευσης: 'y')\n"
+msgstr " (πλήκτρο συντόμευσης: 'y')\n"
 
 #: src/textview.c:822
 msgid "     - To display as text, select "
-msgstr "     - Για προβολή ως κείμενο, επιλέξτε"
+msgstr "     - Για προβολή ως κείμενο, επιλέξτε "
 
 #: src/textview.c:823
 msgid "'Display as text'"
@@ -10712,11 +10700,11 @@ msgstr "'Εμφάνιση σαν κείμενο'"
 
 #: src/textview.c:824
 msgid " (Shortcut key: 't')\n"
-msgstr "(πλήκτρο συντόμευσης: 't')\n"
+msgstr " (πλήκτρο συντόμευσης: 't')\n"
 
 #: src/textview.c:825
 msgid "     - To open with an external program, select "
-msgstr "     - Για να το ανοίξετε με ένα εξωτερικό πρόγραμμα, επιλέξτε"
+msgstr "     - Για να το ανοίξετε με ένα εξωτερικό πρόγραμμα, επιλέξτε "
 
 #: src/textview.c:826
 msgid "'Open'"
@@ -10724,11 +10712,11 @@ msgstr "'Άνοιγμα'"
 
 #: src/textview.c:827
 msgid " (Shortcut key: 'l')\n"
-msgstr "(πλήκτρο συντόμευσης: 'l')\n"
+msgstr " (πλήκτρο συντόμευσης: 'l')\n"
 
 #: src/textview.c:828
 msgid "       (alternately double-click, or click the middle "
-msgstr "       (ή κάντε διπλό κλικ, ή πατήστε το μεσαίο κουμπί"
+msgstr "       (ή κάντε διπλό κλικ, ή πατήστε το μεσαίο κουμπί "
 
 #: src/textview.c:829
 msgid "mouse button)\n"
@@ -10744,7 +10732,7 @@ msgstr "'Άνοιγμα με...'"
 
 #: src/textview.c:832
 msgid " (Shortcut key: 'o')\n"
-msgstr "(Πλήκτρο συντόμευσης: 'o')\n"
+msgstr " (Πλήκτρο συντόμευσης: 'o')\n"
 
 #: src/textview.c:2204
 #, c-format
@@ -10905,7 +10893,7 @@ msgstr "Έλεγχος ορθογραφίας"
 
 #: src/toolbar.c:194
 msgid "Sylpheed-Claws Actions Feature"
-msgstr "Ενέργειες  Sylpheed-Claws."
+msgstr "Ενέργειες Sylpheed-Claws"
 
 #: src/toolbar.c:214
 msgid "/Reply with _quote"
@@ -10974,9 +10962,7 @@ msgstr "Επόμενο"
 
 #: src/toolbar.c:442
 msgid "Send later"
-msgstr ""
-"Αποστολή\n"
-"αργότερα"
+msgstr "Αποστολή αργότερα"
 
 #: src/toolbar.c:443
 msgid "Draft"
@@ -11012,7 +10998,7 @@ msgstr "Εκμάθηση επιθυμητής αλληλογραφίας"
 
 #: src/wizard.c:459
 msgid "Welcome to Sylpheed-Claws "
-msgstr "Καλώς ήλθατε στο Sylpheed-Claws"
+msgstr "Καλώς ήλθατε στο Sylpheed-Claws "
 
 #: src/wizard.c:469
 msgid "Sylpheed-Claws Team"
@@ -11103,7 +11089,7 @@ msgstr ""
 
 #: src/wizard.c:545
 msgid "Please enter the mailbox name."
-msgstr "Παρακαλώ προσδιορίστε το όνομα του γραμματοκιβωτίου σας"
+msgstr "Παρακαλώ εισάγετε το όνομα του γραμματοκιβωτίου σας."
 
 #: src/wizard.c:573
 msgid "Please enter your name and email address."
@@ -11197,7 +11183,7 @@ msgstr "Κατάλογος διακομιστή IMAP:"
 
 #: src/wizard.c:1098
 msgid "Use SSL to connect to SMTP server"
-msgstr "Χρήση SSL για την σύνδεση με τον διακομιστή εξερχόμενης αλληλογραφίας"
+msgstr "Χρήση SSL για την σύνδεση με το διακομιστή εξερχόμενης αλληλογραφίας"
 
 #: src/wizard.c:1105
 msgid "Use SSL to connect to receiving server"
@@ -11251,7 +11237,7 @@ msgstr "Ασφάλεια"
 
 #: src/wizard.c:1322
 msgid "Configuration finished"
-msgstr "Η ρύθμιση ολοκληρώθηκε."
+msgstr "Η ρύθμιση ολοκληρώθηκε"
 
 #: src/wizard.c:1330
 msgid ""
