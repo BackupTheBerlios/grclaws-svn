@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws 2.3.0\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-07-06 18:16+0300\n"
-"PO-Revision-Date: 2006-07-13 19:13+0200\n"
+"PO-Revision-Date: 2006-07-15 15:07+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -2724,7 +2724,7 @@ msgstr "Μετακίνηση %s στο %s...\n"
 #: src/folder.c:3027
 #, c-format
 msgid "Updating cache for %s..."
-msgstr "Ενημέρωση προσωρινής μνήμης για το %s ..."
+msgstr "Ενημέρωση προσωρινής μνήμης για το %s..."
 
 #: src/folder.c:3731
 msgid "Processing messages..."
@@ -2767,7 +2767,7 @@ msgstr "Δεν είναι δυνατή η δημιουργία φακέλου '%
 
 #: src/folderview.c:286
 msgid "/Mark all re_ad"
-msgstr "Σημείωση όλων ως _αναγνωσμένα"
+msgstr "/Σημείωση όλων ως _αναγνωσμένα"
 
 #: src/folderview.c:287
 msgid "/_Search folder..."
@@ -2775,23 +2775,23 @@ msgstr "/Αναζήτηση _στο φάκελο..."
 
 #: src/folderview.c:289
 msgid "/Process_ing..."
-msgstr "Επεξεργασ_ία..."
+msgstr "/Επεξεργασ_ία..."
 
 # Untranslatable
 #: src/folderview.c:293
 #, fuzzy
 msgid "/------trashsep"
-msgstr "/------"
+msgstr "/------trashsep"
 
 #: src/folderview.c:294
 msgid "/Empty _trash..."
-msgstr "Ά_δειασμα απορριμμάτων"
+msgstr "/Ά_δειασμα απορριμμάτων..."
 
 # Untranslatable
 #: src/folderview.c:298
 #, fuzzy
 msgid "/------queuesep"
-msgstr "/------"
+msgstr "/------queuesep"
 
 #: src/folderview.c:299
 msgid "/Send _queue..."
@@ -2877,9 +2877,9 @@ msgid "Checking for new messages in all folders..."
 msgstr "Έλεγχος για νέα μηνύματα σε όλους τους φακέλους..."
 
 #: src/folderview.c:2031
-#, fuzzy, c-format
+#, c-format
 msgid "Closing Folder %s..."
-msgstr "Άνοιγμα φακέλου %s..."
+msgstr "Κλείσιμο φακέλου %s..."
 
 #: src/folderview.c:2070
 #, c-format
@@ -2952,7 +2952,7 @@ msgstr ""
 #: src/folderview.c:2380
 #, c-format
 msgid "Do you really want to make folder '%s' a sub-folder of '%s' ?"
-msgstr "Θέλετε πράγματι να κάνετε τον φάκελο '%s' υποφάκελο του '%s';"
+msgstr "Θέλετε πράγματι να κάνετε το φάκελο '%s' υποφάκελο του '%s';"
 
 #: src/folderview.c:2383
 msgid "Move folder"
@@ -3015,7 +3015,7 @@ msgstr "Σελίδα %N από %Q"
 
 #: src/grouplistdialog.c:173
 msgid "Newsgroup subscription"
-msgstr "Συνδρομές νέων:"
+msgstr "Συνδρομές νέων"
 
 #: src/grouplistdialog.c:189
 msgid "Select newsgroups for subscription:"
@@ -3027,7 +3027,7 @@ msgstr "Εύρεση ομάδων:"
 
 #: src/grouplistdialog.c:203
 msgid " Search "
-msgstr "Αναζήτηση"
+msgstr " Αναζήτηση "
 
 #: src/grouplistdialog.c:215
 msgid "Newsgroup name"
@@ -3043,7 +3043,7 @@ msgstr "Τύπος"
 
 #: src/grouplistdialog.c:346
 msgid "moderated"
-msgstr "ελεγχόμενο(moderated)"
+msgstr "ελεγχόμενο"
 
 #: src/grouplistdialog.c:348
 msgid "readonly"
@@ -3220,7 +3220,7 @@ msgid ""
 "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2, or (at your option) any later version.\n"
 "\n"
 msgstr ""
-"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό μπορείτε να το  επαναδιανείμετε και/ή να το τροποποιήσετε υπό τους όρους της  Γενικής Δημόσιας Άδειας Χρήσεως Λογισμικού GNU (GNU General Public Licence) όπως αυτή δημοσιεύτηκε από το Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation), είτε στην έκδοση 2, ή (κατά επιλογή σας) οποιαδήποτε μεταγενέστερη έκδοση.\n"
+"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό μπορείτε να το  επαναδιανείμετε και/ή να το τροποποιήσετε υπό τους όρους της Γενικής Δημόσιας Άδειας Χρήσεως Λογισμικού GNU (GNU General Public Licence) όπως αυτή δημοσιεύτηκε από το Ίδρυμα Ελεύθερου Λογισμικού (Free Software Foundation), είτε στην έκδοση 2, ή (κατά επιλογή σας) οποιαδήποτε μεταγενέστερη έκδοση.\n"
 "\n"
 
 #: src/gtk/about.c:479
@@ -3470,7 +3470,7 @@ msgstr "Προσθήκη στο προσωπικό λεξικό"
 
 #: src/gtk/gtkaspell.c:1950
 msgid "Replace with..."
-msgstr "Αντικατάσταση με... "
+msgstr "Αντικατάσταση με..."
 
 #: src/gtk/gtkaspell.c:1963
 #, c-format
@@ -3616,23 +3616,23 @@ msgstr ""
 
 #: src/gtk/pluginwindow.c:153
 msgid "Error: "
-msgstr "Σφάλμα:"
+msgstr "Σφάλμα: "
 
 #: src/gtk/pluginwindow.c:154
 msgid "Plugin is not functional."
-msgstr "Το Πρόσθετο λειτουργεί"
+msgstr "Το πρόσθετο δε λειτουργεί"
 
 #: src/gtk/pluginwindow.c:185
 msgid "Select Plugin to load"
 msgstr "Επιλογή ενός πρόσθετου για φόρτωμα"
 
 #: src/gtk/pluginwindow.c:199
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The following error occured while loading the plugin [%s] :\n"
 "%s\n"
 msgstr ""
-"Προέκυψε ένα σφάλμα κατά την αποστολή του μηνύματος:\n"
+"Το παρακάτω σφάλμα προέκυψε κατά το φόρτωμα του πρόσθετου [%s] :\n"
 "%s"
 
 #: src/gtk/pluginwindow.c:283
@@ -3896,7 +3896,7 @@ msgstr "Επικολλημένο"
 
 #: src/gtk/quicksearch.c:459
 msgid " Clear "
-msgstr "Εκκαθάριση"
+msgstr " Εκκαθάριση "
 
 #: src/gtk/quicksearch.c:480
 #: src/summary_search.c:255
@@ -3905,13 +3905,13 @@ msgstr "Επεξεργασία κριτηρίων αναζήτησης"
 
 #: src/gtk/quicksearch.c:486
 msgid " Extended Symbols... "
-msgstr "Εκτεταμένα σύμβολα..."
+msgstr " Εκτεταμένα σύμβολα... "
 
 #: src/gtk/quicksearch.c:917
 #: src/summaryview.c:993
 #, c-format
 msgid "Searching in %s... \n"
-msgstr "Αναζήτηση στο  %s...\n"
+msgstr "Αναζήτηση στο %s...\n"
 
 #: src/gtk/sslcertwindow.c:129
 #: src/gtk/sslcertwindow.c:282
@@ -3933,21 +3933,21 @@ msgstr "Υπογράφων"
 #: src/prefs_filtering.c:294
 #: src/prefs_themes.c:883
 msgid "Name: "
-msgstr "Όνομα:"
+msgstr "Όνομα: "
 
 #: src/gtk/sslcertwindow.c:149
 #: src/gtk/sslcertwindow.c:170
 msgid "Organization: "
-msgstr "Οργανισμός:"
+msgstr "Οργανισμός: "
 
 #: src/gtk/sslcertwindow.c:156
 #: src/gtk/sslcertwindow.c:177
 msgid "Location: "
-msgstr "Τοποθεσία:"
+msgstr "Τοποθεσία: "
 
 #: src/gtk/sslcertwindow.c:184
 msgid "Fingerprint: "
-msgstr "Αποτύπωμα:"
+msgstr "Αποτύπωμα: "
 
 #: src/gtk/sslcertwindow.c:190
 msgid "Signature status: "
@@ -3955,7 +3955,7 @@ msgstr "Κατάσταση υπογραφής: "
 
 #: src/gtk/sslcertwindow.c:196
 msgid "Expires on: "
-msgstr "Λήγει στις:"
+msgstr "Λήγει στις: "
 
 #: src/gtk/sslcertwindow.c:257
 #, c-format
@@ -3999,11 +3999,13 @@ msgid "_Accept and save"
 msgstr "_Αποδοχή και αποθήκευση"
 
 #: src/gtk/sslcertwindow.c:313
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Certificate for %s is expired.\n"
 "Do you want to continue?"
-msgstr "Το πιστοποιητικό για το %s έχει αλλάξει. Θέλετε να το δεχτείτε;"
+msgstr ""
+"Το πιστοποιητικό για το %s έχει λήξει.\n"
+"Θέλετε να συνεχίσετε;"
 
 #: src/gtk/sslcertwindow.c:336
 msgid "Expired SSL Certificate"
@@ -4125,7 +4127,7 @@ msgstr ""
 #: src/send_message.c:306
 #, fuzzy
 msgid "Con_tinue connecting"
-msgstr "Η σύνδεση στο %s απέτυχε"
+msgstr "_Συνέχεια σύνδεσης"
 
 #: src/imap.c:782
 #, c-format
@@ -4149,12 +4151,12 @@ msgstr "δεν ήταν δυνατό να ξεκινήσει συνεδρία TL
 #: src/imap.c:883
 #, c-format
 msgid "Connecting to IMAP4 server %s...\n"
-msgstr "Σύνδεση με τον διακομιστή IMAP4  %s...\n"
+msgstr "Σύνδεση με τον διακομιστή IMAP4 %s...\n"
 
 #: src/imap.c:895
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't login to IMAP server %s."
-msgstr "Σύνδεση με τον διακομιστή IMAP4  %s...\n"
+msgstr "Δεν ήταν δυνατή η σύνδεση με τον διακομιστή IMAP4 %s."
 
 #: src/imap.c:1068
 msgid "Adding messages..."
@@ -4241,7 +4243,7 @@ msgstr "/_Μετονομασία φακέλου..."
 #: src/imap_gtk.c:57
 #: src/mh_gtk.c:52
 msgid "/M_ove folder..."
-msgstr "Μ_ετακίνηση φακέλου..."
+msgstr "/Μ_ετακίνηση φακέλου..."
 
 #: src/imap_gtk.c:58
 #: src/mh_gtk.c:53
@@ -4282,7 +4284,7 @@ msgid ""
 msgstr ""
 "Εισάγετε το όνομα του νέου φακέλου:\n"
 "(αν θέλετε να δημιουργήσετε ένα φάκελο για να βάλετε υποφακέλους\n"
-" προσθέστε ένα `/' στο τέλος του ονόματος)"
+" προσθέστε ένα '/' στο τέλος του ονόματος)"
 
 #: src/imap_gtk.c:193
 #: src/mh_gtk.c:228
@@ -4318,9 +4320,9 @@ msgid ""
 "\n"
 "Do you really want to delete?"
 msgstr ""
-"Όλοι οι φάκελοι και τα μηνύματα μέσα στο `%s' θα διαγραφούν μόνιμα, χωρίς δυνατότηα ανάκτησης.\n"
+"Όλοι οι φάκελοι και τα μηνύματα μέσα στο '%s' θα διαγραφούν μόνιμα, χωρίς δυνατότητα ανάκτησης.\n"
 "\n"
-"Θέλετε πράγματι να διαγραφούν;"
+"Θέλετε πράγματι να τα διαγράψετε;"
 
 #: src/imap_gtk.c:302
 #: src/mh_gtk.c:198
@@ -4378,13 +4380,13 @@ msgstr "Επιλέξτε και μετονομάστε τα πεδία LDIF πο
 
 #: src/importldif.c:196
 msgid "File imported."
-msgstr "Το αρχείο εισήχθη"
+msgstr "Το αρχείο εισήχθη."
 
 #: src/importldif.c:451
 #: src/importmutt.c:125
 #: src/importpine.c:125
 msgid "Please select a file."
-msgstr "Παρακαλώ επιλέξτε ένα αρχείο"
+msgstr "Παρακαλώ επιλέξτε ένα αρχείο."
 
 #: src/importldif.c:457
 #: src/importmutt.c:130
@@ -4394,11 +4396,11 @@ msgstr "Πρέπει να δώσετε όνομα ευρετηρίου διευ�
 
 #: src/importldif.c:472
 msgid "Error reading LDIF fields."
-msgstr "Σφάλμα κατά την ανάγνωση των πεδίων LDIF"
+msgstr "Σφάλμα κατά την ανάγνωση των πεδίων LDIF."
 
 #: src/importldif.c:495
 msgid "LDIF file imported successfully."
-msgstr "Το αρχείο LDIF εισήχθη επιτυχώς"
+msgstr "Το αρχείο LDIF εισήχθη επιτυχώς."
 
 #: src/importldif.c:574
 msgid "Select LDIF File"
@@ -4467,7 +4469,7 @@ msgstr "Επιλέξτε το πεδίο LDIF που θα εισαχθεί στ�
 
 #: src/importldif.c:850
 msgid " Modify "
-msgstr "Τροποποίηση"
+msgstr " Τροποποίηση "
 
 #: src/importldif.c:856
 msgid "This button will update the list above with the data supplied."
@@ -4475,7 +4477,7 @@ msgstr ""
 
 #: src/importldif.c:929
 msgid "Records Imported :"
-msgstr "ΕΙσήχθησαν εγγραφές:"
+msgstr "Εισήχθησαν εγγραφές:"
 
 #: src/importldif.c:960
 msgid "Import LDIF file into Address Book"
@@ -4483,7 +4485,7 @@ msgstr "Εισαγωγή αρχείου LDIF στο ευρετήριο διευ�
 
 #: src/importmutt.c:144
 msgid "Error importing MUTT file."
-msgstr "Σφάλμα κατά την εισαγωγή του αρχείου MUTT"
+msgstr "Σφάλμα κατά την εισαγωγή του αρχείου MUTT."
 
 #: src/importmutt.c:159
 msgid "Select MUTT File"
@@ -4496,7 +4498,7 @@ msgstr "Εισαγωγή αρχείου MUTT στο ευρετήριο διευ�
 #: src/importmutt.c:291
 #: src/importpine.c:292
 msgid "Please select a file to import."
-msgstr "Παρακαλώ επιλέξτε ένα αρχείο για εισαγωγή"
+msgstr "Παρακαλώ επιλέξτε ένα αρχείο για εισαγωγή."
 
 #: src/importpine.c:144
 msgid "Error importing Pine file."
@@ -4638,7 +4640,7 @@ msgstr[1] "Λήψη (%d μηνύμαυσ (%s) ελήφθησαν)"
 
 #: src/inc.c:1099
 msgid "Connection failed."
-msgstr "Η σύνδεση απέτυχε"
+msgstr "Η σύνδεση απέτυχε."
 
 #: src/inc.c:1102
 #, c-format
@@ -4664,7 +4666,7 @@ msgstr "Δεν υπάρχει άλλος χώρος στο δίσκο."
 
 #: src/inc.c:1123
 msgid "Can't write file."
-msgstr "Αδύνατη η εγγραφή του αρχείου"
+msgstr "Δεν είναι δυνατή η εγγραφή του αρχείου."
 
 #: src/inc.c:1128
 msgid "Socket error."
@@ -4717,7 +4719,7 @@ msgstr ""
 #: src/inc.c:1164
 #: src/send_message.c:619
 msgid "Session timed out."
-msgstr "Λήξη χρόνου σύνδεσης"
+msgstr "Λήξη χρόνου σύνδεσης."
 
 #: src/inc.c:1167
 #, c-format
@@ -4845,14 +4847,12 @@ msgid ""
 msgstr ""
 
 #: src/main.c:798
-#, fuzzy
 msgid "  --online               switch to online mode"
-msgstr "Η κατάσταση παράνοιας για χρήση"
+msgstr "  --online               μετάβαση σε εργασία με σύνδεση"
 
 #: src/main.c:799
-#, fuzzy
 msgid "  --offline              switch to offline mode"
-msgstr "Η κατάσταση παράνοιας για χρήση"
+msgstr "  --offline              μετάβαση σε εργασία χωρίς σύνδεση"
 
 #: src/main.c:800
 msgid "  --exit                 exit Sylpheed-Claws"
@@ -4902,7 +4902,7 @@ msgstr "_Απόρριψη αλλαγών"
 
 #: src/main.c:935
 msgid "Do_n't quit"
-msgstr "_Να μην γίνει έξοδος"
+msgstr "_Να μη γίνει έξοδος"
 
 #: src/main.c:949
 msgid "Queued messages"
@@ -4941,11 +4941,11 @@ msgstr "/_Αρχείο/Αλλαγή της διάταξης των φακέλω�
 
 #: src/mainwindow.c:476
 msgid "/_File/_Import mbox file..."
-msgstr "/Αρχείο/Εισαγωγή αρχείου mbox..."
+msgstr "/_Αρχείο/Ε_ισαγωγή αρχείου mbox..."
 
 #: src/mainwindow.c:477
 msgid "/_File/_Export to mbox file..."
-msgstr "/Αρχείο/Εξαγωγή σε αρχείο mbox..."
+msgstr "/_Αρχείο/_Εξαγωγή σε αρχείο mbox..."
 
 #: src/mainwindow.c:478
 msgid "/_File/Exp_ort selected to mbox file..."
@@ -4958,12 +4958,12 @@ msgstr "/_Αρχείο/Άδειασμα όλων των φακέλων απορ�
 #: src/mainwindow.c:483
 #: src/messageview.c:159
 msgid "/_File/_Save as..."
-msgstr "/Αρχείο/Αποθήκευση ως..."
+msgstr "/_Αρχείο/Αποθήκευση _ως..."
 
 #: src/mainwindow.c:484
 #: src/messageview.c:160
 msgid "/_File/_Print..."
-msgstr "/Αρχείο/Εκτύπωση..."
+msgstr "/_Αρχείο/Εκτύ_πωση..."
 
 #: src/mainwindow.c:486
 msgid "/_File/_Work offline"
@@ -5018,27 +5018,27 @@ msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείο
 
 #: src/mainwindow.c:509
 msgid "/_View/Show or hi_de/_Toolbar/Text _below icons"
-msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Κείμενο κάτω από τα εικονίδια"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Κείμενο κάτω από τα εικονίδια"
 
 #: src/mainwindow.c:511
 msgid "/_View/Show or hi_de/_Toolbar/Text be_side icons"
-msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Κείμενο δίπλα από τα εικονίδια"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Κείμενο δίπλα από τα εικονίδια"
 
 #: src/mainwindow.c:513
 msgid "/_View/Show or hi_de/_Toolbar/_Icons only"
-msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/Μόνο _εικονίδια"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/Μόνο _εικονίδια"
 
 #: src/mainwindow.c:515
 msgid "/_View/Show or hi_de/_Toolbar/_Text only"
-msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/Μόνο _κείμενο"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/Μόνο _κείμενο"
 
 #: src/mainwindow.c:517
 msgid "/_View/Show or hi_de/_Toolbar/_Hide"
-msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Απόκρυψη"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Εργαλείοθήκη/_Απόκρυψη"
 
 #: src/mainwindow.c:519
 msgid "/_View/Show or hi_de/Status _bar"
-msgstr "/Προβολή/Εμφάνιση ή α_πόκρυψη/_Γραμμή κατάστασης"
+msgstr "/_Προβολή/Εμφάνιση ή α_πόκρυψη/_Γραμμή κατάστασης"
 
 #: src/mainwindow.c:521
 msgid "/_View/Set displayed _columns"
@@ -5153,7 +5153,7 @@ msgstr "/_Προβολή/Ανάπτυ_ξη όλων των νημάτων"
 
 #: src/mainwindow.c:553
 msgid "/_View/Co_llapse all threads"
-msgstr "/Προβολή/Σύμπτ_υξη όλων των νημάτων"
+msgstr "/_Προβολή/Σύμπτ_υξη όλων των νημάτων"
 
 #: src/mainwindow.c:554
 msgid "/_View/_Hide read messages"
@@ -5224,172 +5224,173 @@ msgstr "/_Προβολή/Μετά_βαση/Ά_λλο φάκελο..."
 #: src/mainwindow.c:591
 #: src/messageview.c:174
 msgid "/_View/Character _encoding/---"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/---"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/---"
 
 #: src/mainwindow.c:588
 #: src/messageview.c:178
 msgid "/_View/Character _encoding"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων"
 
 #: src/mainwindow.c:589
 #: src/messageview.c:179
 msgid "/_View/Character _encoding/_Auto detect"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/_Αυτόματη αναγνώριση"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/_Αυτόματη αναγνώριση"
 
 #: src/mainwindow.c:592
 #: src/messageview.c:182
 msgid "/_View/Character _encoding/7bit ascii (US-ASC_II)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/7bit ascii (US-ASC_II)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/7bit ascii (US-ASC_II)"
 
 #: src/mainwindow.c:594
 #: src/messageview.c:185
 msgid "/_View/Character _encoding/Unicode (_UTF-8)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Unicode (_UTF-8)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Unicode (_UTF-8)"
 
 #: src/mainwindow.c:598
 #: src/messageview.c:188
 msgid "/_View/Character _encoding/Western European (ISO-8859-_1)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_1)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-_1)"
 
 #: src/mainwindow.c:600
 #: src/messageview.c:190
 msgid "/_View/Character _encoding/Western European (ISO-8859-15)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-15)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Δυτικής Ευρώπης (ISO-8859-15)"
 
 #: src/mainwindow.c:602
 #: src/messageview.c:192
 msgid "/_View/Character _encoding/Western European (Windows-1252)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Δυτικής Ευρώπης (Windows-1252)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Δυτικής Ευρώπης (Windows-1252)"
 
 #: src/mainwindow.c:606
 #: src/messageview.c:195
 msgid "/_View/Character _encoding/Central European (ISO-8859-_2)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κεντρικής Ευρώπης (ISO-8859-_2)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κεντρικής Ευρώπης (ISO-8859-_2)"
 
 #: src/mainwindow.c:610
 #: src/messageview.c:198
 msgid "/_View/Character _encoding/_Baltic (ISO-8859-13)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/_Βαλτικής (ISO-8859-13)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/_Βαλτικής (ISO-8859-13)"
 
 #: src/mainwindow.c:612
 #: src/messageview.c:200
 msgid "/_View/Character _encoding/Baltic (ISO-8859-_4)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Βαλτικής (ISO-8859-_4)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Βαλτικής (ISO-8859-_4)"
 
 #: src/mainwindow.c:616
 #: src/messageview.c:203
 msgid "/_View/Character _encoding/Greek (ISO-8859-_7)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ελληνικά (ISO-8859-_7)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Ελληνικά (ISO-8859-_7)"
 
 #: src/mainwindow.c:620
 #: src/messageview.c:206
 msgid "/_View/Character _encoding/Hebrew (ISO-8859-_8)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Εβραϊκή (ISO-8859-_8)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Εβραϊκή (ISO-8859-_8)"
 
 #: src/mainwindow.c:622
 #: src/messageview.c:208
 msgid "/_View/Character _encoding/Hebrew (Windows-1255)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Εβραϊκή (Windows-1255)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Εβραϊκή (Windows-1255)"
 
 #: src/mainwindow.c:626
 #: src/messageview.c:211
 msgid "/_View/Character _encoding/Arabic (ISO-8859-_6)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Αραβική (ISO-8859-_6)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Αραβική (ISO-8859-_6)"
 
 #: src/mainwindow.c:628
 #: src/messageview.c:213
 msgid "/_View/Character _encoding/Arabic (Windows-1256)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Αραβική (Windows-1256)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Αραβική (Windows-1256)"
 
 #: src/mainwindow.c:632
 #: src/messageview.c:216
 msgid "/_View/Character _encoding/Turkish (ISO-8859-_9)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Τούρκικη (ISO-8859-_9)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Τούρκικη (ISO-8859-_9)"
 
 #: src/mainwindow.c:636
 #: src/messageview.c:219
 msgid "/_View/Character _encoding/Cyrillic (ISO-8859-_5)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (ISO-8859-_5)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κυριλλική (ISO-8859-_5)"
 
 #: src/mainwindow.c:638
 #: src/messageview.c:221
 msgid "/_View/Character _encoding/Cyrillic (KOI8-_R)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (KOI8-_R)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κυριλλική (KOI8-_R)"
 
 #: src/mainwindow.c:640
 #: src/messageview.c:223
+#: src/messageview.c:223   
 msgid "/_View/Character _encoding/Cyrillic (KOI8-U)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (KOI8-_U)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κυριλλική (KOI8-U)"
 
 #: src/mainwindow.c:642
 #: src/messageview.c:225
 msgid "/_View/Character _encoding/Cyrillic (Windows-1251)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κυριλλική (Windows-1251)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κυριλλική (Windows-1251)"
 
 #: src/mainwindow.c:646
 #: src/messageview.c:228
 msgid "/_View/Character _encoding/Japanese (ISO-2022-_JP)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Ιαπωνέζικη (ISO-2022-_JP)"
 
 #: src/mainwindow.c:648
 #: src/messageview.c:230
 msgid "/_View/Character _encoding/Japanese (ISO-2022-JP-2)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (ISO-2022-JP-2)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Ιαπωνέζικη (ISO-2022-JP-2)"
 
 #: src/mainwindow.c:650
 #: src/messageview.c:232
 msgid "/_View/Character _encoding/Japanese (_EUC-JP)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (_EUC-JP)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Ιαπωνέζικη (_EUC-JP)"
 
 #: src/mainwindow.c:652
 #: src/messageview.c:234
 msgid "/_View/Character _encoding/Japanese (_Shift__JIS)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ιαπωνέζικη (_Shift__JIS)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Ιαπωνέζικη (_Shift__JIS)"
 
 #: src/mainwindow.c:656
 #: src/messageview.c:237
 msgid "/_View/Character _encoding/Simplified Chinese (_GB2312)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Απλοποιημένη Κινέζικη (_GB2312)"
 
 #: src/mainwindow.c:658
 #: src/messageview.c:239
 msgid "/_View/Character _encoding/Simplified Chinese (GBK)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (GBK)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Απλοποιημένη Κινέζικη (GBK)"
 
 #: src/mainwindow.c:660
 #: src/messageview.c:241
 msgid "/_View/Character _encoding/Traditional Chinese (_Big5)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Απλοποιημένη Κινέζικη (_Big5)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Απλοποιημένη Κινέζικη (_Big5)"
 
 #: src/mainwindow.c:662
 #: src/messageview.c:243
 msgid "/_View/Character _encoding/Traditional Chinese (EUC-_TW)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Παραδοσιακή Κινέζικη (EUC-_TW)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Παραδοσιακή Κινέζικη (EUC-_TW)"
 
 #: src/mainwindow.c:664
 #: src/messageview.c:245
 msgid "/_View/Character _encoding/Chinese (ISO-2022-_CN)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κινέζικη (ISO-2022-_CN)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κινέζικη (ISO-2022-_CN)"
 
 #: src/mainwindow.c:668
 #: src/messageview.c:248
 msgid "/_View/Character _encoding/Korean (EUC-_KR)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κορεάτικη (EUC-_KR)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κορεάτικη (EUC-_KR)"
 
 #: src/mainwindow.c:670
 #: src/messageview.c:250
 msgid "/_View/Character _encoding/Korean (ISO-2022-KR)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Κορεάτικη (ISO-2022-KR)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Κορεάτικη (ISO-2022-KR)"
 
 #: src/mainwindow.c:674
 #: src/messageview.c:253
 msgid "/_View/Character _encoding/Thai (TIS-620)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ταϊλανδέζικη (TIS-620)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Ταϊλανδέζικη (TIS-620)"
 
 #: src/mainwindow.c:676
 #: src/messageview.c:255
 msgid "/_View/Character _encoding/Thai (Windows-874)"
-msgstr "/_Προβολή/Κωδικοποίηση  _χαρακτήρων/Ταϊλανδέζικη (Windows-874)"
+msgstr "/_Προβολή/Κωδικοποίηση _χαρακτήρων/Ταϊλανδέζικη (Windows-874)"
 
 #: src/mainwindow.c:683
 #: src/mainwindow.c:689
@@ -5472,7 +5473,7 @@ msgstr "/_Μήνυμα/Αποστολή μηνυμάτων στην _ουρά"
 
 #: src/mainwindow.c:716
 msgid "/_Message/Compose a_n email message"
-msgstr "/Μήνυμα/Σύνθεση μηνύματος ηλεκτρονικού _ταχυδρομείου"
+msgstr "/_Μήνυμα/Σύνθεση μηνύματος ηλεκτρονικού _ταχυδρομείου"
 
 #: src/mainwindow.c:717
 msgid "/_Message/Compose a news message"
@@ -5843,8 +5844,8 @@ msgid ""
 "Creation of the mailbox failed.\n"
 "Maybe some files already exist, or you don't have the permission to write there."
 msgstr ""
-"Η δημιουργία του mailbox απέτυχε.\n"
-"Ίσως κάποια αρχεία να υπάρχουν ήδη, ή δεν έχετε δικαίωμα να γράψετε εκεί. "
+"Η δημιουργία του γραμματοκιβωτίου απέτυχε.\n"
+"Ίσως κάποια αρχεία να υπάρχουν ήδη, ή δεν έχετε δικαίωμα να γράψετε εκεί."
 
 #: src/mainwindow.c:2281
 msgid "No posting allowed"
@@ -5963,7 +5964,7 @@ msgstr "Επιλογή αρχείου mbox"
 
 #: src/mbox.c:468
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr "Αυτό το αρχείο υπάρχει ήδη.  Θέλετε να το αντικαταστήσετε;"
+msgstr "Αυτό το αρχείο υπάρχει ήδη. Θέλετε να το αντικαταστήσετε;"
 
 #: src/mbox.c:469
 #: src/messageview.c:1111
@@ -5973,11 +5974,13 @@ msgid "Overwrite"
 msgstr "Εγγραφή από πάνω"
 
 #: src/mbox.c:478
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not create mbox file:\n"
 "%s\n"
-msgstr "Αδυναμία δημιουργίας αντιγράφου ασφαλείας."
+msgstr ""
+"Δεν ήταν δυνατή η δημιουργία του αρχείου mbox:\n"
+"%s\n"
 
 #: src/mbox.c:482
 msgid "Exporting to mbox..."
@@ -6194,12 +6197,12 @@ msgstr "+_Άκυρο"
 
 #: src/messageview.c:1415
 #: src/summaryview.c:3946
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Enter the print command line:\n"
 "('%s' will be replaced with file name)"
 msgstr ""
-"Εισάγετε την γραμμή εντολής για το άνοιγμα του αρχείου:\n"
+"Εισάγετε την γραμμή εντολής για την εκτύπωση:\n"
 "(Το '%s' θα αντικατασταθεί με το όνομα αρχείου)"
 
 #: src/messageview.c:1421
@@ -6244,7 +6247,7 @@ msgid ""
 "Really remove the mailbox '%s' ?\n"
 "(The messages are NOT deleted from the disk)"
 msgstr ""
-"Σίγουρα να διαγραφεί το γραμματοκιβώτιο `%s' ;\n"
+"Σίγουρα να διαγραφεί το γραμματοκιβώτιο '%s' ;\n"
 "(Τα μηνύματα ΔΕΝ σβήνονται από τον δίσκο)"
 
 #: src/mh_gtk.c:325
@@ -6274,7 +6277,7 @@ msgstr "/_Αποθήκευση ως..."
 
 #: src/mimeview.c:160
 msgid "/Save _all..."
-msgstr "/Αποθήκευση _όλων"
+msgstr "/Αποθήκευση _όλων..."
 
 #: src/mimeview.c:199
 msgid "MIME Type"
@@ -6297,7 +6300,7 @@ msgstr "Έλεγχος ξανά"
 
 #: src/mimeview.c:733
 msgid "Click the icon or hit 'C' to check it."
-msgstr "Επιλέξτε το εικονίδιο ή πατήστε 'C' για να το ελέγξετε"
+msgstr "Επιλέξτε το εικονίδιο ή πατήστε 'C' για να το ελέγξετε."
 
 #: src/mimeview.c:738
 msgid "Timeout checking the signature. Click the icon or hit 'C' to try again."
@@ -11259,15 +11262,4 @@ msgstr ""
 "Τώρα μπορείτε να εκτελέσετε το Sylpheed-Claws.\n"
 "\n"
 "Επιλέξτε αποθήκευση για να ξεκινήσετε."
-
-#~ msgid "Sylpheed - Message View"
-#~ msgstr "Sylpheed - Προβολή μηνύματος"
-#~ msgid "Add Date"
-#~ msgstr "Προσθήκη Ημερομηνίας"
-#~ msgid "insert file"
-#~ msgstr "εισαγωγή αρχείου"
-#~ msgid "No marked message found. Search from the beginning?"
-#~ msgstr "Δεν βρέθηκαν σημειωμένα μηνύματα. Να γίνει αναζήτηση από την αρχή;"
-#~ msgid "Fake URL warning"
-#~ msgstr "Προειδοποίηση για μη έγκυρα URL"
 
