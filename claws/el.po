@@ -2416,7 +2416,7 @@ msgstr "Κανένα"
 #: src/prefs_summaries.c:349
 #: src/prefs_summaries.c:690
 msgid "Default"
-msgstr "Εξορισμού"
+msgstr "Προεπιλεγμένο"
 
 #: src/exphtmldlg.c:462
 #: src/plugins/pgpcore/sgpgme.c:131
@@ -7355,7 +7355,7 @@ msgstr "Τοπικό"
 #: src/prefs_account.c:1418
 #: src/prefs_account.c:1513
 msgid "Default inbox"
-msgstr "Εξορισμού φάκελος εισερχομένων"
+msgstr "Προεπιλεγμένος φάκελος εισερχομένων"
 
 #: src/prefs_account.c:1425
 #: src/prefs_account.c:1433
@@ -8493,7 +8493,7 @@ msgstr "Αποθήκευση αντίγραφου των εξερχομένων 
 
 #: src/prefs_folder_item.c:603
 msgid "Default To: "
-msgstr "Εξορισμού προς: "
+msgstr "Προεπιλεγμένο προς: "
 
 #: src/prefs_folder_item.c:623
 msgid "Default To for replies: "
@@ -9359,11 +9359,11 @@ msgstr "Λεξικό"
 
 #: src/prefs_spelling.c:240
 msgid "Default dictionary"
-msgstr "Εξορισμού λεξικό"
+msgstr "Προεπιλεγμένο λεξικό"
 
 #: src/prefs_spelling.c:263
 msgid "Default suggestion mode"
-msgstr "Εξορισμού λειτουργία προτάσεων"
+msgstr "Προεπιλεγμένη λειτουργία προτάσεων"
 
 #: src/prefs_spelling.c:286
 msgid "Misspelled word color:"
