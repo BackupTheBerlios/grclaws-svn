@@ -2289,7 +2289,7 @@ msgstr ""
 
 #: src/editldap.c:758
 msgid "Timeout (secs)"
-msgstr "Λήξη χρονικού ορίου (δεπτ)"
+msgstr "Λήξη χρονικού ορίου (δευτ)"
 
 #: src/editldap.c:773
 msgid "The timeout period in seconds."
@@ -2301,7 +2301,7 @@ msgstr "Μέγιστες εγγραφές"
 
 #: src/editldap.c:792
 msgid "The maximum number of entries that should be returned in the search result."
-msgstr "Ο μέγιστος αριθμός εγγραφών του αποτέλεσματος της αναζήτησης."
+msgstr "Ο μέγιστος αριθμός εγγραφών του αποτελέσματος της αναζήτησης."
 
 #: src/editldap.c:808
 msgid "Basic"
@@ -3511,7 +3511,7 @@ msgstr "Νέα μήνυμα"
 
 #: src/gtk/icon_legend.c:64
 msgid "Unread message"
-msgstr "Μη αναγνωσμένο μηνύμα"
+msgstr "Μη αναγνωσμένο μήνυμα"
 
 #: src/gtk/icon_legend.c:65
 msgid "Message has been replied to"
@@ -4110,7 +4110,7 @@ msgid ""
 msgstr ""
 "Αυτή η σύνδεση έχει ρυθμιστεί να γίνεται με ασφάλεια μέσω SSL, όμως δεν υπάρχει διαθέσιμο SSL σε αυτό το εκτελέσιμο του Sylpheed-Claws.\n"
 "\n"
-"Θέλετε να συνεχίσετε τη σύνδεση με αυτό το διακομιστή; Η επικοινωνία δεν θα είναι ααφαλής."
+"Θέλετε να συνεχίσετε τη σύνδεση με αυτό το διακομιστή; Η επικοινωνία δεν θα είναι ασφαλής."
 
 #: src/imap.c:771
 #: src/inc.c:766
@@ -4447,7 +4447,7 @@ msgstr ";;;"
 
 #: src/importldif.c:829
 msgid "Choose the LDIF field that will be renamed or selected for import in the list above. Reserved fields (marked with a tick in the \"R\" column), are automatically imported and cannot be renamed. A single click in the Select (\"S\") column will select the field for import with a tick. A single click anywhere in the row will select that field for rename in the input area below the list. A double click anywhere in the row will also select the field for import."
-msgstr "Επιλέξτε το πεδίο LDIF που θα μετονομαστεί ή επιλεγεί για εισαγωγή στην πιο πάνω λίστα. Τα δεσμευμένα πεδία (που είναι σημειωμένα με ένα τικ στη στήλη \"Δ\"), εισάγονται αυτόματα και δε γίνεται να μετονομαστούν. Η επιλογή των πεδίων για εισαγωγή γίνεται με μονό κλικ στη στήλη \"Ε\". Με μονό κλικ οπουδήποτε στη γραμή θα επιλέξει το πεδίο για μετονομασία στην περιοχή εισαγωγής κάτω από τη λίστα. Με διπλό κλίκ οπουδήποτε στη γραμμή θα επιλέξει το πεδίο για εισαγωγή."
+msgstr "Επιλέξτε το πεδίο LDIF που θα μετονομαστεί ή επιλεγεί για εισαγωγή στην πιο πάνω λίστα. Τα δεσμευμένα πεδία (που είναι σημειωμένα με ένα τικ στη στήλη \"Δ\"), εισάγονται αυτόματα και δε γίνεται να μετονομαστούν. Η επιλογή των πεδίων για εισαγωγή γίνεται με μονό κλικ στη στήλη \"Ε\". Με μονό κλικ οπουδήποτε στη γραμμή θα επιλέξει το πεδίο για μετονομασία στην περιοχή εισαγωγής κάτω από τη λίστα. Με διπλό κλικ οπουδήποτε στη γραμμή θα επιλέξει το πεδίο για εισαγωγή."
 
 #: src/importldif.c:841
 msgid "Select for Import"
@@ -4626,7 +4626,7 @@ msgstr "Λαμβάνεται το μήνυμα (%d / %d) (%s / %s)"
 msgid "Retrieving (%d message (%s) received)"
 msgid_plural "Retrieving (%d messages (%s) received)"
 msgstr[0] "Λήψη (%d μήνυμα (%s) ελήφθη)"
-msgstr[1] "Λήψη (%d μηνύμαυσ (%s) ελήφθησαν)"
+msgstr[1] "Λήψη (%d μηνύματα (%s) ελήφθησαν)"
 
 #: src/inc.c:1102
 msgid "Connection failed."
@@ -5118,7 +5118,7 @@ msgstr "/_Προβολή/_Ταξινόμηση/κατά βαθμολογία"
 
 #: src/mainwindow.c:543
 msgid "/_View/_Sort/by locked"
-msgstr "/_Προβολή/_Ταξινόμηση/κατά κλέιδωμα"
+msgstr "/_Προβολή/_Ταξινόμηση/κατά κλείδωμα"
 
 #: src/mainwindow.c:544
 msgid "/_View/_Sort/D_on't sort"
@@ -5556,7 +5556,7 @@ msgstr "/_Μήνυμα/_Αντιγραφή..."
 
 #: src/mainwindow.c:741
 msgid "/_Message/Move to _trash"
-msgstr "/_Μήνυμα/Μετα_κίνηση στα απορίμματα"
+msgstr "/_Μήνυμα/Μετα_κίνηση στα απορρίμματα"
 
 #: src/mainwindow.c:742
 msgid "/_Message/_Delete..."
@@ -7526,7 +7526,7 @@ msgstr "Απάντηση σε"
 
 #: src/prefs_account.c:2030
 msgid "Default privacy system"
-msgstr "Εξορισμού σύστημα προστασίας απορρήτου"
+msgstr "Προκαθορισμένο σύστημα προστασίας απορρήτου"
 
 #: src/prefs_account.c:2039
 msgid "Always sign messages"
@@ -8331,7 +8331,7 @@ msgstr ""
 
 #: src/prefs_filtering_action.c:1404
 msgid "Current action list"
-msgstr "Λίστα τρέχοντων ενεργειών"
+msgstr "Λίστα τρεχουσών ενεργειών"
 
 #: src/prefs_filtering.c:164
 #: src/prefs_filtering.c:270
@@ -8637,7 +8637,7 @@ msgstr "Χρώμα ετικέτας"
 
 #: src/prefs_matcher.c:161
 msgid "Ignored thread"
-msgstr "Αγνoημένο νήμα"
+msgstr "Αγνοημένο νήμα"
 
 #: src/prefs_matcher.c:162
 msgid "Score greater than"
@@ -10123,7 +10123,7 @@ msgstr "Πιστοποίηση POP πριν το SMTP..."
 
 #: src/send_message.c:330
 msgid "POP before SMTP"
-msgstr "ΡΟΡ πριν από SMTP"
+msgstr "POP πριν από SMTP"
 
 #: src/send_message.c:335
 #, c-format
@@ -10811,7 +10811,7 @@ msgstr "Σύνθεση μηνύματος Νέων"
 #: src/toolbar.c:1557
 #: src/toolbar.c:1567
 msgid "Reply to Message"
-msgstr "Απάντηση σε αυτό το μύνημα"
+msgstr "Απάντηση σε αυτό το μήνυμα"
 
 #: src/toolbar.c:168
 #: src/toolbar.c:1574
@@ -10840,7 +10840,7 @@ msgstr "Προώθηση μηνύματος"
 #: src/toolbar.c:172
 #: src/toolbar.c:1642
 msgid "Trash Message"
-msgstr "Μετακίνηση μηνύματος στα απορίμματα"
+msgstr "Μετακίνηση μηνύματος στα απορρίμματα"
 
 #: src/toolbar.c:173
 #: src/toolbar.c:1648
