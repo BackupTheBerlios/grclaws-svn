@@ -172,7 +172,7 @@ msgstr ""
 
 #: src/action.c:1532
 msgid "Action's hidden user argument"
-msgstr "Το κρυμμένο όρισμα της δράσης"
+msgstr "Το κρυμμένο όρισμα της ενέργειας"
 
 #: src/action.c:1536
 #, c-format
@@ -8223,7 +8223,7 @@ msgstr "Ρύθμιση φιλτραρίσματος"
 
 #: src/prefs_filtering_action.c:342
 msgid "Action"
-msgstr "Δράση"
+msgstr "Ενέργεια"
 
 #: src/prefs_filtering_action.c:419
 msgid "Destination"
@@ -8261,7 +8261,7 @@ msgstr "Δεν έχει οριστεί βαθμολογία"
 
 #: src/prefs_filtering_action.c:1042
 msgid "No action was defined."
-msgstr "Δεν έχει οριστεί δράση."
+msgstr "Δεν έχει οριστεί ενέργεια."
 
 #: src/prefs_filtering_action.c:1079
 #: src/prefs_matcher.c:1683
@@ -8331,7 +8331,7 @@ msgstr ""
 
 #: src/prefs_filtering_action.c:1404
 msgid "Current action list"
-msgstr "Λίστα τρεχουσών ενεργειών"
+msgstr "Τρέχουσα λίστα ενεργειών"
 
 #: src/prefs_filtering.c:164
 #: src/prefs_filtering.c:270
@@ -8349,7 +8349,7 @@ msgstr " Ορισμός... "
 
 #: src/prefs_filtering.c:329
 msgid "Action: "
-msgstr "Δράση: "
+msgstr "Ενέργεια: "
 
 #: src/prefs_filtering.c:677
 #: src/prefs_filtering.c:678
@@ -9918,9 +9918,8 @@ msgid "No information available"
 msgstr "Δεν υπάρχουν διαθέσιμες πληροφορίες"
 
 #: src/privacy.c:406
-#, fuzzy
 msgid "No recipient keys defined."
-msgstr "Δεν έχει οριστεί δράση"
+msgstr "Δεν έχουν οριστεί κλειδιά για τους παραλήπτες."
 
 #: src/procmime.c:296
 #: src/procmime.c:298
