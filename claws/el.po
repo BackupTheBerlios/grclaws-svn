@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws 2.4.0\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-07-31 10:26+0100\n"
-"PO-Revision-Date: 2006-08-01 22:36+0200\n"
+"PO-Revision-Date: 2006-08-03 20:36+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -991,9 +991,8 @@ msgid "write on fd%d: %s\n"
 msgstr "εγγραφή στο fd%d: %s\n"
 
 #: src/common/ssl.c:159
-#, fuzzy
 msgid "Error creating ssl context\n"
-msgstr "Σφάλμα δημιουργίας signal pipe."
+msgstr ""
 
 #: src/common/ssl.c:178
 #, c-format
@@ -1893,7 +1892,7 @@ msgstr "Εισαγωγή ή επισύναψη;"
 
 #: src/compose.c:8557
 msgid "Do you want to insert the contents of the file(s) into the message body, or attach it to the email?"
-msgstr ""
+msgstr "Θέλετε να εισάγετε τα περιεχόμενα των αρχείων στο σώμα του μηνύματος ή να τα επισυνάψετε;"
 
 #: src/compose.c:8559
 msgid "+_Insert"
@@ -2186,7 +2185,7 @@ msgstr "Πως θέλετε να ονομάσετε το διακομιστή."
 
 #: src/editldap.c:449
 msgid "This is the hostname of the server. For example, \"ldap.mydomain.com\" may be appropriate for the \"mydomain.com\" organization. An IP address may also be used. You may specify \"localhost\" if running an LDAP server on the same computer as Sylpheed-Claws."
-msgstr ""
+msgstr "Αυτό είναι το όνομα του διακομιστή. Για παράδειγμα, το \"ldap.example.com\" μπορεί να είναι κατάλληλο για τον οργανισμό \"example.com\". Μπορεί επίσης να είναι και μια διεύθυνση IP. Ακόμα, μπορείτε να βάλετε \"localhost\" αν εκτελείται ένας διακομιστής LDAP στον ίδιο υπολογιστή με το Sylpheed-Claws."
 
 #: src/editldap.c:470
 msgid "TLS"
@@ -2246,7 +2245,7 @@ msgstr ""
 
 #: src/editldap.c:615
 msgid "Max Query Age (secs)"
-msgstr ""
+msgstr "Μέγιστη διάρκεια ερωτήματος (δεπτ)"
 
 #: src/editldap.c:631
 msgid "This defines the maximum period of time (in seconds) that an address search result is valid for address completion purposes. Search results are stored in a cache until this period of time has passed and then retired. This will improve the response time when attempting to search for the same name or address on subsequent address completion requests. The cache will be searched in preference to performing a new server search request. The default value of 600 seconds (10 minutes), should be sufficient for most servers. A larger value will reduce the search time for subsequent searches. This is useful for servers that have slow response times at the expense of more memory to cache results."
@@ -4050,6 +4049,9 @@ msgid ""
 "\n"
 "CRAM-MD5 logins only work if libetpan has been compiled with SASL support and the CRAM-MD5 SASL plugin is installed."
 msgstr ""
+"\n"
+"\n"
+"Οι συνδέσεις CRAM-MD5 δουλεύουν μόνο αν το libetpan περιλαμβάνει υποστήριξη SASL και είναι εγκατεστημένο το πρόσθετο CRAM-MD5 SASL."
 
 #: src/imap.c:625
 #, c-format
@@ -4452,7 +4454,7 @@ msgstr " Τροποποίηση "
 
 #: src/importldif.c:856
 msgid "This button will update the list above with the data supplied."
-msgstr ""
+msgstr "Αυτό το κουμπί θα ενημερώσει την παραπάνω λίστα με τα δεδομένα που συμπληρώθηκαν."
 
 #: src/importldif.c:929
 msgid "Records Imported :"
@@ -4774,11 +4776,11 @@ msgstr ""
 
 #: src/main.c:561
 msgid "Some plugin(s) failed to load. Check the Plugins configuration for more information."
-msgstr ""
+msgstr "Απέτυχε η φόρτωση ορισμένων πρόσθετων. Ελέγξτε τη ρύθμιση πρόσθετων για περισσότερες πληροφορίες."
 
 #: src/main.c:571
 msgid "Sylpheed-Claws has detected a configured mailbox, but could not load it. It is probably provided by an out-of-date external plugin. Please reinstall the plugin and try again."
-msgstr ""
+msgstr "Το Syplheed-Claws εντόπισε ένα γραμματοκιβώτιο, αλλά δε μπόρεσε να το ανοίξει. Πιθανόν να παρέχεται από ένα παλιό πρόσθετο. Παρακαλώ εγκαταστήσετε ξανά το πρόσθετο και προσπαθήσετε ξανά."
 
 #: src/main.c:803
 #, c-format
@@ -4869,7 +4871,7 @@ msgstr "Επεξεργασία (%s)..."
 #: src/main.c:892
 #, fuzzy
 msgid "top level folder"
-msgstr "Δεν υπάρχει τέτοιος φάκελος %s"
+msgstr "Δεν υπάρχει τέτοιος φάκελος"
 
 #: src/main.c:953
 msgid "Really quit?"
@@ -6381,9 +6383,9 @@ msgid "error occurred while getting %s.\n"
 msgstr "σφάλμα κατά την λήψη του %s.\n"
 
 #: src/news.c:935
-#, fuzzy, c-format
+#, c-format
 msgid "getting xover %d in %s...\n"
-msgstr "Το ψευδώνυμο είναι σε χρήση"
+msgstr ""
 
 #: src/news.c:942
 #: src/news.c:1035
@@ -6511,6 +6513,9 @@ msgid ""
 "\n"
 "It is not really useful"
 msgstr ""
+"Αυτό το πρόσθετο είναι μόνο για να επιδεικνύει πως γίνεται η συγγραφή πρόσθετων για το Sylpheed-Claws. Εγκαθιστά μια σύνδεση για την εξαγωγή καταγραφής και τη γράφει στην τυπική έξοδο.\n"
+"\n"
+"Δεν είναι χρήσιμο ουσιαστικά."
 
 #: src/plugins/dillo_viewer/dillo_prefs.c:76
 msgid "Dillo Browser"
@@ -6678,6 +6683,10 @@ msgid ""
 "know for sure that it will go to the person you mean it to.\n"
 "Do you trust it enough to use it anyway?"
 msgstr ""
+"Το επιλεγμένο κλειδί δεν είναι εντελώς έμπιστο.\n"
+"Αν επιλέξετε να κρυπτογραφήσετε το μήνυμα με αυτό το κλειδί\n"
+"δεν ξέρετε σίγουρα ότι θα καταλήξει στο άτομο που επιδιώκετε.\n"
+"Το εμπιστεύεστε αρκετά ώστε να το χρησιμοποιήσετε έτσι κι αλλιώς;"
 
 #: src/plugins/pgpcore/sgpgme.c:125
 msgid "Undefined"
@@ -6781,7 +6790,7 @@ msgstr ""
 #: src/plugins/pgpcore/sgpgme.c:304
 #, c-format
 msgid "Verified signer's address is \"%s\"\n"
-msgstr ""
+msgstr "Η διασταυρωμένη διεύθυνση είναι η \"%s\"\n"
 
 #: src/plugins/pgpcore/sgpgme.c:348
 #, c-format
@@ -6800,7 +6809,7 @@ msgstr "Δεν βρέθηκε το προσωπικό κλειδί (%s)"
 
 #: src/plugins/pgpcore/sgpgme.c:488
 msgid "Private key specification is ambiguous"
-msgstr ""
+msgstr "Η προδιαγραφή για το ιδιωτικό κλειδί είναι αμφιλεγόμενη."
 
 #: src/plugins/pgpcore/sgpgme.c:498
 #, c-format
@@ -6810,17 +6819,17 @@ msgstr ""
 #: src/plugins/pgpcore/sgpgme.c:534
 #, c-format
 msgid "Gpgme protocol '%s' is unusable: Engine '%s' isn't installed properly."
-msgstr ""
+msgstr "Το πρωτόκολλο '%s' του gpgme δεν είναι δυνατό να χρησιμοποιηθεί: Η μηχανή '%s' δεν είναι σωστά εγκατεστημένη."
 
 #: src/plugins/pgpcore/sgpgme.c:540
 #, c-format
 msgid "Gpgme protocol '%s' is unusable: Engine '%s' version %s is installed, but version %s is required.\n"
-msgstr ""
+msgstr "Το πρωτόκολλο '%s' του gpgme δεν είναι δυνατό να χρησιμοποιηθεί: Η εγκατεστημένη έκδοση της μηχανής '%s' είναι η %s ενώ απαιτείται η έκδοση '%s'.\n"
 
 #: src/plugins/pgpcore/sgpgme.c:548
 #, c-format
 msgid "Gpgme protocol '%s' is unusable (unknown problem)"
-msgstr ""
+msgstr "Το πρωτόκολλο '%s' του gpgme δεν είναι δυνατό να χρησιμοποιηθεί (άγνωστο σφάλμα)"
 
 #: src/plugins/pgpcore/sgpgme.c:564
 msgid ""
@@ -6852,7 +6861,7 @@ msgstr "Δεν ήταν δυνατή η λήψη του κειμένου."
 
 #: src/plugins/pgpinline/pgpinline.c:254
 msgid "Couldn't convert text data to any sane charset."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η μετατροπή του κειμένου σε κάποια κανονικό σύνολο χαρακτήρων."
 
 #: src/plugins/pgpinline/pgpinline.c:377
 #, fuzzy
@@ -7792,15 +7801,15 @@ msgstr "<span weight=\"bold\">Ξεκινά με:</span>"
 
 #: src/prefs_actions.c:803
 msgid "to send message body or selection to command's standard input"
-msgstr ""
+msgstr "για να στείλει το σώμα του μηνύματος ή την επιλογή στην κανονική είσοδο της εντολής"
 
 #: src/prefs_actions.c:804
 msgid "to send user provided text to command's standard input"
-msgstr ""
+msgstr "για να στείλει το κείμενο του χρήστη στην κανονική είσοδο της εντολής"
 
 #: src/prefs_actions.c:805
 msgid "to send user provided hidden text to command's standard input"
-msgstr ""
+msgstr "για να στείλει το κρυφό κείμενο του χρήστη στην κανονική είσοδο της εντολής"
 
 #: src/prefs_actions.c:806
 msgid "<span weight=\"bold\">End with:</span>"
@@ -7808,11 +7817,11 @@ msgstr "<span weight=\"bold\">Τελειώνει με:</span>"
 
 #: src/prefs_actions.c:807
 msgid "to replace message body or selection with command's standard output"
-msgstr ""
+msgstr "για να αντικαταστήσει το σώμα του μηνύματος ή την επιλογή με την κανονική έξοδο της εντολής"
 
 #: src/prefs_actions.c:808
 msgid "to insert command's standard output without replacing old text"
-msgstr ""
+msgstr "για να εισάγει την κανονική έξοδο της εντολής χωρίς να αντικαταστήσει το παλιό κείμενο"
 
 #: src/prefs_actions.c:809
 msgid "to run command asynchronously"
@@ -7824,24 +7833,23 @@ msgstr "<span weight=\"bold\">Χρήση:</span>"
 
 #: src/prefs_actions.c:811
 msgid "for the file of the selected message in RFC822/2822 format "
-msgstr ""
+msgstr "για το αρχείο του επιλεγμένου μηνύματος σε μορφή RFC822/2822"
 
 #: src/prefs_actions.c:812
 msgid "for the list of the files of the selected messages in RFC822/2822 format"
-msgstr ""
+msgstr "για τη λίστα των αρχείων των επιλεγμένων μηνυμάτων σε μορφή RFC822/2822"
 
 #: src/prefs_actions.c:813
 msgid "for the file of the selected decoded message MIME part"
-msgstr ""
+msgstr "για το αρχείο μηνύματος του επιλεγμένου αποκωδικοποιημένου τμήματος MIME"
 
 #: src/prefs_actions.c:814
-#, fuzzy
 msgid "for a user provided argument"
-msgstr "Εισάγετε κωδικό πρόσβασης για %s (χρήστης %s)"
+msgstr "για ένα κείμενο ορισμένο από το χρήστη"
 
 #: src/prefs_actions.c:815
 msgid "for a user provided hidden argument (e.g. password)"
-msgstr ""
+msgstr "για ένα κρυφό κείμενο ορισμένο από το χρήστη (π.χ. κωδικός)"
 
 #: src/prefs_actions.c:816
 msgid "for the text selection"
@@ -7849,7 +7857,7 @@ msgstr "για την επιλογή κειμένου"
 
 #: src/prefs_actions.c:817
 msgid "apply filtering actions between {} to selected messages"
-msgstr ""
+msgstr "εφαρμογή των φίλτρων ανάμεσα στα {} στα επιλεγμένα μηνύματα"
 
 #: src/prefs_actions.c:826
 #: src/prefs_themes.c:982
@@ -9298,7 +9306,7 @@ msgstr "Κωδικοποίηση μεταφοράς"
 
 #: src/prefs_send.c:264
 msgid "Specify Content-Transfer-Encoding used when message body contains non-ASCII characters"
-msgstr ""
+msgstr "Ορίστε την κωδικοποίηση μεταφοράς περιεχομένου που θα χρησιμοποιηθεί όταν το σώμα του μηνύματος περιέχει χαρακτήρες μη-ASCII"
 
 #: src/prefs_send.c:338
 #: src/send_message.c:477
@@ -9472,6 +9480,8 @@ msgid ""
 "You can also modify each menu shortcut by pressing\n"
 "any key(s) when focusing the mouse pointer on the item."
 msgstr ""
+"Μπορείτε επίσης να τροποποιήσετε τις συντομεύσεις στα μενού πιέζοντας\n"
+"οποιαδήποτε πλήκτρα όταν έχετε το δείκτη του ποντικιού πάνω απ' το αντικείμενο."
 
 #: src/prefs_summaries.c:767
 msgid "Translate header names"
@@ -9815,9 +9825,8 @@ msgid "Compose toolbar configuration"
 msgstr "Ρύθμιση της εργαλειοθήκης σύνθεσης"
 
 #: src/prefs_toolbar.c:133
-#, fuzzy
 msgid "Message view toolbar configuration"
-msgstr "Ρυθμίσεις στηλών της λίστας μηνυμάτων"
+msgstr "Ρυθμίσεις εργαλειοθηκών στην προβολή μηνυμάτων"
 
 #: src/prefs_toolbar.c:643
 msgid "Sylpheed-Claws Action"
@@ -10447,7 +10456,7 @@ msgstr "Δεν βρέθηκαν μη αναγνωσμένα μηνύματα. Ν
 #: src/summaryview.c:1575
 #: src/summaryview.c:1654
 msgid "Internal error: unexpected value for prefs_common.next_unread_msg_dialog\n"
-msgstr ""
+msgstr "Εσωτερικό σφάλμα: μη αναμενόμενη τιμή για το prefs_common.next_unread_msg_dialog\n"
 
 #: src/summaryview.c:1432
 msgid "No unread messages."
