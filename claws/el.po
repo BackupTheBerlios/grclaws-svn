@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: sylpheed-claws 2.4.0\n"
 "Report-Msgid-Bugs-To: paul@sylpheed.org\n"
 "POT-Creation-Date: 2006-07-31 10:26+0100\n"
-"PO-Revision-Date: 2006-08-03 20:36+0200\n"
+"PO-Revision-Date: 2006-08-05 10:00+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
@@ -9942,9 +9942,8 @@ msgid "Couldn't encrypt the email: %s"
 msgstr "Δεν ήταν δυνατή η κρυπτογράφηση του μηνύματος: %s"
 
 #: src/procmsg.c:1561
-#, fuzzy
 msgid "Queued message header is broken."
-msgstr "Μηνύματα στην ουρά"
+msgstr "Η κεφαλίδα του μηνύματος στην ουρά είναι κακοσχηματισμένη."
 
 #: src/procmsg.c:1582
 msgid "An error happened during SMTP session."
